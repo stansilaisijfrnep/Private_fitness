@@ -4,17 +4,20 @@
 | Date | Change | Reason |
 |---|---|---|
 | 2026-09-05 | Block 1 written at intake | 5 days available, 60 to 75 min, upper body priority, legs from zero, ACL history, size goal |
+| 2026-09-05 | Start moved to today (Sat 5 Sep), schedule changed to a rolling order | Athlete wants to start immediately. Sessions now follow the order Upper, Lower A, Push, Pull, Legs B on training days (Mon to Fri, plus the start day). A missed day shifts the order, nothing is dropped. |
 
 ## Block 1: "Feed and load"
-- Start date: first session after 2026-09-05
-- Length: 7 weeks. 6 training weeks plus deload in week 7.
+- Start date: 2026-09-05 (Saturday, session 1 Upper).
+- Length: 7 weeks. 6 training weeks plus deload in week 7. Week 1 = 5 to 11 Sep.
 - Split: Upper / Lower A / Push / Pull / Legs B. Three upper days, two lower days.
-- Schedule: Mon Upper, Tue Lower A, Wed Push, Thu Pull, Fri Legs B. Sat and Sun off or sport.
+- Schedule: rolling order. Training days are Monday to Friday, five per week. The next session is
+  always the next one in the order after the last session logged. Sat and Sun off or sport.
   Sport goes on off days or after lifting, never before a leg day if avoidable.
+  The dashboard calendar computes this automatically from the logged sessions.
 - Deload rule: week 7 is a deload (same exercises, 2 sets each, 3 RIR). Earlier deload if two
   consecutive sessions regress with good sleep and food.
-- Missed day rule: if only 4 sessions fit, drop Push. Chest still gets 7 sets on Upper.
-  Never drop a leg day. Enough of those have been skipped.
+- Missed day rule: the order shifts forward, nothing is dropped. If a week only fits 4 sessions,
+  the fifth simply lands on the next Monday. Never skip a leg day out of the order.
 
 ## Rules that apply to every session
 - Warm-up: 5 minutes bike or rower, then ramp-up sets on the first exercise: empty bar or
@@ -49,7 +52,7 @@ the upper sessions and the sport.
 | 6a | EZ bar curl | 2 x 10-12 | 0-1 | test | dumbbell curl |
 | 6b | Rope triceps pushdown | 2 x 12-15 | 0-1 | test | bar pushdown |
 
-19 work sets.
+21 work sets.
 
 ## Day 2: Lower A (quads plus hinge learning)
 | # | Exercise | Sets x reps | RIR | Start | Alternative |

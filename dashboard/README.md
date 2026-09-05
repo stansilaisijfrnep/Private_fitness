@@ -8,14 +8,22 @@ Republish it with the Artifact tool, passing the URL above as `url`, whenever th
 targets change. Never publish without the URL, that creates a second page.
 
 ## Views
-- **Today**: the scheduled session for the date, rings for calories, protein and sessions this week,
-  the coach's latest note, and set-by-set input (load, reps, RIR) that saves to the shared database.
-  Sport sessions and rest days are handled by the selector.
-- **Week**: Monday to Sunday with done / today / planned / missed. Tap a day to log it.
-- **Progress**: 7-day bodyweight average, sessions, protein, sleep; bodyweight chart, strength chart
-  (estimated 1RM per session, per lift), calories and protein for 14 days; forms to log bodyweight and
-  a day of food.
+- **Dashboard** (first page): next session with a Start training button, rings for calories, protein
+  and sessions this week, today's food numbers with macro bars, 7-day tiles, bodyweight chart, strength
+  chart (estimated 1RM per session, per lift), calories and protein for 14 days, forms to log bodyweight
+  and a day of food.
+- **Calendar**: Outlook-style month grid. Each day shows its session as a chip (today, planned, done,
+  skipped, sport). Tap a day to open it. "Coming up" lists the next five sessions.
+- **Session**: the day's session as a structured overview (exercise, sets × reps, RIR, target load,
+  last time) with a Start training button. Logging mode shows a timer, set counter, sleep / weight /
+  energy fields, and a row per set for kg, reps, RIR. Save writes to the shared database. A selector
+  changes the session type, and a sport session can be logged on any day.
 - **Program**: the current block, targets, rules.
+
+The schedule is a rolling order (Upper, Lower A, Push, Pull, Legs B) over training days, Monday to
+Friday plus the block start day. The page computes the plan from the sessions already logged, so a
+missed day shifts the order instead of dropping a session. No coach messages are shown on the page
+by the athlete's request; coaching happens in chat.
 
 ## Database layout (artifact db, read with `read_db`, write with `write_db`)
 | Collection / doc | Written by | Content |
@@ -25,7 +33,6 @@ targets change. Never publish without the URL, that creates a second page.
 | `bodyweight/<YYYY-MM-DD>` | page or coach | `{date, weight, waist, source}` |
 | `nutrition/<YYYY-MM-DD>` | coach after each meal, or page | `{date, kcal, protein, carbs, fat, note, source}` |
 | `settings/targets` | coach | `{kcal, protein, carbs, fat, sleep, sessions}` overrides the page defaults |
-| `coach/latest` | coach | `{date, text}` shown at the top of Today |
 
 dayKey is one of `upper, lowerA, push, pull, legsB`. Exercise keys (`k`) are in `index.html` under PROGRAM.
 
@@ -34,6 +41,6 @@ dayKey is one of `upper, lowerA, push, pull, legsB`. Exercise keys (`k`) are in 
    (query with `date >= last synced date`). Sync anything new into `logs/`, review it, then commit.
 2. After estimating a meal in chat: update `nutrition/<date>` with the running daily totals.
 3. After a bodyweight reading in chat: set `bodyweight/<date>`.
-4. After coaching a session or setting next targets: set `coach/latest` with a one or two sentence note.
-5. Calorie or protein change: update `settings/targets` and `profile/PROFILE.md`.
-6. Program change: edit PROGRAM in `index.html` and `program/current.md`, republish with the URL.
+4. Calorie or protein change: update `settings/targets` and `profile/PROFILE.md`.
+5. Program change: edit PROGRAM in `index.html` and `program/current.md`, republish with the URL.
+6. Do not add messages, banners or coach notes to the page. The athlete wants numbers and inputs only.

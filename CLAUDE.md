@@ -69,7 +69,6 @@ before you answer anything.
 2. Compare to the previous same-session file. Say what progressed, what stalled, what regressed.
 3. Prescribe the target for next time (load or reps) per exercise.
 4. Flag any exercise where the athlete reported pain.
-5. Write a one or two sentence note to the dashboard document `coach/latest`.
 
 ### A bodyweight or waist reading
 1. Append a row to `logs/bodyweight.csv` and set the dashboard document `bodyweight/YYYY-MM-DD`.
@@ -90,7 +89,8 @@ Calorie or protein target changes also go to the dashboard document `settings/ta
 
 ## Dashboard design rules
 Light theme only, Apple-like: system font, white cards on #f2f2f7, blue for actions, rings for
-daily targets. The athlete asked for no dark design. Keep it that way.
+daily targets. The athlete asked for no dark design and for no coach messages or banners on the
+page: numbers, calendar, inputs only. Coaching happens in chat. Keep it that way.
 
 ## Committing
 After logging anything, commit with a short message (for example `log: training 2026-09-08`)
