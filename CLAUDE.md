@@ -12,6 +12,10 @@ before you answer anything.
 3. `logs/bodyweight.csv` — trend of weight and waist.
 4. The last 3 to 5 files in `logs/training/` and `logs/nutrition/`.
 5. The latest file in `logs/checkins/`.
+6. The dashboard database (see `dashboard/README.md`): read the `sessions`, `bodyweight` and
+   `nutrition` collections of the artifact at
+   https://claude.ai/code/artifact/b7cdec67-42a2-4075-bd10-a4e797e91546 and sync anything newer
+   than the repo logs into `logs/`. The athlete logs sets and readings there from their phone.
 
 ## Athlete quick facts (details in profile/PROFILE.md)
 - 22, 194 cm, ~82 kg, lean, 3+ years training but never legs, never logged, never ate enough.
@@ -55,18 +59,20 @@ before you answer anything.
 ### A meal (photo or text)
 1. Estimate portion sizes and give calories, protein, carbs, fat. State assumptions in one line.
 2. Append it to `logs/nutrition/YYYY-MM-DD.md` (create the file from `_TEMPLATE.md` if missing).
-3. Update the running daily totals in that file.
+3. Update the running daily totals in that file, and write the same totals to the dashboard
+   database document `nutrition/YYYY-MM-DD` so the rings on the page update.
 4. Compare to the day's targets in `profile/PROFILE.md`. Say what is still missing for the day
    (usually protein) and suggest one concrete food to close the gap.
 
-### A training session
+### A training session (in chat, or found in the dashboard database)
 1. Log it to `logs/training/YYYY-MM-DD.md` using the template. Every exercise, load, reps, RIR.
 2. Compare to the previous same-session file. Say what progressed, what stalled, what regressed.
 3. Prescribe the target for next time (load or reps) per exercise.
 4. Flag any exercise where the athlete reported pain.
+5. Write a one or two sentence note to the dashboard document `coach/latest`.
 
 ### A bodyweight or waist reading
-1. Append a row to `logs/bodyweight.csv`.
+1. Append a row to `logs/bodyweight.csv` and set the dashboard document `bodyweight/YYYY-MM-DD`.
 2. Report the 7-day rolling average, not the single reading. Adjust calories only on the
    weekly trend, in steps of 100 to 200 kcal.
 
@@ -78,7 +84,13 @@ before you answer anything.
 
 ## Program changes
 Only change `program/current.md` for a reason you can state from the logs. Note the date and
-the reason at the top of the file under "Change log".
+the reason at the top of the file under "Change log". Mirror the change in PROGRAM inside
+`dashboard/index.html` and republish the artifact with its URL (see `dashboard/README.md`).
+Calorie or protein target changes also go to the dashboard document `settings/targets`.
+
+## Dashboard design rules
+Light theme only, Apple-like: system font, white cards on #f2f2f7, blue for actions, rings for
+daily targets. The athlete asked for no dark design. Keep it that way.
 
 ## Committing
 After logging anything, commit with a short message (for example `log: training 2026-09-08`)
