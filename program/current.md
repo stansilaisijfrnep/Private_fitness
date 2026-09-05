@@ -4,6 +4,7 @@
 | Date | Change | Reason |
 |---|---|---|
 | 2026-09-05 | Block 1 written at intake | 5 days available, 60 to 75 min, upper body priority, legs from zero, ACL history, size goal |
+| 2026-09-05 | Upper day: barbell bench replaced by Hammer Strength iso-lateral chest press (kg per side), chest-supported row is the Nautilus Impact vertical row (stack), pull-ups are bodyweight wide grip | Athlete's choice on session 1. Machine press is fine for the size goal and needs no spotter. Barbell bench returns as a tested lift in block 2. |
 | 2026-09-05 | Start moved to today (Sat 5 Sep), schedule changed to a rolling order | Athlete wants to start immediately. Sessions now follow the order Upper, Lower A, Push, Pull, Legs B on training days (Mon to Fri, plus the start day). A missed day shifts the order, nothing is dropped. |
 
 ## Block 1: "Feed and load"
@@ -44,9 +45,9 @@ the upper sessions and the sport.
 ## Day 1: Upper (strength bias)
 | # | Exercise | Sets x reps | RIR | Start | Alternative |
 |---|---|---|---|---|---|
-| 1 | Flat barbell bench press | 4 x 6-8 | 2 | 60 kg | machine chest press |
-| 2 | Chest-supported row (T-bar or machine) | 4 x 8-10 | 1-2 | test | seal row |
-| 3 | Weighted pull-up | 3 x 6-8 | 1-2 | +5 kg | lat pulldown |
+| 1 | Chest press, Hammer Strength iso-lateral, kg per side | 4 x 6-8 | 2 | 20 kg/side (5 Sep) | flat barbell bench 60 kg |
+| 2 | Vertical row, Nautilus Impact, stack | 4 x 8-10 | 1-2 | 60 kg (5 Sep) | T-bar or seal row |
+| 3 | Pull-up, wide grip, bodyweight | 3 x 6-8 | 1-2 | bodyweight (5 Sep) | lat pulldown |
 | 4 | Seated dumbbell shoulder press | 3 x 8-10 | 1-2 | test | machine shoulder press |
 | 5 | Cable lateral raise | 3 x 12-15 | 0-1 | test | dumbbell lateral raise |
 | 6a | EZ bar curl | 2 x 10-12 | 0-1 | test | dumbbell curl |

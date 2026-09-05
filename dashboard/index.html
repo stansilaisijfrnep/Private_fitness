@@ -258,9 +258,9 @@ const PROGRAM = {
   trainWeekdays: [1,2,3,4,5],
   days: {
     upper: {name:"Upper", sub:"strength bias", ex:[
-      {k:"bench", n:"Flat barbell bench press", sets:4, reps:[6,8], rir:"2", start:60, inc:2.5, alt:"machine chest press"},
-      {k:"csrow", n:"Chest-supported row", sets:4, reps:[8,10], rir:"1–2", inc:5, alt:"seal row"},
-      {k:"pullup", n:"Weighted pull-up", sets:3, reps:[6,8], rir:"1–2", start:5, inc:2.5, added:true, alt:"lat pulldown"},
+      {k:"bench", n:"Chest press, Hammer Strength iso-lateral (kg per side)", sets:4, reps:[6,8], rir:"2", start:20, inc:2.5, alt:"flat barbell bench, 60 kg"},
+      {k:"csrow", n:"Vertical row, Nautilus Impact (stack)", sets:4, reps:[8,10], rir:"1–2", start:60, inc:5, alt:"T-bar or seal row"},
+      {k:"pullup", n:"Pull-up, wide grip (added kg)", sets:3, reps:[6,8], rir:"1–2", start:0, inc:2.5, added:true, alt:"lat pulldown"},
       {k:"dbohp", n:"Seated dumbbell shoulder press", sets:3, reps:[8,10], rir:"1–2", inc:2, alt:"machine shoulder press"},
       {k:"cablelat", n:"Cable lateral raise", sets:3, reps:[12,15], rir:"0–1", inc:2.5, alt:"dumbbell lateral raise"},
       {k:"ezcurl", n:"EZ bar curl", sets:2, reps:[10,12], rir:"0–1", inc:2.5, ss:true, alt:"dumbbell curl"},
@@ -284,7 +284,7 @@ const PROGRAM = {
       {k:"ohtri", n:"Overhead cable triceps extension", sets:3, reps:[10,15], rir:"0–1", inc:2.5, alt:"skull crusher"}
     ]},
     pull: {name:"Pull", sub:"back priority", ex:[
-      {k:"pullup", n:"Weighted pull-up", sets:4, reps:[6,10], rir:"1–2", start:5, inc:2.5, added:true, alt:"lat pulldown"},
+      {k:"pullup", n:"Pull-up, wide grip (added kg)", sets:4, reps:[6,10], rir:"1–2", start:0, inc:2.5, added:true, alt:"lat pulldown"},
       {k:"dbrow", n:"Single-arm dumbbell row", sets:3, reps:[10,12], rir:"1–2", start:30, inc:2, perSide:true, alt:"machine row"},
       {k:"cablerow", n:"Seated cable row, close grip", sets:3, reps:[10,12], rir:"1–2", inc:5, alt:"chest-supported row"},
       {k:"sapd", n:"Straight-arm pulldown", sets:2, reps:[12,15], rir:"0–1", inc:2.5, alt:"dumbbell pullover"},
@@ -367,7 +367,7 @@ function suggest(ex, dayKey, date){
   if (ex.bw) return {load:null, why:"bodyweight"};
   const last = lastPerf(ex.k, date);
   if (!last) return {load: ex.start ?? null, why: ex.start!=null ? "start load" : "start light, find the weight"};
-  const load = last.sets[0].load ?? 0;
+  const load = last.sets[last.sets.length-1].load ?? 0;
   if (ex.prog==="session") return {load: load+ex.inc, why:"+"+ex.inc+" every session, technique first"};
   const n = setsFor(ex, dayKey, date);
   const allTop = last.sets.length>=n && last.sets.every(t=>t.reps>=ex.reps[1]);
