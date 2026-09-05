@@ -48,12 +48,12 @@ the upper sessions and the sport.
 | 1 | Chest press, Hammer Strength iso-lateral, kg per side | 4 x 6-8 | 2 | 20 kg/side (5 Sep) | flat barbell bench 60 kg |
 | 2 | Vertical row, Nautilus Impact, stack | 4 x 8-10 | 1-2 | 60 kg (5 Sep) | T-bar or seal row |
 | 3 | Pull-up, wide grip, bodyweight | 3 x 6-8 | 1-2 | bodyweight (5 Sep) | lat pulldown |
-| 4 | Seated dumbbell shoulder press | 3 x 8-10 | 1-2 | test | machine shoulder press |
-| 5 | Cable lateral raise | 3 x 12-15 | 0-1 | test | dumbbell lateral raise |
-| 6a | EZ bar curl | 2 x 10-12 | 0-1 | test | dumbbell curl |
-| 6b | Rope triceps pushdown | 2 x 12-15 | 0-1 | test | bar pushdown |
+| 4 | Seated dumbbell shoulder press, kg per hand | 3 x 8-10 | 1-2 | 15 kg (5 Sep) | machine shoulder press |
+| 5 | Dumbbell lateral raise, kg per hand | 3 x 12-15 | 0-1 | 8 kg (5 Sep) | cable lateral raise |
+| 6a | EZ bar curl | 2 x 10-12 | 0-1 | 30 kg (5 Sep) | dumbbell curl |
+| 6b | Rope triceps pushdown, stack | 2 x 12-15 | 0-1 | 25 kg (5 Sep) | bar pushdown |
 
-21 work sets.
+21 work sets (22 on 5 Sep with an extra lateral raise set).
 
 ## Day 2: Lower A (quads plus hinge learning)
 | # | Exercise | Sets x reps | RIR | Start | Alternative |
