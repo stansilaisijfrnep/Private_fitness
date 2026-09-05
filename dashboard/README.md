@@ -9,9 +9,9 @@ targets change. Never publish without the URL, that creates a second page.
 
 ## Views
 - **Dashboard** (first page): next session with a Start training button, rings for calories, protein
-  and sessions this week, today's food numbers with macro bars, 7-day tiles, bodyweight chart, strength
-  chart (estimated 1RM per session, per lift), calories and protein for 14 days, forms to log bodyweight
-  and a day of food.
+  and sessions this week, today's food numbers with macro bars and an expandable per-meal list with an
+  Add meal form, 7-day tiles, bodyweight chart, strength chart (estimated 1RM per session, per lift),
+  calories and protein for 14 days, a form to log bodyweight.
 - **Calendar**: Outlook-style month grid. Each day shows its session as a chip (today, planned, done,
   skipped, sport). Tap a day to open it. "Coming up" lists the next five sessions.
 - **Session**: the day's session as a structured overview (exercise, sets × reps, RIR, target load,
@@ -32,7 +32,7 @@ by the athlete's request; coaching happens in chat.
 | `sessions/<YYYY-MM-DD>_<dayKey>` | page | `{type:"lift", date, dayKey, name, week, sleep, bodyweight, energy, duration, notes, exercises:[{k, n, sets:[{load, reps, rir}], note}], savedAt}` |
 | `sessions/<YYYY-MM-DD>_sport` | page | `{type:"sport", date, kind, minutes, rpe, note}` |
 | `bodyweight/<YYYY-MM-DD>` | page or coach | `{date, weight, waist, source}` |
-| `nutrition/<YYYY-MM-DD>` | coach after each meal, or page | `{date, kcal, protein, carbs, fat, note, source}` |
+| `nutrition/<YYYY-MM-DD>` | coach after each meal, or page (Add meal) | `{date, kcal, protein, carbs, fat, note, source, meals:[{time, name, kcal, protein, carbs, fat}]}`. Totals are the sum of `meals`. The Food card lists the meals under "Where it came from". |
 | `settings/targets` | coach | `{kcal, protein, carbs, fat, sleep, sessions}` overrides the page defaults |
 
 dayKey is one of `upper, lowerA, push, pull, legsB`. Exercise keys (`k`) are in `index.html` under PROGRAM.
@@ -40,7 +40,8 @@ dayKey is one of `upper, lowerA, push, pull, legsB`. Exercise keys (`k`) are in 
 ## Coach workflow with the dashboard
 1. Start of every session: `read_db` the `sessions`, `bodyweight` and `nutrition` collections
    (query with `date >= last synced date`). Sync anything new into `logs/`, review it, then commit.
-2. After estimating a meal in chat: update `nutrition/<date>` with the running daily totals.
+2. After estimating a meal in chat: read `nutrition/<date>`, append the meal to `meals` (time, name,
+   kcal, protein, carbs, fat), and write the totals as the sum of all meals.
 3. After a bodyweight reading in chat: set `bodyweight/<date>`.
 4. Calorie or protein change: update `settings/targets` and `profile/PROFILE.md`.
 5. Program change: edit PROGRAM in `index.html` and `program/current.md`, republish with the URL.

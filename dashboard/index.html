@@ -87,6 +87,21 @@ main{max-width:820px;margin:0 auto;padding:12px 16px 120px;animation:fade .22s v
 .mac .bar{grid-column:1/-1;height:8px;border-radius:4px;background:var(--fill-2);overflow:hidden}
 .mac .bar i{display:block;height:100%;border-radius:4px;width:0;transition:width .9s var(--ease)}
 .mac .left{grid-column:1/-1;font-size:13px;color:var(--ink-2)}
+details.meals{margin-top:14px;border-top:1px solid var(--sep);padding-top:10px}
+details.meals summary{cursor:pointer;font-weight:600;color:var(--blue);list-style:none;display:flex;justify-content:space-between;align-items:center}
+details.meals summary::-webkit-details-marker{display:none}
+details.meals summary::after{content:"›";font-size:20px;color:var(--ink-3);transition:transform .2s var(--ease)}
+details.meals[open] summary::after{transform:rotate(90deg)}
+.meal-hdr,.meal{display:grid;grid-template-columns:44px 1fr 56px 96px;gap:8px;align-items:baseline;padding:8px 0;border-bottom:1px solid var(--sep)}
+.meal-hdr{font-size:11px;text-transform:uppercase;letter-spacing:.04em;color:var(--ink-3);font-weight:600;border-bottom:1px solid var(--sep);padding-top:10px}
+.meal-hdr span:nth-child(n+3),.meal .mk,.meal .mm{text-align:right;font-variant-numeric:tabular-nums}
+.meal .mt{font-size:12px;color:var(--ink-3);font-variant-numeric:tabular-nums}
+.meal .mn{font-size:14px}
+.meal .mk{font-weight:700}
+.meal .mm{font-size:12px;color:var(--ink-2)}
+.meal:last-of-type{border-bottom:0}
+@media (max-width:420px){ .meal-hdr,.meal{grid-template-columns:40px 1fr 50px 84px;gap:6px} .meal .mn{font-size:13px} }
+.add-meal{margin-top:12px}
 
 /* next session card */
 .next{display:grid;grid-template-columns:1fr auto;gap:12px;align-items:center}
@@ -425,13 +440,25 @@ function ringsCard(date){
 }
 function macrosCard(date){
   const n = S.nut[date] || {};
+  const meals = Array.isArray(n.meals) ? n.meals : [];
   const rows = [
     {l:"Calories", v:n.kcal||0, t:S.targets.kcal, u:" kcal", c:"var(--r-kcal)"},
     {l:"Protein", v:n.protein||0, t:S.targets.protein, u:" g", c:"var(--r-prot)"},
     {l:"Carbs", v:n.carbs||0, t:S.targets.carbs, u:" g", c:"var(--r-carb)"},
     {l:"Fat", v:n.fat||0, t:S.targets.fat, u:" g", c:"var(--r-fat)"}
   ].map(r=>{ const left=r.t-r.v; return `<div class="mac"><span class="l">${r.l}</span><span class="v">${fmtN(r.v)}<small> / ${fmtN(r.t)}${r.u}</small></span><div class="bar"><i style="background:${r.c}" data-w="${Math.min(100,Math.round(r.v/r.t*100))}%"></i></div><span class="left">${left>0?fmtN(left)+r.u.trim()+" to go":r.v>r.t*1.05?fmtN(-left)+r.u.trim()+" over":"done"}</span></div>`; }).join("");
-  return `<div class="card"><div class="card-h"><h2>Food ${date===today()?"today":fmtShort(date)}</h2><span class="hint">${n.kcal?"":"nothing logged yet"}</span></div><div class="macros">${rows}</div></div>`;
+  const list = meals.length ? `<div class="meal-hdr"><span></span><span>Meal</span><span>kcal</span><span>P · C · F</span></div>` +
+    meals.map(m=>`<div class="meal"><span class="mt">${esc(m.time||"")}</span><span class="mn">${esc(m.name)}</span><span class="mk">${fmtN(m.kcal||0)}</span><span class="mm">${Math.round(m.protein||0)} · ${Math.round(m.carbs||0)} · ${Math.round(m.fat||0)}</span></div>`).join("")
+    : (n.kcal ? `<p class="hint" style="padding:8px 0">${esc(n.note||"Totals logged without a meal list.")}</p>` : `<p class="hint" style="padding:8px 0">Nothing logged yet. Send a meal in chat or add one below.</p>`);
+  const now = new Date(); const hhmm = pad(now.getHours())+":"+pad(now.getMinutes());
+  return `<div class="card"><div class="card-h"><h2>Food ${date===today()?"today":fmtShort(date)}</h2><span class="hint">${meals.length?meals.length+" meals":(n.kcal?"":"nothing logged yet")}</span></div><div class="macros">${rows}</div>
+    <details class="meals"><summary>Where it came from</summary>${list}
+      <div class="form add-meal">
+        <label style="grid-column:1/-1">Meal<input id="amName" type="text" placeholder="e.g. 2 skyr, banana" style="font-family:var(--font)"></label>
+        <label>Time<input id="amTime" value="${hhmm}" style="font-family:var(--mono)"></label>
+        <label>kcal<input id="amK" inputmode="numeric"></label><label>Protein g<input id="amP" inputmode="numeric"></label><label>Carbs g<input id="amC" inputmode="numeric"></label><label>Fat g<input id="amF" inputmode="numeric"></label>
+        <button class="secondary" id="amSave">Add meal</button>
+      </div></details></div>`;
 }
 function animateBars(){ requestAnimationFrame(()=>requestAnimationFrame(()=>{ document.querySelectorAll(".rings circle.bar").forEach(c=>c.setAttribute("stroke-dashoffset", c.dataset.final)); document.querySelectorAll(".mac .bar i").forEach(i=>i.style.width=i.dataset.w); })); }
 
@@ -477,18 +504,13 @@ function renderDash(){
       <div class="card"><div class="card-h"><h2>Calories, 14 days</h2><span class="hint">target ${fmtN(S.targets.kcal)}</span></div><div class="chart" id="chKcal"></div></div>
       <div class="card"><div class="card-h"><h2>Protein, 14 days</h2><span class="hint">target ${S.targets.protein} g</span></div><div class="chart" id="chProt"></div></div>
     </div>
-    <div class="grid2">
-      <div class="card"><h2 style="font-size:19px;margin-bottom:10px">Log bodyweight</h2><div class="form">
-        <label>Date<input id="bwDate" type="date" value="${t}"></label><label>Weight kg<input id="bwW" inputmode="decimal" placeholder="82.4"></label><label>Waist cm<input id="bwWaist" inputmode="decimal" placeholder="84"></label>
-        <button class="secondary" id="bwSave">Save reading</button></div><p class="hint" style="margin-top:8px">Morning, after the bathroom, before food. Waist at the navel every Sunday.</p></div>
-      <div class="card"><h2 style="font-size:19px;margin-bottom:10px">Log a day of food</h2><div class="form">
-        <label>Date<input id="nDate" type="date" value="${t}"></label><label>kcal<input id="nK" inputmode="numeric"></label><label>Protein g<input id="nP" inputmode="numeric"></label><label>Carbs g<input id="nC" inputmode="numeric"></label><label>Fat g<input id="nF" inputmode="numeric"></label>
-        <button class="secondary" id="nSave">Save totals</button></div><p class="hint" style="margin-top:8px">Meals you send in chat land here by themselves. Use this for days you tracked yourself.</p></div>
-    </div>
+    <div class="card"><h2 style="font-size:19px;margin-bottom:10px">Log bodyweight</h2><div class="form">
+      <label>Date<input id="bwDate" type="date" value="${t}"></label><label>Weight kg<input id="bwW" inputmode="decimal" placeholder="82.4"></label><label>Waist cm<input id="bwWaist" inputmode="decimal" placeholder="84"></label>
+      <button class="secondary" id="bwSave">Save reading</button></div><p class="hint" style="margin-top:8px">Morning, after the bathroom, before food. Waist at the navel every Sunday.</p></div>
   </div>`;
   view.querySelectorAll("[data-open]").forEach(b=>b.addEventListener("click",()=>openDay(b.dataset.open,{start:!!b.dataset.start})));
   liftSel.value = S.lift; liftSel.onchange = e=>{ S.lift=e.target.value; drawLift(); };
-  bwSave.onclick = saveBw; nSave.onclick = saveNut;
+  bwSave.onclick = saveBw; amSave.onclick = ()=>saveMeal(t);
   drawBw(); drawLift(); drawNut(); animateBars();
 }
 
@@ -715,11 +737,18 @@ async function saveBw(){
   if (!S.db){ toast("Open in claude.ai to save"); return; }
   try{ const ref=S.db.doc("bodyweight/"+date); const cur=await ref.get(); const d={...(cur.exists?cur.data():{}), date, source:"page"}; if(w) d.weight=w; if(waist) d.waist=waist; await ref.set(d); toast("Saved "+fmtShort(date)); bwW.value=""; bwWaist.value=""; }catch(e){ toast("Could not save"); }
 }
-async function saveNut(){
-  const date=nDate.value, d={date, kcal:num(nK.value), protein:num(nP.value), carbs:num(nC.value), fat:num(nF.value), source:"page", savedAt:new Date().toISOString()};
-  if (!date||d.kcal==null&&d.protein==null){ toast("Enter kcal or protein"); return; }
+async function saveMeal(date){
+  const m = {time:amTime.value.trim(), name:amName.value.trim(), kcal:num(amK.value)||0, protein:num(amP.value)||0, carbs:num(amC.value)||0, fat:num(amF.value)||0, source:"page"};
+  if (!m.name || (!m.kcal && !m.protein)){ toast("Name and kcal or protein"); return; }
   if (!S.db){ toast("Open in claude.ai to save"); return; }
-  try{ await S.db.doc("nutrition/"+date).set(d); toast("Saved "+fmtShort(date)); }catch(e){ toast("Could not save"); }
+  try{
+    const ref = S.db.doc("nutrition/"+date); const cur = await ref.get(); const d = cur.exists ? cur.data() : {date};
+    let meals = Array.isArray(d.meals) ? [...d.meals] : (d.kcal ? [{time:"", name:"Logged earlier", kcal:d.kcal||0, protein:d.protein||0, carbs:d.carbs||0, fat:d.fat||0}] : []);
+    meals.push(m);
+    const sum = k => Math.round(meals.reduce((a,x)=>a+(+x[k]||0),0));
+    await ref.set({...d, date, meals, kcal:sum("kcal"), protein:sum("protein"), carbs:sum("carbs"), fat:sum("fat"), updatedAt:new Date().toISOString()});
+    toast("Added "+m.name);
+  }catch(e){ toast("Could not save"); }
 }
 function chart(host, cfg){
   const W = Math.max(280, host.clientWidth||600), H = 220, m = {t:18, r:62, b:26, l:44};
@@ -804,7 +833,7 @@ function demoData(){
   S.demo=true; const t=today();
   for (let i=20;i>=0;i--){ const d=addDays(t,-i); if (i%4===1) continue; S.bw[d]={date:d, weight:r1(82+(20-i)*0.045+(Math.sin(i*1.7)*0.35))}; }
   for (let i=13;i>=1;i--){ const d=addDays(t,-i); if (i===6) continue; S.nut[d]={date:d, kcal:2900+Math.round(Math.sin(i)*350)+(i<5?300:0), protein:150+Math.round(Math.cos(i)*25)}; }
-  S.nut[t]={date:t, kcal:1230, protein:73, carbs:81, fat:67};
+  S.nut[t]={date:t, kcal:1230, protein:73, carbs:81, fat:67, meals:[{time:"08:10",name:"6 eggs in olive oil, 2 slices bread, saucisson, tomato, cheese",kcal:1100,protein:66,carbs:71,fat:60},{time:"08:30",name:"Big milk coffee",kcal:130,protein:7,carbs:10,fat:7}]};
   S.sessions[addDays(t,-2)+"_sport"]={type:"sport",date:addDays(t,-2),kind:"Boxing",minutes:60};
 }
 (async()=>{
