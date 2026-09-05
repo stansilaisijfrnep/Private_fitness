@@ -13,13 +13,14 @@ Intake completed 2026-09-05 via interview. Update this file whenever something c
 | Estimated body fat | roughly 12 to 15 %. Visible muscle, lean, tall frame. BMI 21.8 |
 | Date of intake | 2026-09-05 |
 | Language | Writes English and sometimes German. Answer in whichever they use. |
+| Location | France, inferred from Carrefour products and French gym signage. Food estimates use French portions and products. |
 
 ## Training history
 - Years training consistently: 3+, mostly consistent.
 - Current split: push / pull / legs, but legs are basically skipped.
 - Sessions per week possible: 5.
 - Session length available: 60 to 75 minutes.
-- Gym: full commercial gym.
+- Gym: full commercial gym, Fitness Park style (Technogym, Hammer Strength, Eleiko). Equipment inventory in `profile/gym.md`.
 - Other sport: boxing, padel, sometimes basketball. Load currently uncertain; gym is the focus for now.
 - Coach's assessment: **intermediate by years, early-intermediate by results.**
   Pull-ups are strong. Bench is far below what 3 years should give. Legs are untrained.

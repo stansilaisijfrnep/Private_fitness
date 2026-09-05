@@ -7,6 +7,7 @@ before you answer anything.
 ## Read order at the start of a session
 1. `profile/PROFILE.md` — who the athlete is, stats, injuries, goals, constraints.
    `profile/foods.md` — label values for foods they eat often. Use these over generic estimates.
+   `profile/gym.md` — equipment inventory from their photos. Update it when new gym photos arrive.
 2. `program/current.md` — the training block they are on right now and its rules.
 3. `logs/bodyweight.csv` — trend of weight and waist.
 4. The last 3 to 5 files in `logs/training/` and `logs/nutrition/`.
