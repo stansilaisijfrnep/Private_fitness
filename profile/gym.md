@@ -5,16 +5,19 @@ Hammer Strength plate-loaded, Eleiko lifting area, "Musculation guidée" selecto
 cardio zone, studios (Bike, Athletic), Sismo and Hydromassage. Inventory built from the
 athlete's photos. Update this file whenever new photos come in.
 
-Last updated: 2026-09-05 (5 photos)
+Last updated: 2026-09-05 (10 photos, some from the club website)
+
+Rule from the athlete: prescribe whatever the program needs. This file is for substitutions,
+not a limit.
 
 ## Free weights and racks
 | Item | Seen | Notes |
 |---|---|---|
-| Eleiko half racks, 2, with Eleiko competition bumper plates (25/20/15/10 kg) and Olympic bars | yes | Squat, deadlift, RDL, OHP. 10 kg bumpers keep the bar at full height, ideal for learning deadlifts light. |
+| Eleiko half racks, 3, with Eleiko competition bumper plates (25/20/15/10 kg) and Olympic bars | yes | Squat, deadlift, RDL, OHP. 10 kg bumpers keep the bar at full height, ideal for learning deadlifts light. |
 | Eleiko lifting platforms | yes | Deadlift and trap bar work here. |
 | Technogym power/half racks, several, with plates | yes | Backup for squats when Eleiko racks are busy. |
 | Olympic flat benches with barbell, 4 or more | yes | Bench press. |
-| Incline benches, adjustable | yes | Incline DB press, seated DB shoulder press. |
+| Incline benches, adjustable (Eleiko and Technogym) | yes | Incline DB press, seated DB shoulder press. |
 | Decline / abs benches | yes | |
 | Dumbbell rack | yes, seen at the edge | Max weight unknown, check. |
 | EZ bars | yes | |
@@ -25,6 +28,30 @@ Last updated: 2026-09-05 (5 photos)
 | Functional rig with pull-up bars, ropes, monkey bars | yes, Athletic zone | Pull-ups and weighted pull-ups. |
 | Sled track, green turf | yes | Sled pushes for knee-friendly conditioning if wanted. |
 | Rowing machine (Skillrow / Concept2 style) | yes | Warm-up. |
+
+## Cross training zone
+| Item | Seen | Notes |
+|---|---|---|
+| Rig with pull-up bars, rings, ropes | yes | Pull-ups, ring rows, dips if a dip attachment exists. |
+| Kettlebells, full rack | yes | Goblet squats, swings, Copenhagen loading. |
+| Wall balls 4 to 9 kg, medicine balls | yes | |
+| Plyo boxes, wooden and soft | yes | Landing drills, step-ups, Bulgarian split squat rear foot. |
+| Turf track with sled markings, sled | yes | Sled push: knee-friendly conditioning, quads without eccentric soreness. |
+| Air bike (Rogue Echo / Assault) | yes | Warm-up, low-impact conditioning. |
+| Battle ropes | yes | |
+| Bumper plates, extra bars | yes | |
+
+## Cardio zone
+Technogym stair climbers, treadmills, upright bikes, ellipticals. Stair climber or incline
+walk for the 1 to 2 easy cardio sessions, air bike or rower for warm-ups.
+
+## Abs and stretching room
+Decline sit-up benches, roman chair / hyperextension, stability ball, mats.
+Use for hanging or decline leg raises, back extensions, and the daily hip flexor stretch.
+
+## Boxing zone
+Heavy bags, uppercut bags, wrecking ball bag, air bike. Bag work counts as a sport session:
+log it with duration. Do it after lifting or on off days, never before Lower A or Legs B.
 
 ## Plate-loaded machines (Technogym Pure Strength, Hammer Strength)
 | Item | Seen | Notes |
