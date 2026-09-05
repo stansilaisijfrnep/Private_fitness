@@ -114,3 +114,8 @@ Medical conditions or medication: none.
 6. Carbs 1 to 2 hours before training. Shake after training if the next meal is more than 2 hours away.
 7. Night out: 2 litres of water and a protein meal before bed. Next day is a normal eating and
    training day. Never "make up" for it by skipping food.
+8. Single-sitting ceiling: dense solid food (rice, pasta, meat) tops out around 300 to 350 kcal
+   before feeling stuffed, even with more sitting in front of them (confirmed 2026-09-05, a 330 kcal
+   tuna-rice burrito could not be finished). Plan solid meals in that range, not larger. To hit a
+   bigger total, add a second sitting or a shake, do not make one plate bigger. Batch-cooked meals
+   should be portioned into 300 to 350 kcal servings from the start, not split into fewer, bigger ones.
