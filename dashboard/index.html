@@ -101,6 +101,14 @@ details.meals[open] summary::after{transform:rotate(90deg)}
 .meal .mm{font-size:12px;color:var(--ink-2)}
 .meal:last-of-type{border-bottom:0}
 @media (max-width:420px){ .meal-hdr,.meal{grid-template-columns:40px 1fr 50px 84px;gap:6px} .meal .mn{font-size:13px} }
+.mgrp{display:grid;grid-template-columns:1fr 56px 96px;gap:8px;align-items:baseline;padding:12px 0 6px;border-bottom:1px solid var(--sep)}
+.mgrp .gl{font-weight:700;font-size:15px}
+.mgrp .gl small{font-weight:500;color:var(--ink-3);margin-left:6px;font-size:12px}
+.mgrp .gk{text-align:right;font-weight:700;font-variant-numeric:tabular-nums}
+.mgrp .gm{text-align:right;font-size:12px;color:var(--ink-2);font-variant-numeric:tabular-nums}
+.mgrp.none .gk,.mgrp.none .gm{color:var(--ink-3);font-weight:500}
+.mgrp.none .gl{color:var(--ink-2);font-weight:600}
+@media (max-width:420px){ .mgrp{grid-template-columns:1fr 50px 84px;gap:6px} }
 .add-meal{margin-top:12px}
 @media (max-width:640px){ .add-meal{grid-template-columns:repeat(2,1fr)} }
 
@@ -331,6 +339,8 @@ const PROGRAM = {
 const DAY_ORDER = ["upper","lowerA","push","pull","legsB"];
 const DEFAULT_TARGETS = {kcal:3300, protein:170, carbs:475, fat:80, sleep:7.5, sessions:5};
 const LIFTS = ["bench","squat","trapbar","rdl","ohp","incdb","hack","legpress","csrow","dbrow","pullup","dips","dbohp"];
+const SLOTS = [["breakfast","Breakfast"],["lunch","Lunch"],["dinner","Dinner"],["snack","Snacks"]];
+const guessSlot = h => h<11 ? "breakfast" : h<15 ? "lunch" : (h>=17 && h<22) ? "dinner" : "snack";
 
 /* ---------- state ---------- */
 const S = { db:null, sessions:{}, bw:{}, nut:{}, targets:{...DEFAULT_TARGETS},
@@ -448,14 +458,17 @@ function macrosCard(date){
     {l:"Carbs", v:n.carbs||0, t:S.targets.carbs, u:" g", c:"var(--r-carb)"},
     {l:"Fat", v:n.fat||0, t:S.targets.fat, u:" g", c:"var(--r-fat)"}
   ].map(r=>{ const left=r.t-r.v; return `<div class="mac"><span class="l">${r.l}</span><span class="v">${fmtN(r.v)}<small> / ${fmtN(r.t)}${r.u}</small></span><div class="bar"><i style="background:${r.c}" data-w="${Math.min(100,Math.round(r.v/r.t*100))}%"></i></div><span class="left">${left>0?fmtN(left)+r.u.trim()+" to go":r.v>r.t*1.05?fmtN(-left)+r.u.trim()+" over":"done"}</span></div>`; }).join("");
-  const list = meals.length ? `<div class="meal-hdr"><span></span><span>Meal</span><span>kcal</span><span>P · C · F</span></div>` +
-    meals.map(m=>`<div class="meal"><span class="mt">${esc(m.time||"")}</span><span class="mn">${esc(m.name)}</span><span class="mk">${fmtN(m.kcal||0)}</span><span class="mm">${Math.round(m.protein||0)} · ${Math.round(m.carbs||0)} · ${Math.round(m.fat||0)}</span></div>`).join("")
+  const mealRow = m => `<div class="meal"><span class="mt">${esc(m.time||"")}</span><span class="mn">${esc(m.name)}</span><span class="mk">${fmtN(m.kcal||0)}</span><span class="mm">${Math.round(m.protein||0)} · ${Math.round(m.carbs||0)} · ${Math.round(m.fat||0)}</span></div>`;
+  const groups = SLOTS.map(([k,label])=>{ const ms = meals.filter(m=>(m.slot||"snack")===k); const sum = f => ms.reduce((a,x)=>a+(+x[f]||0),0);
+    return `<div class="mgrp ${ms.length?"":"none"}"><span class="gl">${label}<small>${ms.length?ms.length+(ms.length===1?" item":" items"):""}</small></span><span class="gk">${ms.length?fmtN(sum("kcal")):"—"}</span><span class="gm">${ms.length?Math.round(sum("protein"))+" · "+Math.round(sum("carbs"))+" · "+Math.round(sum("fat")):""}</span></div>` + ms.map(mealRow).join(""); }).join("");
+  const list = meals.length ? `<div class="meal-hdr"><span></span><span>Meal</span><span>kcal</span><span>P · C · F</span></div>` + groups
     : (n.kcal ? `<p class="hint" style="padding:8px 0">${esc(n.note||"Totals logged without a meal list.")}</p>` : `<p class="hint" style="padding:8px 0">Nothing logged yet. Send a meal in chat or add one below.</p>`);
   const now = new Date(); const hhmm = pad(now.getHours())+":"+pad(now.getMinutes());
   return `<div class="card"><div class="card-h"><h2>Food ${date===today()?"today":fmtShort(date)}</h2><span class="hint">${meals.length?meals.length+" meals":(n.kcal?"":"nothing logged yet")}</span></div><div class="macros">${rows}</div>
     <details class="meals"><summary>Where it came from</summary>${list}
       <div class="form add-meal">
         <label style="grid-column:1/-1">Meal<input id="amName" type="text" placeholder="e.g. 2 skyr, banana" style="font-family:var(--font)"></label>
+        <label>Type<select id="amSlot">${SLOTS.map(([k,l])=>`<option value="${k}" ${k===guessSlot(now.getHours())?"selected":""}>${l}</option>`).join("")}</select></label>
         <label>Time<input id="amTime" value="${hhmm}" style="font-family:var(--mono)"></label>
         <label>kcal<input id="amK" inputmode="numeric"></label><label>Protein g<input id="amP" inputmode="numeric"></label><label>Carbs g<input id="amC" inputmode="numeric"></label><label>Fat g<input id="amF" inputmode="numeric"></label>
         <button class="secondary" id="amSave">Add meal</button>
@@ -739,7 +752,7 @@ async function saveBw(){
   try{ const ref=S.db.doc("bodyweight/"+date); const cur=await ref.get(); const d={...(cur.exists?cur.data():{}), date, source:"page"}; if(w) d.weight=w; if(waist) d.waist=waist; await ref.set(d); toast("Saved "+fmtShort(date)); bwW.value=""; bwWaist.value=""; }catch(e){ toast("Could not save"); }
 }
 async function saveMeal(date){
-  const m = {time:amTime.value.trim(), name:amName.value.trim(), kcal:num(amK.value)||0, protein:num(amP.value)||0, carbs:num(amC.value)||0, fat:num(amF.value)||0, source:"page"};
+  const m = {slot:amSlot.value, time:amTime.value.trim(), name:amName.value.trim(), kcal:num(amK.value)||0, protein:num(amP.value)||0, carbs:num(amC.value)||0, fat:num(amF.value)||0, source:"page"};
   if (!m.name || (!m.kcal && !m.protein)){ toast("Name and kcal or protein"); return; }
   if (!S.db){ toast("Open in claude.ai to save"); return; }
   try{
@@ -834,7 +847,7 @@ function demoData(){
   S.demo=true; const t=today();
   for (let i=20;i>=0;i--){ const d=addDays(t,-i); if (i%4===1) continue; S.bw[d]={date:d, weight:r1(82+(20-i)*0.045+(Math.sin(i*1.7)*0.35))}; }
   for (let i=13;i>=1;i--){ const d=addDays(t,-i); if (i===6) continue; S.nut[d]={date:d, kcal:2900+Math.round(Math.sin(i)*350)+(i<5?300:0), protein:150+Math.round(Math.cos(i)*25)}; }
-  S.nut[t]={date:t, kcal:1230, protein:73, carbs:81, fat:67, meals:[{time:"08:10",name:"6 eggs in olive oil, 2 slices bread, saucisson, tomato, cheese",kcal:1100,protein:66,carbs:71,fat:60},{time:"08:30",name:"Big milk coffee",kcal:130,protein:7,carbs:10,fat:7}]};
+  S.nut[t]={date:t, kcal:1230, protein:73, carbs:81, fat:67, meals:[{slot:"breakfast",time:"08:10",name:"6 eggs in olive oil, 2 slices bread, saucisson, tomato, cheese",kcal:1100,protein:66,carbs:71,fat:60},{slot:"breakfast",time:"08:30",name:"Big milk coffee",kcal:130,protein:7,carbs:10,fat:7}]};
   S.sessions[addDays(t,-2)+"_sport"]={type:"sport",date:addDays(t,-2),kind:"Boxing",minutes:60};
 }
 (async()=>{

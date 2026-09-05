@@ -60,7 +60,8 @@ before you answer anything.
 1. Estimate portion sizes and give calories, protein, carbs, fat. State assumptions in one line.
 2. Append it to `logs/nutrition/YYYY-MM-DD.md` (create the file from `_TEMPLATE.md` if missing).
 3. Update the running daily totals in that file, and append the meal to the `meals` array of the
-   dashboard database document `nutrition/YYYY-MM-DD` (time, name, kcal, protein, carbs, fat), with
+   dashboard database document `nutrition/YYYY-MM-DD` (slot: breakfast, lunch, dinner or snack; time,
+   name, kcal, protein, carbs, fat), with
    the totals as the sum of all meals, so the rings and the meal list on the page update.
 4. Compare to the day's targets in `profile/PROFILE.md`. Say what is still missing for the day
    (usually protein) and suggest one concrete food to close the gap.
