@@ -255,7 +255,6 @@ details.tbl td:first-child,details.tbl th:first-child{text-align:left}
 /* ---------- program (source of truth: program/current.md in the repo) ---------- */
 const PROGRAM = {
   block: "Block 1", title: "Feed and load", start: "2026-09-05", weeks: 7, deloadWeek: 7,
-  trainWeekdays: [1,2,3,4,5],
   days: {
     upper: {name:"Upper", sub:"strength bias", ex:[
       {k:"bench", n:"Chest press, Hammer Strength iso-lateral (kg per side)", sets:4, reps:[6,8], rir:"2", start:20, inc:2.5, alt:"flat barbell bench, 60 kg"},
@@ -338,19 +337,31 @@ const num = v => { const n=parseFloat(String(v).replace(",",".")); return isFini
 const r1 = n => Math.round(n*10)/10;
 const fmtN = n => Math.round(n).toLocaleString("en-US");
 
-/* ---------- plan: rolling sequence over training days ---------- */
-const isTrainDay = d => d===PROGRAM.start || PROGRAM.trainWeekdays.includes(weekday(d));
+/* ---------- plan: rolling sequence, N sessions per week, any day ---------- */
 function liftSessions(){ return Object.values(S.sessions).filter(s=>s.type!=="sport").sort((a,b)=>a.date<b.date?-1:1); }
 function sportSessions(){ return Object.values(S.sessions).filter(s=>s.type==="sport"); }
 function loggedLift(date){ return liftSessions().find(s=>s.date===date) || null; }
-function planFor(date){
-  if (date < PROGRAM.start || !isTrainDay(date)) return null;
-  const prev = liftSessions().filter(s=>s.date<date && DAY_ORDER.includes(s.dayKey));
-  let idx=-1, from=PROGRAM.start;
-  if (prev.length){ const last=prev[prev.length-1]; idx=DAY_ORDER.indexOf(last.dayKey); from=addDays(last.date,1); }
-  let count=0; for (let d=from; d<=date; d=addDays(d,1)) if (isTrainDay(d)) count++;
-  return DAY_ORDER[(idx+count)%DAY_ORDER.length];
+let PLAN = {upTo:null, map:{}};
+function buildPlan(upTo){
+  const t = today(), map = {}, byDate = {};
+  liftSessions().forEach(s=>{ if (DAY_ORDER.includes(s.dayKey)) byDate[s.date]=s.dayKey; });
+  let idx=-1, weekMon=null, count=0;
+  for (let d=PROGRAM.start; d<=upTo; d=addDays(d,1)){
+    const mon = mondayOf(d); if (mon!==weekMon){ weekMon=mon; count=0; }
+    if (byDate[d]){ idx=DAY_ORDER.indexOf(byDate[d]); count++; map[d]=byDate[d]; continue; }
+    if (d < t) continue;
+    const wd = weekday(d), isWk = wd>=1 && wd<=5, wkLeft = isWk ? 5-wd : 0;
+    if (count < S.targets.sessions && (isWk || count+wkLeft < S.targets.sessions)){ idx=(idx+1)%DAY_ORDER.length; map[d]=DAY_ORDER[idx]; count++; }
+  }
+  PLAN = {upTo, map};
 }
+function planFor(date){
+  if (date < PROGRAM.start) return null;
+  if (!PLAN.upTo || date > PLAN.upTo) buildPlan(addDays(date, 45));
+  return PLAN.map[date] || null;
+}
+function weekIsOver(date){ return addDays(mondayOf(date),6) < today(); }
+function sessionsInWeekOf(date){ const mon=mondayOf(date); return liftSessions().filter(s=>s.date>=mon && s.date<=addDays(mon,6)).length; }
 function keyFor(date){ const l=loggedLift(date); return l ? l.dayKey : planFor(date); }
 function setsFor(ex, dayKey, date){
   const w = weekOf(date); let n = ex.sets;
@@ -375,7 +386,6 @@ function suggest(ex, dayKey, date){
 }
 function e1rm(load, reps){ return load*(1+reps/30); }
 function fmtSets(sets){ return sets.map(t=>(t.load!=null?t.load:"bw")+"×"+t.reps).join("  "); }
-function sessionsInWeekOf(date){ const mon=mondayOf(date); return liftSessions().filter(s=>s.date>=mon && s.date<=addDays(mon,6)).length; }
 function totalSets(dayKey, date){ return PROGRAM.days[dayKey].ex.reduce((a,e)=>a+setsFor(e,dayKey,date),0); }
 function estMinutes(dayKey, date){ return Math.min(75, Math.round(8 + totalSets(dayKey,date)*3)); }
 function blockLabel(d){
@@ -497,7 +507,8 @@ function renderCal(){
     const lift = loggedLift(d), sports = sportSessions().filter(s=>s.date===d), plan = planFor(d);
     let ev = "";
     if (lift) ev += `<span class="ev done">✓ ${esc(lift.name)}</span>`;
-    else if (plan) ev += d===t ? `<span class="ev now">${PROGRAM.days[plan].name}</span>` : d<t ? `<span class="ev skip">${PROGRAM.days[plan].name}</span>` : `<span class="ev plan">${PROGRAM.days[plan].name}</span>`;
+    else if (plan) ev += d===t ? `<span class="ev now">${PROGRAM.days[plan].name}</span>` : `<span class="ev plan">${PROGRAM.days[plan].name}</span>`;
+    else if (d>=PROGRAM.start && d<t && weekIsOver(d) && weekday(d)>=1 && weekday(d)<=5 && sessionsInWeekOf(d)<S.targets.sessions) ev += `<span class="ev skip">Missed</span>`;
     sports.forEach(s=>{ ev += `<span class="ev sport">${esc(s.kind)}${s.minutes?" "+s.minutes+"′":""}</span>`; });
     cells.push(`<button class="cell ${other?"other":""} ${d===t?"today":""} ${d===S.date?"sel":""}" data-date="${d}" aria-label="${fmtDay(d)}"><span class="dn">${parseDate(d).getDate()}</span>${ev}</button>`);
   }
@@ -768,7 +779,7 @@ function renderProgram(){
     </tbody></table></div></section>`; }).join("");
   view.innerHTML = `<div class="stack">
     <div class="page-h"><div class="when">${PROGRAM.block}</div><h1>${PROGRAM.title}</h1></div>
-    <div class="card"><dl class="kv"><dt>Started</dt><dd>${fmtDay(PROGRAM.start)}</dd><dt>Length</dt><dd>${PROGRAM.weeks} weeks, week ${PROGRAM.deloadWeek} is the deload</dd><dt>Order</dt><dd>Upper → Lower A → Push → Pull → Legs B, then again. Training days Monday to Friday, five a week. Miss a day and the sequence shifts, nothing is dropped</dd><dt>Weeks 1–2</dt><dd>Two work sets per exercise on leg days</dd><dt>Progression</dt><dd>Every set at the top of the range at target RIR, add load next time. Upper barbell +2.5, dumbbells next pair, legs and machines +5</dd></dl></div>
+    <div class="card"><dl class="kv"><dt>Started</dt><dd>${fmtDay(PROGRAM.start)}</dd><dt>Length</dt><dd>${PROGRAM.weeks} weeks, week ${PROGRAM.deloadWeek} is the deload</dd><dt>Order</dt><dd>Upper → Lower A → Push → Pull → Legs B, then again. Five sessions per week, Monday to Sunday, on whichever days you train. The calendar always shows the next one in the order. Miss a day and it shifts, nothing is dropped</dd><dt>Weeks 1–2</dt><dd>Two work sets per exercise on leg days</dd><dt>Progression</dt><dd>Every set at the top of the range at target RIR, add load next time. Upper barbell +2.5, dumbbells next pair, legs and machines +5</dd></dl></div>
     <div class="card"><h2 style="font-size:19px">Daily targets</h2><dl class="kv" style="margin-top:10px"><dt>Calories</dt><dd>${fmtN(S.targets.kcal)} kcal</dd><dt>Protein</dt><dd>${S.targets.protein} g</dd><dt>Carbs</dt><dd>${S.targets.carbs} g</dd><dt>Fat</dt><dd>${S.targets.fat} g</dd><dt>Sleep</dt><dd>${S.targets.sleep} h minimum</dd><dt>Meals</dt><dd>08:00 · 11:30 · 15:00 · 18:30 · 21:30</dd></dl></div>
     <div class="card"><h2 style="font-size:19px">Every session</h2><ul style="margin:10px 0 0;padding-left:18px;color:var(--ink-2);font-size:15px">${PROGRAM.rules.map(r=>`<li>${esc(r)}</li>`).join("")}</ul></div>
     ${days}
@@ -781,7 +792,7 @@ document.querySelectorAll(".tabs button").forEach(b=>b.addEventListener("click",
 let rz; window.addEventListener("resize", ()=>{ clearTimeout(rz); rz=setTimeout(()=>{ if(S.tab==="dash"){ drawBw(); drawLift(); drawNut(); } },150); });
 
 /* ---------- data ---------- */
-function onData(){ if (S.tab==="sess" && S.dirty) return; render(); }
+function onData(){ PLAN={upTo:null,map:{}}; if (S.tab==="sess" && S.dirty) return; render(); }
 function subscribe(db){
   const err = e => {};
   S.unsub.push(db.collection("sessions").onSnapshot(snap=>{ S.sessions={}; snap.docs.forEach(d=>S.sessions[d.id]=d.data()); onData(); }, err));

@@ -5,16 +5,20 @@
 |---|---|---|
 | 2026-09-05 | Block 1 written at intake | 5 days available, 60 to 75 min, upper body priority, legs from zero, ACL history, size goal |
 | 2026-09-05 | Upper day: barbell bench replaced by Hammer Strength iso-lateral chest press (kg per side), chest-supported row is the Nautilus Impact vertical row (stack), pull-ups are bodyweight wide grip | Athlete's choice on session 1. Machine press is fine for the size goal and needs no spotter. Barbell bench returns as a tested lift in block 2. |
+| 2026-09-05 | Schedule rule changed to five sessions per week on any day (athlete wants to train Sunday too) | Calendar projects the next sessions onto the remaining days of the week, weekdays first. |
 | 2026-09-05 | Start moved to today (Sat 5 Sep), schedule changed to a rolling order | Athlete wants to start immediately. Sessions now follow the order Upper, Lower A, Push, Pull, Legs B on training days (Mon to Fri, plus the start day). A missed day shifts the order, nothing is dropped. |
 
 ## Block 1: "Feed and load"
 - Start date: 2026-09-05 (Saturday, session 1 Upper).
 - Length: 7 weeks. 6 training weeks plus deload in week 7. Week 1 = 5 to 11 Sep.
 - Split: Upper / Lower A / Push / Pull / Legs B. Three upper days, two lower days.
-- Schedule: rolling order. Training days are Monday to Friday, five per week. The next session is
-  always the next one in the order after the last session logged. Sat and Sun off or sport.
+- Schedule: rolling order, five sessions per week (Monday to Sunday), on whichever days the athlete
+  trains. The next session is always the next one in the order after the last one logged. The
+  dashboard calendar projects the remaining sessions of the week onto weekdays first and spills onto
+  the weekend when weekdays run out. Once five are done, the rest of the week shows rest.
   Sport goes on off days or after lifting, never before a leg day if avoidable.
-  The dashboard calendar computes this automatically from the logged sessions.
+  Coach's rule: at least one full rest day in every 7. Two lifting days in a row is fine when the
+  muscle groups differ (Upper then Lower).
 - Deload rule: week 7 is a deload (same exercises, 2 sets each, 3 RIR). Earlier deload if two
   consecutive sessions regress with good sleep and food.
 - Missed day rule: the order shifts forward, nothing is dropped. If a week only fits 4 sessions,

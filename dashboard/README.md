@@ -20,9 +20,10 @@ targets change. Never publish without the URL, that creates a second page.
   changes the session type, and a sport session can be logged on any day.
 - **Program**: the current block, targets, rules.
 
-The schedule is a rolling order (Upper, Lower A, Push, Pull, Legs B) over training days, Monday to
-Friday plus the block start day. The page computes the plan from the sessions already logged, so a
-missed day shifts the order instead of dropping a session. No coach messages are shown on the page
+The schedule is a rolling order (Upper, Lower A, Push, Pull, Legs B), five sessions per week on any
+day. The page computes the plan from the sessions already logged: the next session in the order is
+projected onto the remaining days of the current week, weekdays first, weekend if the weekdays run
+out. Past days in a finished week with fewer than five sessions show "Missed" on weekdays. No coach messages are shown on the page
 by the athlete's request; coaching happens in chat.
 
 ## Database layout (artifact db, read with `read_db`, write with `write_db`)
