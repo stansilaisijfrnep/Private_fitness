@@ -8,7 +8,7 @@ Intake completed 2026-09-05 via interview. Update this file whenever something c
 | Age | 22 |
 | Sex | Male (assumed for calorie math, not asked explicitly; correct if wrong) |
 | Height | 194 cm |
-| Bodyweight (start) | 78.65 kg, morning of 2026-09-06, first reading on the new scale. Baseline. The 82 kg from the intake was a guess. |
+| Bodyweight (start) | 78.15 kg, morning of 2026-09-06 after the bathroom, first reading on the new scale. Baseline. The 82 kg from the intake was a guess. |
 | Waist at navel (start) | not yet measured |
 | Estimated body fat | roughly 11 to 14 %. Visible muscle, lean, tall frame. BMI 20.9 |
 | Date of intake | 2026-09-05 |
