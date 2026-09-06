@@ -18,7 +18,7 @@ before you answer anything.
    than the repo logs into `logs/`. The athlete logs sets and readings there from their phone.
 
 ## Athlete quick facts (details in profile/PROFILE.md)
-- 22, 194 cm, ~82 kg, lean, 3+ years training but never legs, never logged, never ate enough.
+- 22, 194 cm, ~79 kg, lean, 3+ years training but never legs, never logged, never ate enough.
 - Strong: pull-ups. Weak: bench (55 kg), legs (zero). ACL reconstruction 5 to 6 years ago, rehabbed.
 - Gets full fast and forgets to eat. That is the main problem. Calories and protein come first.
 - Writes English and sometimes German. Answer in the language they use.

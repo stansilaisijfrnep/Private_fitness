@@ -8,9 +8,9 @@ Intake completed 2026-09-05 via interview. Update this file whenever something c
 | Age | 22 |
 | Sex | Male (assumed for calorie math, not asked explicitly; correct if wrong) |
 | Height | 194 cm |
-| Bodyweight (start) | 82 kg (self-reported, not a verified morning weight yet) |
+| Bodyweight (start) | 78.65 kg evening reading 2026-09-05 on a new scale. Morning baseline from 2026-09-06. The 82 kg from the intake was a guess. |
 | Waist at navel (start) | not yet measured |
-| Estimated body fat | roughly 12 to 15 %. Visible muscle, lean, tall frame. BMI 21.8 |
+| Estimated body fat | roughly 11 to 14 %. Visible muscle, lean, tall frame. BMI 20.9 |
 | Date of intake | 2026-09-05 |
 | Language | Writes English and sometimes German. Answer in whichever they use. |
 | Location | France, inferred from Carrefour products and French gym signage. Food estimates use French portions and products. |
@@ -77,17 +77,17 @@ Medical conditions or medication: none.
   injury prevention for boxing, padel, basketball.
 - Timeframe: 12 months.
 - Priority order: size > strength > leanness. Athleticism maintained through leg and single-leg work.
-- Realistic 12-month outcome if executed: 90 to 93 kg on the scale with waist no more than
+- Realistic 12-month outcome if executed: 86 to 89 kg on the scale with waist no more than
   3 cm above start. That is roughly 7 to 9 kg of lean mass. Bench in the 90 to 100 kg range for reps.
 
 ## Targets (set 2026-09-05 at intake)
 | Target | Value | Reason |
 |---|---|---|
-| Calories per day | 3300 kcal | Mifflin-St Jeor BMR ~1930, activity factor 1.6 gives ~3080 maintenance, plus ~250. Recalibrate after 2 weeks of scale data. |
-| Protein per day | 170 g | ~2.0 g per kg. Spread over 4 to 5 feedings of 35 to 45 g. |
+| Calories per day | 3300 kcal | Mifflin-St Jeor at 78.65 kg gives BMR ~1890, activity factor 1.6 gives ~3030 maintenance, plus ~270. Unchanged after the weight correction. Recalibrate after 2 weeks of scale data. |
+| Protein per day | 170 g | ~2.2 g per kg at 78.65 kg. Kept, more protein is not a problem. Spread over 4 to 5 feedings of 35 to 45 g. |
 | Fat per day | 80 g | ~1.0 g per kg. |
 | Carbs per day | 475 g | The rest. Training fuel. |
-| Bodyweight gain per week | 0.25 to 0.35 kg | ~0.3 to 0.4 % of bodyweight. Faster is fat. |
+| Bodyweight gain per week | 0.2 to 0.3 kg | ~0.3 to 0.4 % of bodyweight. Faster is fat. |
 | Eating occasions | 5 fixed times | 08:00, 11:30, 15:00, 18:30, 21:30. Alarms on. Two can be shakes. |
 | Steps per day | 7,000 minimum | Health and appetite. Not more than 10,000, it eats calories. |
 | Sleep | 7.5 h minimum, fixed wake time | Non-negotiable for muscle gain. |
