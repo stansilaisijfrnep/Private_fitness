@@ -290,13 +290,12 @@ const PROGRAM = {
       {k:"pushdown", n:"Rope triceps pushdown (stack)", sets:2, reps:[12,15], rir:"0–1", start:25, inc:5, ss:true, alt:"bar pushdown"}
     ]},
     lowerA: {name:"Lower A", sub:"quads and hinge learning", ex:[
-      {k:"squat", n:"Barbell back squat, technique", sets:3, reps:[5,5], rir:"3", start:40, inc:2.5, prog:"session", alt:"goblet squat 3×8"},
-      {k:"hack", n:"Hack squat", sets:3, reps:[8,12], rir:"1–2", inc:5, alt:"leg press"},
+      {k:"squat", n:"Barbell back squat, heels on plates", sets:3, reps:[5,5], rir:"3", start:40, inc:2.5, prog:"session", alt:"goblet squat 3×8"},
+      {k:"legpress", n:"Seated leg press, Nautilus (stack)", sets:3, reps:[8,12], rir:"1–2", start:90, inc:10, alt:"45° leg press"},
       {k:"rdl", n:"Romanian deadlift", sets:3, reps:[8,10], rir:"2", start:50, inc:5, alt:"dumbbell RDL"},
-      {k:"bss", n:"Bulgarian split squat", sets:2, reps:[8,10], rir:"1–2", inc:2, perSide:true, alt:"reverse lunge"},
-      {k:"legcurl", n:"Seated leg curl", sets:3, reps:[10,15], rir:"0–1", inc:5, alt:"lying leg curl"},
-      {k:"calfstand", n:"Standing calf raise", sets:3, reps:[10,15], rir:"0–1", inc:5, alt:"leg press calf raise"},
-      {k:"cablecrunch", n:"Cable crunch", sets:3, reps:[10,15], rir:"0–1", inc:5, alt:"hanging knee raise"}
+      {k:"bss", n:"Bulgarian split squat (kg per hand)", sets:2, reps:[8,10], rir:"1–2", start:8, inc:2, perSide:true, alt:"reverse lunge"},
+      {k:"legcurl", n:"Seated leg curl (stack)", sets:3, reps:[10,15], rir:"0–1", start:55, inc:5, alt:"lying leg curl"},
+      {k:"hanglr", n:"Hanging leg raise", sets:3, reps:[10,15], rir:"0–1", bw:true, alt:"cable crunch"}
     ]},
     push: {name:"Push", sub:"chest priority", ex:[
       {k:"incdb", n:"Incline dumbbell press, 30°", sets:4, reps:[8,10], rir:"1–2", start:24, inc:2, alt:"incline machine press"},
@@ -318,11 +317,10 @@ const PROGRAM = {
     legsB: {name:"Legs B", sub:"posterior chain, single leg, knee health", ex:[
       {k:"landing", n:"Landing drills, 30 cm box (warm-up)", sets:3, reps:[5,5], rir:"–", bw:true, alt:"skip if any knee discomfort"},
       {k:"trapbar", n:"Trap bar deadlift", sets:3, reps:[5,6], rir:"3", start:60, inc:5, prog:"session", alt:"conventional deadlift, light"},
-      {k:"legpress", n:"Leg press", sets:3, reps:[10,15], rir:"1–2", inc:10, alt:"hack squat"},
+      {k:"legpress", n:"Seated leg press, Nautilus (stack)", sets:3, reps:[10,15], rir:"1–2", start:90, inc:10, alt:"45° leg press"},
       {k:"lunge", n:"Walking lunge", sets:2, reps:[10,10], rir:"1–2", inc:2, perSide:true, alt:"reverse lunge"},
       {k:"nordic", n:"Nordic hamstring curl, eccentric", sets:2, reps:[4,6], rir:"–", bw:true, alt:"lying leg curl 3×10"},
       {k:"legext", n:"Leg extension", sets:2, reps:[12,15], rir:"0–1", inc:5, alt:"sissy squat"},
-      {k:"calfseat", n:"Seated calf raise", sets:3, reps:[12,15], rir:"0–1", inc:5, alt:"standing calf raise"},
       {k:"copenhagen", n:"Copenhagen plank (seconds per side)", sets:2, reps:[20,30], rir:"–", bw:true, ss:true, perSide:true, alt:"side plank"},
       {k:"abwheel", n:"Ab wheel or plank", sets:2, reps:[8,10], rir:"–", bw:true, ss:true, alt:"hanging knee raise"}
     ]}
@@ -338,7 +336,7 @@ const PROGRAM = {
 };
 const DAY_ORDER = ["upper","lowerA","push","pull","legsB"];
 const DEFAULT_TARGETS = {kcal:3300, protein:170, carbs:475, fat:80, sleep:7.5, sessions:5};
-const LIFTS = ["bench","squat","trapbar","rdl","ohp","incdb","hack","legpress","csrow","dbrow","pullup","dips","dbohp"];
+const LIFTS = ["bench","squat","trapbar","rdl","ohp","incdb","legpress","csrow","dbrow","pullup","dips","dbohp","legcurl"];
 const SLOTS = [["breakfast","Breakfast"],["lunch","Lunch"],["dinner","Dinner"],["snack","Snacks"]];
 const guessSlot = h => h<11 ? "breakfast" : h<15 ? "lunch" : (h>=17 && h<22) ? "dinner" : "snack";
 

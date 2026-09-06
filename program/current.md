@@ -5,6 +5,7 @@
 |---|---|---|
 | 2026-09-05 | Block 1 written at intake | 5 days available, 60 to 75 min, upper body priority, legs from zero, ACL history, size goal |
 | 2026-09-05 | Upper day: barbell bench replaced by Hammer Strength iso-lateral chest press (kg per side), chest-supported row is the Nautilus Impact vertical row (stack), pull-ups are bodyweight wide grip | Athlete's choice on session 1. Machine press is fine for the size goal and needs no spotter. Barbell bench returns as a tested lift in block 2. |
+| 2026-09-06 | Lower A after session 1: seated leg press (Nautilus, stack) replaces hack squat (none in the gym), hanging leg raise replaces cable crunch, calves removed from both leg days at the athlete's request, squat with heels on 1.25 kg plates | First leg session. Depth needed heel elevation. Athlete is happy with his calves and declined the work. |
 | 2026-09-05 | Schedule rule changed to five sessions per week on any day (athlete wants to train Sunday too) | Calendar projects the next sessions onto the remaining days of the week, weekdays first. |
 | 2026-09-05 | Start moved to today (Sat 5 Sep), schedule changed to a rolling order | Athlete wants to start immediately. Sessions now follow the order Upper, Lower A, Push, Pull, Legs B on training days (Mon to Fri, plus the start day). A missed day shifts the order, nothing is dropped. |
 
@@ -62,13 +63,12 @@ the upper sessions and the sport.
 ## Day 2: Lower A (quads plus hinge learning)
 | # | Exercise | Sets x reps | RIR | Start | Alternative |
 |---|---|---|---|---|---|
-| 1 | Barbell back squat, technique work | 3 x 5 | 3 | 40 kg | goblet squat 3 x 8 |
-| 2 | Hack squat | 3 x 8-12 | 1-2 | test | leg press |
-| 3 | Romanian deadlift, barbell | 3 x 8-10 | 2 | 50 kg | dumbbell RDL |
-| 4 | Bulgarian split squat | 2 x 8-10 per leg | 1-2 | bodyweight or 2 x 10 kg | reverse lunge |
-| 5 | Seated leg curl | 3 x 10-15 | 0-1 | test | lying leg curl |
-| 6 | Standing calf raise | 3 x 10-15 | 0-1 | test | leg press calf raise |
-| 7 | Cable crunch | 3 x 10-15 | 0-1 | test | hanging knee raise |
+| 1 | Barbell back squat, technique work, heels on 1.25 kg plates | 3 x 5 | 3 | 40 kg (5 Sep: 40x5, 40x5) | goblet squat 3 x 8 |
+| 2 | Seated leg press, Nautilus Impact, stack | 3 x 8-12 | 1-2 | 90 kg (6 Sep) | 45 degree leg press |
+| 3 | Romanian deadlift, barbell | 3 x 8-10 | 2 | 50 kg (6 Sep) | dumbbell RDL |
+| 4 | Bulgarian split squat | 2 x 8-10 per leg | 1-2 | bodyweight (6 Sep), next 8 kg dumbbells | reverse lunge |
+| 5 | Seated leg curl, stack | 3 x 10-15 | 0-1 | 50 kg (6 Sep) | lying leg curl |
+| 6 | Hanging leg raise | 3 x 10-15 | 0-1 | bodyweight (6 Sep: 12, 12) | cable crunch |
 
 Squat notes: high bar or low bar, whichever feels natural. Heels slightly elevated is fine on a
 194 cm frame. Depth: hip crease at or below the knee. Add 2.5 kg every session while depth
@@ -105,11 +105,10 @@ builder yet, the hack squat is. The squat is being learned.
 |---|---|---|---|---|---|
 | 0 | Landing drills in warm-up: drop from a 30 cm box, stick the landing, soft knees | 3 x 5 | | | skip if any knee discomfort |
 | 1 | Trap bar deadlift | 3 x 5-6 | 3 | 60 kg | dumbbell RDL |
-| 2 | Leg press | 3 x 10-15 | 1-2 | test | hack squat |
+| 2 | Seated leg press, Nautilus Impact, stack | 3 x 10-15 | 1-2 | 90 kg | 45 degree leg press |
 | 3 | Walking lunge | 2 x 10 per leg | 1-2 | bodyweight or 2 x 10 kg | reverse lunge |
 | 4 | Nordic hamstring curl, eccentric only | 2 x 4-6 | | bodyweight, control the drop | lying leg curl 3 x 10 |
 | 5 | Leg extension | 2 x 12-15 | 0-1 | test | sissy squat |
-| 6 | Seated calf raise | 3 x 12-15 | 0-1 | test | standing calf raise |
 | 7a | Copenhagen plank | 2 x 20-30 s per side | | knee on bench | side plank |
 | 7b | Ab wheel or plank | 2 x 8-10 | | | hanging knee raise |
 
@@ -126,7 +125,7 @@ evidence that they cut hamstring and groin injuries roughly in half. They stay f
 | Triceps | 5 direct + all pressing | enough for block 1 |
 | Quads | 13 | beginner legs, will grow fast |
 | Hamstrings and glutes | 12 | includes Nordics and RDL |
-| Calves | 6 | |
+| Calves | 0 | removed at the athlete's request, 6 Sep |
 | Abs and core | 7 | |
 
 ## Outside the gym
