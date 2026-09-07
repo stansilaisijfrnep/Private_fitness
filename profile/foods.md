@@ -9,6 +9,9 @@ Use these instead of generic estimates when the food appears again.
 | Rumsteck de boeuf, vacuum pack 1.24 kg (German origin, sold at Carrefour) | 120 | 21 | 0 | 4.0 | label | 2026-09-05 |
 | Basmati rice, Carrefour Extra cooking bags (125 g dry per bag, ~350 kcal, 78 g carbs per bag) | 350 (dry) | 8 | 78 | 0.5 | typical | 2026-09-05 |
 | Nutramino chocolate protein wafer (39 g bar, values per bar) | 205 | 7.8 | 18 | 12 | label + brand values | 2026-09-07 |
+| Sardines Gonidec, tin 115 g net / 87 g fish, drained | 217 | 24 | 0 | 13 | typical sardines in oil, drained | 2026-09-07 |
+| Ground beef 15 % MG, Carrefour 350 g tray (raw) | 215 | 19 | 0 | 15 | label 15 % fat | 2026-09-07 |
+| Tanoshi bulgogi sauce (per 100 ml) | 200 | 3.6 | 38 | 4.2 | label; salt 5.8 g per 100 ml | 2026-09-07 |
 
 ## Kitchen inventory (photos 2026-09-05, update when it changes)
 Pantry: Petit Navire tuna cans (several), Barilla farfalle 500 g ×2, Barilla linguine, Carrefour Extra
