@@ -12,6 +12,7 @@ Use these instead of generic estimates when the food appears again.
 | Sardines Gonidec, tin 115 g net / 87 g fish, drained | 217 | 24 | 0 | 13 | typical sardines in oil, drained | 2026-09-07 |
 | Ground beef 15 % MG, Carrefour 350 g tray (raw) | 215 | 19 | 0 | 15 | label 15 % fat | 2026-09-07 |
 | Tanoshi bulgogi sauce (per 100 ml) | 200 | 3.6 | 38 | 4.2 | label; salt 5.8 g per 100 ml | 2026-09-07 |
+| Baguette céréales, Carrefour Le Marché (whole loaf ~260 g) | 255 | 9 | 45 | 3.5 | typical multigrain baguette, no panel on the bag | 2026-09-07 |
 
 ## Kitchen inventory (photos 2026-09-05, update when it changes)
 Pantry: Petit Navire tuna cans (several), Barilla farfalle 500 g ×2, Barilla linguine, Carrefour Extra
