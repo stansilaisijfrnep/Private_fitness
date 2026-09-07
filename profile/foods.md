@@ -8,6 +8,7 @@ Use these instead of generic estimates when the food appears again.
 | Tuna, Petit Navire thon entier au naturel, drained (112 g per can) | 109 | 25 | 0 | 1.0 | label | 2026-09-05 |
 | Rumsteck de boeuf, vacuum pack 1.24 kg (German origin, sold at Carrefour) | 120 | 21 | 0 | 4.0 | label | 2026-09-05 |
 | Basmati rice, Carrefour Extra cooking bags (125 g dry per bag, ~350 kcal, 78 g carbs per bag) | 350 (dry) | 8 | 78 | 0.5 | typical | 2026-09-05 |
+| Nutramino chocolate protein wafer (39 g bar, values per bar) | 205 | 7.8 | 18 | 12 | label + brand values | 2026-09-07 |
 
 ## Kitchen inventory (photos 2026-09-05, update when it changes)
 Pantry: Petit Navire tuna cans (several), Barilla farfalle 500 g ×2, Barilla linguine, Carrefour Extra
