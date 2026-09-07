@@ -6,6 +6,7 @@
 | 2026-09-05 | Block 1 written at intake | 5 days available, 60 to 75 min, upper body priority, legs from zero, ACL history, size goal |
 | 2026-09-05 | Upper day: barbell bench replaced by Hammer Strength iso-lateral chest press (kg per side), chest-supported row is the Nautilus Impact vertical row (stack), pull-ups are bodyweight wide grip | Athlete's choice on session 1. Machine press is fine for the size goal and needs no spotter. Barbell bench returns as a tested lift in block 2. |
 | 2026-09-06 | Lower A after session 1: seated leg press (Nautilus, stack) replaces hack squat (none in the gym), hanging leg raise replaces cable crunch, calves removed from both leg days at the athlete's request, squat with heels on 1.25 kg plates | First leg session. Depth needed heel elevation. Athlete is happy with his calves and declined the work. |
+| 2026-09-07 | Push day rebuilt around what the athlete actually trains: Hammer Strength chest press added as exercise 3, pec deck replaces the cable fly, dips cut from 3 sets to 2 | Session 1 of Push. Bodyweight dips at 79 kg gave 6, 6, 1 - the third set produced no usable stimulus, so the chest volume moves to a machine press that can be loaded. The pec deck was the machine he used and was already the listed alternative. |
 | 2026-09-05 | Schedule rule changed to five sessions per week on any day (athlete wants to train Sunday too) | Calendar projects the next sessions onto the remaining days of the week, weekdays first. |
 | 2026-09-05 | Start moved to today (Sat 5 Sep), schedule changed to a rolling order | Athlete wants to start immediately. Sessions now follow the order Upper, Lower A, Push, Pull, Legs B on training days (Mon to Fri, plus the start day). A missed day shifts the order, nothing is dropped. |
 
@@ -78,14 +79,15 @@ builder yet, the hack squat is. The squat is being learned.
 ## Day 3: Push (chest priority)
 | # | Exercise | Sets x reps | RIR | Start | Alternative |
 |---|---|---|---|---|---|
-| 1 | Incline dumbbell press, 30 degrees | 4 x 8-10 | 1-2 | test, try 24 kg | incline machine press |
-| 2 | Weighted dips or machine chest press | 3 x 8-12 | 1-2 | bodyweight | pec deck |
-| 3 | Cable fly, mid or low-to-high | 3 x 12-15 | 0-1 | test | pec deck |
-| 4 | Overhead press, barbell | 3 x 6-10 | 2 | 30 kg | machine shoulder press |
-| 5 | Dumbbell lateral raise | 4 x 12-20 | 0-1 | 8 to 10 kg | cable lateral raise |
-| 6 | Overhead cable triceps extension | 3 x 10-15 | 0-1 | test | skull crusher |
+| 1 | Incline dumbbell press, 30 degrees | 4 x 8-10 | 1-2 | 20 kg/hand (7 Sep) | incline machine press |
+| 2 | Weighted dips | 2 x 6-10 | 1-2 | bodyweight (7 Sep) | assisted dip machine |
+| 3 | Chest press, Hammer Strength iso-lateral, kg per side | 3 x 8-12 | 1-2 | 22.5 kg/side (7 Sep) | flat barbell bench |
+| 4 | Pec deck, stack | 3 x 12-15 | 0-1 | 15 kg (7 Sep) | cable fly |
+| 5 | Overhead press, barbell | 3 x 6-10 | 2 | 30 kg | machine shoulder press |
+| 6 | Dumbbell lateral raise | 4 x 12-20 | 0-1 | 7.5 kg | cable lateral raise |
+| 7 | Overhead cable triceps extension | 3 x 10-15 | 0-1 | test | skull crusher |
 
-20 work sets.
+22 work sets.
 
 ## Day 4: Pull (back priority)
 | # | Exercise | Sets x reps | RIR | Start | Alternative |
