@@ -192,6 +192,22 @@ def main():
             print(f"    {n[:44]:<44} {last:<34} → {nxt}")
 
     # ---- patterns the data reveals ----
+    # ---- personal bests, straight from the flat table ----
+    print("\nPERSONAL BESTS (heaviest load handled, and best estimated 1RM)")
+    best = {}
+    for s_ in sessions:
+        for ex in s_.get("exercises", []):
+            for t in ex.get("sets", []):
+                if not t.get("reps") or t.get("load") is None:
+                    continue
+                k = ex["k"]
+                cur = best.get(k)
+                v = e1rm(t["load"], t["reps"])
+                if not cur or v > cur[0]:
+                    best[k] = (v, t["load"], t["reps"], s_["date"], ex.get("n", k))
+    for k, (v, ld, rp, d, n) in sorted(best.items(), key=lambda x: -x[1][0]):
+        print(f"    {n[:44]:<44} {ld:g}×{rp:g} on {d[5:]}   e1RM {v:.0f} kg")
+
     print("\nPATTERNS IN THE DATA")
     flags = []
     light_first, rounds, no_rir, total_sets = [], [], 0, 0

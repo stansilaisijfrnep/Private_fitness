@@ -1,0 +1,67 @@
+{
+  "updated": "2026-09-08",
+  "note": "Machine-readable constants about this athlete. tools/brief.py prints these every session so nothing has to be remembered. Prose reasoning lives in profile/patterns.md.",
+  "athlete": {
+    "age": 22, "height_cm": 194, "start_weight_kg": 78.15, "start_date": "2026-09-06",
+    "lives": "France", "languages": ["English", "German"],
+    "injuries": ["ACL reconstruction 5-6 years ago, rehabbed, no current pain"],
+    "goal": "maximum muscle, size > strength > leanness, 12 months"
+  },
+  "targets": {"kcal": 3300, "protein_g": 170, "carbs_g": 475, "fat_g": 80, "sleep_h": 7.5,
+              "sessions_per_week": 5, "gain_kg_per_week": [0.2, 0.3]},
+  "units": {
+    "bowl_ml": 500,
+    "tablespoon_peanut_butter_g": 16,
+    "tablespoon_honey_g": 21,
+    "handful_blueberries_g": 70,
+    "glass_ml": 250,
+    "rice_bag_dry_g": 125,
+    "reports_portions_as": "bowls and fractions of bowls, not grams",
+    "pull_up_load": "added kg on top of bodyweight",
+    "hammer_press_load": "kg per side",
+    "dumbbell_load": "kg per hand",
+    "machine_load": "stack kg"
+  },
+  "progression": {
+    "working_load": "heaviest load handled last time, counting any set within 2 reps of the range - never the last set, he ramps down when tired",
+    "add_load_when": "every set at the top of the rep range",
+    "squat_and_trapbar": "+2.5 kg every session while technique holds",
+    "last_set_isolation": "to failure, never to a round number"
+  },
+  "equipment_substitutions": {
+    "barbell_bench": "Hammer Strength iso-lateral chest press",
+    "barbell_overhead_press": "seated shoulder press machine",
+    "cable_fly": "pec deck",
+    "hack_squat": "seated leg press, Nautilus",
+    "cable_crunch": "hanging leg raise",
+    "cable_lateral_raise": "dumbbells (his explicit preference)",
+    "overhead_cable_triceps": "straight-bar pushdown"
+  },
+  "likes": ["pull-ups", "dips", "Hammer Strength chest press", "dumbbell lateral raises",
+            "leg press", "orange juice", "skyr with peanut butter and honey", "bread", "bananas",
+            "potatoes", "steak"],
+  "refuses": ["calf training"],
+  "eating": {
+    "bottleneck": "stomach volume on carbs, not protein - he can eat 350 g of meat but not 2 bags of rice",
+    "max_rice_per_sitting_bags": 1,
+    "carb_tools_that_work": ["bread", "bananas", "honey", "orange juice", "skyr", "mashed potato"],
+    "meal_times": ["08:00", "11:30", "15:00", "18:30", "21:30"],
+    "standard_snack": "bowl of skyr + 2 tbsp peanut butter + 2 tbsp honey + blueberries + a glass of juice = 785 kcal, 53 g protein"
+  },
+  "kitchen_labels_per_100g": {
+    "eggs_carrefour_plein_air": {"kcal": 140, "p": 13, "c": 0.5, "f": 9.8},
+    "skyr_arla_0": {"kcal": 60, "p": 10, "c": 4, "f": 0.2},
+    "peanut_butter_andros": {"kcal": 624, "p": 22, "c": 22, "f": 48},
+    "orange_juice_carrefour_per_100ml": {"kcal": 42, "p": 0, "c": 9, "f": 0},
+    "rumsteck": {"kcal": 120, "p": 21, "c": 0, "f": 4},
+    "ground_beef_15": {"kcal": 215, "p": 19, "c": 0, "f": 15},
+    "tuna_petit_navire_drained": {"kcal": 109, "p": 25, "c": 0, "f": 1},
+    "sardines_drained": {"kcal": 217, "p": 24, "c": 0, "f": 13},
+    "bulgogi_sauce_per_100ml": {"kcal": 200, "p": 3.6, "c": 38, "f": 4.2},
+    "yfood_per_500ml_bottle": {"kcal": 500, "p": 33, "c": 47, "f": 21}
+  },
+  "open_questions": [
+    "whey still not bought",
+    "trap bar, dip belt, reverse pec deck, heaviest dumbbell: not yet confirmed in the gym"
+  ]
+}

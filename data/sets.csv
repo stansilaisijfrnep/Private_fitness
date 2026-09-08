@@ -1,0 +1,59 @@
+date,day,week,exercise_key,exercise,set_no,load_kg,reps,rir,e1rm_kg,exercise_note
+2026-09-05,upper,1,bench,"Chest press, Hammer Strength iso-lateral (kg per side)",1,25,6,,30.0,"Hammer Strength iso-lateral chest press instead of barbell bench. kg per side. 25 too heavy for the range, 20 right."
+2026-09-05,upper,1,bench,"Chest press, Hammer Strength iso-lateral (kg per side)",2,20,7,,24.7,"Hammer Strength iso-lateral chest press instead of barbell bench. kg per side. 25 too heavy for the range, 20 right."
+2026-09-05,upper,1,bench,"Chest press, Hammer Strength iso-lateral (kg per side)",3,20,8,,25.3,"Hammer Strength iso-lateral chest press instead of barbell bench. kg per side. 25 too heavy for the range, 20 right."
+2026-09-05,upper,1,bench,"Chest press, Hammer Strength iso-lateral (kg per side)",4,20,8,,25.3,"Hammer Strength iso-lateral chest press instead of barbell bench. kg per side. 25 too heavy for the range, 20 right."
+2026-09-05,upper,1,csrow,"Vertical row, Nautilus Impact (stack)",1,40,9,,52.0,Stack kg. 40 felt light. 60 is the working weight.
+2026-09-05,upper,1,csrow,"Vertical row, Nautilus Impact (stack)",2,50,10,,66.7,Stack kg. 40 felt light. 60 is the working weight.
+2026-09-05,upper,1,csrow,"Vertical row, Nautilus Impact (stack)",3,60,9,,78.0,Stack kg. 40 felt light. 60 is the working weight.
+2026-09-05,upper,1,csrow,"Vertical row, Nautilus Impact (stack)",4,60,8,,76.0,Stack kg. 40 felt light. 60 is the working weight.
+2026-09-05,upper,1,pullup,"Pull-up, wide grip (added kg)",1,5,4,,5.7,"Wide grip. +5 kg too much after pressing and rowing, dropped to bodyweight."
+2026-09-05,upper,1,pullup,"Pull-up, wide grip (added kg)",2,0,6,,,"Wide grip. +5 kg too much after pressing and rowing, dropped to bodyweight."
+2026-09-05,upper,1,pullup,"Pull-up, wide grip (added kg)",3,0,5,,,"Wide grip. +5 kg too much after pressing and rowing, dropped to bodyweight."
+2026-09-05,upper,1,dbohp,Seated dumbbell shoulder press (kg per hand),1,12.5,12,,17.5,"12.5 too light, 15 right."
+2026-09-05,upper,1,dbohp,Seated dumbbell shoulder press (kg per hand),2,15,9,,19.5,"12.5 too light, 15 right."
+2026-09-05,upper,1,dbohp,Seated dumbbell shoulder press (kg per hand),3,15,9,,19.5,"12.5 too light, 15 right."
+2026-09-05,upper,1,dblat,Dumbbell lateral raise (kg per hand),1,10,12,,14.0,Dumbbells instead of cable. Extra fourth set to failure.
+2026-09-05,upper,1,dblat,Dumbbell lateral raise (kg per hand),2,10,10,,13.3,Dumbbells instead of cable. Extra fourth set to failure.
+2026-09-05,upper,1,dblat,Dumbbell lateral raise (kg per hand),3,7.5,10,,10.0,Dumbbells instead of cable. Extra fourth set to failure.
+2026-09-05,upper,1,dblat,Dumbbell lateral raise (kg per hand),4,7.5,14,0,11.0,Dumbbells instead of cable. Extra fourth set to failure.
+2026-09-05,upper,1,ezcurl,EZ bar curl,1,25,12,,35.0,
+2026-09-05,upper,1,ezcurl,EZ bar curl,2,30,12,,42.0,
+2026-09-05,upper,1,pushdown,Rope triceps pushdown (stack),1,20,15,,30.0,
+2026-09-05,upper,1,pushdown,Rope triceps pushdown (stack),2,25,12,,35.0,
+2026-09-06,lowerA,1,squat,"Barbell back squat, heels on plates",1,40,5,3,46.7,"Set 1 slightly above parallel. Set 2 heels on 1.25 kg plates, wider stance: depth fixed. Keep the plates."
+2026-09-06,lowerA,1,squat,"Barbell back squat, heels on plates",2,40,5,3,46.7,"Set 1 slightly above parallel. Set 2 heels on 1.25 kg plates, wider stance: depth fixed. Keep the plates."
+2026-09-06,lowerA,1,legpress,"Seated leg press, Nautilus (stack)",1,60,12,,84.0,No hack squat in the gym. 60 was a feel set.
+2026-09-06,lowerA,1,legpress,"Seated leg press, Nautilus (stack)",2,80,11,,109.3,No hack squat in the gym. 60 was a feel set.
+2026-09-06,lowerA,1,legpress,"Seated leg press, Nautilus (stack)",3,90,8,,114.0,No hack squat in the gym. 60 was a feel set.
+2026-09-06,lowerA,1,rdl,Romanian deadlift,1,50,8,2,63.3,"Set 2 lighter by choice, technique."
+2026-09-06,lowerA,1,rdl,Romanian deadlift,2,40,8,3,50.7,"Set 2 lighter by choice, technique."
+2026-09-06,lowerA,1,bss,Bulgarian split squat (kg per hand),1,0,8,,,"Bodyweight, per leg. Knee stable."
+2026-09-06,lowerA,1,bss,Bulgarian split squat (kg per hand),2,0,8,,,"Bodyweight, per leg. Knee stable."
+2026-09-06,lowerA,1,legcurl,Seated leg curl (stack),1,45,12,,63.0,
+2026-09-06,lowerA,1,legcurl,Seated leg curl (stack),2,50,15,1,75.0,
+2026-09-06,lowerA,1,hanglr,Hanging leg raise,1,,12,,,"Chosen instead of cable crunch. Calves declined by athlete. Extra: crunch machine 23 kg x 12, 36 kg x 12."
+2026-09-06,lowerA,1,hanglr,Hanging leg raise,2,,12,,,"Chosen instead of cable crunch. Calves declined by athlete. Extra: crunch machine 23 kg x 12, 36 kg x 12."
+2026-09-07,push,1,incdb,"Incline dumbbell press, 30°",1,18,12,,25.2,18×12 was the last warm-up. The two 22 kg sets were 6 clean reps plus a partial. 20 kg is the working weight.
+2026-09-07,push,1,incdb,"Incline dumbbell press, 30°",2,20,9,,26.0,18×12 was the last warm-up. The two 22 kg sets were 6 clean reps plus a partial. 20 kg is the working weight.
+2026-09-07,push,1,incdb,"Incline dumbbell press, 30°",3,22,7,,27.1,18×12 was the last warm-up. The two 22 kg sets were 6 clean reps plus a partial. 20 kg is the working weight.
+2026-09-07,push,1,incdb,"Incline dumbbell press, 30°",4,22,7,,27.1,18×12 was the last warm-up. The two 22 kg sets were 6 clean reps plus a partial. 20 kg is the working weight.
+2026-09-07,push,1,incdb,"Incline dumbbell press, 30°",5,20,5.5,0,23.7,18×12 was the last warm-up. The two 22 kg sets were 6 clean reps plus a partial. 20 kg is the working weight.
+2026-09-07,push,1,dips,Weighted dips,1,,6,,,"Bodyweight. Third set died at 1 rep, so 2 sets from now on."
+2026-09-07,push,1,dips,Weighted dips,2,,6,,,"Bodyweight. Third set died at 1 rep, so 2 sets from now on."
+2026-09-07,push,1,dips,Weighted dips,3,,1,0,,"Bodyweight. Third set died at 1 rep, so 2 sets from now on."
+2026-09-07,push,1,bench,"Chest press, Hammer Strength iso-lateral (kg per side)",1,20,12,,28.0,Added to Push after the dips failed.
+2026-09-07,push,1,bench,"Chest press, Hammer Strength iso-lateral (kg per side)",2,25,9,,32.5,Added to Push after the dips failed.
+2026-09-07,push,1,bench,"Chest press, Hammer Strength iso-lateral (kg per side)",3,25,9,,32.5,Added to Push after the dips failed.
+2026-09-07,push,1,pecdeck,Pec deck (stack),1,20,12,,28.0,"Replaces the cable fly. Started at 20, dropped to 15 for the last two sets."
+2026-09-07,push,1,pecdeck,Pec deck (stack),2,15,12,,21.0,"Replaces the cable fly. Started at 20, dropped to 15 for the last two sets."
+2026-09-07,push,1,pecdeck,Pec deck (stack),3,15,12,,21.0,"Replaces the cable fly. Started at 20, dropped to 15 for the last two sets."
+2026-09-07,push,1,ohp,Seated shoulder press machine (kg per side),1,25,9,0,32.5,"Reps roughly 8–10 each. Sets 2 and 3 were drop sets: 25 kg per side to failure, then straight to 20 kg to failure. Replaces the barbell overhead press."
+2026-09-07,push,1,ohp,Seated shoulder press machine (kg per side),2,25,9,0,32.5,"Reps roughly 8–10 each. Sets 2 and 3 were drop sets: 25 kg per side to failure, then straight to 20 kg to failure. Replaces the barbell overhead press."
+2026-09-07,push,1,ohp,Seated shoulder press machine (kg per side),3,25,9,0,32.5,"Reps roughly 8–10 each. Sets 2 and 3 were drop sets: 25 kg per side to failure, then straight to 20 kg to failure. Replaces the barbell overhead press."
+2026-09-07,push,1,dblat,Dumbbell lateral raise,1,7,12,,9.8,"Three sets, all 12 reps. Reps are the thing to push next time, not load."
+2026-09-07,push,1,dblat,Dumbbell lateral raise,2,7,12,,9.8,"Three sets, all 12 reps. Reps are the thing to push next time, not load."
+2026-09-07,push,1,dblat,Dumbbell lateral raise,3,7,12,,9.8,"Three sets, all 12 reps. Reps are the thing to push next time, not load."
+2026-09-07,push,1,pushdown,"Triceps pushdown, straight bar (stack)",1,25,10,,33.3,Straight bar instead of the overhead cable extension.
+2026-09-07,push,1,pushdown,"Triceps pushdown, straight bar (stack)",2,20,10,,26.7,Straight bar instead of the overhead cable extension.
+2026-09-07,push,1,pushdown,"Triceps pushdown, straight bar (stack)",3,20,10,,26.7,Straight bar instead of the overhead cable extension.

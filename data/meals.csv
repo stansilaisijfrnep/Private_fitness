@@ -1,0 +1,37 @@
+date,slot,time,meal,kcal,protein_g,carbs_g,fat_g
+2026-09-05,breakfast,morning,"6 scrambled eggs in olive oil, 2 slices country bread, saucisson, tomato, hard cheese",1100,66,71,60
+2026-09-05,breakfast,morning,Big milk coffee,130,7,10,7
+2026-09-05,lunch,midday,"Tuna-rice burrito, 4/5 of one",266,20,44,1
+2026-09-05,lunch,midday,Banana,105,1,27,0
+2026-09-05,lunch,midday,"Coffee, black",5,0,1,0
+2026-09-05,dinner,after gym,"Rumsteak 300 g, teaspoon of oil",405,63,0,17
+2026-09-05,dinner,evening,Banana,105,1,27,0
+2026-09-05,dinner,evening,"Skyr strawberry, 2 pots",210,24,27,1
+2026-09-05,dinner,evening,"Orange-carrot-lemon juice, 2 glasses",200,0,46,0
+2026-09-05,snack,late,"Baguette, half",340,11,70,1
+2026-09-05,snack,late,"Baguette, quarter",170,6,35,1
+2026-09-05,snack,late,"Juice, 1 glass",100,0,23,0
+2026-09-06,breakfast,morning,4 scrambled eggs in olive oil,325,26,1,25
+2026-09-06,breakfast,morning,2 thin slices of bread,130,4,25,2
+2026-09-06,breakfast,morning,Big glass of whole milk,190,10,14,11
+2026-09-06,breakfast,morning,Coffee,5,0,1,0
+2026-09-06,breakfast,morning,2 bananas,210,2,54,1
+2026-09-06,snack,late morning,"Jus d'orange pressé, café",110,2,25,0
+2026-09-06,snack,late morning,Flat white,90,5,7,5
+2026-09-06,lunch,afternoon,"Farfalle with Barilla Bolognese and pesto rosso, 2.5 bowls (about 30 % of a 750 g dry batch)",1000,34,170,18
+2026-09-06,lunch,afternoon,Coffee with milk,65,3,5,4
+2026-09-06,snack,after gym,"Barebells chocolate milkshake, 330 ml",164,24,11,4
+2026-09-06,dinner,evening,"Western BBQ'n Bacon burger, small size (2 patties, cheese, bacon, onions, BBQ sauce)",600,34,40,34
+2026-09-06,dinner,evening,Small fries,250,3,32,12
+2026-09-06,snack,late,Small bowl of skyr with blueberries,130,17,14,0
+2026-09-07,breakfast,09:00,3 scrambled eggs in olive oil,255,20,1,20
+2026-09-07,breakfast,09:00,2 thin slices of bread,130,4,25,2
+2026-09-07,breakfast,09:30,Banana,105,1,27,0
+2026-09-07,breakfast,09:30,Coffee with a splash of milk,25,1,2,1
+2026-09-07,lunch,12:00,"Leftover farfalle, Bolognese and pesto rosso (Tupperware)",600,20,100,11
+2026-09-07,snack,14:30,"Nutramino chocolate protein wafer, 39 g",205,8,18,12
+2026-09-07,dinner,19:30,"Sardines, whole tin drained",190,21,0,11
+2026-09-07,dinner,19:30,Half a cereal baguette (~130 g),330,11,60,4
+2026-09-07,dinner,20:00,"Ground beef 15 %, 250 g",535,48,0,38
+2026-09-07,dinner,20:00,"Basmati rice, ~0.7 bag",245,6,55,1
+2026-09-07,dinner,20:00,"Bulgogi sauce, ~40 ml",80,2,15,2
