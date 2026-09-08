@@ -36,3 +36,18 @@ url = https://claude.ai/code/artifact/b7cdec67-42a2-4075-bd10-a4e797e91546
 
 `data/db/` is the machine-readable mirror. The markdown in `logs/` stays the human-readable record
 and the reasoning; `profile/patterns.md` holds the behaviour rules that the numbers cannot express.
+
+## schedule.py — class timetable and training windows
+
+```
+python3 tools/schedule.py               # rebuild from data/schedule/*.ics (+ manual.csv)
+python3 tools/schedule.py --week        # print this week's classes and free windows
+python3 tools/schedule.py --week 2026-09-14
+```
+
+Reads the athlete's calendar exports in `data/schedule/` (Calendar.app > File > Export), expands
+the weekly recurrences, classifies every class as in person or online (room vs. video link), drops
+gym and sport entries, and writes `profile/schedule.md` (typical week, training window per weekday,
+next two weeks) and `data/schedule/classes.json`, which `brief.py` uses to show today's and
+tomorrow's classes. How to get the calendar in: `data/schedule/README.md`.
+

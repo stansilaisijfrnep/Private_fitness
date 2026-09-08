@@ -264,6 +264,24 @@ def main():
         for q in F.get("open_questions", []):
             print(f"  open: {q}")
 
+    # ---- classes today and tomorrow (data/schedule/classes.json, see tools/schedule.py) ----
+    cf = ROOT / "data" / "schedule" / "classes.json"
+    classes = json.loads(cf.read_text()) if cf.exists() else []
+    if classes:
+        print("\nCLASSES (profile/schedule.md has the full week and the training windows)")
+        for label, d in (("today", today), ("tomorrow", today + dt.timedelta(days=1))):
+            items = [c for c in classes if c["date"] == d.isoformat()]
+            if not items:
+                print(f"  {label} {d.strftime('%a %d.%m')}: no classes"); continue
+            timed = [c for c in items if not c["all_day"]]
+            last = max((c["end"] for c in timed), default=None)
+            blocked = any(c["start"] < "21:00" and c["end"] > "19:30" for c in timed)
+            desc = "; ".join(("all day " if c["all_day"] else f"{c['start']}–{c['end']} ") + f"{c['title']} ({c['mode']})" for c in items)
+            tail = f" → free from {last}" + (", usual 19:30 slot BLOCKED" if blocked else "") if last else ""
+            print(f"  {label} {d.strftime('%a %d.%m')}: {desc}{tail}")
+    else:
+        print("\nCLASSES: no timetable yet — ask for a Calendar.app export into data/schedule/ (tools/schedule.py).")
+
     # ---- what is next ----
     idx = order.index(sessions[-1]["dayKey"]) if sessions and sessions[-1]["dayKey"] in order else -1
     nxt = order[(idx + 1) % len(order)]
