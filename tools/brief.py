@@ -170,8 +170,11 @@ def main():
                 continue
             date, _, done, _note = lp
             lo, hi = ex["reps"]
-            loads = [t["load"] for t in done if t.get("load") is not None]
-            base = loads[-1] if loads else None
+            # Working load = the heaviest load actually handled, not the last set. He ramps
+            # down when tired; the last set would throw the real work away.
+            scored = [t for t in done if t.get("load") is not None]
+            near = [t for t in scored if t["reps"] >= lo - 2]
+            base = max(t["load"] for t in (near or scored)) if scored else None
             all_top = len(done) >= ex["sets"] and all(t["reps"] >= hi for t in done)
             if ex.get("bw") or base is None or (ex.get("added") and not base):
                 nxt = "bodyweight, beat the reps"

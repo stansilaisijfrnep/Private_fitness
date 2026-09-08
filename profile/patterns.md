@@ -22,6 +22,15 @@ no energy left for a proper top set.
 **Rule for the coach:** never prescribe a "test" or a light opener for an exercise he has done
 before. Give one number: last session's load. Warm-ups are warm-ups and are logged as such.
 
+### 1b. He ramps DOWN when he is tired, and the load he handled is the top set
+Pull-ups 5 Sep: +5 kg × 4, then bodyweight × 6 and × 5. Incline press 7 Sep: up to 22, then back
+to 20 for the last set. Pec deck 7 Sep: 20, then 15, 15. Pushdown 7 Sep: 25, then 20, 20.
+Reading the last set as "the working weight" throws that work away and prescribes less than he can
+already lift. Fixed 8 Sep in both `suggest()` (dashboard) and `tools/brief.py`: the working load is
+the **heaviest load he handled**, counting any set that came within 2 reps of the range.
+**He uses added weight on pull-ups. Never prescribe plain bodyweight pull-ups without checking the
+added-load history first.**
+
 ### 2. He stops at round numbers, not at failure
 Lateral raise 7×12, 7×12, 7×12. Pushdown 25×10, 20×10, 20×10. Pec deck 15×12, 15×12.
 Hanging leg raise 12, 12. Three sets identical to the rep is a sign the set ended in the head, not

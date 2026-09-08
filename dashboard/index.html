@@ -399,11 +399,21 @@ function lastPerf(k, before){
   for (const s of list){ const e=(s.exercises||[]).find(x=>x.k===k); if (e && e.sets && e.sets.some(t=>t.reps>0)) return {date:s.date, sets:e.sets.filter(t=>t.reps>0)}; }
   return null;
 }
+/* The working load is the heaviest load he actually handled, not the load of the last set.
+   He often ramps down when he is tired (pull-ups +5 then bodyweight, incline 22 then 20), and
+   the last set would throw that work away. Sets that fell more than 2 reps short of the range
+   do not count as a handled load. */
+function workLoad(sets, lo){
+  const done = sets.filter(t=>t.reps>0 && t.load!=null);
+  if (!done.length) return 0;
+  const near = done.filter(t=>t.reps >= lo-2);
+  return Math.max(...(near.length?near:done).map(t=>t.load));
+}
 function suggest(ex, dayKey, date){
   if (ex.bw) return {load:null, why:"bodyweight"};
   const last = lastPerf(ex.k, date);
   if (!last) return {load: ex.start ?? null, why: ex.start!=null ? "start load" : "start light, find the weight"};
-  const load = last.sets[last.sets.length-1].load ?? 0;
+  const load = workLoad(last.sets, ex.reps[0]);
   if (ex.prog==="session") return {load: load+ex.inc, why:"+"+ex.inc+" every session, technique first"};
   const n = setsFor(ex, dayKey, date);
   const allTop = last.sets.length>=n && last.sets.every(t=>t.reps>=ex.reps[1]);
