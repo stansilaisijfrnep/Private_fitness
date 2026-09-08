@@ -13,6 +13,10 @@ Use these instead of generic estimates when the food appears again.
 | Ground beef 15 % MG, Carrefour 350 g tray (raw) | 215 | 19 | 0 | 15 | label 15 % fat | 2026-09-07 |
 | Tanoshi bulgogi sauce (per 100 ml) | 200 | 3.6 | 38 | 4.2 | label; salt 5.8 g per 100 ml | 2026-09-07 |
 | Baguette céréales, Carrefour Le Marché (whole loaf ~260 g) | 255 | 9 | 45 | 3.5 | typical multigrain baguette, no panel on the bag | 2026-09-07 |
+| Skyr Arla natural 0 % fat (1 kg tub) | 60 | 10 | 4 | 0.2 | label | 2026-09-08 |
+| Peanut butter Andros Be Nuts, creamy (525 g jar) | 624 | 22 | 22 | 48 | label; 7.8 g fibre, 15 g sugars | 2026-09-08 |
+| Orange juice, Carrefour 1 L (per 100 ml) | 42 | 0 | 9 | 0 | label | 2026-09-08 |
+| Honey (per 100 g) | 304 | 0 | 82 | 0 | standard | 2026-09-08 |
 
 ## The bowl: how this athlete measures (calibrated 2026-09-08)
 
@@ -25,10 +29,14 @@ table before estimating anything. One bowl of a food, filled level, weighs rough
 | Cooked rice | ~380 g (≈125 g dry, one Carrefour bag) | 495 | 11 | 110 | 1 |
 | Pasta or rice with meat sauce, mixed | ~400 g | 550 | 25 | 70 | 17 |
 | Oven potato wedges with oil | ~300 g | 300 | 6 | 52 | 8 |
-| Skyr | ~515 g | 285 | 57 | 20 | 1 |
-| Skyr with blueberries | ~500 g total | 260 | 45 | 28 | 1 |
+| Skyr (Arla 0 %) | ~515 g | 310 | 52 | 21 | 1 |
+| Skyr with blueberries | ~500 g total | 275 | 43 | 30 | 1 |
 | Soup or liquid | 500 ml | – | – | – | – |
 | Blueberries | ~300 g | 170 | 2 | 36 | 1 |
+
+Spoons and handfuls, as he uses them: 1 tablespoon peanut butter ≈ 16 g (100 kcal, 3.5 P, 3.5 C,
+7.7 F) · 1 tablespoon honey ≈ 21 g (64 kcal, 17 C) · 1 handful blueberries ≈ 70 g (40 kcal, 9 C)
+· 1 glass ≈ 250 ml (orange juice 105 kcal, 22 C).
 
 Rules: multiply by the fraction he reports (1 1/4 bowls = 625 ml). Dense mixed dishes pack heavier
 than dry grains, loose items like potato wedges pack lighter. These are ±15 % estimates — when the
