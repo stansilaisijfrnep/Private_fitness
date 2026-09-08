@@ -76,16 +76,22 @@ a third of the beef and a third of the rice.
 **Rule for the coach:** never prescribe more than ~1 bag of rice or ~150 g dry pasta in one sitting.
 Close the carb gap with bread, bananas, honey, jam, skyr and orange juice, not with a bigger bowl.
 
-### 2. Bread works when rice does not
+### 2. He measures in bowls, and the bowl is 500 ml
+Calibrated by the athlete on 8 Sep: the bowl he eats from holds 500 ml of water. Every portion he
+reports as "a bowl", "2.5 bowls", "1 1/4 bowls" converts through the table at the top of
+`profile/foods.md`. Ask for bowls, not grams — that is the unit he actually uses and it is accurate
+enough. Only ask for grams when a package label is in his hand.
+
+### 3. Bread works when rice does not
 Half a cereal baguette (60 g carbs) went down after a full plate. Two slices at breakfast every day.
 **Bread is the carb tool. Rice is the meal, bread is the filler.**
 
-### 3. Breakfast is the fat problem
+### 4. Breakfast is the fat problem
 Eggs plus whole milk, three days running: fat 116 g (6 Sep), 103 g (7 Sep) against an 80 g target,
 while carbs finished 100 to 170 g short every day.
 **Rule for the coach:** 3 eggs maximum, milk only in the coffee, carbs on the plate first.
 
-### 4. He asks "why", he does not refuse
+### 5. He asks "why", he does not refuse
 On 5 and 6 Sep he asked twice why orange juice was in the plan. That was a question about the
 reasoning, not a rejection — he drank two glasses that evening and later a third, and on 8 Sep he
 said plainly that he likes orange juice. The coach read it as a refusal and was wrong.
@@ -95,17 +101,17 @@ when he says so (calves: "I am happy with them" — that is a refusal).
 Orange juice is a liked food and a useful one: liquid carbs that cost no stomach space, which is
 exactly his bottleneck.
 
-### 5. What is actually in the house
+### 6. What is actually in the house
 Rice, pasta, sauces, eggs, skyr, blueberries, beef, sardines, tuna, mozzarella, bread, bananas.
 **Missing since intake: oats, whey, peanut butter, chicken.** The 950 kcal shake from PROFILE rule 3
 cannot be made. Either he buys the three items or the plan stops relying on it.
 
-### 6. Protein bars: he buys both good and bad ones
+### 7. Protein bars: he buys both good and bad ones
 Barebells shake 164 kcal / 24 g protein — good. Nutramino wafer 205 kcal / 7.8 g protein — a
 chocolate bar with a label.
 **Rule for the coach:** tell him the protein per 100 kcal, not just the macros.
 
-### 7. Where the day is won or lost
+### 8. Where the day is won or lost
 Calories and protein land close to target almost every day (3,136 / 199, 3,269 / 164, ~3,125 / 175).
 Carbs are short every single day. The shortfall is always in the evening, when he is full.
 **Rule for the coach:** front-load carbs. Breakfast and lunch have to carry 250 g of the 475 g.
