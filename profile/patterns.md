@@ -74,7 +74,7 @@ He could not finish 2 bags of rice ("just impossible") but ate 350 g of ground b
 evening. On 5 Sep a tuna-rice batch filled 3 burritos and he managed 4/5 of one. On 7 Sep he left
 a third of the beef and a third of the rice.
 **Rule for the coach:** never prescribe more than ~1 bag of rice or ~150 g dry pasta in one sitting.
-Close the carb gap with bread, bananas, honey, jam and skyr, not with a bigger bowl.
+Close the carb gap with bread, bananas, honey, jam, skyr and orange juice, not with a bigger bowl.
 
 ### 2. Bread works when rice does not
 Half a cereal baguette (60 g carbs) went down after a full plate. Two slices at breakfast every day.
@@ -85,9 +85,15 @@ Eggs plus whole milk, three days running: fat 116 g (6 Sep), 103 g (7 Sep) again
 while carbs finished 100 to 170 g short every day.
 **Rule for the coach:** 3 eggs maximum, milk only in the coffee, carbs on the plate first.
 
-### 4. He rejects things he does not want, twice
-Orange juice was suggested twice and refused twice. He does not want liquid sugar.
-**Rule for the coach:** do not re-suggest a rejected food. Use bread, bananas, honey, skyr.
+### 4. He asks "why", he does not refuse
+On 5 and 6 Sep he asked twice why orange juice was in the plan. That was a question about the
+reasoning, not a rejection — he drank two glasses that evening and later a third, and on 8 Sep he
+said plainly that he likes orange juice. The coach read it as a refusal and was wrong.
+**Rule for the coach:** when he asks why, give the reason in one line and keep the prescription.
+Never downgrade a food to "optional" just because he questioned it. Only treat something as refused
+when he says so (calves: "I am happy with them" — that is a refusal).
+Orange juice is a liked food and a useful one: liquid carbs that cost no stomach space, which is
+exactly his bottleneck.
 
 ### 5. What is actually in the house
 Rice, pasta, sauces, eggs, skyr, blueberries, beef, sardines, tuna, mozzarella, bread, bananas.
