@@ -20,7 +20,7 @@ DB = ROOT / "data" / "db"
 MUSCLES = {
     "bench": ["chest", "triceps"], "incdb": ["chest", "triceps"], "dips": ["chest", "triceps"],
     "pecdeck": ["chest"], "cablefly": ["chest"],
-    "csrow": ["back"], "dbrow": ["back"], "cablerow": ["back"], "pullup": ["back", "biceps"],
+    "csrow": ["back"], "dbrow": ["back"], "tbarrow": ["back"], "cablerow": ["back"], "pullup": ["back", "biceps"],
     "sapd": ["back"], "revpec": ["rear delts"],
     "ohp": ["shoulders", "triceps"], "dbohp": ["shoulders", "triceps"], "dblat": ["side delts"],
     "ezcurl": ["biceps"], "inccurl": ["biceps"], "hammer": ["biceps"],
