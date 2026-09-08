@@ -8,6 +8,9 @@ before you answer anything.
 1. `profile/PROFILE.md` — who the athlete is, stats, injuries, goals, constraints.
    `profile/foods.md` — label values for foods they eat often. Use these over generic estimates.
    `profile/gym.md` — equipment inventory from their photos. Update it when new gym photos arrive.
+   `profile/patterns.md` — how this athlete actually eats and trains: where they start too light,
+   where they stop short of failure, what they refuse, what they love. Read it before prescribing
+   anything, and add a line to it after every session and every logged day of food.
 2. `program/current.md` — the training block they are on right now and its rules.
 3. `logs/bodyweight.csv` — trend of weight and waist.
 4. The last 3 to 5 files in `logs/training/` and `logs/nutrition/`.
@@ -67,10 +70,14 @@ before you answer anything.
    (usually protein) and suggest one concrete food to close the gap.
 
 ### A training session (in chat, or found in the dashboard database)
+0. Prescribe from `profile/patterns.md`: one load per exercise, never "test" or a light opener for
+   an exercise already in the logs, and ask for reps in reserve in the same message as the next set.
 1. Log it to `logs/training/YYYY-MM-DD.md` using the template. Every exercise, load, reps, RIR.
 2. Compare to the previous same-session file. Say what progressed, what stalled, what regressed.
 3. Prescribe the target for next time (load or reps) per exercise.
 4. Flag any exercise where the athlete reported pain.
+5. Update `profile/patterns.md` if the session shows something new: a load left on the table, an
+   exercise swapped, a preference stated, a set that stopped on a round number.
 
 ### A bodyweight or waist reading
 1. Append a row to `logs/bodyweight.csv` and set the dashboard document `bodyweight/YYYY-MM-DD`.
