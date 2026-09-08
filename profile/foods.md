@@ -15,6 +15,7 @@ Use these instead of generic estimates when the food appears again.
 | Baguette céréales, Carrefour Le Marché (whole loaf ~260 g) | 255 | 9 | 45 | 3.5 | typical multigrain baguette, no panel on the bag | 2026-09-07 |
 | Skyr Arla natural 0 % fat (1 kg tub) | 60 | 10 | 4 | 0.2 | label | 2026-09-08 |
 | Peanut butter Andros Be Nuts, creamy (525 g jar) | 624 | 22 | 22 | 48 | label; 7.8 g fibre, 15 g sugars | 2026-09-08 |
+| Peanut butter Andros Be Nuts, crunchy / croquant (525 g jar) | 622 | 23 | 20 | 48 | label; 8.2 g fibre, 13 g sugars. Used in the evening bowl on 8 Sep | 2026-09-08 |
 | Orange juice, Carrefour 1 L (per 100 ml) | 42 | 0 | 9 | 0 | label | 2026-09-08 |
 | Honey (per 100 g) | 304 | 0 | 82 | 0 | standard | 2026-09-08 |
 
@@ -50,7 +51,7 @@ American sliced bread (14 slices) · UHT semi-skimmed milk 3 × 1 L · Simpl pur
 Marché beef 253 g · carrots 1 kg · tomatoes on the vine · oranges 750 g · lemons 500 g · Pink Lady
 apples · sparkling water 6 × 1.15 L.
 
-Also in the house: Andros Be Nuts peanut butter 525 g (skyr 1 kg tub finished 8 Sep), honey, blueberries,
+Also in the house: Andros Be Nuts peanut butter, creamy 525 g and crunchy 525 g (skyr 1 kg tub finished 8 Sep), honey, blueberries,
 rumsteck (~690 g left), Petit Navire tuna cans, sardines Gonidec, Barilla farfalle ×2 and linguine,
 Barilla Bolognese, pesto rosso, Old El Paso fajita sauce, tortilla wraps, Tanoshi bulgogi sauce,
 Carrefour Extra basmati (cooking bags), potatoes, mozzarella 3 × 125 g, hard cheese, Elle & Vire
