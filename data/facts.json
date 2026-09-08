@@ -90,7 +90,9 @@
       "18:30",
       "21:30"
     ],
-    "standard_snack": "bowl of skyr + 2 tbsp peanut butter + 2 tbsp honey + blueberries + a glass of juice = 785 kcal, 53 g protein"
+    "standard_snack": "bowl of skyr + 2 tbsp peanut butter + 2 tbsp honey + blueberries + a glass of juice = 785 kcal, 53 g protein",
+    "peanut_butter_rule": "2 tablespoons per bowl, max 3 per day - he doubles it when not told (4 tbsp on 8 Sep = 31 g fat)",
+    "skyr_per_day_g": 1000
   },
   "kitchen_labels_per_100g": {
     "eggs_carrefour_plein_air": {
@@ -291,7 +293,8 @@
     "outstanding": [
       "whey protein 1 kg",
       "chicken breast 1 kg",
-      "salmon or white fish 500 g"
+      "salmon or white fish 500 g",
+      "skyr 1 kg x2 (tub finished 8 Sep, one tub lasts one day)"
     ],
     "arriving_2026-09-09": [
       "Quaker oats 2 x 800 g",

@@ -166,6 +166,14 @@ target and carbs above 300 before the evening. The difference to the three days 
 egg-and-milk breakfast, potatoes instead of a second rice bag, the skyr bowl as a real meal, juice
 with two meals.
 
+### 9b. The fat leak has moved from eggs to peanut butter
+8 Sep: 2 tbsp at 15:30, then 4 tbsp in the evening bowl - 6 tablespoons, about 600 kcal and 46 g
+of fat, and the day finished 24 g over on fat despite a clean breakfast. Peanut butter is the food
+he over-pours when the spoon is in his hand.
+**Rule for the coach:** state "2 tablespoons" every time the bowl is prescribed, and say that the
+third spoon of honey is free but the third spoon of peanut butter is not. Skyr itself is unlimited:
+a full kilo in a day is 600 kcal and 100 g protein, no problem at all.
+
 ### 10. He shops through Uber Eats (Carrefour), and he does buy what is asked for
 8 Sep: peanut butter, skyr 1 kg, juice ×2, bread ×3, milk ×3, eggs 15 arrived; oats ×2 and yfood ×8
 ordered for the next day. Whey is the only item asked for three times and still not bought.

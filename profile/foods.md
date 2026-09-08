@@ -50,7 +50,7 @@ American sliced bread (14 slices) · UHT semi-skimmed milk 3 × 1 L · Simpl pur
 Marché beef 253 g · carrots 1 kg · tomatoes on the vine · oranges 750 g · lemons 500 g · Pink Lady
 apples · sparkling water 6 × 1.15 L.
 
-Also in the house: Arla skyr 1 kg tub, Andros Be Nuts peanut butter 525 g, honey, blueberries,
+Also in the house: Andros Be Nuts peanut butter 525 g (skyr 1 kg tub finished 8 Sep), honey, blueberries,
 rumsteck (~690 g left), Petit Navire tuna cans, sardines Gonidec, Barilla farfalle ×2 and linguine,
 Barilla Bolognese, pesto rosso, Old El Paso fajita sauce, tortilla wraps, Tanoshi bulgogi sauce,
 Carrefour Extra basmati (cooking bags), potatoes, mozzarella 3 × 125 g, hard cheese, Elle & Vire
