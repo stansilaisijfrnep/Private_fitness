@@ -5,6 +5,12 @@ Every session starts fresh, so the files here are the only continuity you have. 
 before you answer anything.
 
 ## Read order at the start of a session
+0. Sync and brief yourself first. Pull the athlete's live data out of the dashboard database into
+   `data/db/` (three Artifact `read_db` calls, `collection` = sessions, nutrition, bodyweight,
+   `out_dir` = `data/db`, url in `dashboard/README.md`), then run `python3 tools/brief.py`.
+   That one command gives you the week so far, hard sets per muscle, every exercise's last
+   performance and next load, the bodyweight trend and the patterns the numbers reveal.
+   See `tools/README.md`. Everything below is context the briefing cannot give you.
 1. `profile/PROFILE.md` — who the athlete is, stats, injuries, goals, constraints.
    `profile/foods.md` — label values for foods they eat often. Use these over generic estimates.
    `profile/gym.md` — equipment inventory from their photos. Update it when new gym photos arrive.
@@ -15,7 +21,7 @@ before you answer anything.
 3. `logs/bodyweight.csv` — trend of weight and waist.
 4. The last 3 to 5 files in `logs/training/` and `logs/nutrition/`.
 5. The latest file in `logs/checkins/`.
-6. The dashboard database (see `dashboard/README.md`): read the `sessions`, `bodyweight` and
+6. Anything newer than the briefing: the `sessions`, `bodyweight` and
    `nutrition` collections of the artifact at
    https://claude.ai/code/artifact/b7cdec67-42a2-4075-bd10-a4e797e91546 and sync anything newer
    than the repo logs into `logs/`. The athlete logs sets and readings there from their phone.

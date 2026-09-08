@@ -1,0 +1,176 @@
+{
+  "bodyweight": null,
+  "date": "2026-09-05",
+  "dayKey": "upper",
+  "duration": null,
+  "energy": null,
+  "exercises": [
+    {
+      "k": "bench",
+      "n": "Chest press, Hammer Strength iso-lateral (kg per side)",
+      "note": "Hammer Strength iso-lateral chest press instead of barbell bench. kg per side. 25 too heavy for the range, 20 right.",
+      "sets": [
+        {
+          "load": 25,
+          "reps": 6,
+          "rir": null
+        },
+        {
+          "load": 20,
+          "reps": 7,
+          "rir": null
+        },
+        {
+          "load": 20,
+          "reps": 8,
+          "rir": null
+        },
+        {
+          "load": 20,
+          "reps": 8,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "csrow",
+      "n": "Vertical row, Nautilus Impact (stack)",
+      "note": "Stack kg. 40 felt light. 60 is the working weight.",
+      "sets": [
+        {
+          "load": 40,
+          "reps": 9,
+          "rir": null
+        },
+        {
+          "load": 50,
+          "reps": 10,
+          "rir": null
+        },
+        {
+          "load": 60,
+          "reps": 9,
+          "rir": null
+        },
+        {
+          "load": 60,
+          "reps": 8,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "pullup",
+      "n": "Pull-up, wide grip (added kg)",
+      "note": "Wide grip. +5 kg too much after pressing and rowing, dropped to bodyweight.",
+      "sets": [
+        {
+          "load": 5,
+          "reps": 4,
+          "rir": null
+        },
+        {
+          "load": 0,
+          "reps": 6,
+          "rir": null
+        },
+        {
+          "load": 0,
+          "reps": 5,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "dbohp",
+      "n": "Seated dumbbell shoulder press (kg per hand)",
+      "note": "12.5 too light, 15 right.",
+      "sets": [
+        {
+          "load": 12.5,
+          "reps": 12,
+          "rir": null
+        },
+        {
+          "load": 15,
+          "reps": 9,
+          "rir": null
+        },
+        {
+          "load": 15,
+          "reps": 9,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "dblat",
+      "n": "Dumbbell lateral raise (kg per hand)",
+      "note": "Dumbbells instead of cable. Extra fourth set to failure.",
+      "sets": [
+        {
+          "load": 10,
+          "reps": 12,
+          "rir": null
+        },
+        {
+          "load": 10,
+          "reps": 10,
+          "rir": null
+        },
+        {
+          "load": 7.5,
+          "reps": 10,
+          "rir": null
+        },
+        {
+          "load": 7.5,
+          "reps": 14,
+          "rir": 0
+        }
+      ]
+    },
+    {
+      "k": "ezcurl",
+      "n": "EZ bar curl",
+      "note": "",
+      "sets": [
+        {
+          "load": 25,
+          "reps": 12,
+          "rir": null
+        },
+        {
+          "load": 30,
+          "reps": 12,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "pushdown",
+      "n": "Rope triceps pushdown (stack)",
+      "note": "",
+      "sets": [
+        {
+          "load": 20,
+          "reps": 15,
+          "rir": null
+        },
+        {
+          "load": 25,
+          "reps": 12,
+          "rir": null
+        }
+      ]
+    }
+  ],
+  "name": "Upper",
+  "notes": "Session 1 of block 1, logged from chat. 22 sets, no pain. RIR not reported.",
+  "savedAt": "2026-09-05T15:30:00.000Z",
+  "sleep": null,
+  "source": "coach",
+  "startedAt": "2026-09-05T13:30:00.000Z",
+  "type": "lift",
+  "week": 1
+}

@@ -1,0 +1,110 @@
+{
+  "carbs": 303,
+  "date": "2026-09-07",
+  "fat": 102,
+  "kcal": 2700,
+  "meals": [
+    {
+      "carbs": 1,
+      "fat": 20,
+      "kcal": 255,
+      "name": "3 scrambled eggs in olive oil",
+      "protein": 20,
+      "slot": "breakfast",
+      "time": "09:00"
+    },
+    {
+      "carbs": 25,
+      "fat": 2,
+      "kcal": 130,
+      "name": "2 thin slices of bread",
+      "protein": 4,
+      "slot": "breakfast",
+      "time": "09:00"
+    },
+    {
+      "carbs": 27,
+      "fat": 0,
+      "kcal": 105,
+      "name": "Banana",
+      "protein": 1,
+      "slot": "breakfast",
+      "time": "09:30"
+    },
+    {
+      "carbs": 2,
+      "fat": 1,
+      "kcal": 25,
+      "name": "Coffee with a splash of milk",
+      "protein": 1,
+      "slot": "breakfast",
+      "time": "09:30"
+    },
+    {
+      "carbs": 100,
+      "fat": 11,
+      "kcal": 600,
+      "name": "Leftover farfalle, Bolognese and pesto rosso (Tupperware)",
+      "protein": 20,
+      "slot": "lunch",
+      "time": "12:00"
+    },
+    {
+      "carbs": 18,
+      "fat": 12,
+      "kcal": 205,
+      "name": "Nutramino chocolate protein wafer, 39 g",
+      "protein": 8,
+      "slot": "snack",
+      "time": "14:30"
+    },
+    {
+      "carbs": 0,
+      "fat": 11,
+      "kcal": 190,
+      "name": "Sardines, whole tin drained",
+      "protein": 21,
+      "slot": "dinner",
+      "time": "19:30"
+    },
+    {
+      "carbs": 60,
+      "fat": 4,
+      "kcal": 330,
+      "name": "Half a cereal baguette (~130 g)",
+      "protein": 11,
+      "slot": "dinner",
+      "time": "19:30"
+    },
+    {
+      "carbs": 0,
+      "fat": 38,
+      "kcal": 535,
+      "name": "Ground beef 15 %, 250 g",
+      "protein": 48,
+      "slot": "dinner",
+      "time": "20:00"
+    },
+    {
+      "carbs": 55,
+      "fat": 1,
+      "kcal": 245,
+      "name": "Basmati rice, ~0.7 bag",
+      "protein": 6,
+      "slot": "dinner",
+      "time": "20:00"
+    },
+    {
+      "carbs": 15,
+      "fat": 2,
+      "kcal": 80,
+      "name": "Bulgogi sauce, ~40 ml",
+      "protein": 2,
+      "slot": "dinner",
+      "time": "20:00"
+    }
+  ],
+  "note": "Push day",
+  "protein": 142,
+  "source": "coach"
+}

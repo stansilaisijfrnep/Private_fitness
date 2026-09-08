@@ -1,0 +1,119 @@
+{
+  "carbs": 381,
+  "date": "2026-09-05",
+  "fat": 88,
+  "kcal": 3136,
+  "meals": [
+    {
+      "carbs": 71,
+      "fat": 60,
+      "kcal": 1100,
+      "name": "6 scrambled eggs in olive oil, 2 slices country bread, saucisson, tomato, hard cheese",
+      "protein": 66,
+      "slot": "breakfast",
+      "time": "morning"
+    },
+    {
+      "carbs": 10,
+      "fat": 7,
+      "kcal": 130,
+      "name": "Big milk coffee",
+      "protein": 7,
+      "slot": "breakfast",
+      "time": "morning"
+    },
+    {
+      "carbs": 44,
+      "fat": 1,
+      "kcal": 266,
+      "name": "Tuna-rice burrito, 4/5 of one",
+      "protein": 20,
+      "slot": "lunch",
+      "time": "midday"
+    },
+    {
+      "carbs": 27,
+      "fat": 0,
+      "kcal": 105,
+      "name": "Banana",
+      "protein": 1,
+      "slot": "lunch",
+      "time": "midday"
+    },
+    {
+      "carbs": 1,
+      "fat": 0,
+      "kcal": 5,
+      "name": "Coffee, black",
+      "protein": 0,
+      "slot": "lunch",
+      "time": "midday"
+    },
+    {
+      "carbs": 0,
+      "fat": 17,
+      "kcal": 405,
+      "name": "Rumsteak 300 g, teaspoon of oil",
+      "protein": 63,
+      "slot": "dinner",
+      "time": "after gym"
+    },
+    {
+      "carbs": 27,
+      "fat": 0,
+      "kcal": 105,
+      "name": "Banana",
+      "protein": 1,
+      "slot": "dinner",
+      "time": "evening"
+    },
+    {
+      "carbs": 27,
+      "fat": 1,
+      "kcal": 210,
+      "name": "Skyr strawberry, 2 pots",
+      "protein": 24,
+      "slot": "dinner",
+      "time": "evening"
+    },
+    {
+      "carbs": 46,
+      "fat": 0,
+      "kcal": 200,
+      "name": "Orange-carrot-lemon juice, 2 glasses",
+      "protein": 0,
+      "slot": "dinner",
+      "time": "evening"
+    },
+    {
+      "carbs": 70,
+      "fat": 1,
+      "kcal": 340,
+      "name": "Baguette, half",
+      "protein": 11,
+      "slot": "snack",
+      "time": "late"
+    },
+    {
+      "carbs": 35,
+      "fat": 1,
+      "kcal": 170,
+      "name": "Baguette, quarter",
+      "protein": 6,
+      "slot": "snack",
+      "time": "late"
+    },
+    {
+      "carbs": 23,
+      "fat": 0,
+      "kcal": 100,
+      "name": "Juice, 1 glass",
+      "protein": 0,
+      "slot": "snack",
+      "time": "late"
+    }
+  ],
+  "note": "day 1 closed",
+  "protein": 199,
+  "source": "coach"
+}

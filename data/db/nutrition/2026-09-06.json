@@ -1,0 +1,128 @@
+{
+  "carbs": 399,
+  "date": "2026-09-06",
+  "fat": 116,
+  "kcal": 3269,
+  "meals": [
+    {
+      "carbs": 1,
+      "fat": 25,
+      "kcal": 325,
+      "name": "4 scrambled eggs in olive oil",
+      "protein": 26,
+      "slot": "breakfast",
+      "time": "morning"
+    },
+    {
+      "carbs": 25,
+      "fat": 2,
+      "kcal": 130,
+      "name": "2 thin slices of bread",
+      "protein": 4,
+      "slot": "breakfast",
+      "time": "morning"
+    },
+    {
+      "carbs": 14,
+      "fat": 11,
+      "kcal": 190,
+      "name": "Big glass of whole milk",
+      "protein": 10,
+      "slot": "breakfast",
+      "time": "morning"
+    },
+    {
+      "carbs": 1,
+      "fat": 0,
+      "kcal": 5,
+      "name": "Coffee",
+      "protein": 0,
+      "slot": "breakfast",
+      "time": "morning"
+    },
+    {
+      "carbs": 54,
+      "fat": 1,
+      "kcal": 210,
+      "name": "2 bananas",
+      "protein": 2,
+      "slot": "breakfast",
+      "time": "morning"
+    },
+    {
+      "carbs": 25,
+      "fat": 0,
+      "kcal": 110,
+      "name": "Jus d'orange pressé, café",
+      "protein": 2,
+      "slot": "snack",
+      "time": "late morning"
+    },
+    {
+      "carbs": 7,
+      "fat": 5,
+      "kcal": 90,
+      "name": "Flat white",
+      "protein": 5,
+      "slot": "snack",
+      "time": "late morning"
+    },
+    {
+      "carbs": 170,
+      "fat": 18,
+      "kcal": 1000,
+      "name": "Farfalle with Barilla Bolognese and pesto rosso, 2.5 bowls (about 30 % of a 750 g dry batch)",
+      "protein": 34,
+      "slot": "lunch",
+      "time": "afternoon"
+    },
+    {
+      "carbs": 5,
+      "fat": 4,
+      "kcal": 65,
+      "name": "Coffee with milk",
+      "protein": 3,
+      "slot": "lunch",
+      "time": "afternoon"
+    },
+    {
+      "carbs": 11,
+      "fat": 4,
+      "kcal": 164,
+      "name": "Barebells chocolate milkshake, 330 ml",
+      "protein": 24,
+      "slot": "snack",
+      "time": "after gym"
+    },
+    {
+      "carbs": 40,
+      "fat": 34,
+      "kcal": 600,
+      "name": "Western BBQ'n Bacon burger, small size (2 patties, cheese, bacon, onions, BBQ sauce)",
+      "protein": 34,
+      "slot": "dinner",
+      "time": "evening"
+    },
+    {
+      "carbs": 32,
+      "fat": 12,
+      "kcal": 250,
+      "name": "Small fries",
+      "protein": 3,
+      "slot": "dinner",
+      "time": "evening"
+    },
+    {
+      "carbs": 14,
+      "fat": 0,
+      "kcal": 130,
+      "name": "Small bowl of skyr with blueberries",
+      "protein": 17,
+      "slot": "snack",
+      "time": "late"
+    }
+  ],
+  "note": "day 2 closed",
+  "protein": 164,
+  "source": "coach"
+}
