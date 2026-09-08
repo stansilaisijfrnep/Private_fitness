@@ -56,5 +56,10 @@ Barilla Bolognese, pesto rosso, Old El Paso fajita sauce, tortilla wraps, Tanosh
 Carrefour Extra basmati (cooking bags), potatoes, mozzarella 3 × 125 g, hard cheese, Elle & Vire
 cream, cornichons, avocados, bananas, 1664 beer.
 
-Still missing for the plan: oats and whey (asked for three times, still not bought). Protein stock
-is thin: 210 g chicken plus 253 g beef is about 100 g of protein in total, roughly half a day.
+Ordered for Wed 9 Sep, 11:00: Quaker oats 2 × 800 g · yfood ready-to-drink meals 8 × 500 ml
+(5 cold brew, 2 chocolate, 1 vanilla, ~500 kcal and 33 g protein each) · Wasa Protein+ crispbread
+200 g · sardines in olive oil 2 × 135 g · Vittel water.
+
+Still missing for the plan: whey (oats finally ordered 8 Sep). Protein stock is thin: 210 g chicken
+plus 253 g beef is about 100 g of protein in total, roughly half a day. Needs ~1.2 kg of meat or
+fish per week at 170 g protein a day.
