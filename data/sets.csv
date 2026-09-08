@@ -57,3 +57,22 @@ date,day,week,exercise_key,exercise,set_no,load_kg,reps,rir,e1rm_kg,exercise_not
 2026-09-07,push,1,pushdown,"Triceps pushdown, straight bar (stack)",1,25,10,,33.3,Straight bar instead of the overhead cable extension.
 2026-09-07,push,1,pushdown,"Triceps pushdown, straight bar (stack)",2,20,10,,26.7,Straight bar instead of the overhead cable extension.
 2026-09-07,push,1,pushdown,"Triceps pushdown, straight bar (stack)",3,20,10,,26.7,Straight bar instead of the overhead cable extension.
+2026-09-08,pull,1,pullup,"Pull-up, wide grip (added kg)",1,10,6,0,12.0,"+10 kg is the new working load, up from +5×4 on 5 Sep. Set 3 ran straight into a bodyweight drop set."
+2026-09-08,pull,1,pullup,"Pull-up, wide grip (added kg)",2,10,4.5,0,11.5,"+10 kg is the new working load, up from +5×4 on 5 Sep. Set 3 ran straight into a bodyweight drop set."
+2026-09-08,pull,1,pullup,"Pull-up, wide grip (added kg)",3,10,4,0,11.3,"+10 kg is the new working load, up from +5×4 on 5 Sep. Set 3 ran straight into a bodyweight drop set."
+2026-09-08,pull,1,pullup,"Pull-up, wide grip (added kg)",4,0,3,0,,"+10 kg is the new working load, up from +5×4 on 5 Sep. Set 3 ran straight into a bodyweight drop set."
+2026-09-08,pull,1,tbarrow,T-bar row,1,40,8,,50.7,"20 kg was the warm-up. 35 kg was moved with body English, so set 3 went to 30 kg strict for 12. Strict working load is 30 kg."
+2026-09-08,pull,1,tbarrow,T-bar row,2,35,8.5,,44.9,"20 kg was the warm-up. 35 kg was moved with body English, so set 3 went to 30 kg strict for 12. Strict working load is 30 kg."
+2026-09-08,pull,1,tbarrow,T-bar row,3,30,12,,42.0,"20 kg was the warm-up. 35 kg was moved with body English, so set 3 went to 30 kg strict for 12. Strict working load is 30 kg."
+2026-09-08,pull,1,cablerow,"Seated cable row, close grip (stack)",1,50,12,,70.0,"First time. 50×12 was too light, 55 is the working load."
+2026-09-08,pull,1,cablerow,"Seated cable row, close grip (stack)",2,55,10,1,73.3,"First time. 50×12 was too light, 55 is the working load."
+2026-09-08,pull,1,cablerow,"Seated cable row, close grip (stack)",3,55,8,0,69.7,"First time. 50×12 was too light, 55 is the working load."
+2026-09-08,pull,1,ezcurl,EZ bar curl (total load),1,30,10,,40.0,10 kg per side plus the bar. Supersetted with hammer curls.
+2026-09-08,pull,1,ezcurl,EZ bar curl (total load),2,30,10,,40.0,10 kg per side plus the bar. Supersetted with hammer curls.
+2026-09-08,pull,1,ezcurl,EZ bar curl (total load),3,30,8,0,38.0,10 kg per side plus the bar. Supersetted with hammer curls.
+2026-09-08,pull,1,hammer,Hammer curl (kg per hand),1,17.5,8,,22.2,"17.5 kg per hand on the first set, far above the 10 kg the plan had."
+2026-09-08,pull,1,hammer,Hammer curl (kg per hand),2,15,12,,21.0,"17.5 kg per hand on the first set, far above the 10 kg the plan had."
+2026-09-08,pull,1,hammer,Hammer curl (kg per hand),3,15,12,0,21.0,"17.5 kg per hand on the first set, far above the 10 kg the plan had."
+2026-09-08,pull,1,revpec,Reverse pec deck (stack),1,20,12,,28.0,First time. 25 kg for 15 was the best set; 25 kg is the working load.
+2026-09-08,pull,1,revpec,Reverse pec deck (stack),2,25,15,,37.5,First time. 25 kg for 15 was the best set; 25 kg is the working load.
+2026-09-08,pull,1,revpec,Reverse pec deck (stack),3,20,15,0,30.0,First time. 25 kg for 15 was the best set; 25 kg is the working load.

@@ -1,0 +1,128 @@
+{
+  "carbs": 342,
+  "date": "2026-09-08",
+  "fat": 71,
+  "kcal": 2500,
+  "meals": [
+    {
+      "carbs": 1,
+      "fat": 20,
+      "kcal": 255,
+      "name": "3 eggs",
+      "protein": 20,
+      "slot": "breakfast",
+      "time": "09:00"
+    },
+    {
+      "carbs": 44,
+      "fat": 0,
+      "kcal": 170,
+      "name": "Banana with honey",
+      "protein": 1,
+      "slot": "breakfast",
+      "time": "09:00"
+    },
+    {
+      "carbs": 2,
+      "fat": 1,
+      "kcal": 25,
+      "name": "Coffee",
+      "protein": 1,
+      "slot": "breakfast",
+      "time": "09:00"
+    },
+    {
+      "carbs": 118,
+      "fat": 17,
+      "kcal": 670,
+      "name": "Mashed potato with butter, 1 1/4 bowls",
+      "protein": 12,
+      "slot": "lunch",
+      "time": "13:00"
+    },
+    {
+      "carbs": 18,
+      "fat": 1,
+      "kcal": 270,
+      "name": "Skyr, almost a full bowl (~450 g)",
+      "protein": 45,
+      "slot": "snack",
+      "time": "15:30"
+    },
+    {
+      "carbs": 7,
+      "fat": 15,
+      "kcal": 200,
+      "name": "Peanut butter, 2 tbsp",
+      "protein": 7,
+      "slot": "snack",
+      "time": "15:30"
+    },
+    {
+      "carbs": 34,
+      "fat": 0,
+      "kcal": 128,
+      "name": "Honey, 2 tbsp",
+      "protein": 0,
+      "slot": "snack",
+      "time": "15:30"
+    },
+    {
+      "carbs": 17,
+      "fat": 1,
+      "kcal": 80,
+      "name": "Blueberries, 2 handfuls",
+      "protein": 1,
+      "slot": "snack",
+      "time": "15:30"
+    },
+    {
+      "carbs": 23,
+      "fat": 0,
+      "kcal": 105,
+      "name": "Orange juice, 1 glass",
+      "protein": 0,
+      "slot": "snack",
+      "time": "15:30"
+    },
+    {
+      "carbs": 32,
+      "fat": 1,
+      "kcal": 170,
+      "name": "Quarter of the French baguette",
+      "protein": 6,
+      "slot": "dinner",
+      "time": "19:00"
+    },
+    {
+      "carbs": 0,
+      "fat": 15,
+      "kcal": 215,
+      "name": "Rest of Monday's ground beef",
+      "protein": 19,
+      "slot": "dinner",
+      "time": "19:00"
+    },
+    {
+      "carbs": 23,
+      "fat": 1,
+      "kcal": 105,
+      "name": "Rest of Monday's rice",
+      "protein": 2,
+      "slot": "dinner",
+      "time": "19:00"
+    },
+    {
+      "carbs": 23,
+      "fat": 0,
+      "kcal": 105,
+      "name": "Orange juice, 1 glass",
+      "protein": 0,
+      "slot": "dinner",
+      "time": "19:00"
+    }
+  ],
+  "note": "Pull day, training in the afternoon",
+  "protein": 114,
+  "source": "coach"
+}
