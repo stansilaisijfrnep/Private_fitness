@@ -6,6 +6,7 @@
 | 2026-09-05 | Block 1 written at intake | 5 days available, 60 to 75 min, upper body priority, legs from zero, ACL history, size goal |
 | 2026-09-05 | Upper day: barbell bench replaced by Hammer Strength iso-lateral chest press (kg per side), chest-supported row is the Nautilus Impact vertical row (stack), pull-ups are bodyweight wide grip | Athlete's choice on session 1. Machine press is fine for the size goal and needs no spotter. Barbell bench returns as a tested lift in block 2. |
 | 2026-09-06 | Lower A after session 1: seated leg press (Nautilus, stack) replaces hack squat (none in the gym), hanging leg raise replaces cable crunch, calves removed from both leg days at the athlete's request, squat with heels on 1.25 kg plates | First leg session. Depth needed heel elevation. Athlete is happy with his calves and declined the work. |
+| 2026-09-08 | Pull day: EZ bar curl replaces the incline dumbbell curl, hammer curl start raised to 17.5 kg | Athlete used the EZ bar in both curl sessions and hammered 17.5 kg per hand for 8. The prescribed 10 kg was far too light. |
 | 2026-09-08 | Pull day: T-bar row replaces the single-arm dumbbell row | Athlete's choice in session 1 of Pull. Bilateral, loads heavier, same muscles. 40 kg for 8 on the first working set. |
 | 2026-09-08 | Progression now reads the heaviest load handled, not the last set | The athlete ramps down when tired (pull-ups +5 kg then bodyweight, incline 22 then 20). Reading the last set prescribed less than he can already lift. |
 | 2026-09-08 | Every Pull exercise given a real start load, no more "test" | patterns.md rule: this athlete treats an open opener as a warm-up and finds the weight only on set 2 or 3. One number per exercise from now on. |
@@ -100,8 +101,8 @@ builder yet, the hack squat is. The squat is being learned.
 | 3 | Seated cable row, close grip, stack | 3 x 10-12 | 1-2 | 50 kg | chest-supported row |
 | 4 | Straight-arm pulldown, stack | 2 x 12-15 | 0-1 | 20 kg | dumbbell pullover |
 | 5 | Reverse pec deck, stack | 3 x 15-20 | 0-1 | 20 kg | face pull |
-| 6a | Incline dumbbell curl, kg per hand | 3 x 10-12 | 0-1 | 8 kg | preacher curl |
-| 6b | Hammer curl, kg per hand | 2 x 12-15 | 0-1 | 10 kg | cable curl |
+| 6a | EZ bar curl, total load | 3 x 10-12 | 0-1 | 30 kg (8 Sep) | incline dumbbell curl 8 kg per hand |
+| 6b | Hammer curl, kg per hand | 2 x 10-15 | 0-1 | 17.5 kg (8 Sep) | cable curl |
 
 20 work sets.
 
