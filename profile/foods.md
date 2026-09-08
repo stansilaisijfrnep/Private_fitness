@@ -42,11 +42,19 @@ Rules: multiply by the fraction he reports (1 1/4 bowls = 625 ml). Dense mixed d
 than dry grains, loose items like potato wedges pack lighter. These are ±15 % estimates — when the
 food has a label, the label wins. Always say in one line which bowl figure was used.
 
-## Kitchen inventory (photos 2026-09-05, update when it changes)
-Pantry: Petit Navire tuna cans (several), Barilla farfalle 500 g ×2, Barilla linguine, Carrefour Extra
-basmati rice (4 × 125 g cooking bags), Barilla Bolognese sauce, Barilla pesto rosso, Old El Paso fajita
-sauce, tortilla wraps, potatoes.
-Fridge: rumsteck 1.24 kg lean beef (about 940 g left after 5 Sep), ground beef 15 % fat 350 g (use by 07.09), mozzarella 3 × 125 g, skyr maxi tub, blueberries,
-2 × 12 plein air eggs, hard cheese block, Elle & Vire cream 30 cl, cornichons, burger sauce, milk,
-tomatoes or onions in a net, avocados, San Pellegrino, 1664 beer.
-Missing for the plan: oats, whey, peanut butter, bananas, chicken breast, white fish, bread, juice.
+## Kitchen inventory (last update 2026-09-08, Uber Eats delivery)
+
+Delivered 8 Sep: French baguette 250 g · Harrys extra soft sliced bread (24 slices) · Harrys
+American sliced bread (14 slices) · UHT semi-skimmed milk 3 × 1 L · Simpl pure pressed orange juice
+2 × 1 L · Carrefour Bio free-range eggs (15) · Le Gaulois chicken tenders 210 g · Carrefour Le
+Marché beef 253 g · carrots 1 kg · tomatoes on the vine · oranges 750 g · lemons 500 g · Pink Lady
+apples · sparkling water 6 × 1.15 L.
+
+Also in the house: Arla skyr 1 kg tub, Andros Be Nuts peanut butter 525 g, honey, blueberries,
+rumsteck (~690 g left), Petit Navire tuna cans, sardines Gonidec, Barilla farfalle ×2 and linguine,
+Barilla Bolognese, pesto rosso, Old El Paso fajita sauce, tortilla wraps, Tanoshi bulgogi sauce,
+Carrefour Extra basmati (cooking bags), potatoes, mozzarella 3 × 125 g, hard cheese, Elle & Vire
+cream, cornichons, avocados, bananas, 1664 beer.
+
+Still missing for the plan: oats and whey (asked for three times, still not bought). Protein stock
+is thin: 210 g chicken plus 253 g beef is about 100 g of protein in total, roughly half a day.
