@@ -244,11 +244,31 @@ def main():
     for f in flags:
         print("  " + f if not f.startswith("    ") else f)
 
+    # ---- facts that must never be forgotten ----
+    ff = ROOT / "data" / "facts.json"
+    if ff.exists():
+        F = json.loads(ff.read_text())
+        print("\nFACTS (data/facts.json)")
+        u = F.get("units", {})
+        print(f"  bowl = {u.get('bowl_ml')} ml · 1 tbsp PB {u.get('tablespoon_peanut_butter_g')} g · 1 tbsp honey {u.get('tablespoon_honey_g')} g · glass {u.get('glass_ml')} ml · rice bag {u.get('rice_bag_dry_g')} g dry")
+        print(f"  pull-ups in added kg · Hammer press per side · dumbbells per hand · machines stack kg")
+        print(f"  progression: {F.get('progression',{}).get('working_load','')}")
+        th = F.get("training_habits", {})
+        if th:
+            print(f"  trains {th.get('weekday_session_time','?')} · partials → {th.get('reports_partials_as','')}")
+        print(f"  likes: {', '.join(F.get('likes', [])[:8])}")
+        print(f"  refuses: {', '.join(F.get('refuses', []))}")
+        sp = F.get("shopping", {})
+        if sp.get("outstanding"):
+            print(f"  still to buy: {', '.join(sp['outstanding'])}")
+        for q in F.get("open_questions", []):
+            print(f"  open: {q}")
+
     # ---- what is next ----
     idx = order.index(sessions[-1]["dayKey"]) if sessions and sessions[-1]["dayKey"] in order else -1
     nxt = order[(idx + 1) % len(order)]
     done_today = any(s["date"] == today.isoformat() for s in sessions)
-    print(f"\nNEXT SESSION: {P['days'][nxt]['name']} — {'already trained today' if done_today else 'today'}"
+    print(f"\nNEXT SESSION: {P['days'][nxt]['name']} — {'tomorrow, today is done' if done_today else 'today'}"
           f" ({len(P['days'][nxt]['ex'])} exercises)")
     print("Read profile/patterns.md before prescribing anything.")
 

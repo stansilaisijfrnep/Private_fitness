@@ -62,6 +62,39 @@ no stimulus (dips set 3 = 1 rep).
 **Rule for the coach:** when he asks for an extra set, say yes on machines and isolation, no on the
 exercise that already failed.
 
+### 5b. Exercise order is worth about 5 kg on his pull-ups
+5 Sep, pull-ups fourth after pressing and rowing: +5 kg × 4, then bodyweight.
+8 Sep, pull-ups first and fresh: +10 kg × 6, 4.5, 4. Double the added load, more reps.
+**Rule for the coach:** the lift that matters most goes first. On Push that is now the shoulder
+press (his weak point), on Pull it stays the pull-up.
+
+### 5c. His technique calls are trustworthy
+T-bar row 8 Sep: 40×8, then 35 with body English — he noticed it himself, said so, and dropped to
+30 kg strict for 12. RDL 6 Sep: dropped 50 → 40 on his own to keep the hinge clean.
+**Rule for the coach:** when he says a load was moved with swing, believe him and log the strict
+load as the working load. Do not push him back up to the swung number.
+
+### 5d. Arms are stronger than the plan assumed
+Hammer curl 17.5 kg per hand × 8 (plan said 10 kg). EZ bar curl 30 kg × 10-12 in two sessions.
+Cable row 55 kg on the first day. His pulling and arm strength is well ahead of his pressing
+(incline 20-22 kg per hand, Hammer press 25 per side). Chest and shoulders are the lagging side,
+which matches his own goal list.
+
+### 5e. He reports partial reps as fractions
+"6 and the last one almost, like 3/4", "4/5", "8 1/2", "6.8". Convention: log the clean reps plus
+0.5 for a partial (4/5 → 4.5, 8 1/2 → 8.5). A partial never counts as a full rep for progression.
+
+### 5f. He skips isolation back work once the back "feels done"
+Straight-arm pulldown dropped on 8 Sep after 10 back sets, by his choice, and he asked to go to
+biceps. Reasonable. Rear delts he did do when asked (3 sets reverse pec deck).
+**Rule for the coach:** put the rear-delt work before the biceps superset, otherwise it is the
+first thing to fall off the end.
+
+### 5g. He trains in the evening on weekdays
+Push 7 Sep and Pull 8 Sep both ran roughly 19:30 to 21:00. "I train in the afternoon" means
+after 19:00. Pre-training food has to be in by 17:30; the post-training meal lands at 21:30 or
+later, which is why the last 500-800 kcal of the day are always the hard ones.
+
 ### 6. Session length and drift
 He trains hard but the session drifts: 13 chest sets on 7 Sep before the shoulder press. The fix is
 in the plan now (shoulder press second), not in willpower.
@@ -125,6 +158,21 @@ Calories and protein land close to target almost every day (3,136 / 199, 3,269 /
 Carbs are short every single day. The shortfall is always in the evening, when he is full.
 **Rule for the coach:** front-load carbs. Breakfast and lunch have to carry 250 g of the 475 g.
 
+### 9. The day that worked (8 Sep) - copy it
+3 eggs + banana with honey (breakfast) → 1 1/4 bowls mashed potato (lunch) → the skyr bowl with
+peanut butter, honey, blueberries and juice (15:30) → baguette, leftovers and juice (19:00) →
+training. By 19:00: 2,500 kcal, 114 g protein, **342 g carbs, 71 g fat**. First day with fat under
+target and carbs above 300 before the evening. The difference to the three days before: no big
+egg-and-milk breakfast, potatoes instead of a second rice bag, the skyr bowl as a real meal, juice
+with two meals.
+
+### 10. He shops through Uber Eats (Carrefour), and he does buy what is asked for
+8 Sep: peanut butter, skyr 1 kg, juice ×2, bread ×3, milk ×3, eggs 15 arrived; oats ×2 and yfood ×8
+ordered for the next day. Whey is the only item asked for three times and still not bought.
+**Rule for the coach:** give the shopping list as concrete Carrefour items and quantities, one
+message, and it gets ordered. Vague "buy more protein" does not.
+
 ## Sleep
 8 Sep: 9 hours (first reported value). Intake said 6 to 7 hours, so this is a real improvement.
-Ask for it every morning, log it with the session.
+Ask for it every morning, log it with the session. Pull session 1 ran on 9 h sleep and 264 g of
+carbs and produced the best pull-up set so far - that is not a coincidence, say so when it repeats.

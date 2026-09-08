@@ -1,14 +1,33 @@
 {
-  "updated": "2026-09-08",
+  "updated": "2026-09-08 evening",
   "note": "Machine-readable constants about this athlete. tools/brief.py prints these every session so nothing has to be remembered. Prose reasoning lives in profile/patterns.md.",
   "athlete": {
-    "age": 22, "height_cm": 194, "start_weight_kg": 78.15, "start_date": "2026-09-06",
-    "lives": "France", "languages": ["English", "German"],
-    "injuries": ["ACL reconstruction 5-6 years ago, rehabbed, no current pain"],
+    "age": 22,
+    "height_cm": 194,
+    "start_weight_kg": 78.15,
+    "start_date": "2026-09-06",
+    "lives": "France",
+    "languages": [
+      "English",
+      "German"
+    ],
+    "injuries": [
+      "ACL reconstruction 5-6 years ago, rehabbed, no current pain"
+    ],
     "goal": "maximum muscle, size > strength > leanness, 12 months"
   },
-  "targets": {"kcal": 3300, "protein_g": 170, "carbs_g": 475, "fat_g": 80, "sleep_h": 7.5,
-              "sessions_per_week": 5, "gain_kg_per_week": [0.2, 0.3]},
+  "targets": {
+    "kcal": 3300,
+    "protein_g": 170,
+    "carbs_g": 475,
+    "fat_g": 80,
+    "sleep_h": 7.5,
+    "sessions_per_week": 5,
+    "gain_kg_per_week": [
+      0.2,
+      0.3
+    ]
+  },
   "units": {
     "bowl_ml": 500,
     "tablespoon_peanut_butter_g": 16,
@@ -37,31 +56,248 @@
     "cable_lateral_raise": "dumbbells (his explicit preference)",
     "overhead_cable_triceps": "straight-bar pushdown"
   },
-  "likes": ["pull-ups", "dips", "Hammer Strength chest press", "dumbbell lateral raises",
-            "leg press", "orange juice", "skyr with peanut butter and honey", "bread", "bananas",
-            "potatoes", "steak"],
-  "refuses": ["calf training"],
+  "likes": [
+    "pull-ups",
+    "dips",
+    "Hammer Strength chest press",
+    "dumbbell lateral raises",
+    "leg press",
+    "orange juice",
+    "skyr with peanut butter and honey",
+    "bread",
+    "bananas",
+    "potatoes",
+    "steak"
+  ],
+  "refuses": [
+    "calf training"
+  ],
   "eating": {
     "bottleneck": "stomach volume on carbs, not protein - he can eat 350 g of meat but not 2 bags of rice",
     "max_rice_per_sitting_bags": 1,
-    "carb_tools_that_work": ["bread", "bananas", "honey", "orange juice", "skyr", "mashed potato"],
-    "meal_times": ["08:00", "11:30", "15:00", "18:30", "21:30"],
+    "carb_tools_that_work": [
+      "bread",
+      "bananas",
+      "honey",
+      "orange juice",
+      "skyr",
+      "mashed potato"
+    ],
+    "meal_times": [
+      "08:00",
+      "11:30",
+      "15:00",
+      "18:30",
+      "21:30"
+    ],
     "standard_snack": "bowl of skyr + 2 tbsp peanut butter + 2 tbsp honey + blueberries + a glass of juice = 785 kcal, 53 g protein"
   },
   "kitchen_labels_per_100g": {
-    "eggs_carrefour_plein_air": {"kcal": 140, "p": 13, "c": 0.5, "f": 9.8},
-    "skyr_arla_0": {"kcal": 60, "p": 10, "c": 4, "f": 0.2},
-    "peanut_butter_andros": {"kcal": 624, "p": 22, "c": 22, "f": 48},
-    "orange_juice_carrefour_per_100ml": {"kcal": 42, "p": 0, "c": 9, "f": 0},
-    "rumsteck": {"kcal": 120, "p": 21, "c": 0, "f": 4},
-    "ground_beef_15": {"kcal": 215, "p": 19, "c": 0, "f": 15},
-    "tuna_petit_navire_drained": {"kcal": 109, "p": 25, "c": 0, "f": 1},
-    "sardines_drained": {"kcal": 217, "p": 24, "c": 0, "f": 13},
-    "bulgogi_sauce_per_100ml": {"kcal": 200, "p": 3.6, "c": 38, "f": 4.2},
-    "yfood_per_500ml_bottle": {"kcal": 500, "p": 33, "c": 47, "f": 21}
+    "eggs_carrefour_plein_air": {
+      "kcal": 140,
+      "p": 13,
+      "c": 0.5,
+      "f": 9.8
+    },
+    "skyr_arla_0": {
+      "kcal": 60,
+      "p": 10,
+      "c": 4,
+      "f": 0.2
+    },
+    "peanut_butter_andros": {
+      "kcal": 624,
+      "p": 22,
+      "c": 22,
+      "f": 48
+    },
+    "orange_juice_carrefour_per_100ml": {
+      "kcal": 42,
+      "p": 0,
+      "c": 9,
+      "f": 0
+    },
+    "rumsteck": {
+      "kcal": 120,
+      "p": 21,
+      "c": 0,
+      "f": 4
+    },
+    "ground_beef_15": {
+      "kcal": 215,
+      "p": 19,
+      "c": 0,
+      "f": 15
+    },
+    "tuna_petit_navire_drained": {
+      "kcal": 109,
+      "p": 25,
+      "c": 0,
+      "f": 1
+    },
+    "sardines_drained": {
+      "kcal": 217,
+      "p": 24,
+      "c": 0,
+      "f": 13
+    },
+    "bulgogi_sauce_per_100ml": {
+      "kcal": 200,
+      "p": 3.6,
+      "c": 38,
+      "f": 4.2
+    },
+    "yfood_per_500ml_bottle": {
+      "kcal": 500,
+      "p": 33,
+      "c": 47,
+      "f": 21
+    }
   },
   "open_questions": [
-    "whey still not bought",
-    "trap bar, dip belt, reverse pec deck, heaviest dumbbell: not yet confirmed in the gym"
-  ]
+    "whey still not bought (asked 3x)",
+    "trap bar, dip belt, heaviest dumbbell: not yet confirmed in the gym"
+  ],
+  "working_loads": {
+    "note": "heaviest load handled on the last session of each exercise, the number to prescribe next time",
+    "pullup_added_kg": {
+      "load": 10,
+      "best": "+10 x 6",
+      "date": "2026-09-08"
+    },
+    "tbar_row_kg": {
+      "load": 30,
+      "note": "30 strict; 40 x 8 was the top set but 35 needed body English",
+      "date": "2026-09-08"
+    },
+    "cable_row_kg": {
+      "load": 55,
+      "best": "55 x 10",
+      "date": "2026-09-08"
+    },
+    "vertical_row_nautilus_kg": {
+      "load": 60,
+      "best": "60 x 9",
+      "date": "2026-09-05"
+    },
+    "ez_curl_total_kg": {
+      "load": 30,
+      "best": "30 x 12",
+      "date": "2026-09-05"
+    },
+    "hammer_curl_per_hand_kg": {
+      "load": 17.5,
+      "best": "17.5 x 8",
+      "date": "2026-09-08"
+    },
+    "reverse_pec_deck_kg": {
+      "load": 25,
+      "best": "25 x 15",
+      "date": "2026-09-08"
+    },
+    "hammer_chest_press_per_side_kg": {
+      "load": 25,
+      "best": "25 x 9",
+      "date": "2026-09-07"
+    },
+    "incline_db_press_per_hand_kg": {
+      "load": 22,
+      "best": "22 x 7",
+      "date": "2026-09-07"
+    },
+    "dips_added_kg": {
+      "load": 0,
+      "best": "bw x 6",
+      "date": "2026-09-07"
+    },
+    "pec_deck_kg": {
+      "load": 20,
+      "best": "20 x 12",
+      "date": "2026-09-07"
+    },
+    "shoulder_press_machine_per_side_kg": {
+      "load": 25,
+      "best": "25 x 9",
+      "date": "2026-09-07"
+    },
+    "seated_db_shoulder_press_per_hand_kg": {
+      "load": 15,
+      "best": "15 x 9",
+      "date": "2026-09-05"
+    },
+    "db_lateral_raise_per_hand_kg": {
+      "load": 7.5,
+      "best": "10 x 12",
+      "date": "2026-09-07"
+    },
+    "triceps_pushdown_kg": {
+      "load": 25,
+      "best": "25 x 12",
+      "date": "2026-09-07"
+    },
+    "back_squat_kg": {
+      "load": 42.5,
+      "best": "40 x 5, heels on plates",
+      "date": "2026-09-06",
+      "rule": "+2.5 every session"
+    },
+    "seated_leg_press_nautilus_kg": {
+      "load": 90,
+      "best": "90 x 8",
+      "date": "2026-09-06"
+    },
+    "rdl_kg": {
+      "load": 50,
+      "best": "50 x 8, then 40 for technique",
+      "date": "2026-09-06"
+    },
+    "seated_leg_curl_kg": {
+      "load": 50,
+      "best": "50 x 15",
+      "date": "2026-09-06"
+    },
+    "crunch_machine_kg": {
+      "load": 36,
+      "best": "36 x 12",
+      "date": "2026-09-06"
+    }
+  },
+  "strength_profile": {
+    "strong": [
+      "pull-ups (+10 kg x 6 at 78.8 kg bodyweight)",
+      "rows (cable 55, Nautilus 60)",
+      "arms (hammer 17.5/hand, EZ 30)"
+    ],
+    "lagging": [
+      "chest press (25/side)",
+      "incline press (22/hand)",
+      "shoulders (25/side machine, 15/hand dumbbell)",
+      "legs (untrained until 6 Sep)"
+    ],
+    "ratio_note": "pulling strength is well ahead of pressing; chest and shoulders are the priority, which matches his own goal"
+  },
+  "training_habits": {
+    "weekday_session_time": "about 19:30 to 21:00",
+    "reports_partials_as": "fractions (3/4, 4/5, 8 1/2) - log clean reps + 0.5",
+    "trusts_own_technique_calls": true,
+    "drops_load_when_form_breaks": "yes - T-bar 35 to 30 strict, RDL 50 to 40",
+    "skips_when_muscle_feels_done": "isolation back work (straight-arm pulldown)",
+    "exercise_order_effect": "pull-ups first: +10 x 6; pull-ups fourth: +5 x 4",
+    "rir_reporting": "only when asked in the same message as the next set"
+  },
+  "shopping": {
+    "channel": "Uber Eats, Carrefour XL",
+    "buys_what_is_listed": true,
+    "outstanding": [
+      "whey protein 1 kg",
+      "chicken breast 1 kg",
+      "salmon or white fish 500 g"
+    ],
+    "arriving_2026-09-09": [
+      "Quaker oats 2 x 800 g",
+      "yfood 8 x 500 ml",
+      "Wasa Protein+",
+      "sardines x2"
+    ]
+  }
 }

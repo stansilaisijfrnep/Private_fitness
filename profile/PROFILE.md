@@ -80,6 +80,17 @@ Medical conditions or medication: none.
 - Realistic 12-month outcome if executed: 86 to 89 kg on the scale with waist no more than
   3 cm above start. That is roughly 7 to 9 kg of lean mass. Bench in the 90 to 100 kg range for reps.
 
+## Strength snapshot (updated 2026-09-08, after 4 sessions)
+Live numbers are in `data/facts.json` → `working_loads`; the briefing prints them. Summary:
+- Pull-ups, wide grip: **+10 kg × 6** at 78.8 kg bodyweight. His best lift by far.
+- Rows: T-bar 30 kg strict (40 × 8 with swing), seated cable row 55 × 10, Nautilus vertical row 60 × 9.
+- Arms: hammer curl 17.5 kg per hand × 8, EZ bar curl 30 kg × 12.
+- Chest: Hammer Strength press 25 kg per side × 9, incline dumbbell 22 kg per hand × 7, dips bodyweight × 6.
+- Shoulders: seated machine press 25 kg per side × 9, dumbbell press 15 kg per hand × 9, lateral raise 7.5–10 kg.
+- Legs: back squat 40 × 5 (learning, heels on plates), seated leg press 90 × 8, RDL 50 × 8, leg curl 50 × 15.
+Pulling and arm strength are well ahead of pressing. Chest and shoulders are the lagging side and
+the priority, which matches what he asked for at intake. Legs start from zero and are on schedule.
+
 ## Targets (set 2026-09-05 at intake)
 | Target | Value | Reason |
 |---|---|---|
