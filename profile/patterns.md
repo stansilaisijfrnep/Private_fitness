@@ -107,6 +107,13 @@ Consequences, all in `data/timetable.json` and printed by the briefing every day
 **Weekly template from week 2: Mon AM, Tue midday, Wed AM, Thu 17:00, Fri or Sat, Sun rest.**
 This kills the week-1 problem of training at 19:30 and chasing 800 kcal at 21:30.
 
+### 5i. Campus sessions get cut by the clock, from the end of the list
+9 Sep: Legs B at the campus gym started at 12:15 with a 15:00 class; adductor and abs fell off.
+7 Sep: 13 chest sets and the shoulder press nearly fell off. Same shape: whatever is last, dies.
+**Rule for the coach:** on a campus day, start by 10:30 for a morning slot and put the small
+knee-health work (adductor, Copenhagen, abs) in the FIRST 10 minutes after the warm-up, not the
+last. The big lifts survive a cut; the small ones do not.
+
 ### 6. Session length and drift
 He trains hard but the session drifts: 13 chest sets on 7 Sep before the shoulder press. The fix is
 in the plan now (shoulder press second), not in willpower.
