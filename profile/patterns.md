@@ -115,6 +115,8 @@ in the plan now (shoulder press second), not in willpower.
 
 **Food he does not like:** pavé tournedos / plain tenderloin (9 Sep, ate one of two and stopped - taste). Ground beef with sauce and rumsteak he finishes.
 
+**Enjoys and asked for more of:** landing drills (9 Sep, "did them very nice"), wants knee strength and vertical jump as a secondary goal for basketball. Keep 3×5 landings on every leg day; add low-volume box jumps (2-3×3) from block 2.
+
 **Loves / trains hardest:** pull-ups (his best lift, wide grip bodyweight), dips, the Hammer
 Strength chest press, dumbbell lateral raises, leg press.
 **Accepts:** machine rows, pec deck, pushdowns, hanging leg raises, crunch machine.

@@ -77,6 +77,8 @@ Medical conditions or medication: none.
   injury prevention for boxing, padel, basketball.
 - Timeframe: 12 months.
 - Priority order: size > strength > leanness. Athleticism maintained through leg and single-leg work.
+- Secondary (stated 9 Sep): knee strength and a bit of vertical jump for basketball. Small dose of
+  landing and jump work on leg days, never at the cost of muscle or the knee.
 - Realistic 12-month outcome if executed: 86 to 89 kg on the scale with waist no more than
   3 cm above start. That is roughly 7 to 9 kg of lean mass. Bench in the 90 to 100 kg range for reps.
 
