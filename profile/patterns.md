@@ -113,6 +113,8 @@ in the plan now (shoulder press second), not in willpower.
 
 ## Favourite and disliked exercises
 
+**Food he does not like:** pavé tournedos / plain tenderloin (9 Sep, ate one of two and stopped - taste). Ground beef with sauce and rumsteak he finishes.
+
 **Loves / trains hardest:** pull-ups (his best lift, wide grip bodyweight), dips, the Hammer
 Strength chest press, dumbbell lateral raises, leg press.
 **Accepts:** machine rows, pec deck, pushdowns, hanging leg raises, crunch machine.

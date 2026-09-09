@@ -330,5 +330,8 @@
     },
     "weekly_template": "Mon AM · Tue midday · Wed AM · Thu 17:00 · Fri or Sat · Sun rest",
     "source": "data/timetable.json, imported 9 Sep 2026 from the calendar export; re-import in January for spring courses"
-  }
+  },
+  "dislikes": [
+    "pavé tournedos (beef tenderloin, 9 Sep - left half the pack)"
+  ]
 }
