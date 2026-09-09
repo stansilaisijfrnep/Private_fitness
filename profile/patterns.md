@@ -95,6 +95,18 @@ Push 7 Sep and Pull 8 Sep both ran roughly 19:30 to 21:00. "I train in the after
 after 19:00. Pre-training food has to be in by 17:30; the post-training meal lands at 21:30 or
 later, which is why the last 500-800 kcal of the day are always the hard ones.
 
+### 5h. The timetable, and what it does to the week (imported 9 Sep)
+SKEMA in person at Sophia Antipolis: Mon 13:15-16:30, Wed 16:45-20:00, Thu 08:00-16:30.
+EADA online: Mon 15:00-18:00, Wed 15:00-17:00. Tuesday and Friday have no classes.
+Consequences, all in `data/timetable.json` and printed by the briefing every day:
+- Wednesday has **no evening slot** - he is on campus until 20:00. Train in the morning or not at all.
+- Thursday starts at 08:00 on campus: breakfast at 07:00 must be the oats bowl, and the whole day
+  is packed food (yfood, Wasa, bananas, Barebells) plus a campus lunch. Train at 17:00.
+- Monday afternoon is class; train in the morning, lunch by 12:15, yfood in the bag.
+- Tuesday and Friday are the easy days: train midday, all meals at home.
+**Weekly template from week 2: Mon AM, Tue midday, Wed AM, Thu 17:00, Fri or Sat, Sun rest.**
+This kills the week-1 problem of training at 19:30 and chasing 800 kcal at 21:30.
+
 ### 6. Session length and drift
 He trains hard but the session drifts: 13 chest sets on 7 Sep before the shoulder press. The fix is
 in the plan now (shoulder press second), not in willpower.

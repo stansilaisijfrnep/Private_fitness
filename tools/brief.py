@@ -244,6 +244,29 @@ def main():
     for f in flags:
         print("  " + f if not f.startswith("    ") else f)
 
+    # ---- university timetable: today and tomorrow ----
+    tf = ROOT / "data" / "timetable.json"
+    if tf.exists():
+        T = json.loads(tf.read_text())
+        DAYS = ["monday","tuesday","wednesday","thursday","friday","saturday","sunday"]
+        def day_line(d):
+            name = DAYS[d.weekday()]; iso = d.isoformat()
+            ex = [e for e in T.get("exceptions", []) if e["from"] <= iso <= e.get("to", e["from"])]
+            first, last = T["term"]["first_class"], T["term"]["last_class"]
+            cls = T["weekly"].get(name, []) if first <= iso <= last else []
+            cls = [c for c in cls if c["first"] <= iso <= c["last"]]
+            one = [o for o in T.get("one_off_sessions", []) if o["date"] == iso]
+            parts = []
+            for c in cls + one:
+                parts.append(f"{c['start']}–{c['end']} {c['course'].title()[:28]} ({'online' if c['mode']=='online' else 'campus'})")
+            tag = "; ".join(e["title"] for e in ex)
+            w = T["training_windows"].get(name, {})
+            print(f"  {d:%a %d %b}: " + (", ".join(parts) if parts else "no classes") + (f"  [{tag}]" if tag else ""))
+            print(f"    train: {w.get('best','?')}  — {w.get('why','')}")
+            print(f"    food:  {T['meal_logistics'].get(name,'')}")
+        print("\nUNIVERSITY (data/timetable.json)")
+        day_line(today); day_line(today + dt.timedelta(days=1))
+
     # ---- facts that must never be forgotten ----
     ff = ROOT / "data" / "facts.json"
     if ff.exists():

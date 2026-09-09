@@ -1,0 +1,462 @@
+{
+  "source": "Studienjahr 2026/27 calendar export, 8 Sep 2026. Only SKEMA (campus, Sophia Antipolis) and EADA (online) entries kept; personal entries deliberately not stored.",
+  "term": {
+    "name": "Fall 2026",
+    "first_class": "2026-09-07",
+    "last_class": "2026-12-02",
+    "exams": "2026-12-03 to 2026-12-11",
+    "end": "2026-12-12"
+  },
+  "weekly": {
+    "monday": [
+      {
+        "start": "13:15",
+        "end": "14:45",
+        "course": "ADVANCED MATH FOR FINANCE",
+        "mode": "campus",
+        "school": "SKEMA",
+        "where": "Sophia Antipolis campus",
+        "first": "2026-09-07",
+        "last": "2026-11-23",
+        "sessions": 10
+      },
+      {
+        "start": "15:00",
+        "end": "16:30",
+        "course": "ADVANCED MATH FOR FINANCE",
+        "mode": "campus",
+        "school": "SKEMA",
+        "where": "Sophia Antipolis campus",
+        "first": "2026-09-07",
+        "last": "2026-11-23",
+        "sessions": 10
+      },
+      {
+        "start": "15:00",
+        "end": "18:00",
+        "course": "COMPUTER VISION AND SPEECH RECOGNITION",
+        "mode": "online",
+        "school": "EADA",
+        "where": "online (Zoom)",
+        "first": "2026-09-07",
+        "last": "2026-11-23",
+        "sessions": 9
+      }
+    ],
+    "tuesday": [],
+    "wednesday": [
+      {
+        "start": "15:00",
+        "end": "17:00",
+        "course": "FRONTIERS OF ARTIFICIAL INTELLIGENCE",
+        "mode": "online",
+        "school": "EADA",
+        "where": "online (Zoom)",
+        "first": "2026-09-09",
+        "last": "2026-11-18",
+        "sessions": 9
+      },
+      {
+        "start": "16:45",
+        "end": "18:15",
+        "course": "CONTROL AND AUDIT",
+        "mode": "campus",
+        "school": "SKEMA",
+        "where": "Sophia Antipolis campus",
+        "first": "2026-09-09",
+        "last": "2026-12-02",
+        "sessions": 10
+      },
+      {
+        "start": "18:30",
+        "end": "20:00",
+        "course": "CONTROL AND AUDIT",
+        "mode": "campus",
+        "school": "SKEMA",
+        "where": "Sophia Antipolis campus",
+        "first": "2026-09-09",
+        "last": "2026-12-02",
+        "sessions": 10
+      }
+    ],
+    "thursday": [
+      {
+        "start": "08:00",
+        "end": "09:30",
+        "course": "Financial Management and Analy",
+        "mode": "campus",
+        "school": "SKEMA",
+        "where": "Sophia Antipolis campus",
+        "first": "2026-09-10",
+        "last": "2026-11-26",
+        "sessions": 10
+      },
+      {
+        "start": "09:45",
+        "end": "11:15",
+        "course": "Financial Management and Analy",
+        "mode": "campus",
+        "school": "SKEMA",
+        "where": "Sophia Antipolis campus",
+        "first": "2026-09-10",
+        "last": "2026-11-26",
+        "sessions": 10
+      },
+      {
+        "start": "13:15",
+        "end": "14:45",
+        "course": "Risk Management and Investment",
+        "mode": "campus",
+        "school": "SKEMA",
+        "where": "Sophia Antipolis campus",
+        "first": "2026-09-10",
+        "last": "2026-11-26",
+        "sessions": 10
+      },
+      {
+        "start": "15:00",
+        "end": "16:30",
+        "course": "Risk Management and Investment",
+        "mode": "campus",
+        "school": "SKEMA",
+        "where": "Sophia Antipolis campus",
+        "first": "2026-09-10",
+        "last": "2026-11-26",
+        "sessions": 10
+      }
+    ],
+    "friday": [],
+    "saturday": [],
+    "sunday": []
+  },
+  "presence": {
+    "monday": {
+      "on_campus": [
+        "13:15",
+        "16:30"
+      ],
+      "online": [
+        "15:00",
+        "18:00"
+      ]
+    },
+    "wednesday": {
+      "on_campus": [
+        "16:45",
+        "20:00"
+      ],
+      "online": [
+        "15:00",
+        "17:00"
+      ]
+    },
+    "thursday": {
+      "on_campus": [
+        "08:00",
+        "16:30"
+      ],
+      "online": null
+    }
+  },
+  "training_windows": {
+    "monday": {
+      "best": "09:00–12:00",
+      "why": "campus 13:15–16:30 and an online course 15:00–18:00; morning is the only clean slot",
+      "fallback": "after 18:00"
+    },
+    "tuesday": {
+      "best": "any time, ideally 11:00–14:00",
+      "why": "no classes",
+      "fallback": "evening"
+    },
+    "wednesday": {
+      "best": "09:00–13:00",
+      "why": "online 15:00–17:00 then campus until 20:00; no evening slot",
+      "fallback": "none - if the morning is missed the session moves"
+    },
+    "thursday": {
+      "best": "17:00–18:30",
+      "why": "campus 08:00–16:30, home by 17:00; early start next morning is free so a 19:00 finish is fine",
+      "fallback": "none"
+    },
+    "friday": {
+      "best": "any time, ideally 11:00–14:00",
+      "why": "no classes (except 9 Oct online 15:00–18:00)",
+      "fallback": "evening"
+    },
+    "saturday": {
+      "best": "any time",
+      "why": "free (Parents' Day 12 Sep 08:30–12:00, SEI weekend 19–21 Sep)",
+      "fallback": ""
+    },
+    "sunday": {
+      "best": "rest day",
+      "why": "one full rest day in every 7",
+      "fallback": ""
+    }
+  },
+  "meal_logistics": {
+    "monday": "Lunch at home by 12:15 before campus. Pack a yfood for the 15:00 slot - you are in class or online until 18:00. Main dinner 18:30.",
+    "tuesday": "All meals at home. The easiest day of the week to hit 3,300.",
+    "wednesday": "Big lunch at 13:30 (this is the last real meal before 20:30). Pack a yfood for the 18:15-18:30 break. Dinner 20:30, skyr bowl 22:00.",
+    "thursday": "Oats bowl at 07:00 - the day starts at 08:00 on campus. Pack: yfood + Wasa + 2 bananas + a Barebells. Campus lunch in the 11:15-13:15 gap: rice bowl, double meat. Yfood at 15:00 in class. Home 17:00, train, dinner 19:00, skyr bowl 21:30.",
+    "friday": "All meals at home.",
+    "saturday": "All meals at home. Waist measurement Sunday morning, not Saturday.",
+    "sunday": "Rest day, calories still 3,300. Weigh + waist in the morning."
+  },
+  "exceptions": [
+    {
+      "from": "2026-08-28",
+      "title": "Welcome Ceremony",
+      "span": "ganztägig"
+    },
+    {
+      "from": "2026-08-31",
+      "title": "Orientation Week",
+      "span": "31.–4.9."
+    },
+    {
+      "from": "2026-09-07",
+      "title": "First Day of Class (FDC)",
+      "span": "ganztägig"
+    },
+    {
+      "from": "2026-09-12",
+      "title": "Parents' Day",
+      "span": "08:30–12:00"
+    },
+    {
+      "from": "2026-09-19",
+      "to": "2026-09-21",
+      "title": "SEI Integration Weekend",
+      "span": "08:00–18:00"
+    },
+    {
+      "from": "2026-10-07",
+      "title": "Town Hall BBA 1",
+      "span": "ganztägig"
+    },
+    {
+      "from": "2026-10-12",
+      "to": "2026-10-16",
+      "title": "Fall 2026 Midterm Week + Virtual Career Fair",
+      "span": "08:00–18:00"
+    },
+    {
+      "from": "2026-10-19",
+      "to": "2026-10-23",
+      "title": "Fall Break",
+      "span": "08:00–18:00"
+    },
+    {
+      "from": "2026-11-11",
+      "title": "Armistice",
+      "span": "ganztägig"
+    },
+    {
+      "from": "2026-11-18",
+      "title": "Town Hall BBA 2",
+      "span": "ganztägig"
+    },
+    {
+      "from": "2026-11-19",
+      "title": "Town Hall BBA 3 & 4",
+      "span": "ganztägig"
+    },
+    {
+      "from": "2026-11-25",
+      "title": "Town Hall BBA 1",
+      "span": "ganztägig"
+    },
+    {
+      "from": "2026-12-03",
+      "to": "2026-12-11",
+      "title": "Final Exams Fall 2026",
+      "span": "08:00–18:00"
+    },
+    {
+      "from": "2026-12-12",
+      "title": "End of Semester",
+      "span": "ganztägig"
+    },
+    {
+      "from": "2027-01-01",
+      "title": "New Year's Day",
+      "span": "ganztägig"
+    },
+    {
+      "from": "2027-01-04",
+      "title": "First Day of Class (FDC)",
+      "span": "ganztägig"
+    },
+    {
+      "from": "2027-01-05",
+      "title": "RENTREE SPRING",
+      "span": "08:00–18:00"
+    },
+    {
+      "from": "2027-01-22",
+      "title": "SEMI SKI",
+      "span": "22.–24.1."
+    },
+    {
+      "from": "2027-01-26",
+      "title": "Career Fair",
+      "span": "ganztägig"
+    },
+    {
+      "from": "2027-01-27",
+      "title": "Town Hall BBA 1",
+      "span": "ganztägig"
+    },
+    {
+      "from": "2027-02-03",
+      "title": "Town Hall BBA 2",
+      "span": "ganztägig"
+    },
+    {
+      "from": "2027-02-08",
+      "title": "Spring 2027 Midterm Week",
+      "span": "08:00–18:00"
+    },
+    {
+      "from": "2027-02-09",
+      "title": "Career Fair Sophia",
+      "span": "10:00–17:00"
+    },
+    {
+      "from": "2027-02-09",
+      "to": "2027-02-12",
+      "title": "Spring 2027 Midterm Week",
+      "span": "08:00–18:00"
+    },
+    {
+      "from": "2027-02-15",
+      "title": "Retake Exams Fall 2026",
+      "span": "08:00–18:00"
+    },
+    {
+      "from": "2027-02-15",
+      "title": "Spring Break 2027",
+      "span": "08:00–18:00"
+    },
+    {
+      "from": "2027-02-16",
+      "title": "Retake Exams Fall 2026",
+      "span": "08:00–18:00"
+    },
+    {
+      "from": "2027-02-16",
+      "title": "Spring Break 2027",
+      "span": "08:00–18:00"
+    },
+    {
+      "from": "2027-02-17",
+      "title": "Retake Exams Fall 2026",
+      "span": "08:00–18:00"
+    },
+    {
+      "from": "2027-02-17",
+      "title": "Spring Break 2027",
+      "span": "08:00–18:00"
+    },
+    {
+      "from": "2027-02-18",
+      "title": "Retake Exams Fall 2026",
+      "span": "08:00–18:00"
+    },
+    {
+      "from": "2027-02-18",
+      "title": "Spring Break 2027",
+      "span": "08:00–18:00"
+    },
+    {
+      "from": "2027-02-19",
+      "title": "Retake Exams Fall 2026",
+      "span": "08:00–18:00"
+    },
+    {
+      "from": "2027-02-19",
+      "title": "Spring Break 2027",
+      "span": "08:00–18:00"
+    },
+    {
+      "from": "2027-03-17",
+      "title": "Town Hall BBA 3 & 4",
+      "span": "ganztägig"
+    },
+    {
+      "from": "2027-03-29",
+      "title": "Easter Monday",
+      "span": "ganztägig"
+    },
+    {
+      "from": "2027-04-01",
+      "to": "2027-04-10",
+      "title": "Final Exams Spring 2027",
+      "span": "08:00–18:00"
+    },
+    {
+      "from": "2027-04-12",
+      "title": "End of Semester",
+      "span": "ganztägig"
+    },
+    {
+      "from": "2027-04-26",
+      "to": "2027-04-29",
+      "title": "Retake Exams Spring 2027",
+      "span": "08:00–18:00"
+    },
+    {
+      "from": "2027-05-01",
+      "title": "Labour Day",
+      "span": "ganztägig"
+    },
+    {
+      "from": "2027-05-06",
+      "title": "Ascension",
+      "span": "ganztägig"
+    },
+    {
+      "from": "2027-05-08",
+      "title": "Victoire des Alliés 1945",
+      "span": "ganztägig"
+    },
+    {
+      "from": "2027-05-17",
+      "title": "Pentecôte",
+      "span": "ganztägig"
+    },
+    {
+      "from": "2027-05-24",
+      "title": "First Day of Class (FDC)",
+      "span": "ganztägig"
+    },
+    {
+      "from": "2027-06-28",
+      "title": "Final Exams Summer 2027",
+      "span": "28.–30.6."
+    },
+    {
+      "from": "2027-07-14",
+      "title": "Fête Nationale",
+      "span": "ganztägig"
+    }
+  ],
+  "one_off_sessions": [
+    {
+      "date": "2026-10-09",
+      "start": "15:00",
+      "end": "18:00",
+      "course": "COMPUTER VISION AND SPEECH RECOGNITION",
+      "mode": "online"
+    }
+  ],
+  "notes": [
+    "Monday: the EADA online course (15:00-18:00) overlaps the campus maths class (15:00-16:30). Two of the four class hours are a conflict he has to resolve himself.",
+    "Wednesday: EADA online 15:00-17:00 overlaps Control and Audit 16:45-18:15 by 15 minutes.",
+    "Thursday is the only full campus day (08:00-16:30).",
+    "Tuesday and Friday have no classes at all.",
+    "Spring 2027 courses are not in the export yet - only exam and break dates. Re-import in January."
+  ]
+}

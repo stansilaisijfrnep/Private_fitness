@@ -279,7 +279,7 @@
     "ratio_note": "pulling strength is well ahead of pressing; chest and shoulders are the priority, which matches his own goal"
   },
   "training_habits": {
-    "weekday_session_time": "about 19:30 to 21:00",
+    "weekday_session_time": "was 19:30-21:00 in week 1; from week 2 the timetable moves Mon/Wed to the morning and Thu to 17:00 (see university.training_windows)",
     "reports_partials_as": "fractions (3/4, 4/5, 8 1/2) - log clean reps + 0.5",
     "trusts_own_technique_calls": true,
     "drops_load_when_form_breaks": "yes - T-bar 35 to 30 strict, RDL 50 to 40",
@@ -302,5 +302,30 @@
       "Wasa Protein+",
       "sardines x2"
     ]
+  },
+  "university": {
+    "schools": {
+      "SKEMA": "Bachelor, Sophia Antipolis campus, in person",
+      "EADA": "online courses, Zoom, Monday and Wednesday 15:00"
+    },
+    "term": "Fall 2026: 7 Sep to 2 Dec, exams 3-11 Dec",
+    "class_days": {
+      "monday": "campus 13:15-16:30 + online 15:00-18:00 (overlap)",
+      "tuesday": "free",
+      "wednesday": "online 15:00-17:00, campus 16:45-20:00",
+      "thursday": "campus 08:00-16:30",
+      "friday": "free"
+    },
+    "training_windows": {
+      "monday": "09:00–12:00",
+      "tuesday": "any time, ideally 11:00–14:00",
+      "wednesday": "09:00–13:00",
+      "thursday": "17:00–18:30",
+      "friday": "any time, ideally 11:00–14:00",
+      "saturday": "any time",
+      "sunday": "rest day"
+    },
+    "weekly_template": "Mon AM · Tue midday · Wed AM · Thu 17:00 · Fri or Sat · Sun rest",
+    "source": "data/timetable.json, imported 9 Sep 2026 from the calendar export; re-import in January for spring courses"
   }
 }
