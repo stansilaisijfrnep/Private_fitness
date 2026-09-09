@@ -18,6 +18,12 @@ Use these instead of generic estimates when the food appears again.
 | Peanut butter Andros Be Nuts, crunchy / croquant (525 g jar) | 622 | 23 | 20 | 48 | label; 8.2 g fibre, 13 g sugars. Used in the evening bowl on 8 Sep | 2026-09-08 |
 | Orange juice, Carrefour 1 L (per 100 ml) | 42 | 0 | 9 | 0 | label | 2026-09-08 |
 | Honey (per 100 g) | 304 | 0 | 82 | 0 | standard | 2026-09-08 |
+| Quaker oats, whole grain rolled (per 100 g dry) | 372 | 11 | 60 | 8 | typical Quaker label | 2026-09-09 |
+| Danone skyr 0 % (480 g tub, per 100 g) | 57 | 10 | 4 | 0.2 | typical Danone label | 2026-09-09 |
+| Hipro drinking yogurt, per bottle (300 g mango / 291 ml strawberry) | 170 | 25 | 16 | 0.3 | label: 25 g protein per bottle | 2026-09-09 |
+| Salmon fillet, Pacific pink, raw (per 100 g) | 130 | 21 | 0 | 5 | typical; one fillet ~125 g | 2026-09-09 |
+| Wasa Protein+ (per slice, ~13 g) | 45 | 3 | 5 | 1 | typical label, ~23 % protein | 2026-09-09 |
+| Sardines in tomato sauce, Carrefour Classic' (135 g tin) | 200 | 22 | 4 | 11 | typical | 2026-09-09 |
 
 ## The bowl: how this athlete measures (calibrated 2026-09-08)
 
@@ -57,10 +63,12 @@ Barilla Bolognese, pesto rosso, Old El Paso fajita sauce, tortilla wraps, Tanosh
 Carrefour Extra basmati (cooking bags), potatoes, mozzarella 3 × 125 g, hard cheese, Elle & Vire
 cream, cornichons, avocados, bananas, 1664 beer.
 
-Ordered for Wed 9 Sep, 11:00 — ORDER WAS CANCELLED by Uber, re-order pending: Quaker oats 2 × 800 g · yfood ready-to-drink meals 8 × 500 ml
-(5 cold brew, 2 chocolate, 1 vanilla, ~500 kcal and 33 g protein each) · Wasa Protein+ crispbread
-200 g · sardines in olive oil 2 × 135 g · Vittel water.
+Delivered Wed 9 Sep, 12:14 (Carrefour XL, second order after the first was cancelled): Quaker oats
+2 × 800 g · yfood cold brew 5 × 500 ml · Carrefour Extra Pacific pink salmon fillets (4, ~500 g) ·
+Danone skyr 0 % 2 × 480 g · Hipro drinking yogurt mango 300 g and strawberry-raspberry 291 ml
+(25 g protein each) · Wasa Protein+ 200 g · Carrefour Classic' sardines in tomato sauce 135 g ·
+Vittel 6 × 500 ml. Not bought: whey, chicken breast, the chocolate and vanilla yfood.
 
-Still missing for the plan: whey (oats finally ordered 8 Sep). Protein stock is thin: 210 g chicken
+Still missing for the plan: whey (asked four times), chicken breast. Oats are in the house since 9 Sep. Protein stock is thin: 210 g chicken
 plus 253 g beef is about 100 g of protein in total, roughly half a day. Needs ~1.2 kg of meat or
 fish per week at 170 g protein a day.

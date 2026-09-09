@@ -157,7 +157,7 @@
     }
   },
   "open_questions": [
-    "whey still not bought (asked 3x)",
+    "whey still not bought (asked 4x)",
     "trap bar, dip belt, heaviest dumbbell: not yet confirmed in the gym"
   ],
   "working_loads": {
@@ -291,21 +291,18 @@
     "channel": "Uber Eats, Carrefour XL",
     "buys_what_is_listed": true,
     "outstanding": [
-      "Quaker oats 2 x 800 g",
-      "yfood (5 cold brew, 2 chocolate, 1 vanilla)",
-      "Wasa Protein+",
-      "sardines x2",
-      "skyr 1 kg x2",
-      "whey protein 1 kg",
+      "whey protein 1 kg (asked 4x)",
       "chicken breast 1 kg",
-      "salmon 500 g"
+      "yfood chocolate/vanilla for evenings (only cold brew in the house)"
     ],
-    "arriving_2026-09-09": [],
-    "cancelled_2026-09-09": [
+    "delivered_2026-09-09": [
       "Quaker oats 2 x 800 g",
-      "yfood 8 x 500 ml",
+      "yfood cold brew x5",
+      "salmon fillets x4",
+      "Danone skyr 2 x 480 g",
+      "Hipro x2",
       "Wasa Protein+",
-      "sardines x2",
+      "sardines tomato",
       "Vittel"
     ]
   },
