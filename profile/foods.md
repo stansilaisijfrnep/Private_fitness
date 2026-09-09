@@ -20,10 +20,10 @@ Use these instead of generic estimates when the food appears again.
 | Honey (per 100 g) | 304 | 0 | 82 | 0 | standard | 2026-09-08 |
 | Quaker oats, whole grain rolled (per 100 g dry) | 372 | 11 | 60 | 8 | typical Quaker label | 2026-09-09 |
 | Danone skyr 0 % (480 g tub, per 100 g) | 57 | 10 | 4 | 0.2 | typical Danone label | 2026-09-09 |
-| Hipro drinking yogurt, per bottle (300 g mango / 291 ml strawberry) | 170 | 25 | 16 | 0.3 | label: 25 g protein per bottle | 2026-09-09 |
+| Hipro drinking yogurt, strawberry-raspberry, per 300 g bottle | 180 | 25 | 17 | 1.5 | label (60 kcal / 8.4 P / 5.5 C / 0.5 F per 100 g); mango bottle assumed the same | 2026-09-09 |
 | Salmon fillet, Pacific pink, raw (per 100 g) | 130 | 21 | 0 | 5 | typical; one fillet ~125 g | 2026-09-09 |
-| Wasa Protein+ (per slice, ~13 g) | 45 | 3 | 5 | 1 | typical label, ~23 % protein | 2026-09-09 |
-| Sardines in tomato sauce, Carrefour Classic' (135 g tin) | 200 | 22 | 4 | 11 | typical | 2026-09-09 |
+| Wasa Protein+ (per slice, 14.2 g; ~14 slices a pack) | 57 | 2.8 | 7.5 | 1.4 | label (398 / 20 / 53 / 9.7 per 100 g, 9.5 g fibre) | 2026-09-09 |
+| Sardines in tomato sauce, Carrefour Classic' (per 100 g; tin 135 g, 88 g drained) | 181 | 19 | 4 | 11 | label; 1.6 g omega-3 per 100 g | 2026-09-09 |
 | yfood This is Food, cold brew coffee (per 500 ml bottle) | 500 | 30 | 40 | 22 | label: 9 g fibre, 23 g sugars, 0.98 g salt, 100 mg caffeine per bottle | 2026-09-09 |
 
 ## The bowl: how this athlete measures (calibrated 2026-09-08)
