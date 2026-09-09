@@ -18,6 +18,7 @@ no energy left for a proper top set.
 | Seated DB shoulder press, 5 Sep | 12.5×12, then 15×9, 15×9 | start at 15 |
 | Seated leg press, 6 Sep | 60×12, 80×11, then he asked for 90×8 himself | start at 80 |
 | Crunch machine, 6 Sep | 23×12, then 36×12 | start at 36 |
+| DB lateral raise, 7 Sep | 7×12, 7×12, 7×12 - two days after 10×12, 10×10 on 5 Sep | 10 kg; 3 kg per hand left on the table for a whole session |
 
 **Rule for the coach:** never prescribe a "test" or a light opener for an exercise he has done
 before. Give one number: last session's load. Warm-ups are warm-ups and are logged as such.
@@ -67,6 +68,8 @@ exercise that already failed.
 8 Sep, pull-ups first and fresh: +10 kg × 6, 4.5, 4. Double the added load, more reps.
 **Rule for the coach:** the lift that matters most goes first. On Push that is now the shoulder
 press (his weak point), on Pull it stays the pull-up.
+Applied to Upper on 9 Sep: pull-ups moved from third to second, before the vertical row, so the
++10 kg from Pull day carries over. Check on 10 Sep whether it did.
 
 ### 5c. His technique calls are trustworthy
 T-bar row 8 Sep: 40×8, then 35 with body English — he noticed it himself, said so, and dropped to

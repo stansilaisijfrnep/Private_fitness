@@ -1,0 +1,101 @@
+{
+  "carbs": 231,
+  "date": "2026-09-09",
+  "fat": 78,
+  "kcal": 2237,
+  "meals": [
+    {
+      "carbs": 1,
+      "fat": 20,
+      "kcal": 255,
+      "name": "3 eggs",
+      "protein": 20,
+      "slot": "breakfast",
+      "time": "09:00"
+    },
+    {
+      "carbs": 23,
+      "fat": 0,
+      "kcal": 105,
+      "name": "Orange juice, 1 glass",
+      "protein": 0,
+      "slot": "breakfast",
+      "time": "09:00"
+    },
+    {
+      "carbs": 44,
+      "fat": 0,
+      "kcal": 170,
+      "name": "Banana with honey",
+      "protein": 1,
+      "slot": "breakfast",
+      "time": "09:00"
+    },
+    {
+      "carbs": 0,
+      "fat": 6,
+      "kcal": 180,
+      "name": "1 pavé tournedos, barding removed (~140 g)",
+      "protein": 31,
+      "slot": "lunch",
+      "time": "13:00"
+    },
+    {
+      "carbs": 48,
+      "fat": 7,
+      "kcal": 270,
+      "name": "Mashed potato with butter, half a bowl",
+      "protein": 5,
+      "slot": "lunch",
+      "time": "13:00"
+    },
+    {
+      "carbs": 23,
+      "fat": 0,
+      "kcal": 105,
+      "name": "Orange juice, 1 glass",
+      "protein": 0,
+      "slot": "lunch",
+      "time": "13:00"
+    },
+    {
+      "carbs": 40,
+      "fat": 22,
+      "kcal": 500,
+      "name": "yfood cold brew, 500 ml",
+      "protein": 30,
+      "slot": "lunch",
+      "time": "13:15"
+    },
+    {
+      "carbs": 5,
+      "fat": 15,
+      "kcal": 244,
+      "name": "Sardines in tomato sauce, whole tin (135 g)",
+      "protein": 26,
+      "slot": "dinner",
+      "time": "21:45"
+    },
+    {
+      "carbs": 30,
+      "fat": 6,
+      "kcal": 228,
+      "name": "Wasa Protein+, 4 slices",
+      "protein": 11,
+      "slot": "dinner",
+      "time": "21:45"
+    },
+    {
+      "carbs": 17,
+      "fat": 2,
+      "kcal": 180,
+      "name": "Hipro strawberry-raspberry, 300 g",
+      "protein": 25,
+      "slot": "dinner",
+      "time": "21:45"
+    }
+  ],
+  "note": "Legs B day. Nothing eaten 13:15-21:45.",
+  "protein": 149,
+  "source": "coach"
+}

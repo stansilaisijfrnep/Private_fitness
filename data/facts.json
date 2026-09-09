@@ -231,9 +231,10 @@
       "date": "2026-09-05"
     },
     "db_lateral_raise_per_hand_kg": {
-      "load": 7.5,
+      "load": 10,
       "best": "10 x 12",
-      "date": "2026-09-07"
+      "date": "2026-09-05",
+      "note": "7 kg x 12 x 3 on 7 Sep was under-loaded (all sets on the same round number); prescribe 10 for 12-15, last set to failure"
     },
     "triceps_pushdown_kg": {
       "load": 25,
