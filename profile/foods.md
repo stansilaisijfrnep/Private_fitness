@@ -24,6 +24,7 @@ Use these instead of generic estimates when the food appears again.
 | Salmon fillet, Pacific pink, raw (per 100 g) | 130 | 21 | 0 | 5 | typical; one fillet ~125 g | 2026-09-09 |
 | Wasa Protein+ (per slice, ~13 g) | 45 | 3 | 5 | 1 | typical label, ~23 % protein | 2026-09-09 |
 | Sardines in tomato sauce, Carrefour Classic' (135 g tin) | 200 | 22 | 4 | 11 | typical | 2026-09-09 |
+| yfood This is Food, cold brew coffee (per 500 ml bottle) | 500 | 30 | 40 | 22 | label: 9 g fibre, 23 g sugars, 0.98 g salt, 100 mg caffeine per bottle | 2026-09-09 |
 
 ## The bowl: how this athlete measures (calibrated 2026-09-08)
 

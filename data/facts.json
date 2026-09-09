@@ -151,9 +151,10 @@
     },
     "yfood_per_500ml_bottle": {
       "kcal": 500,
-      "p": 33,
-      "c": 47,
-      "f": 21
+      "p": 30,
+      "c": 40,
+      "f": 22,
+      "caffeine_mg": 100
     }
   },
   "open_questions": [
