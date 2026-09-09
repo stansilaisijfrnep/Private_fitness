@@ -196,6 +196,14 @@ ordered for the next day. Whey is the only item asked for three times and still 
 **Rule for the coach:** give the shopping list as concrete Carrefour items and quantities, one
 message, and it gets ordered. Vague "buy more protein" does not.
 
+## The left hamstring (ACL graft site) - his own rule, stated 9 Sep
+The ACL graft came out of the left hamstring. It sometimes feels strange under load. He was explicit:
+"that does not mean I should train it lightly - I should use heavy weights, but I have to get back
+into it first." So: hamstrings get trained hard, ramped over weeks, not avoided. Leg curls and
+Nordics are the right tools - the graft tendon regrows only partly and the eccentric strength is
+what protects the knee. Ask "left and right the same?" on every hamstring exercise, and log any
+asymmetry.
+
 ## Sleep
 8 Sep: 9 hours (first reported value). Intake said 6 to 7 hours, so this is a real improvement.
 Ask for it every morning, log it with the session. Pull session 1 ran on 9 h sleep and 264 g of

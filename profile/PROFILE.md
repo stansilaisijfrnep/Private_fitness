@@ -43,6 +43,10 @@ Best lifts ever: not known. Week 1 of block 1 is a test week; fill this table fr
 | Area | Current or past | What triggers it | What is safe | Notes |
 |---|---|---|---|---|
 | Knee (ACL reconstruction) | past, 5 to 6 years ago | nothing currently | everything, built up progressively | fully rehabbed. Single-leg strength, hamstring strength and landing mechanics stay in the program for life. No max-effort plyometrics in block 1. |
+  Detail (9 Sep): the graft was taken from the LEFT hamstring (semitendinosus / gracilis), so the
+  left hamstring sometimes feels odd at full knee flexion. His own words: that does not mean train
+  it lightly - it should be loaded, and heavy, but built up from where it is now. Watch the left-right
+  gap on leg curls; if the machine allows single-leg, test it.
 | Lower and upper back | current, mild | long sitting (remote desk job + studying) | all gym work, no pain in training | postural. Fix: hinge and glute strength, rear delt and upper back volume, stand up every 45 min, daily 2 min dead hang and hip flexor stretch. If it ever appears during lifting, stop the set and report it. |
 
 Mobility restrictions: none reported. Assess squat depth in week 1.
