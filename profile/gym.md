@@ -109,5 +109,20 @@ Seen so far (5 photos):
 - One plate-loaded machine next to the leg press (handles above a seat, looks like a plate-loaded
   row) - to confirm
 - A rowing ergometer / adjustable bench in the leg-extension photo
-- Not seen yet: free weights, dumbbells, barbells, trap bar, cables, dip station, pull-up bar.
-More photos pending from the athlete.
+Second batch of photos (same day):
+- Technogym **Chest Press** (seated, stack)
+- Technogym **Kinesis** — four-arm cable station with adjustable arms (flies, rows, presses,
+  pull-throughs, single-arm work)
+- Technogym **Dual Adjustable Pulley** (functional trainer) with a **pull-up bar** across the top,
+  D-handles and a rope on the floor — cable crunch, pushdowns, face pulls, cable curls, pull-throughs
+- Technogym **Multi Hip** (standing hip machine: extension, flexion, abduction)
+- **Reebok step platforms**, adjustable height, stacked — landing drills and step-ups
+- Cardio: Technogym treadmill, ProForm elliptical, two rowing ergometers
+- A black-and-red rack in the cardio corner, possibly small dumbbells — unconfirmed
+- Not seen: barbells, plates, trap bar, squat rack, bench, dip station.
+
+What this gym can host: full Pull day (vertical traction, low row, cable row, pull-ups on the
+pulley bar, cable curls), a machine Push day (chest press, shoulder press, cable fly on the
+Kinesis, cable pushdown, cable lateral raise), and a machine Legs day (leg press, leg curl /
+extension combo, multi hip, adductor / abductor, step-ups, cable pull-through). No trap bar, no
+squat, no RDL with a bar — those stay at Fitness Park.
