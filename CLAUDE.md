@@ -26,6 +26,12 @@ before you answer anything.
    https://claude.ai/code/artifact/b7cdec67-42a2-4075-bd10-a4e797e91546 and sync anything newer
    than the repo logs into `logs/`. The athlete logs sets and readings there from their phone.
 
+## Time
+The athlete is in France (Europe/Paris). The container clock is UTC. Before any advice that depends
+on the time of day - what to eat now, whether to train now, how the evening runs - run
+`TZ=Europe/Paris date` and reason from that. Never infer the time from the flow of messages: on
+9 Sep the coach planned a 14:45 snack at 21:40 because it never looked at the clock.
+
 ## Athlete quick facts (details in profile/PROFILE.md)
 - 22, 194 cm, ~79 kg, lean, 3+ years training but never legs, never logged, never ate enough.
 - Strong: pull-ups. Weak: bench (55 kg), legs (zero). ACL reconstruction 5 to 6 years ago, rehabbed.

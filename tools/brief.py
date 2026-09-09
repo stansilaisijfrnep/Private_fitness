@@ -77,7 +77,12 @@ def e1rm(load_, reps):
 
 
 def main():
-    today = dt.date.fromisoformat(sys.argv[1]) if len(sys.argv) > 1 else dt.date.today()
+    # The athlete lives in France. The container runs on UTC - never reason about "now" from
+    # message flow, read the clock in his timezone.
+    import os, time
+    os.environ["TZ"] = "Europe/Paris"; time.tzset()
+    now = dt.datetime.now()
+    today = dt.date.fromisoformat(sys.argv[1]) if len(sys.argv) > 1 else now.date()
     P = program()
     order = ["upper", "lowerA", "push", "pull", "legsB"]
     sessions = sorted([s for s in load("sessions") if s.get("type") != "sport"], key=lambda s: s["date"])
@@ -91,7 +96,7 @@ def main():
     start = dt.date.fromisoformat(P["start"])
     week = (today - start).days // 7 + 1
     mon = monday(today)
-    print(f"BRIEFING  {today:%a %d %b %Y}  ·  {P['block']} \"{P['title']}\" week {week} of {P['weeks']}")
+    print(f"BRIEFING  {today:%a %d %b %Y}  ·  local time now {now:%H:%M} (Europe/Paris)  ·  {P['block']} \"{P['title']}\" week {week} of {P['weeks']}")
 
     # ---- bodyweight ----
     print("\nBODYWEIGHT")
