@@ -291,16 +291,22 @@
     "channel": "Uber Eats, Carrefour XL",
     "buys_what_is_listed": true,
     "outstanding": [
+      "Quaker oats 2 x 800 g",
+      "yfood (5 cold brew, 2 chocolate, 1 vanilla)",
+      "Wasa Protein+",
+      "sardines x2",
+      "skyr 1 kg x2",
       "whey protein 1 kg",
       "chicken breast 1 kg",
-      "salmon or white fish 500 g",
-      "skyr 1 kg x2 (tub finished 8 Sep, one tub lasts one day)"
+      "salmon 500 g"
     ],
-    "arriving_2026-09-09": [
+    "arriving_2026-09-09": [],
+    "cancelled_2026-09-09": [
       "Quaker oats 2 x 800 g",
       "yfood 8 x 500 ml",
       "Wasa Protein+",
-      "sardines x2"
+      "sardines x2",
+      "Vittel"
     ]
   },
   "university": {
