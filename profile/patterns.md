@@ -224,3 +224,12 @@ from now on.
 8 Sep: 9 hours (first reported value). Intake said 6 to 7 hours, so this is a real improvement.
 Ask for it every morning, log it with the session. Pull session 1 ran on 9 h sleep and 264 g of
 carbs and produced the best pull-up set so far - that is not a coincidence, say so when it repeats.
+
+## Recovery
+9 Sep 23:20, after five sessions in five days including his first two leg sessions ever: "extremely
+sore, whole body". Expected in week 1 (repeated bout effect makes week 2 far milder), but five days
+straight on 2200-2700 kcal is the real cause, and the block rule of one rest day in seven had not
+been applied. Rest day given for Thu 10 Sep, Upper moved to Fri midday.
+**Rule for the coach:** the rolling order does not mean six days in a row. Place the rest day before
+the athlete has to ask for it, and put it on the day with the worst logistics (Thursday, campus
+08:00-16:30). Soreness alone never cancels an upper session; six days straight plus underfeeding does.
