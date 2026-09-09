@@ -90,3 +90,24 @@ log it with duration. Do it after lifting or on off days, never before Lower A o
 Everything in `program/current.md` is doable here. Substitutions if something is missing are in
 the "Alternative" column of each session table. Nordic curls: hook the feet under the lat pulldown
 pads or under a loaded barbell in a rack, or use the 45 degree back extension with feet locked.
+
+## Gym 2: SKEMA campus gym (Sophia Antipolis) — photos 2026-09-09
+Small Technogym room. Everything is selectorized (weight stack) unless noted. Used on campus days;
+the program's loads were set on Fitness Park machines and do not transfer 1:1 — stack numbers differ
+between brands, find the load again on the first set here and log it under the same exercise key
+with the note "uni gym".
+
+Seen so far (5 photos):
+- Technogym **Abductor / Adductor** combo (seated, both directions)
+- Technogym **Leg Press**, seated horizontal, stack (the Selection line; different feel from the
+  Nautilus at Fitness Park - expect the same rep count at a lower stack number)
+- Technogym **Leg Extension / Leg Curl** dual-function machine (one seat, both movements)
+- Technogym **Low Row** (seated, chest pad, small saddle)
+- Technogym **Abdominal Crunch** machine
+- Technogym **Vertical Traction** (lat pulldown with overhead handles)
+- Technogym **Shoulder Press** (seated, stack)
+- One plate-loaded machine next to the leg press (handles above a seat, looks like a plate-loaded
+  row) - to confirm
+- A rowing ergometer / adjustable bench in the leg-extension photo
+- Not seen yet: free weights, dumbbells, barbells, trap bar, cables, dip station, pull-up bar.
+More photos pending from the athlete.
