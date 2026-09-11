@@ -337,5 +337,25 @@
   },
   "dislikes": [
     "pavé tournedos (beef tenderloin, 9 Sep - left half the pack)"
-  ]
+  ],
+  "coach_overrides": {
+    "_note": "Loads he has proven but did not use last session. brief.py prescribes these instead of the logged working load. Remove an entry once the log catches up.",
+    "dblat": {
+      "load": 10,
+      "why": "10 x 12 and 10 x 10 on 5 Sep, then a whole session at 7 kg on 7 Sep"
+    }
+  },
+  "coaching_mode": {
+    "default": "training",
+    "set_on": "2026-09-11",
+    "rule": "Training is the job. Volunteer nothing about food.",
+    "nutrition_on": [
+      "he asks about food",
+      "he uploads a meal, a label or a photo",
+      "he sends a bodyweight or waist reading",
+      "he reports what he ate",
+      "the weekly check-in"
+    ],
+    "when_on": "Full professional nutrition coaching: estimate the macros, log the meal, name what is missing for the day, one concrete food to close the gap. Then back to training."
+  }
 }

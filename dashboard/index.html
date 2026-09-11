@@ -186,7 +186,16 @@ details.meals[open] summary::after{transform:rotate(90deg)}
 .timer small{font-size:13px;color:var(--ink-2);font-weight:600;margin-left:6px;letter-spacing:0}
 .prog{height:6px;border-radius:3px;background:var(--fill-2);overflow:hidden;margin-top:10px}
 .prog i{display:block;height:100%;background:var(--green);border-radius:3px;transition:width .4s var(--ease)}
-.meta{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:12px}
+.meta{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-top:12px}
+@media(min-width:520px){.meta{grid-template-columns:repeat(4,1fr)}}
+.meta select{width:100%;padding:8px;font-size:14px}
+.vol{display:grid;gap:9px}
+.vol .row{display:grid;grid-template-columns:96px 1fr 60px;align-items:center;gap:10px}
+.vol .m{font-size:14px;color:var(--ink-2);font-weight:600;text-transform:capitalize}
+.vol .track{position:relative;height:9px;border-radius:5px;background:var(--line);overflow:hidden}
+.vol .track i{position:absolute;inset:0 auto 0 0;border-radius:5px;transition:width .6s ease}
+.vol .track u{position:absolute;top:-3px;bottom:-3px;width:2px;background:var(--ink-3);opacity:.45}
+.vol .n{font-family:var(--mono);font-size:13px;text-align:right;color:var(--ink-2)}
 .meta label{display:grid;gap:5px;font-size:12px;font-weight:600;color:var(--ink-2)}
 .meta input{width:100%;font-family:var(--mono);padding:8px;text-align:center}
 .ex{background:var(--surface);border-radius:var(--radius);padding:14px 14px 12px;box-shadow:var(--shadow)}
@@ -269,6 +278,7 @@ details.tbl td:first-child,details.tbl th:first-child{text-align:left}
       <button role="tab" data-tab="cal" aria-selected="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>Calendar</button>
       <button role="tab" data-tab="sess" aria-selected="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8v8M18 8v8M3 10v4M21 10v4M6 12h12"/></svg>Session</button>
       <button role="tab" data-tab="prog" aria-selected="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 6h12M8 12h12M8 18h12M4 6h.01M4 12h.01M4 18h.01"/></svg>Program</button>
+      <button role="tab" data-tab="food" aria-selected="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3v8a3 3 0 0 0 6 0V3M9 11v10M18 3c-1.7 1.6-2.5 3.7-2.5 6.5S16.3 14 18 14v7"/></svg>Food</button>
     </nav>
   </div>
 </header>
@@ -337,12 +347,24 @@ const PROGRAM = {
 };
 const DAY_ORDER = ["upper","lowerA","push","pull","legsB"];
 const DEFAULT_TARGETS = {kcal:3300, protein:170, carbs:475, fat:80, sleep:7.5, sessions:5};
+const MUSCLES = {
+  bench:["chest","triceps"], incdb:["chest","triceps"], dips:["chest","triceps"], pecdeck:["chest"], cablefly:["chest"],
+  csrow:["back"], dbrow:["back"], tbarrow:["back"], cablerow:["back"], pullup:["back","biceps"], sapd:["back"],
+  revpec:["rear delts"], ohp:["shoulders","triceps"], dbohp:["shoulders","triceps"], dblat:["side delts"],
+  ezcurl:["biceps"], inccurl:["biceps"], hammer:["biceps"], pushdown:["triceps"], ohtri:["triceps"],
+  squat:["quads","glutes"], legpress:["quads","glutes"], lunge:["quads","glutes"], bss:["quads","glutes"], legext:["quads"],
+  rdl:["hamstrings","glutes"], trapbar:["hamstrings","glutes","back"], legcurl:["hamstrings"], nordic:["hamstrings"],
+  hanglr:["abs"], abwheel:["abs"], copenhagen:["abs"], landing:[]
+};
+const SET_TARGET = {chest:[10,20], back:[10,20], shoulders:[6,12], "side delts":[8,16], "rear delts":[6,12],
+  biceps:[8,16], triceps:[8,16], quads:[10,20], hamstrings:[8,16], glutes:[8,16], abs:[6,12]};
+const GYMS = {fitnesspark:"Fitness Park", campus:"SKEMA campus"};
 const LIFTS = ["bench","squat","trapbar","rdl","ohp","incdb","legpress","csrow","dbrow","pullup","dips","dbohp","legcurl"];
 const SLOTS = [["breakfast","Breakfast"],["lunch","Lunch"],["dinner","Dinner"],["snack","Snacks"]];
 const guessSlot = h => h<11 ? "breakfast" : h<15 ? "lunch" : (h>=17 && h<22) ? "dinner" : "snack";
 
 /* ---------- state ---------- */
-const S = { db:null, sessions:{}, bw:{}, nut:{}, targets:{...DEFAULT_TARGETS},
+const S = {gym:"fitnesspark",  db:null, sessions:{}, bw:{}, nut:{}, targets:{...DEFAULT_TARGETS},
             tab:"dash", date:null, dayKey:null, logging:false, month:null, lift:"bench", dirty:false, timer:null, unsub:[], demo:false };
 
 /* ---------- dates ---------- */
@@ -394,9 +416,14 @@ function setsFor(ex, dayKey, date){
   else if (w <= 2 && (dayKey==="lowerA"||dayKey==="legsB")) n = Math.min(n,2);
   return n;
 }
-function lastPerf(k, before){
+/* Stack numbers do not transfer between gyms: the campus Kinesis "level 15" is not 15 kg and the
+   campus Technogym press is not the Nautilus. Look at this gym first, fall back with a flag. */
+function lastPerf(k, before, gym){
   const list = liftSessions().filter(s=>s.date<before).reverse();
-  for (const s of list){ const e=(s.exercises||[]).find(x=>x.k===k); if (e && e.sets && e.sets.some(t=>t.reps>0)) return {date:s.date, sets:e.sets.filter(t=>t.reps>0)}; }
+  const hit = s => { const e=(s.exercises||[]).find(x=>x.k===k); return (e && e.sets && e.sets.some(t=>t.reps>0)) ? {date:s.date, sets:e.sets.filter(t=>t.reps>0), gym:(s.gym||"fitnesspark")} : null; };
+  const g = gym || S.gym || "fitnesspark";
+  for (const s of list){ if ((s.gym||"fitnesspark")===g){ const r=hit(s); if (r) return {...r, sameGym:true}; } }
+  for (const s of list){ const r=hit(s); if (r) return {...r, sameGym:false}; }
   return null;
 }
 /* The working load is the heaviest load he actually handled, not the load of the last set.
@@ -413,6 +440,7 @@ function suggest(ex, dayKey, date){
   if (ex.bw) return {load:null, why:"bodyweight"};
   const last = lastPerf(ex.k, date);
   if (!last) return {load: ex.start ?? null, why: ex.start!=null ? "start load" : "start light, find the weight"};
+  if (!last.sameGym) return {load: ex.start ?? null, why:"last done at the "+(GYMS[last.gym]||last.gym)+" — that stack does not transfer"};
   const load = workLoad(last.sets, ex.reps[0]);
   if (ex.prog==="session") return {load: load+ex.inc, why:"+"+ex.inc+" every session, technique first"};
   const n = setsFor(ex, dayKey, date);
@@ -439,10 +467,11 @@ function render(){
   if (S.tab==="dash") renderDash();
   else if (S.tab==="cal") renderCal();
   else if (S.tab==="sess") renderSession();
+  else if (S.tab==="food") renderFood();
   else renderProgram();
 }
 function go(tab){ S.tab=tab; render(); window.scrollTo({top:0}); }
-function openDay(date, opts={}){ S.date=date; S.dayKey=null; S.dirty=false; S.logging=!!opts.start; go("sess"); }
+function openDay(date, opts={}){ S.date=date; S.dayKey=null; S.gym=(loggedLift(date)||{}).gym||S.gym; S.dirty=false; S.logging=!!opts.start; go("sess"); }
 
 /* ---- rings + macros ---- */
 function ringsCard(date){
@@ -450,13 +479,13 @@ function ringsCard(date){
   const items = [
     {label:"Calories", sub:fmtShort(date), v:n.kcal||0, t:S.targets.kcal, unit:" kcal", color:"var(--r-kcal)", r:62},
     {label:"Protein", sub:fmtShort(date), v:n.protein||0, t:S.targets.protein, unit:" g", color:"var(--r-prot)", r:48},
-    {label:"Sessions", sub:"this week", v:sessionsInWeekOf(date), t:S.targets.sessions, unit:"", color:"var(--r-sess)", r:34}
+    {label:"Carbs", sub:fmtShort(date), v:n.carbs||0, t:S.targets.carbs, unit:" g", color:"var(--r-carb)", r:34}
   ];
   const sw = 11;
   const circles = items.map(it=>{ const c=2*Math.PI*it.r, p=Math.min(1,it.v/it.t); return `<circle class="track" cx="75" cy="75" r="${it.r}" fill="none" stroke="${it.color}" stroke-width="${sw}"/>
     <circle class="bar" cx="75" cy="75" r="${it.r}" fill="none" stroke="${it.color}" stroke-width="${sw}" stroke-linecap="round" stroke-dasharray="${c}" stroke-dashoffset="${c}" data-final="${c*(1-p)}"/>`; }).join("");
   const list = items.map(it=>`<div class="rl"><i style="background:${it.color}"></i><span class="l">${it.label}<small>${it.sub}</small></span><span class="v">${fmtN(it.v)}<small> / ${fmtN(it.t)}${it.unit}</small></span></div>`).join("");
-  return `<div class="card rings"><svg viewBox="0 0 150 150" role="img" aria-label="Calories, protein and sessions progress"><g transform="rotate(-90 75 75)">${circles}</g></svg><div class="rlist">${list}</div></div>`;
+  return `<div class="card rings"><svg viewBox="0 0 150 150" role="img" aria-label="Calories, protein and carbohydrate progress"><g transform="rotate(-90 75 75)">${circles}</g></svg><div class="rlist">${list}</div></div>`;
 }
 function macrosCard(date){
   const n = S.nut[date] || {};
@@ -483,7 +512,34 @@ function macrosCard(date){
         <button class="secondary" id="amSave">Add meal</button>
       </div></details></div>`;
 }
-function animateBars(){ requestAnimationFrame(()=>requestAnimationFrame(()=>{ document.querySelectorAll(".rings circle.bar").forEach(c=>c.setAttribute("stroke-dashoffset", c.dataset.final)); document.querySelectorAll(".mac .bar i").forEach(i=>i.style.width=i.dataset.w); })); }
+function animateBars(){ requestAnimationFrame(()=>requestAnimationFrame(()=>{ document.querySelectorAll(".rings circle.bar").forEach(c=>c.setAttribute("stroke-dashoffset", c.dataset.final)); document.querySelectorAll(".mac .bar i, .vol .track i").forEach(i=>i.style.width=i.dataset.w); })); }
+
+/* ---- weekly volume per muscle: the number that decides whether the week worked ---- */
+function weekVolume(date){
+  const mon = mondayOf(date);
+  const out = {};
+  liftSessions().filter(s=>s.date>=mon && s.date<=addDays(mon,6)).forEach(s=>{
+    (s.exercises||[]).forEach(e=>{
+      const done = (e.sets||[]).filter(t=>t.reps>0).length;
+      (MUSCLES[e.k]||[]).forEach(m=>{ out[m]=(out[m]||0)+done; });
+    });
+  });
+  return out;
+}
+function volumeCard(date){
+  const v = weekVolume(date);
+  const rows = Object.keys(SET_TARGET).map(m=>{
+    const [lo,hi] = SET_TARGET[m], n = v[m]||0;
+    const pct = Math.min(100, Math.round(n/hi*100));
+    const col = n>=lo ? (n>hi ? "var(--orange)" : "var(--r-sess)") : "var(--ink-3)";
+    return {m, n, lo, hi, pct, col, sort:(n>=lo?1:0)*1000 - n};
+  }).sort((a,b)=>a.sort-b.sort);
+  const html = rows.map(r=>`<div class="row"><span class="m">${r.m}</span>
+    <div class="track"><i style="background:${r.col};width:0" data-w="${r.pct}%"></i><u style="left:${Math.round(r.lo/r.hi*100)}%"></u></div>
+    <span class="n">${r.n} <small style="color:var(--ink-3)">/${r.lo}</small></span></div>`).join("");
+  const low = rows.filter(r=>r.n<r.lo).length;
+  return `<div class="card"><div class="card-h"><h2>Hard sets this week</h2><span class="hint">${low?low+" under the weekly minimum":"every muscle at its minimum"}</span></div><div class="vol">${html}</div></div>`;
+}
 
 /* ---- dashboard ---- */
 function nextSessionCard(){
@@ -504,40 +560,49 @@ function renderDash(){
   const prevAvg = (()=>{ if(!avg.length) return null; const target=addDays(avg[avg.length-1].date,-7); const p=avg.filter(a=>a.date<=target); return p.length?p[p.length-1].v:null; })();
   const wk = sessionsInWeekOf(t);
   const last7 = d => d>=addDays(t,-6) && d<=t;
-  const pn = Object.values(S.nut).filter(n=>last7(n.date)&&n.protein!=null);
-  const pAvg = pn.length ? Math.round(pn.reduce((a,n)=>a+n.protein,0)/pn.length) : null;
   const sl = liftSessions().filter(s=>last7(s.date)&&s.sleep);
   const slAvg = sl.length ? r1(sl.reduce((a,s)=>a+s.sleep,0)/sl.length) : null;
+  const vol = weekVolume(t);
+  const volTotal = Object.values(vol).reduce((a,n)=>a+n,0);
+  const volLow = Object.keys(SET_TARGET).filter(m=>(vol[m]||0)<SET_TARGET[m][0]).length;
   const delta = (lastAvg!=null&&prevAvg!=null) ? r1(lastAvg-prevAvg) : null;
-  const dcls = delta==null?"flat":delta>0.5?"down":delta>0?"up":delta<0?"down":"flat";
+  const dcls = delta==null?"flat":delta>0?"up":delta<0?"down":"flat";
   const liftOpts = LIFTS.map(k=>{ const ex=Object.values(PROGRAM.days).flatMap(d=>d.ex).find(e=>e.k===k); return `<option value="${k}">${esc(ex.n)}</option>`; }).join("");
   view.innerHTML = `<div class="stack">
-    <div class="page-h"><div class="when">${fmtDay(t)}</div><h1>Dashboard</h1></div>
+    <div class="page-h"><div class="when">${fmtDay(t)}</div><h1>Training</h1></div>
     ${nextSessionCard()}
-    <div class="grid2">${ringsCard(t)}${macrosCard(t)}</div>
     <div class="tiles">
-      <div class="tile"><span class="eyebrow">Weight, 7-day avg</span><span class="v">${lastAvg??"–"}<small>kg</small></span><span class="delta ${dcls}">${delta==null?"needs two weeks of readings":(delta>0?"+":"")+delta+" kg vs last week"}</span></div>
       <div class="tile"><span class="eyebrow">Sessions this week</span><span class="v">${wk}<small>/ ${S.targets.sessions}</small></span><span class="delta ${wk>=S.targets.sessions?"up":"flat"}">${wk>=S.targets.sessions?"week complete":(S.targets.sessions-wk)+" to go"}</span></div>
-      <div class="tile"><span class="eyebrow">Protein, 7-day avg</span><span class="v">${pAvg??"–"}<small>g</small></span><span class="delta ${pAvg==null?"flat":pAvg>=S.targets.protein?"up":"down"}">${pAvg==null?"no food logged":"target "+S.targets.protein+" g"}</span></div>
+      <div class="tile"><span class="eyebrow">Hard sets this week</span><span class="v">${volTotal}</span><span class="delta ${volLow?"down":"up"}">${volLow?volLow+" muscles under minimum":"all muscles covered"}</span></div>
+      <div class="tile"><span class="eyebrow">Weight, 7-day avg</span><span class="v">${lastAvg??"–"}<small>kg</small></span><span class="delta ${dcls}">${delta==null?"needs two weeks of readings":(delta>0?"+":"")+delta+" kg vs last week"}</span></div>
       <div class="tile"><span class="eyebrow">Sleep, 7-day avg</span><span class="v">${slAvg??"–"}<small>h</small></span><span class="delta ${slAvg==null?"flat":slAvg>=S.targets.sleep?"up":"down"}">${slAvg==null?"logged with sessions":"target "+S.targets.sleep+" h"}</span></div>
     </div>
-    <div class="card"><div class="card-h"><h2>Bodyweight</h2><span class="hint">dots are mornings, line is the 7-day average</span></div><div class="chart" id="chBw"></div></div>
+    ${volumeCard(t)}
     <div class="card"><div class="card-h"><h2>Strength</h2><select id="liftSel" aria-label="Exercise">${liftOpts}</select></div><div class="chart" id="chLift"></div></div>
-    <div class="grid2">
-      <div class="card"><div class="card-h"><h2>Calories, 14 days</h2><span class="hint">target ${fmtN(S.targets.kcal)}</span></div><div class="chart" id="chKcal"></div></div>
-      <div class="card"><div class="card-h"><h2>Protein, 14 days</h2><span class="hint">target ${S.targets.protein} g</span></div><div class="chart" id="chProt"></div></div>
-    </div>
+    <div class="card"><div class="card-h"><h2>Bodyweight</h2><span class="hint">dots are mornings, line is the 7-day average</span></div><div class="chart" id="chBw"></div></div>
     <div class="card"><h2 style="font-size:19px;margin-bottom:10px">Log bodyweight</h2><div class="form">
       <label>Date<input id="bwDate" type="date" value="${t}"></label><label>Weight kg<input id="bwW" inputmode="decimal" placeholder="82.4"></label><label>Waist cm<input id="bwWaist" inputmode="decimal" placeholder="84"></label>
       <button class="secondary" id="bwSave">Save reading</button></div><p class="hint" style="margin-top:8px">Morning, after the bathroom, before food. Waist at the navel every Sunday.</p></div>
   </div>`;
   view.querySelectorAll("[data-open]").forEach(b=>b.addEventListener("click",()=>openDay(b.dataset.open,{start:!!b.dataset.start})));
   liftSel.value = S.lift; liftSel.onchange = e=>{ S.lift=e.target.value; drawLift(); };
-  bwSave.onclick = saveBw; amSave.onclick = ()=>saveMeal(t);
-  drawBw(); drawLift(); drawNut(); animateBars();
+  bwSave.onclick = saveBw;
+  drawBw(); drawLift(); animateBars();
+}
+function renderFood(){
+  const t = today();
+  view.innerHTML = `<div class="stack">
+    <div class="page-h"><div class="when">${fmtDay(t)}</div><h1>Food</h1></div>
+    <div class="grid2">${ringsCard(t)}${macrosCard(t)}</div>
+    <div class="grid2">
+      <div class="card"><div class="card-h"><h2>Calories, 14 days</h2><span class="hint">target ${fmtN(S.targets.kcal)}</span></div><div class="chart" id="chKcal"></div></div>
+      <div class="card"><div class="card-h"><h2>Protein, 14 days</h2><span class="hint">target ${S.targets.protein} g</span></div><div class="chart" id="chProt"></div></div>
+    </div>
+  </div>`;
+  amSave.onclick = ()=>saveMeal(t);
+  drawNut(); animateBars();
 }
 
-/* ---- calendar ---- */
 function renderCal(){
   const t = today();
   if (!S.month) S.month = t.slice(0,7);
@@ -597,6 +662,8 @@ function renderSession(){
   document.getElementById("sessTitle").textContent = key==="rest" ? "Rest day" : PROGRAM.days[key].name;
   document.getElementById("sessSub").textContent = key==="rest" ? "" : `${PROGRAM.days[key].sub} · ${PROGRAM.days[key].ex.length} exercises · ${totalSets(key,date)} sets · about ${estMinutes(key,date)} min${(w<=2&&(key==="lowerA"||key==="legsB"))?" · intro volume, 2 sets each":(w>=PROGRAM.deloadWeek?" · deload, 2 sets each":"")}`;
   sel.addEventListener("change", e=>{ S.dayKey=e.target.value; S.logging=false; S.dirty=false; renderSession(); });
+  const gsel = document.getElementById("mGym");
+  if (gsel) gsel.addEventListener("change", e=>{ S.gym = e.target.value; renderSession(); });
   backCal.onclick = ()=>go("cal");
   wireSession(date, key);
 }
@@ -614,7 +681,7 @@ function liftForm(date, key, src){
   const day = PROGRAM.days[key];
   const started = src?.startedAt || new Date().toISOString();
   let html = `<div class="card"><div class="timerbar"><div class="timer"><span id="clock">00:00</span><small>${src?.savedAt?"saved":"in session"}</small></div><span class="chip" id="setCount">0 sets</span></div><div class="prog"><i id="progBar" style="width:0"></i></div>
-    <div class="meta"><label>Sleep h<input id="mSleep" inputmode="decimal" value="${src?.sleep??""}"></label><label>Weight kg<input id="mBw" inputmode="decimal" value="${src?.bodyweight??""}"></label><label>Energy 1–5<input id="mEnergy" inputmode="numeric" value="${src?.energy??""}"></label></div>
+    <div class="meta"><label>Gym<select id="mGym">${Object.entries(GYMS).map(([k,v])=>`<option value="${k}" ${k===(src?.gym||S.gym)?"selected":""}>${v}</option>`).join("")}</select></label><label>Sleep h<input id="mSleep" inputmode="decimal" value="${src?.sleep??""}"></label><label>Weight kg<input id="mBw" inputmode="decimal" value="${src?.bodyweight??""}"></label><label>Energy 1–5<input id="mEnergy" inputmode="numeric" value="${src?.energy??""}"></label></div>
     <input type="hidden" id="mStarted" value="${started}"></div>`;
   day.ex.forEach((ex,i)=>{
     const n = setsFor(ex, key, date), sug = suggest(ex, key, date), last = lastPerf(ex.k, date);
@@ -695,7 +762,7 @@ function collectSession(date, key){
   });
   const startedAt = document.getElementById("mStarted")?.value || new Date().toISOString();
   const duration = Math.round((Date.now()-new Date(startedAt).getTime())/60000);
-  return {type:"lift", date, dayKey:key, name:day.name, week:weekOf(date), sleep:num(mSleep.value), bodyweight:num(mBw.value), energy:num(mEnergy.value), duration: duration>0&&duration<300?duration:null, notes:mNotes.value.trim(), exercises, startedAt, source:"page"};
+  return {type:"lift", date, dayKey:key, name:day.name, gym: document.getElementById("mGym")?.value || S.gym, week:weekOf(date), sleep:num(mSleep.value), bodyweight:num(mBw.value), energy:num(mEnergy.value), duration: duration>0&&duration<300?duration:null, notes:mNotes.value.trim(), exercises, startedAt, source:"page"};
 }
 function saveDraft(){ try{ const key=document.getElementById("daySel").value; if(!PROGRAM.days[key]||!document.getElementById("mStarted")) return; const d=collectSession(S.date||today(), key); localStorage.setItem("draft:"+d.date+"_"+d.dayKey, JSON.stringify(d)); }catch(e){} }
 function loadDraft(id){ try{ const v=localStorage.getItem("draft:"+id); return v?JSON.parse(v):null; }catch(e){ return null; } }
@@ -841,7 +908,7 @@ function renderProgram(){
 /* ---------- toast, tabs, resize ---------- */
 let toastT; function toast(msg){ const t=document.getElementById("toast"); t.textContent=msg; t.classList.add("show"); clearTimeout(toastT); toastT=setTimeout(()=>t.classList.remove("show"),2200); }
 document.querySelectorAll(".tabs button").forEach(b=>b.addEventListener("click",()=>{ const tab=b.dataset.tab; if (tab==="sess" && S.tab!=="sess"){ S.date=today(); S.dayKey=null; S.logging=false; S.dirty=false; } view.style.animation="none"; void view.offsetWidth; view.style.animation=""; go(tab); }));
-let rz; window.addEventListener("resize", ()=>{ clearTimeout(rz); rz=setTimeout(()=>{ if(S.tab==="dash"){ drawBw(); drawLift(); drawNut(); } },150); });
+let rz; window.addEventListener("resize", ()=>{ clearTimeout(rz); rz=setTimeout(()=>{ if(S.tab==="dash"){ drawBw(); drawLift(); } else if(S.tab==="food"){ drawNut(); } },150); });
 
 /* ---------- data ---------- */
 function onData(){ PLAN={upTo:null,map:{}}; if (S.tab==="sess" && S.dirty) return; render(); }

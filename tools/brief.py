@@ -76,14 +76,80 @@ def e1rm(load_, reps):
     return load_ * (1 + reps / 30)
 
 
+DEFAULT_GYM = "fitnesspark"
+GYM_NAMES = {"fitnesspark": "Fitness Park", "campus": "SKEMA campus"}
+
+
+def last_by_gym(sessions):
+    """Last performance of every exercise, kept separately per gym.
+
+    Stack numbers do not transfer between gyms: the campus Kinesis "level 15" is not 15 kg,
+    and the campus Technogym leg press is not the Nautilus. Mixing them once prescribed a
+    15 kg Romanian deadlift for a man who pulls 50. Never merge the two gyms again.
+    """
+    out = defaultdict(dict)
+    for s in sessions:
+        g = s.get("gym", DEFAULT_GYM)
+        for ex in s.get("exercises", []):
+            done = [t for t in ex.get("sets", []) if t.get("reps")]
+            if done:
+                out[ex["k"]][g] = (s["date"], ex.get("n", ex["k"]), done, ex.get("note", ""))
+    return out
+
+
+def pick_gym(by_gym, gym=DEFAULT_GYM):
+    """The record to prescribe from: this gym\'s, else the newest elsewhere, flagged as such."""
+    if gym in by_gym:
+        return by_gym[gym], True
+    if not by_gym:
+        return None, True
+    return max(by_gym.values(), key=lambda x: x[0]), False
+
+
+def prescribe(ex, lp, ov=None):
+    """(load text, last-performance text) for one exercise, from its last session at this gym.
+
+    `ov` is a coach override from data/facts.json: a load the athlete has proven he can handle
+    but did not use last time (he under-loads an exercise for a whole session now and then).
+    """
+    if not lp:
+        st = ov["load"] if ov else ex.get("start", "test")
+        return f"start {st}", "—"
+    date, _n, done, _note = lp
+    lo, hi = ex["reps"]
+    # Working load = the heaviest load actually handled, not the last set. He ramps down when
+    # tired; reading the last set throws the real work away.
+    scored = [t for t in done if t.get("load") is not None]
+    near = [t for t in scored if t["reps"] >= lo - 2]
+    base = max(t["load"] for t in (near or scored)) if scored else None
+    all_top = len(done) >= ex["sets"] and all(t["reps"] >= hi for t in done)
+    if ov and base is not None and ov["load"] > base:
+        return f"{ov['load']:g} kg — {ov['why']}", f"{fmt_sets(done, ex.get('added', False))}  ({date[5:]})"
+    if ex.get("bw") or base is None or (ex.get("added") and not base):
+        nxt = "bodyweight, beat the reps"
+    elif ex.get("added"):
+        nxt = f"+{base:g} kg, beat the reps"
+    elif ex.get("prog") == "session":
+        nxt = f"{base + ex['inc']:g} kg (+{ex['inc']:g} every session)"
+    elif all_top:
+        nxt = f"{base + ex['inc']:g} kg (+{ex['inc']:g}, hit the top last time)"
+    else:
+        nxt = f"{base:g} kg, beat the reps"
+    return nxt, f"{fmt_sets(done, ex.get('added', False))}  ({date[5:]})"
+
+
 def main():
     # The athlete lives in France. The container runs on UTC - never reason about "now" from
     # message flow, read the clock in his timezone.
     import os, time
+    FOOD = "--food" in sys.argv or "--all" in sys.argv
     os.environ["TZ"] = "Europe/Paris"; time.tzset()
     now = dt.datetime.now()
-    today = dt.date.fromisoformat(sys.argv[1]) if len(sys.argv) > 1 else now.date()
+    args = [a for a in sys.argv[1:] if not a.startswith("-")]
+    today = dt.date.fromisoformat(args[0]) if args else now.date()
     P = program()
+    OV = json.loads((ROOT / "data" / "facts.json").read_text()).get("coach_overrides", {}) \
+        if (ROOT / "data" / "facts.json").exists() else {}
     order = ["upper", "lowerA", "push", "pull", "legsB"]
     sessions = sorted([s for s in load("sessions") if s.get("type") != "sport"], key=lambda s: s["date"])
     nutrition = sorted(load("nutrition"), key=lambda n: n["date"])
@@ -98,27 +164,21 @@ def main():
     mon = monday(today)
     print(f"BRIEFING  {today:%a %d %b %Y}  ·  local time now {now:%H:%M} (Europe/Paris)  ·  {P['block']} \"{P['title']}\" week {week} of {P['weeks']}")
 
-    # ---- bodyweight ----
-    print("\nBODYWEIGHT")
-    if bw:
-        vals = [(dt.date.fromisoformat(b["date"]), b["weight"]) for b in bw]
-        last_d, last_w = vals[-1]
-        win = [w for d, w in vals if last_d - d <= dt.timedelta(days=6)]
-        avg = sum(win) / len(win)
-        print(f"  last {last_w:.2f} kg ({last_d:%a %d %b}) · {len(win)}-day avg {avg:.2f} kg "
-              f"· {len(vals)} readings since {vals[0][0]:%d %b}")
-        prev = [w for d, w in vals if last_d - d > dt.timedelta(days=6) and last_d - d <= dt.timedelta(days=13)]
-        if prev:
-            delta = avg - sum(prev) / len(prev)
-            rate = delta / last_w * 100
-            verdict = "on target" if 0.2 <= rate <= 0.4 else ("too fast, mostly fat" if rate > 0.4 else "too slow, add calories")
-            print(f"  vs last week {delta:+.2f} kg ({rate:+.2f} % of bodyweight) — {verdict}")
-        else:
-            print("  weekly trend needs 8+ days of readings")
-        if today.weekday() == 6:
-            print("  SUNDAY: take the waist measurement at the navel")
-    else:
-        print("  no readings")
+    # ---- what to train today: the first thing a coach needs ----
+    lp_all = last_by_gym(sessions)
+    idx = order.index(sessions[-1]["dayKey"]) if sessions and sessions[-1]["dayKey"] in order else -1
+    nxt = order[(idx + 1) % len(order)]
+    done_today = any(s["date"] == today.isoformat() for s in sessions)
+    day = P["days"][nxt]
+    hdr = "NEXT SESSION (today is already logged)" if done_today else "TRAIN TODAY"
+    print(f"\n{hdr}: {day['name']} — {day['sub']} · {len(day['ex'])} exercises · "
+          f"{sum(e['sets'] for e in day['ex'])} sets")
+    print(f"    {'exercise':<42} {'sets × reps':<15} {'prescribe':<30} last time")
+    for ex in day["ex"]:
+        lp, same = pick_gym(lp_all.get(ex["k"], {}))
+        nl, lastt = prescribe(ex, lp, OV.get(ex["k"]))
+        reps = f"{ex['sets']} × {ex['reps'][0]:g}-{ex['reps'][1]:g}" + (" /side" if ex.get("perSide") else "")
+        print(f"    {ex['n'][:42]:<42} {reps:<15} {nl[:30]:<30} {lastt}" + ("" if same else "  [OTHER GYM]"))
 
     # ---- this week ----
     wk_s = [s for s in sessions if mon <= dt.date.fromisoformat(s["date"]) <= mon + dt.timedelta(days=6)]
@@ -132,7 +192,7 @@ def main():
             for m in MUSCLES.get(ex["k"], []):
                 sets_by_m[m] += done
     if sets_by_m:
-        print("  hard sets per muscle (weekly target in brackets):")
+        print("  HARD SETS PER MUSCLE (weekly target in brackets):")
         for m, n in sorted(sets_by_m.items(), key=lambda x: -x[1]):
             lo, hi = TARGET_SETS.get(m, (0, 99))
             mark = "OK " if lo <= n <= hi else ("LOW" if n < lo else "HIGH")
@@ -143,58 +203,30 @@ def main():
     if wk_n:
         n = len(wk_n)
         avg = {k: sum(x.get(k, 0) for x in wk_n) / n for k in ("kcal", "protein", "carbs", "fat")}
-        print(f"  food, {n} day(s) logged, daily average:")
-        for k, unit in (("kcal", ""), ("protein", " g"), ("carbs", " g"), ("fat", " g")):
-            d = avg[k] - tgt[k]
-            print(f"    {k:<8} {avg[k]:>6.0f}{unit}  target {tgt[k]}{unit}  {d:+.0f}")
-
-    # ---- last 10 days of food ----
-    if nutrition:
-        print("\nFOOD, LAST 10 DAYS")
-        print("    date          kcal    P    C    F   meals")
-        for x in nutrition[-10:]:
-            d = dt.date.fromisoformat(x["date"])
-            print(f"    {d:%a %d %b}  {x.get('kcal',0):>6.0f} {x.get('protein',0):>4.0f} "
-                  f"{x.get('carbs',0):>4.0f} {x.get('fat',0):>4.0f}   {len(x.get('meals',[]))}")
+        if FOOD:
+            print(f"  food, {n} day(s) logged, daily average:")
+            for k, unit in (("kcal", ""), ("protein", " g"), ("carbs", " g"), ("fat", " g")):
+                d = avg[k] - tgt[k]
+                print(f"    {k:<8} {avg[k]:>6.0f}{unit}  target {tgt[k]}{unit}  {d:+.0f}")
+        else:
+            print(f"  food (not the focus - he asked for training only): {n} day(s) logged, "
+                  f"{avg['kcal']:.0f} kcal / {avg['protein']:.0f} g protein per day. "
+                  f"Run `brief.py --food` when he brings food up.")
 
     # ---- exercise board ----
-    print("\nEXERCISE BOARD  (last performance → what to prescribe next)")
-    lastperf = {}
-    for s in sessions:
-        for ex in s.get("exercises", []):
-            done = [t for t in ex.get("sets", []) if t.get("reps")]
-            if done:
-                lastperf[ex["k"]] = (s["date"], ex.get("n", ex["k"]), done, ex.get("note", ""))
+    print("\nEXERCISE BOARD  (last performance at each gym → what to prescribe next)")
     for key in order:
         day = P["days"][key]
-        rows = []
-        for ex in day["ex"]:
-            lp = lastperf.get(ex["k"])
-            if not lp:
-                rows.append((ex["n"], "—", f"start {ex.get('start','test')}"))
-                continue
-            date, _, done, _note = lp
-            lo, hi = ex["reps"]
-            # Working load = the heaviest load actually handled, not the last set. He ramps
-            # down when tired; the last set would throw the real work away.
-            scored = [t for t in done if t.get("load") is not None]
-            near = [t for t in scored if t["reps"] >= lo - 2]
-            base = max(t["load"] for t in (near or scored)) if scored else None
-            all_top = len(done) >= ex["sets"] and all(t["reps"] >= hi for t in done)
-            if ex.get("bw") or base is None or (ex.get("added") and not base):
-                nxt = "bodyweight, beat the reps"
-            elif ex.get("added"):
-                nxt = f"+{base:g} kg, beat the reps"
-            elif ex.get("prog") == "session":
-                nxt = f"{base + ex['inc']:g} kg (+{ex['inc']:g} every session)"
-            elif all_top:
-                nxt = f"{base + ex['inc']:g} kg (+{ex['inc']:g}, hit the top last time)"
-            else:
-                nxt = f"{base:g} kg, beat the reps"
-            rows.append((ex["n"], f"{fmt_sets(done, ex.get('added', False))}  ({date[5:]})", nxt))
         print(f"\n  {day['name']}")
-        for n, last, nxt in rows:
-            print(f"    {n[:44]:<44} {last:<34} → {nxt}")
+        for ex in day["ex"]:
+            by_gym = lp_all.get(ex["k"], {})
+            lp, same = pick_gym(by_gym)
+            nxt_, last_ = prescribe(ex, lp, OV.get(ex["k"]))
+            print(f"    {ex['n'][:42]:<42} {last_:<34} -> {nxt_}" + ("" if same else "  [OTHER GYM]"))
+            for g, rec in by_gym.items():
+                if lp and g != (DEFAULT_GYM if same else None) and rec is not lp:
+                    print(f"      {GYM_NAMES.get(g, g)}: {fmt_sets(rec[2], ex.get('added', False))}  ({rec[0][5:]})"
+                          f" — stack numbers do not transfer")
 
     # ---- patterns the data reveals ----
     # ---- personal bests, straight from the flat table ----
@@ -238,16 +270,47 @@ def main():
     fat_over = [x["date"][5:] for x in nutrition if x.get("fat", 0) > tgt["fat"]]
     carb_short = [x["date"][5:] for x in nutrition if x.get("carbs", 0) < tgt["carbs"] * 0.8]
     prot_short = [x["date"][5:] for x in nutrition if x.get("protein", 0) < tgt["protein"] * 0.9]
-    if fat_over:
+    if fat_over and FOOD:
         flags.append(f"Fat over target on {len(fat_over)}/{len(nutrition)} days: {', '.join(fat_over)}")
-    if carb_short:
+    if carb_short and FOOD:
         flags.append(f"Carbs under 80 % of target on {len(carb_short)}/{len(nutrition)} days: {', '.join(carb_short)}")
-    if prot_short:
+    if prot_short and FOOD:
         flags.append(f"Protein under 90 % of target on: {', '.join(prot_short)}")
     slept = [(s["date"][5:], s["sleep"]) for s in sessions if s.get("sleep")]
     flags.append("Sleep logged on " + (", ".join(f"{d} {v:g} h" for d, v in slept) if slept else "no session yet — ask every morning."))
     for f in flags:
         print("  " + f if not f.startswith("    ") else f)
+
+    # ---- bodyweight ----
+    print("\nBODYWEIGHT")
+    if bw:
+        vals = [(dt.date.fromisoformat(b["date"]), b["weight"]) for b in bw]
+        last_d, last_w = vals[-1]
+        win = [w for d, w in vals if last_d - d <= dt.timedelta(days=6)]
+        avg = sum(win) / len(win)
+        print(f"  last {last_w:.2f} kg ({last_d:%a %d %b}) · {len(win)}-day avg {avg:.2f} kg "
+              f"· {len(vals)} readings since {vals[0][0]:%d %b}")
+        prev = [w for d, w in vals if last_d - d > dt.timedelta(days=6) and last_d - d <= dt.timedelta(days=13)]
+        if prev:
+            delta = avg - sum(prev) / len(prev)
+            rate = delta / last_w * 100
+            verdict = "on target" if 0.2 <= rate <= 0.4 else ("too fast, mostly fat" if rate > 0.4 else "too slow, add calories")
+            print(f"  vs last week {delta:+.2f} kg ({rate:+.2f} % of bodyweight) — {verdict}")
+        else:
+            print("  weekly trend needs 8+ days of readings")
+        if today.weekday() == 6:
+            print("  SUNDAY: take the waist measurement at the navel")
+    else:
+        print("  no readings")
+
+    # ---- last 10 days of food ----
+    if nutrition and FOOD:
+        print("\nFOOD, LAST 10 DAYS")
+        print("    date          kcal    P    C    F   meals")
+        for x in nutrition[-10:]:
+            d = dt.date.fromisoformat(x["date"])
+            print(f"    {d:%a %d %b}  {x.get('kcal',0):>6.0f} {x.get('protein',0):>4.0f} "
+                  f"{x.get('carbs',0):>4.0f} {x.get('fat',0):>4.0f}   {len(x.get('meals',[]))}")
 
     # ---- university timetable: today and tomorrow ----
     tf = ROOT / "data" / "timetable.json"
@@ -292,13 +355,8 @@ def main():
         for q in F.get("open_questions", []):
             print(f"  open: {q}")
 
-    # ---- what is next ----
-    idx = order.index(sessions[-1]["dayKey"]) if sessions and sessions[-1]["dayKey"] in order else -1
-    nxt = order[(idx + 1) % len(order)]
-    done_today = any(s["date"] == today.isoformat() for s in sessions)
-    print(f"\nNEXT SESSION: {P['days'][nxt]['name']} — {'tomorrow, today is done' if done_today else 'today'}"
-          f" ({len(P['days'][nxt]['ex'])} exercises)")
-    print("Read profile/patterns.md before prescribing anything.")
+
+    print("\nRead profile/patterns.md before prescribing anything.")
 
 
 if __name__ == "__main__":

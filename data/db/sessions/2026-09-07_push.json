@@ -1,178 +1,179 @@
 {
-  "bodyweight": 78.55,
-  "date": "2026-09-07",
-  "dayKey": "push",
-  "exercises": [
+ "bodyweight": 78.55,
+ "date": "2026-09-07",
+ "dayKey": "push",
+ "exercises": [
+  {
+   "k": "incdb",
+   "n": "Incline dumbbell press, 30°",
+   "note": "18×12 was the last warm-up. The two 22 kg sets were 6 clean reps plus a partial. 20 kg is the working weight.",
+   "sets": [
     {
-      "k": "incdb",
-      "n": "Incline dumbbell press, 30°",
-      "note": "18×12 was the last warm-up. The two 22 kg sets were 6 clean reps plus a partial. 20 kg is the working weight.",
-      "sets": [
-        {
-          "load": 18,
-          "reps": 12,
-          "rir": null
-        },
-        {
-          "load": 20,
-          "reps": 9,
-          "rir": null
-        },
-        {
-          "load": 22,
-          "reps": 7,
-          "rir": null
-        },
-        {
-          "load": 22,
-          "reps": 7,
-          "rir": null
-        },
-        {
-          "load": 20,
-          "reps": 5.5,
-          "rir": 0
-        }
-      ]
+     "load": 18,
+     "reps": 12,
+     "rir": null
     },
     {
-      "k": "dips",
-      "n": "Weighted dips",
-      "note": "Bodyweight. Third set died at 1 rep, so 2 sets from now on.",
-      "sets": [
-        {
-          "load": null,
-          "reps": 6,
-          "rir": null
-        },
-        {
-          "load": null,
-          "reps": 6,
-          "rir": null
-        },
-        {
-          "load": null,
-          "reps": 1,
-          "rir": 0
-        }
-      ]
+     "load": 20,
+     "reps": 9,
+     "rir": null
     },
     {
-      "k": "bench",
-      "n": "Chest press, Hammer Strength iso-lateral (kg per side)",
-      "note": "Added to Push after the dips failed.",
-      "sets": [
-        {
-          "load": 20,
-          "reps": 12,
-          "rir": null
-        },
-        {
-          "load": 25,
-          "reps": 9,
-          "rir": null
-        },
-        {
-          "load": 25,
-          "reps": 9,
-          "rir": null
-        }
-      ]
+     "load": 22,
+     "reps": 7,
+     "rir": null
     },
     {
-      "k": "pecdeck",
-      "n": "Pec deck (stack)",
-      "note": "Replaces the cable fly. Started at 20, dropped to 15 for the last two sets.",
-      "sets": [
-        {
-          "load": 20,
-          "reps": 12,
-          "rir": null
-        },
-        {
-          "load": 15,
-          "reps": 12,
-          "rir": null
-        },
-        {
-          "load": 15,
-          "reps": 12,
-          "rir": null
-        }
-      ]
+     "load": 22,
+     "reps": 7,
+     "rir": null
     },
     {
-      "k": "ohp",
-      "n": "Seated shoulder press machine (kg per side)",
-      "note": "Reps roughly 8–10 each. Sets 2 and 3 were drop sets: 25 kg per side to failure, then straight to 20 kg to failure. Replaces the barbell overhead press.",
-      "sets": [
-        {
-          "load": 25,
-          "reps": 9,
-          "rir": 0
-        },
-        {
-          "load": 25,
-          "reps": 9,
-          "rir": 0
-        },
-        {
-          "load": 25,
-          "reps": 9,
-          "rir": 0
-        }
-      ]
-    },
-    {
-      "k": "dblat",
-      "n": "Dumbbell lateral raise",
-      "note": "Three sets, all 12 reps. Reps are the thing to push next time, not load.",
-      "sets": [
-        {
-          "load": 7,
-          "reps": 12,
-          "rir": null
-        },
-        {
-          "load": 7,
-          "reps": 12,
-          "rir": null
-        },
-        {
-          "load": 7,
-          "reps": 12,
-          "rir": null
-        }
-      ]
-    },
-    {
-      "k": "pushdown",
-      "n": "Triceps pushdown, straight bar (stack)",
-      "note": "Straight bar instead of the overhead cable extension.",
-      "sets": [
-        {
-          "load": 25,
-          "reps": 10,
-          "rir": null
-        },
-        {
-          "load": 20,
-          "reps": 10,
-          "rir": null
-        },
-        {
-          "load": 20,
-          "reps": 10,
-          "rir": null
-        }
-      ]
+     "load": 20,
+     "reps": 5.5,
+     "rir": 0
     }
-  ],
-  "name": "Push",
-  "notes": "Session 1 of Push, logged live from chat. Machines throughout: Hammer Strength chest press and pec deck instead of the cable fly, seated shoulder press machine instead of the barbell overhead press, straight-bar pushdown instead of the overhead cable extension. Full session, nothing skipped.",
-  "savedAt": "2026-09-07T19:10:00.000Z",
-  "source": "coach",
-  "startedAt": "2026-09-07T17:00:00.000Z",
-  "type": "lift",
-  "week": 1
+   ]
+  },
+  {
+   "k": "dips",
+   "n": "Weighted dips",
+   "note": "Bodyweight. Third set died at 1 rep, so 2 sets from now on.",
+   "sets": [
+    {
+     "load": null,
+     "reps": 6,
+     "rir": null
+    },
+    {
+     "load": null,
+     "reps": 6,
+     "rir": null
+    },
+    {
+     "load": null,
+     "reps": 1,
+     "rir": 0
+    }
+   ]
+  },
+  {
+   "k": "bench",
+   "n": "Chest press, Hammer Strength iso-lateral (kg per side)",
+   "note": "Added to Push after the dips failed.",
+   "sets": [
+    {
+     "load": 20,
+     "reps": 12,
+     "rir": null
+    },
+    {
+     "load": 25,
+     "reps": 9,
+     "rir": null
+    },
+    {
+     "load": 25,
+     "reps": 9,
+     "rir": null
+    }
+   ]
+  },
+  {
+   "k": "pecdeck",
+   "n": "Pec deck (stack)",
+   "note": "Replaces the cable fly. Started at 20, dropped to 15 for the last two sets.",
+   "sets": [
+    {
+     "load": 20,
+     "reps": 12,
+     "rir": null
+    },
+    {
+     "load": 15,
+     "reps": 12,
+     "rir": null
+    },
+    {
+     "load": 15,
+     "reps": 12,
+     "rir": null
+    }
+   ]
+  },
+  {
+   "k": "ohp",
+   "n": "Seated shoulder press machine (kg per side)",
+   "note": "Reps roughly 8–10 each. Sets 2 and 3 were drop sets: 25 kg per side to failure, then straight to 20 kg to failure. Replaces the barbell overhead press.",
+   "sets": [
+    {
+     "load": 25,
+     "reps": 9,
+     "rir": 0
+    },
+    {
+     "load": 25,
+     "reps": 9,
+     "rir": 0
+    },
+    {
+     "load": 25,
+     "reps": 9,
+     "rir": 0
+    }
+   ]
+  },
+  {
+   "k": "dblat",
+   "n": "Dumbbell lateral raise",
+   "note": "Three sets, all 12 reps. Reps are the thing to push next time, not load.",
+   "sets": [
+    {
+     "load": 7,
+     "reps": 12,
+     "rir": null
+    },
+    {
+     "load": 7,
+     "reps": 12,
+     "rir": null
+    },
+    {
+     "load": 7,
+     "reps": 12,
+     "rir": null
+    }
+   ]
+  },
+  {
+   "k": "pushdown",
+   "n": "Triceps pushdown, straight bar (stack)",
+   "note": "Straight bar instead of the overhead cable extension.",
+   "sets": [
+    {
+     "load": 25,
+     "reps": 10,
+     "rir": null
+    },
+    {
+     "load": 20,
+     "reps": 10,
+     "rir": null
+    },
+    {
+     "load": 20,
+     "reps": 10,
+     "rir": null
+    }
+   ]
+  }
+ ],
+ "name": "Push",
+ "notes": "Session 1 of Push, logged live from chat. Machines throughout: Hammer Strength chest press and pec deck instead of the cable fly, seated shoulder press machine instead of the barbell overhead press, straight-bar pushdown instead of the overhead cable extension. Full session, nothing skipped.",
+ "savedAt": "2026-09-07T19:10:00.000Z",
+ "source": "coach",
+ "startedAt": "2026-09-07T17:00:00.000Z",
+ "type": "lift",
+ "week": 1,
+ "gym": "fitnesspark"
 }

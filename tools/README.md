@@ -36,3 +36,19 @@ url = https://claude.ai/code/artifact/b7cdec67-42a2-4075-bd10-a4e797e91546
 
 `data/db/` is the machine-readable mirror. The markdown in `logs/` stays the human-readable record
 and the reasoning; `profile/patterns.md` holds the behaviour rules that the numbers cannot express.
+
+## Modes (11 Sep 2026)
+`python3 tools/brief.py` is training-first: today's session with a load for every exercise, the
+week's hard sets per muscle, the exercise board per gym, bests, patterns, bodyweight, timetable.
+Food is one summary line. `python3 tools/brief.py --food` adds the nutrition sections - run it
+whenever he brings food up. `brief.py 2026-09-14` briefs a different date.
+
+## Two gyms
+Sessions carry `gym`: `fitnesspark` (default) or `campus`. Stack numbers do not transfer -
+the campus Kinesis "level 15" is not 15 kg. The briefing and the dashboard prescribe from the
+last session at the same gym and show the other gym separately.
+
+## Coach overrides
+`data/facts.json` -> `coach_overrides` holds loads he has proven but did not use last session
+(e.g. `dblat` 10 kg). The briefing prescribes those instead of the logged working load.
+Delete an entry once the log catches up.

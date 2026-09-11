@@ -233,3 +233,21 @@ been applied. Rest day given for Thu 10 Sep, Upper moved to Fri midday.
 **Rule for the coach:** the rolling order does not mean six days in a row. Place the rest day before
 the athlete has to ask for it, and put it on the day with the worst logistics (Thursday, campus
 08:00-16:30). Soreness alone never cancels an upper session; six days straight plus underfeeding does.
+
+### Recovery: the rest day is his, not a concession
+10 Sep was the first rest day of the block, placed by the coach after five days straight.
+His verdict: "sehr wichtig ... jetzt wieder superfrisch, superready". He trains hard enough that
+the limiter is recovery, not willingness.
+**Rule for the coach:** plan five sessions and two rest days into every week, and put a rest day
+on the worst logistics day (Thursday, campus 08:00-16:30). Never six days in a row.
+
+## Two gyms, two sets of numbers (rule added 11 Sep)
+Fitness Park is the default. The SKEMA campus gym has its own machines and its own stacks: the
+Kinesis "level 15" is not 15 kg, the Technogym leg press is not the Nautilus. On 9 Sep the campus
+cable RDL was logged under the same key as the barbell RDL and the system then wanted to prescribe
+15 kg for a man who pulls 50. Every session now carries `gym` (`fitnesspark` or `campus`), and both
+the briefing and the dashboard prescribe only from the same gym.
+
+## Coaching mode (his decision, 11 Sep)
+He wants a training coach. Nutrition coaching only when he asks, uploads something, reports a meal
+or sends a weight reading - then full professional, then back to training. Logging never stops.

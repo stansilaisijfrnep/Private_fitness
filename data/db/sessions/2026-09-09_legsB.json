@@ -1,130 +1,131 @@
 {
-  "bodyweight": 78.9,
-  "date": "2026-09-09",
-  "dayKey": "legsB",
-  "duration": 45,
-  "exercises": [
+ "bodyweight": 78.9,
+ "date": "2026-09-09",
+ "dayKey": "legsB",
+ "duration": 45,
+ "exercises": [
+  {
+   "k": "landing",
+   "n": "Landing drills, 30 cm box (warm-up)",
+   "note": "Off the Reebok step at the campus gym. Athlete: 'did them very nice'.",
+   "sets": [
     {
-      "k": "landing",
-      "n": "Landing drills, 30 cm box (warm-up)",
-      "note": "Off the Reebok step at the campus gym. Athlete: 'did them very nice'.",
-      "sets": [
-        {
-          "load": null,
-          "reps": 5,
-          "rir": null
-        },
-        {
-          "load": null,
-          "reps": 5,
-          "rir": null
-        },
-        {
-          "load": null,
-          "reps": 5,
-          "rir": null
-        }
-      ]
+     "load": null,
+     "reps": 5,
+     "rir": null
     },
     {
-      "k": "rdl",
-      "n": "Cable RDL on the Kinesis (stack level per side)",
-      "note": "Campus gym. Kinesis stack maxes out at level 15 per arm. Replaces the trap bar deadlift today; the hinge goes back to the trap bar at Fitness Park.",
-      "sets": [
-        {
-          "load": 15,
-          "reps": 10,
-          "rir": 1
-        },
-        {
-          "load": 15,
-          "reps": 12,
-          "rir": null
-        }
-      ]
+     "load": null,
+     "reps": 5,
+     "rir": null
     },
     {
-      "k": "legpress",
-      "n": "Seated leg press, Technogym (campus gym, stack)",
-      "note": "Campus gym Technogym press, not the Nautilus - stack numbers do not compare. 70 and 80 both for 15; start at 90 next time here.",
-      "sets": [
-        {
-          "load": 70,
-          "reps": 15,
-          "rir": 1
-        },
-        {
-          "load": 80,
-          "reps": 15,
-          "rir": 1
-        }
-      ]
-    },
-    {
-      "k": "lunge",
-      "n": "Step-ups on the high Reebok step (per side)",
-      "note": "Step-ups instead of walking lunges, campus gym. Bodyweight, one set of 15 per side.",
-      "sets": [
-        {
-          "load": 0,
-          "reps": 15,
-          "rir": null
-        }
-      ]
-    },
-    {
-      "k": "nordic",
-      "n": "Seated leg curl, Technogym combo machine (campus gym)",
-      "note": "Replaces the Nordic curl today. Left (ACL graft side) and right felt the same. Athlete's rule for the left hamstring: load it, ramp it, don't avoid it.",
-      "sets": [
-        {
-          "load": 35,
-          "reps": 13,
-          "rir": null
-        },
-        {
-          "load": 40,
-          "reps": 15,
-          "rir": null
-        }
-      ]
-    },
-    {
-      "k": "legext",
-      "n": "Leg extension, Technogym combo machine (campus gym)",
-      "note": "Went to 45 instead of the prescribed 40; 10 reps is just under the 12-15 range. 45 is the working load, beat the reps.",
-      "sets": [
-        {
-          "load": 45,
-          "reps": 10,
-          "rir": null
-        },
-        {
-          "load": 45,
-          "reps": 10,
-          "rir": null
-        }
-      ]
-    },
-    {
-      "k": "copenhagen",
-      "n": "Copenhagen plank (seconds per side)",
-      "note": "Not done - out of time, had to leave for class. Adductor machine was the planned substitute.",
-      "sets": []
-    },
-    {
-      "k": "abwheel",
-      "n": "Ab wheel or plank",
-      "note": "Not done - out of time. Crunch machine was the planned substitute.",
-      "sets": []
+     "load": null,
+     "reps": 5,
+     "rir": null
     }
-  ],
-  "name": "Legs B",
-  "notes": "Session 1 of Legs B, at the SKEMA campus gym (Technogym, no free weights). Cable RDL on the Kinesis instead of the trap bar, step-ups instead of lunges, leg curl instead of Nordics. Cut short for class: adductor and crunch machine not done. Left hamstring (ACL graft side) felt the same as the right on the leg curl.",
-  "savedAt": "2026-09-09T12:45:00.000Z",
-  "sleep": 7.5,
-  "source": "coach",
-  "startedAt": "2026-09-09T11:45:00.000Z",
-  "type": "lift",
-  "week": 1
+   ]
+  },
+  {
+   "k": "rdl",
+   "n": "Cable RDL on the Kinesis (stack level per side)",
+   "note": "Campus gym. Kinesis stack maxes out at level 15 per arm. Replaces the trap bar deadlift today; the hinge goes back to the trap bar at Fitness Park.",
+   "sets": [
+    {
+     "load": 15,
+     "reps": 10,
+     "rir": 1
+    },
+    {
+     "load": 15,
+     "reps": 12,
+     "rir": null
+    }
+   ]
+  },
+  {
+   "k": "legpress",
+   "n": "Seated leg press, Technogym (campus gym, stack)",
+   "note": "Campus gym Technogym press, not the Nautilus - stack numbers do not compare. 70 and 80 both for 15; start at 90 next time here.",
+   "sets": [
+    {
+     "load": 70,
+     "reps": 15,
+     "rir": 1
+    },
+    {
+     "load": 80,
+     "reps": 15,
+     "rir": 1
+    }
+   ]
+  },
+  {
+   "k": "lunge",
+   "n": "Step-ups on the high Reebok step (per side)",
+   "note": "Step-ups instead of walking lunges, campus gym. Bodyweight, one set of 15 per side.",
+   "sets": [
+    {
+     "load": 0,
+     "reps": 15,
+     "rir": null
+    }
+   ]
+  },
+  {
+   "k": "nordic",
+   "n": "Seated leg curl, Technogym combo machine (campus gym)",
+   "note": "Replaces the Nordic curl today. Left (ACL graft side) and right felt the same. Athlete's rule for the left hamstring: load it, ramp it, don't avoid it.",
+   "sets": [
+    {
+     "load": 35,
+     "reps": 13,
+     "rir": null
+    },
+    {
+     "load": 40,
+     "reps": 15,
+     "rir": null
+    }
+   ]
+  },
+  {
+   "k": "legext",
+   "n": "Leg extension, Technogym combo machine (campus gym)",
+   "note": "Went to 45 instead of the prescribed 40; 10 reps is just under the 12-15 range. 45 is the working load, beat the reps.",
+   "sets": [
+    {
+     "load": 45,
+     "reps": 10,
+     "rir": null
+    },
+    {
+     "load": 45,
+     "reps": 10,
+     "rir": null
+    }
+   ]
+  },
+  {
+   "k": "copenhagen",
+   "n": "Copenhagen plank (seconds per side)",
+   "note": "Not done - out of time, had to leave for class. Adductor machine was the planned substitute.",
+   "sets": []
+  },
+  {
+   "k": "abwheel",
+   "n": "Ab wheel or plank",
+   "note": "Not done - out of time. Crunch machine was the planned substitute.",
+   "sets": []
+  }
+ ],
+ "name": "Legs B",
+ "notes": "Session 1 of Legs B, at the SKEMA campus gym (Technogym, no free weights). Cable RDL on the Kinesis instead of the trap bar, step-ups instead of lunges, leg curl instead of Nordics. Cut short for class: adductor and crunch machine not done. Left hamstring (ACL graft side) felt the same as the right on the leg curl.",
+ "savedAt": "2026-09-09T12:45:00.000Z",
+ "sleep": 7.5,
+ "source": "coach",
+ "startedAt": "2026-09-09T11:45:00.000Z",
+ "type": "lift",
+ "week": 1,
+ "gym": "campus"
 }
