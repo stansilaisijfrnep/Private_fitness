@@ -201,9 +201,10 @@
       "date": "2026-09-08"
     },
     "hammer_chest_press_per_side_kg": {
-      "load": 25,
-      "best": "25 x 9",
-      "date": "2026-09-07"
+      "load": 40,
+      "best": "45 x 4 clean (2 more assisted)",
+      "date": "2026-09-11",
+      "note": "Corrected 11 Sep. Logged as 25 since 5 Sep; he ramped 25x12, 35x10, 45x4 in one session. Prescribe 40 for 6-8."
     },
     "incline_db_press_per_hand_kg": {
       "load": 22,
@@ -357,5 +358,13 @@
       "the weekly check-in"
     ],
     "when_on": "Full professional nutrition coaching: estimate the macros, log the meal, name what is missing for the day, one concrete food to close the gap. Then back to training."
+  },
+  "machine_setups": {
+    "_note": "Seat, pad and pin settings he has dialled in. Saves setup time and keeps the load comparable between sessions.",
+    "chest_press_hammer_strength_fitnesspark": {
+      "seat_height": 5,
+      "unit": "kg per side, plate loaded",
+      "noted": "2026-09-11"
+    }
   }
 }
