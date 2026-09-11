@@ -41,7 +41,9 @@
     "pull_up_load": "added kg on top of bodyweight",
     "hammer_press_load": "kg per side",
     "dumbbell_load": "kg per hand",
-    "machine_load": "stack kg"
+    "machine_load": "stack kg",
+    "ez_bar_kg": 7,
+    "ez_bar_note": "Athlete's own correction 11 Sep: a typical EZ bar is 5 to 8 kg, not 10. EZ curls are logged as PLATE load per side from 11 Sep; add about 7 kg for the total. Totals logged before 11 Sep (25 and 30 kg) assumed a 10 kg bar and are 2 to 3 kg high. Confirm the stamped weight on the bar at Fitness Park."
   },
   "progression": {
     "working_load": "heaviest load handled last time, counting any set within 2 reps of the range - never the last set, he ramps down when tired",
@@ -267,6 +269,12 @@
       "load": 36,
       "best": "36 x 12",
       "date": "2026-09-06"
+    },
+    "ez_curl_plates_per_side_kg": {
+      "load": 10,
+      "best": "10 per side x 12",
+      "date": "2026-09-11",
+      "note": "Plates per side. Hit the top of the 10-12 range, so 12.5 per side next session."
     }
   },
   "strength_profile": {
