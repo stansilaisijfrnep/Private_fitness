@@ -1,150 +1,172 @@
 {
-  "bodyweight": null,
-  "date": "2026-09-11",
-  "dayKey": "upper",
-  "duration": null,
-  "energy": null,
-  "exercises": [
+ "bodyweight": null,
+ "date": "2026-09-11",
+ "dayKey": "upper",
+ "duration": null,
+ "energy": null,
+ "exercises": [
+  {
+   "k": "bench",
+   "n": "Chest press, Hammer Strength iso-lateral (kg per side)",
+   "note": "Seat height setting 5. Ramped 25, 35, 45, then 40. Top set 45x4 clean plus 2 assisted. Working load is 40, not 25.",
+   "sets": [
     {
-      "k": "bench",
-      "n": "Chest press, Hammer Strength iso-lateral (kg per side)",
-      "note": "Seat height setting 5. Ramped 25, 35, 45, then 40. Top set 45x4 clean plus 2 assisted. Working load is 40, not 25.",
-      "sets": [
-        {
-          "load": 25,
-          "reps": 12,
-          "rir": 4
-        },
-        {
-          "load": 35,
-          "reps": 10,
-          "rir": 1
-        },
-        {
-          "load": 45,
-          "reps": 4,
-          "rir": 0
-        },
-        {
-          "load": 40,
-          "reps": 5,
-          "rir": 0
-        }
-      ]
+     "load": 25,
+     "reps": 12,
+     "rir": 4
     },
     {
-      "k": "pullup",
-      "n": "Pull-up, wide grip (added kg)",
-      "note": "Personal best: +10 x 8, and this was the second exercise, not the first. Third set dropped to +5 on purpose to stay in the rep range.",
-      "sets": [
-        {
-          "load": 10,
-          "reps": 8,
-          "rir": 0
-        },
-        {
-          "load": 10,
-          "reps": 6,
-          "rir": 0
-        },
-        {
-          "load": 5,
-          "reps": 6.5,
-          "rir": 0
-        }
-      ]
+     "load": 35,
+     "reps": 10,
+     "rir": 1
     },
     {
-      "k": "csrow",
-      "n": "Row machine, plate loaded (kg per side)",
-      "note": "NOT the Nautilus vertical row from 5 Sep, which is a stack machine. Plate loaded, kg per side. First set at 40 had a shortened range of motion, dropped to 30 for full range, then 35 for 7 clean. Working load 35.",
-      "sets": [
-        {
-          "load": 40,
-          "reps": 8,
-          "rir": 1
-        },
-        {
-          "load": 30,
-          "reps": 10,
-          "rir": 1
-        },
-        {
-          "load": 35,
-          "reps": 7,
-          "rir": 0
-        }
-      ]
+     "load": 45,
+     "reps": 4,
+     "rir": 0
     },
     {
-      "k": "ohp",
-      "n": "Seated shoulder press machine (kg per side)",
-      "note": "Swapped in for the seated dumbbell press at his request. Monday was 25 x 9. Third set a planned back-off to 25 to land in the rep range.",
-      "sets": [
-        {
-          "load": 30,
-          "reps": 7.5,
-          "rir": 0
-        },
-        {
-          "load": 30,
-          "reps": 6,
-          "rir": 0
-        },
-        {
-          "load": 25,
-          "reps": 10,
-          "rir": 0
-        }
-      ]
-    },
-    {
-      "k": "dblat",
-      "n": "Dumbbell lateral raise (kg per hand)",
-      "note": "Took 15 kg although 10 was prescribed, swung both sets and reported it himself, then swung 8 kg as well. Movement pattern problem, not a load problem. Seated lateral raise from next session, start 8 kg.",
-      "sets": [
-        {
-          "load": 15,
-          "reps": 10,
-          "rir": 0
-        },
-        {
-          "load": 15,
-          "reps": 10,
-          "rir": 0
-        },
-        {
-          "load": 8,
-          "reps": 15,
-          "rir": 0
-        }
-      ]
-    },
-    {
-      "k": "ezcurl",
-      "n": "EZ bar curl (kg per side, plates)",
-      "note": "Unit changed today: plate load per side, not total. The EZ bar is 5 to 8 kg, not the 10 assumed before. Hit the top of the range, 12.5 per side next time.",
-      "sets": [
-        {
-          "load": 10,
-          "reps": 12,
-          "rir": 1
-        },
-        {
-          "load": 10,
-          "reps": 14,
-          "rir": 0
-        }
-      ]
+     "load": 40,
+     "reps": 5,
+     "rir": 0
     }
-  ],
-  "gym": "fitnesspark",
-  "name": "Upper",
-  "notes": "First session after the rest day. Chest press working load corrected from 25 to 40 per side. Best pull-up session so far, done second in the order. Shoulder press machine replaces the seated dumbbell press. Lateral raises swung at every load, seated variant from next session. Triceps pushdown cut: triceps already over the weekly ceiling.",
-  "savedAt": "2026-09-11T16:10:00.000Z",
-  "sleep": null,
-  "source": "coach",
-  "startedAt": "2026-09-11T12:30:00.000Z",
-  "type": "lift",
-  "week": 1
+   ]
+  },
+  {
+   "k": "pullup",
+   "n": "Pull-up, wide grip (added kg)",
+   "note": "Personal best: +10 x 8, and this was the second exercise, not the first. Third set dropped to +5 on purpose to stay in the rep range.",
+   "sets": [
+    {
+     "load": 10,
+     "reps": 8,
+     "rir": 0
+    },
+    {
+     "load": 10,
+     "reps": 6,
+     "rir": 0
+    },
+    {
+     "load": 5,
+     "reps": 6.5,
+     "rir": 0
+    }
+   ]
+  },
+  {
+   "k": "csrow",
+   "n": "Row machine, plate loaded (kg per side)",
+   "note": "NOT the Nautilus vertical row from 5 Sep, which is a stack machine. Plate loaded, kg per side. First set at 40 had a shortened range of motion, dropped to 30 for full range, then 35 for 7 clean. Working load 35.",
+   "sets": [
+    {
+     "load": 40,
+     "reps": 8,
+     "rir": 1
+    },
+    {
+     "load": 30,
+     "reps": 10,
+     "rir": 1
+    },
+    {
+     "load": 35,
+     "reps": 7,
+     "rir": 0
+    }
+   ]
+  },
+  {
+   "k": "ohp",
+   "n": "Seated shoulder press machine (kg per side)",
+   "note": "Swapped in for the seated dumbbell press at his request. Monday was 25 x 9. Third set a planned back-off to 25 to land in the rep range.",
+   "sets": [
+    {
+     "load": 30,
+     "reps": 7.5,
+     "rir": 0
+    },
+    {
+     "load": 30,
+     "reps": 6,
+     "rir": 0
+    },
+    {
+     "load": 25,
+     "reps": 10,
+     "rir": 0
+    }
+   ]
+  },
+  {
+   "k": "dblat",
+   "n": "Dumbbell lateral raise (kg per hand)",
+   "note": "Took 15 kg although 10 was prescribed, swung both sets and reported it himself, then swung 8 kg as well. Movement pattern problem, not a load problem. Seated lateral raise from next session, start 8 kg.",
+   "sets": [
+    {
+     "load": 15,
+     "reps": 10,
+     "rir": 0
+    },
+    {
+     "load": 15,
+     "reps": 10,
+     "rir": 0
+    },
+    {
+     "load": 8,
+     "reps": 15,
+     "rir": 0
+    }
+   ]
+  },
+  {
+   "k": "ezcurl",
+   "n": "EZ bar curl (kg per side, plates)",
+   "note": "Unit changed today: plate load per side, not total. The EZ bar is 5 to 8 kg, not the 10 assumed before. Hit the top of the range, 12.5 per side next time.",
+   "sets": [
+    {
+     "load": 10,
+     "reps": 12,
+     "rir": 1
+    },
+    {
+     "load": 10,
+     "reps": 14,
+     "rir": 0
+    }
+   ]
+  },
+  {
+   "k": "pushdown",
+   "n": "Rope triceps pushdown (stack)",
+   "note": "Rope, not the straight bar.",
+   "sets": [
+    {
+     "load": 25,
+     "reps": 13,
+     "rir": 1
+    },
+    {
+     "load": 25,
+     "reps": 12,
+     "rir": 0
+    },
+    {
+     "load": 20,
+     "reps": 16,
+     "rir": 0
+    }
+   ]
+  }
+ ],
+ "gym": "fitnesspark",
+ "name": "Upper",
+ "notes": "First session after the rest day. Chest press working load corrected from 25 to 40 per side. Best pull-up session so far, done second in the order. Shoulder press machine replaces the seated dumbbell press. Lateral raises swung at every load, seated variant from next session. Triceps pushdown cut: triceps already over the weekly ceiling.",
+ "savedAt": "2026-09-11T16:10:00.000Z",
+ "sleep": null,
+ "source": "coach",
+ "startedAt": "2026-09-11T12:30:00.000Z",
+ "type": "lift",
+ "week": 1
 }

@@ -106,3 +106,6 @@ date,day,week,exercise_key,exercise,set_no,load_kg,reps,rir,e1rm_kg,exercise_not
 2026-09-11,upper,1,dblat,Dumbbell lateral raise (kg per hand),3,8,15,0,12.0,"Took 15 kg although 10 was prescribed, swung both sets and reported it himself, then swung 8 kg as well. Movement pattern problem, not a load problem. Seated lateral raise from next session, start 8 kg."
 2026-09-11,upper,1,ezcurl,"EZ bar curl (kg per side, plates)",1,10,12,1,14.0,"Unit changed today: plate load per side, not total. The EZ bar is 5 to 8 kg, not the 10 assumed before. Hit the top of the range, 12.5 per side next time."
 2026-09-11,upper,1,ezcurl,"EZ bar curl (kg per side, plates)",2,10,14,0,14.7,"Unit changed today: plate load per side, not total. The EZ bar is 5 to 8 kg, not the 10 assumed before. Hit the top of the range, 12.5 per side next time."
+2026-09-11,upper,1,pushdown,Rope triceps pushdown (stack),1,25,13,1,35.8,"Rope, not the straight bar."
+2026-09-11,upper,1,pushdown,Rope triceps pushdown (stack),2,25,12,0,35.0,"Rope, not the straight bar."
+2026-09-11,upper,1,pushdown,Rope triceps pushdown (stack),3,20,16,0,30.7,"Rope, not the straight bar."
