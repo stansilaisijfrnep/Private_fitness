@@ -18,18 +18,24 @@ DB = ROOT / "data" / "db"
 
 # Which muscles each exercise pays into. Used for weekly hard-set counting.
 MUSCLES = {
-    "bench": ["chest", "triceps"], "incdb": ["chest", "triceps"], "dips": ["chest", "triceps"],
-    "pecdeck": ["chest"], "cablefly": ["chest"],
-    "csrow": ["back"], "dbrow": ["back"], "tbarrow": ["back"], "cablerow": ["back"], "pullup": ["back", "biceps"],
-    "sapd": ["back"], "revpec": ["rear delts"],
-    "ohp": ["shoulders", "triceps"], "dbohp": ["shoulders", "triceps"], "dblat": ["side delts"],
-    "ezcurl": ["biceps"], "inccurl": ["biceps"], "hammer": ["biceps"],
-    "pushdown": ["triceps"], "ohtri": ["triceps"],
-    "squat": ["quads", "glutes"], "legpress": ["quads", "glutes"], "lunge": ["quads", "glutes"],
-    "bss": ["quads", "glutes"], "legext": ["quads"],
-    "rdl": ["hamstrings", "glutes"], "trapbar": ["hamstrings", "glutes", "back"],
-    "legcurl": ["hamstrings"], "nordic": ["hamstrings"],
-    "hanglr": ["abs"], "abwheel": ["abs"], "copenhagen": ["abs"], "landing": [],
+    # A set counts 1.0 for the muscle the exercise is chosen for, 0.5 for a muscle that only
+    # assists. Counting a chest press as a full triceps set is what put triceps at 24 sets in
+    # week 1 and made the briefing demand a cut that was not real.
+    "bench": {"chest": 1, "triceps": 0.5}, "incdb": {"chest": 1, "triceps": 0.5},
+    "dips": {"chest": 1, "triceps": 0.5}, "pecdeck": {"chest": 1}, "cablefly": {"chest": 1},
+    "csrow": {"back": 1, "biceps": 0.5}, "dbrow": {"back": 1, "biceps": 0.5},
+    "tbarrow": {"back": 1, "biceps": 0.5}, "cablerow": {"back": 1, "biceps": 0.5},
+    "pullup": {"back": 1, "biceps": 0.5}, "sapd": {"back": 1}, "revpec": {"rear delts": 1},
+    "ohp": {"shoulders": 1, "triceps": 0.5}, "dbohp": {"shoulders": 1, "triceps": 0.5},
+    "dblat": {"side delts": 1},
+    "ezcurl": {"biceps": 1}, "inccurl": {"biceps": 1}, "hammer": {"biceps": 1},
+    "pushdown": {"triceps": 1}, "ohtri": {"triceps": 1},
+    "squat": {"quads": 1, "glutes": 0.5}, "legpress": {"quads": 1, "glutes": 0.5},
+    "lunge": {"quads": 1, "glutes": 1}, "bss": {"quads": 1, "glutes": 1}, "legext": {"quads": 1},
+    "rdl": {"hamstrings": 1, "glutes": 1},
+    "trapbar": {"hamstrings": 0.5, "glutes": 1, "quads": 0.5, "back": 0.5},
+    "legcurl": {"hamstrings": 1}, "nordic": {"hamstrings": 1},
+    "hanglr": {"abs": 1}, "abwheel": {"abs": 1}, "copenhagen": {"abs": 1}, "landing": {},
 }
 TARGET_SETS = {"chest": (10, 20), "back": (10, 20), "shoulders": (6, 12), "side delts": (8, 16),
                "biceps": (8, 16), "triceps": (8, 16), "quads": (10, 20), "hamstrings": (8, 16),
@@ -189,14 +195,14 @@ def main():
     for s in wk_s:
         for ex in s.get("exercises", []):
             done = sum(1 for t in ex.get("sets", []) if t.get("reps"))
-            for m in MUSCLES.get(ex["k"], []):
-                sets_by_m[m] += done
+            for m, w in MUSCLES.get(ex["k"], {}).items():
+                sets_by_m[m] += done * w
     if sets_by_m:
         print("  HARD SETS PER MUSCLE (weekly target in brackets):")
         for m, n in sorted(sets_by_m.items(), key=lambda x: -x[1]):
             lo, hi = TARGET_SETS.get(m, (0, 99))
             mark = "OK " if lo <= n <= hi else ("LOW" if n < lo else "HIGH")
-            print(f"    {mark} {m:<12} {n:>2}   [{lo}-{hi}]")
+            print(f"    {mark} {m:<12} {n:>4.1f}   [{lo}-{hi}]")
         missing = [m for m in TARGET_SETS if m not in sets_by_m]
         if missing:
             print(f"    NOT TRAINED YET: {', '.join(sorted(missing))}")

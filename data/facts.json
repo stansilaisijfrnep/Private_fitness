@@ -168,9 +168,10 @@
   "working_loads": {
     "note": "heaviest load handled on the last session of each exercise, the number to prescribe next time",
     "pullup_added_kg": {
-      "load": 10,
-      "best": "+10 x 6",
-      "date": "2026-09-08"
+      "load": 12.5,
+      "best": "+10 x 8",
+      "date": "2026-09-11",
+      "note": "+10 x 8 as the SECOND exercise. Best pull-up set so far."
     },
     "tbar_row_kg": {
       "load": 30,
@@ -204,9 +205,9 @@
     },
     "hammer_chest_press_per_side_kg": {
       "load": 40,
-      "best": "45 x 4 clean (2 more assisted)",
+      "best": "45 x 4 clean",
       "date": "2026-09-11",
-      "note": "Corrected 11 Sep. Logged as 25 since 5 Sep; he ramped 25x12, 35x10, 45x4 in one session. Prescribe 40 for 6-8."
+      "note": "Corrected from 25 on 11 Sep. Estimated max about 51 per side."
     },
     "incline_db_press_per_hand_kg": {
       "load": 22,
@@ -224,9 +225,10 @@
       "date": "2026-09-07"
     },
     "shoulder_press_machine_per_side_kg": {
-      "load": 25,
-      "best": "25 x 9",
-      "date": "2026-09-07"
+      "load": 30,
+      "best": "30 x 7.5",
+      "date": "2026-09-11",
+      "note": "Replaces the seated dumbbell press on Upper from 11 Sep."
     },
     "seated_db_shoulder_press_per_hand_kg": {
       "load": 15,
@@ -234,10 +236,10 @@
       "date": "2026-09-05"
     },
     "db_lateral_raise_per_hand_kg": {
-      "load": 10,
-      "best": "10 x 12",
-      "date": "2026-09-05",
-      "note": "7 kg x 12 x 3 on 7 Sep was under-loaded (all sets on the same round number); prescribe 10 for 12-15, last set to failure"
+      "load": 8,
+      "best": "8 x 15 (swung)",
+      "date": "2026-09-11",
+      "note": "SEATED from now on. Standing he swings at every load, 15 and even 8. Start 8 seated and build strictly."
     },
     "triceps_pushdown_kg": {
       "load": 25,
@@ -275,6 +277,12 @@
       "best": "10 per side x 12",
       "date": "2026-09-11",
       "note": "Plates per side. Hit the top of the 10-12 range, so 12.5 per side next session."
+    },
+    "row_machine_plate_loaded_per_side_kg": {
+      "load": 35,
+      "best": "35 x 7 clean",
+      "date": "2026-09-11",
+      "note": "Plate-loaded row at Fitness Park. NOT the Nautilus vertical row (stack, 60 kg on 5 Sep) - different machine, different unit."
     }
   },
   "strength_profile": {
@@ -298,7 +306,9 @@
     "drops_load_when_form_breaks": "yes - T-bar 35 to 30 strict, RDL 50 to 40",
     "skips_when_muscle_feels_done": "isolation back work (straight-arm pulldown)",
     "exercise_order_effect": "pull-ups first: +10 x 6; pull-ups fourth: +5 x 4",
-    "rir_reporting": "only when asked in the same message as the next set"
+    "rir_reporting": "only when asked in the same message as the next set",
+    "assisted_reps": "With a training partner he takes forced reps at the end of most exercises (three times on 11 Sep). Rule given: assisted reps on the LAST set of an exercise only, and only clean reps are logged.",
+    "lateral_raise_swing": "Standing lateral raises get swung at every load, 15 kg and 8 kg alike. Seated from 11 Sep. He reports the swing honestly when asked directly."
   },
   "shopping": {
     "channel": "Uber Eats, Carrefour XL",
@@ -349,9 +359,9 @@
   ],
   "coach_overrides": {
     "_note": "Loads he has proven but did not use last session. brief.py prescribes these instead of the logged working load. Remove an entry once the log catches up.",
-    "dblat": {
-      "load": 10,
-      "why": "10 x 12 and 10 x 10 on 5 Sep, then a whole session at 7 kg on 7 Sep"
+    "bss": {
+      "load": 8,
+      "why": "bodyweight x 8 twice on 6 Sep, he was told to take 8 kg dumbbells next"
     }
   },
   "coaching_mode": {

@@ -6,6 +6,8 @@
 | 2026-09-05 | Block 1 written at intake | 5 days available, 60 to 75 min, upper body priority, legs from zero, ACL history, size goal |
 | 2026-09-05 | Upper day: barbell bench replaced by Hammer Strength iso-lateral chest press (kg per side), chest-supported row is the Nautilus Impact vertical row (stack), pull-ups are bodyweight wide grip | Athlete's choice on session 1. Machine press is fine for the size goal and needs no spotter. Barbell bench returns as a tested lift in block 2. |
 | 2026-09-06 | Lower A after session 1: seated leg press (Nautilus, stack) replaces hack squat (none in the gym), hanging leg raise replaces cable crunch, calves removed from both leg days at the athlete's request, squat with heels on 1.25 kg plates | First leg session. Depth needed heel elevation. Athlete is happy with his calves and declined the work. |
+| 2026-09-11 | Upper day rebuilt from session 2: chest press start 20 -> 40 per side, pull-up start +10 -> +12.5, vertical row (stack) replaced by the plate-loaded row machine at 35 per side, seated dumbbell press replaced by the seated shoulder press machine at 30 per side, standing lateral raise replaced by the SEATED lateral raise at 8 kg, EZ curl now logged as plate load per side (12.5) | Session 2 of Upper. He pressed 45 x 4 clean on a machine logged at 25, so the working load was 40 % low. Best pull-up set ever (+10 x 8) even as the second exercise. He asked for the shoulder press machine and it lets him load the movement properly at 194 cm. He swung the lateral raise at 15, 15 and even at 8 kg and said so himself, so the setup changes rather than the cue. The EZ bar is 5 to 8 kg, not the 10 assumed, so plate load per side is now the unit. |
+| 2026-09-11 | Weekly set counting now weights assisting muscles at half a set | Counting every press as a full triceps set put triceps at 17 before this session and 24 after, and the briefing demanded a cut that the data did not support. With assisting muscles at 0.5 the real number is 13.5, inside the 8 to 16 range. |
 | 2026-09-09 | Upper day: pull-ups moved to exercise 2, before the vertical row; start load +10 kg | patterns.md 5b: exercise order is worth about 5 kg on his pull-ups (fourth on 5 Sep: +5 x 4 then bodyweight; first on 8 Sep: +10 x 6). Pressing stays first because pressing is the weak point; the row is the machine lift and survives being third. |
 | 2026-09-08 | Pull day: EZ bar curl replaces the incline dumbbell curl, hammer curl start raised to 17.5 kg | Athlete used the EZ bar in both curl sessions and hammered 17.5 kg per hand for 8. The prescribed 10 kg was far too light. |
 | 2026-09-08 | Pull day: T-bar row replaces the single-arm dumbbell row | Athlete's choice in session 1 of Pull. Bilateral, loads heavier, same muscles. 40 kg for 8 on the first working set. |
@@ -56,15 +58,15 @@ the upper sessions and the sport.
 ## Day 1: Upper (strength bias)
 | # | Exercise | Sets x reps | RIR | Start | Alternative |
 |---|---|---|---|---|---|
-| 1 | Chest press, Hammer Strength iso-lateral, kg per side | 4 x 6-8 | 2 | 20 kg/side (5 Sep) | flat barbell bench 60 kg |
-| 2 | Pull-up, wide grip, added kg | 3 x 6-8 | 1-2 | +10 kg (8 Sep: +10 x 6, 4.5, 4 fresh) | lat pulldown |
-| 3 | Vertical row, Nautilus Impact, stack | 4 x 8-10 | 1-2 | 60 kg (5 Sep) | T-bar or seal row |
-| 4 | Seated dumbbell shoulder press, kg per hand | 3 x 8-10 | 1-2 | 15 kg (5 Sep) | machine shoulder press |
-| 5 | Dumbbell lateral raise, kg per hand | 3 x 12-15 | 0-1 | 10 kg (5 Sep: 10 x 12, 10 x 10) | cable lateral raise |
-| 6a | EZ bar curl | 2 x 10-12 | 0-1 | 30 kg (5 Sep) | dumbbell curl |
+| 1 | Chest press, Hammer Strength iso-lateral, kg per side | 4 x 6-8 | 2 | 40 kg/side (11 Sep) | flat barbell bench |
+| 2 | Pull-up, wide grip, added kg | 3 x 6-8 | 1-2 | +12.5 kg (11 Sep: +10 x 8) | lat pulldown |
+| 3 | Row machine, plate loaded, kg per side | 4 x 8-10 | 1-2 | 35 kg/side (11 Sep) | Nautilus vertical row, stack, 60 kg |
+| 4 | Seated shoulder press machine, kg per side | 3 x 8-10 | 1-2 | 30 kg/side (11 Sep) | seated dumbbell press, 15 kg/hand |
+| 5 | Seated dumbbell lateral raise, kg per hand | 3 x 12-15 | 0-1 | 8 kg (11 Sep) | cable lateral raise |
+| 6a | EZ bar curl, kg per side (plates) | 2 x 10-12 | 0-1 | 12.5 kg/side (11 Sep) | dumbbell curl |
 | 6b | Rope triceps pushdown, stack | 2 x 12-15 | 0-1 | 25 kg (5 Sep) | bar pushdown |
 
-21 work sets (22 on 5 Sep with an extra lateral raise set).
+21 work sets. Lateral raises are SEATED from 11 Sep: standing, he swings at every load.
 
 ## Day 2: Lower A (quads plus hinge learning)
 | # | Exercise | Sets x reps | RIR | Start | Alternative |

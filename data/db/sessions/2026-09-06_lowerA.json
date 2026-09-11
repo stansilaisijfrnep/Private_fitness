@@ -1,125 +1,125 @@
 {
- "bodyweight": 78.15,
- "date": "2026-09-06",
- "dayKey": "lowerA",
- "duration": null,
- "energy": null,
- "exercises": [
-  {
-   "k": "squat",
-   "n": "Barbell back squat, heels on plates",
-   "note": "Set 1 slightly above parallel. Set 2 heels on 1.25 kg plates, wider stance: depth fixed. Keep the plates.",
-   "sets": [
+  "bodyweight": 78.15,
+  "date": "2026-09-06",
+  "dayKey": "lowerA",
+  "duration": null,
+  "energy": null,
+  "exercises": [
     {
-     "load": 40,
-     "reps": 5,
-     "rir": 3
+      "k": "squat",
+      "n": "Barbell back squat, heels on plates",
+      "note": "Set 1 slightly above parallel. Set 2 heels on 1.25 kg plates, wider stance: depth fixed. Keep the plates.",
+      "sets": [
+        {
+          "load": 40,
+          "reps": 5,
+          "rir": 3
+        },
+        {
+          "load": 40,
+          "reps": 5,
+          "rir": 3
+        }
+      ]
     },
     {
-     "load": 40,
-     "reps": 5,
-     "rir": 3
+      "k": "legpress",
+      "n": "Seated leg press, Nautilus (stack)",
+      "note": "No hack squat in the gym. 60 was a feel set.",
+      "sets": [
+        {
+          "load": 60,
+          "reps": 12,
+          "rir": null
+        },
+        {
+          "load": 80,
+          "reps": 11,
+          "rir": null
+        },
+        {
+          "load": 90,
+          "reps": 8,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "rdl",
+      "n": "Romanian deadlift",
+      "note": "Set 2 lighter by choice, technique.",
+      "sets": [
+        {
+          "load": 50,
+          "reps": 8,
+          "rir": 2
+        },
+        {
+          "load": 40,
+          "reps": 8,
+          "rir": 3
+        }
+      ]
+    },
+    {
+      "k": "bss",
+      "n": "Bulgarian split squat (kg per hand)",
+      "note": "Bodyweight, per leg. Knee stable.",
+      "sets": [
+        {
+          "load": 0,
+          "reps": 8,
+          "rir": null
+        },
+        {
+          "load": 0,
+          "reps": 8,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "legcurl",
+      "n": "Seated leg curl (stack)",
+      "note": "",
+      "sets": [
+        {
+          "load": 45,
+          "reps": 12,
+          "rir": null
+        },
+        {
+          "load": 50,
+          "reps": 15,
+          "rir": 1
+        }
+      ]
+    },
+    {
+      "k": "hanglr",
+      "n": "Hanging leg raise",
+      "note": "Chosen instead of cable crunch. Calves declined by athlete. Extra: crunch machine 23 kg x 12, 36 kg x 12.",
+      "sets": [
+        {
+          "load": null,
+          "reps": 12,
+          "rir": null
+        },
+        {
+          "load": null,
+          "reps": 12,
+          "rir": null
+        }
+      ]
     }
-   ]
-  },
-  {
-   "k": "legpress",
-   "n": "Seated leg press, Nautilus (stack)",
-   "note": "No hack squat in the gym. 60 was a feel set.",
-   "sets": [
-    {
-     "load": 60,
-     "reps": 12,
-     "rir": null
-    },
-    {
-     "load": 80,
-     "reps": 11,
-     "rir": null
-    },
-    {
-     "load": 90,
-     "reps": 8,
-     "rir": null
-    }
-   ]
-  },
-  {
-   "k": "rdl",
-   "n": "Romanian deadlift",
-   "note": "Set 2 lighter by choice, technique.",
-   "sets": [
-    {
-     "load": 50,
-     "reps": 8,
-     "rir": 2
-    },
-    {
-     "load": 40,
-     "reps": 8,
-     "rir": 3
-    }
-   ]
-  },
-  {
-   "k": "bss",
-   "n": "Bulgarian split squat (kg per hand)",
-   "note": "Bodyweight, per leg. Knee stable.",
-   "sets": [
-    {
-     "load": 0,
-     "reps": 8,
-     "rir": null
-    },
-    {
-     "load": 0,
-     "reps": 8,
-     "rir": null
-    }
-   ]
-  },
-  {
-   "k": "legcurl",
-   "n": "Seated leg curl (stack)",
-   "note": "",
-   "sets": [
-    {
-     "load": 45,
-     "reps": 12,
-     "rir": null
-    },
-    {
-     "load": 50,
-     "reps": 15,
-     "rir": 1
-    }
-   ]
-  },
-  {
-   "k": "hanglr",
-   "n": "Hanging leg raise",
-   "note": "Chosen instead of cable crunch. Calves declined by athlete. Extra: crunch machine 23 kg x 12, 36 kg x 12.",
-   "sets": [
-    {
-     "load": null,
-     "reps": 12,
-     "rir": null
-    },
-    {
-     "load": null,
-     "reps": 12,
-     "rir": null
-    }
-   ]
-  }
- ],
- "name": "Lower A",
- "notes": "First leg session, logged from chat. Intro volume, 2 sets each. 15 sets, no pain, knee fine. Extra: crunch machine 23 kg x 12, 36 kg x 12.",
- "savedAt": "2026-09-06T16:10:00.000Z",
- "sleep": null,
- "source": "coach",
- "startedAt": "2026-09-06T15:00:00.000Z",
- "type": "lift",
- "week": 1,
- "gym": "fitnesspark"
+  ],
+  "gym": "fitnesspark",
+  "name": "Lower A",
+  "notes": "First leg session, logged from chat. Intro volume, 2 sets each. 15 sets, no pain, knee fine. Extra: crunch machine 23 kg x 12, 36 kg x 12.",
+  "savedAt": "2026-09-06T16:10:00.000Z",
+  "sleep": null,
+  "source": "coach",
+  "startedAt": "2026-09-06T15:00:00.000Z",
+  "type": "lift",
+  "week": 1
 }

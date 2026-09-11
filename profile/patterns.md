@@ -251,3 +251,31 @@ the briefing and the dashboard prescribe only from the same gym.
 ## Coaching mode (his decision, 11 Sep)
 He wants a training coach. Nutrition coaching only when he asks, uploads something, reports a meal
 or sends a weight reading - then full professional, then back to training. Logging never stops.
+
+## Session 2 of Upper, 11 Sep: what it taught
+
+### He under-loads machines by 30 to 40 percent, not by one notch
+The Hammer chest press sat at 25 per side in the log from 5 Sep. On 11 Sep: 25 x 12 ("light"),
+35 x 10, then 45 x 4 clean. Estimated max about 51 per side, working load 40.
+**Rule for the coach:** when he says a prescribed load was light, do not add 2.5 kg. Add 15 to
+20 percent and let the rep count find the level. The same happened on the shoulder press machine
+(25 -> 30) and on the row.
+
+### Standing lateral raises: a movement-pattern problem, not a load problem
+Prescribed 10 kg, he took 15 and swung it, twice, then swung 8 kg as well. He reported every one
+of those honestly when asked directly.
+**Rule for the coach:** do not fix this with cues. Change the setup so the cheat is impossible.
+Seated lateral raise, back upright, from 11 Sep. The same principle applies anywhere he finds a
+way to move the weight with the hips.
+
+### Forced reps arrive with the training partner
+11 Sep: assisted reps at the end of the chest press, the row and the shoulder press.
+**Rule for the coach:** allow them on the last set of an exercise only, log clean reps only,
+and say it once, not three times.
+
+### The coach's own error: counting every press as a full triceps set
+The briefing reported 17 triceps sets before this session and I cut the pushdown from the session
+because of it. With assisting muscles weighted at half a set the real figure was 13.5, inside the
+range. The cut was not justified. Fixed in `tools/brief.py` and the dashboard on 11 Sep.
+**Rule for the coach:** before cutting work from a session, check what the number is actually
+counting.

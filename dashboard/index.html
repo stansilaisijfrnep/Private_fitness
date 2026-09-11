@@ -291,12 +291,12 @@ const PROGRAM = {
   block: "Block 1", title: "Feed and load", start: "2026-09-05", weeks: 7, deloadWeek: 7,
   days: {
     upper: {name:"Upper", sub:"strength bias", ex:[
-      {k:"bench", n:"Chest press, Hammer Strength iso-lateral (kg per side)", sets:4, reps:[6,8], rir:"2", start:20, inc:2.5, alt:"flat barbell bench, 60 kg"},
-      {k:"pullup", n:"Pull-up, wide grip (added kg)", sets:3, reps:[6,8], rir:"1–2", start:10, inc:2.5, added:true, alt:"lat pulldown"},
-      {k:"csrow", n:"Vertical row, Nautilus Impact (stack)", sets:4, reps:[8,10], rir:"1–2", start:60, inc:5, alt:"T-bar or seal row"},
-      {k:"dbohp", n:"Seated dumbbell shoulder press (kg per hand)", sets:3, reps:[8,10], rir:"1–2", start:15, inc:2.5, alt:"machine shoulder press"},
-      {k:"dblat", n:"Dumbbell lateral raise (kg per hand)", sets:3, reps:[12,15], rir:"0–1", start:8, inc:2, alt:"cable lateral raise"},
-      {k:"ezcurl", n:"EZ bar curl", sets:2, reps:[10,12], rir:"0–1", start:30, inc:2.5, ss:true, alt:"dumbbell curl"},
+      {k:"bench", n:"Chest press, Hammer Strength iso-lateral (kg per side)", sets:4, reps:[6,8], rir:"2", start:40, inc:2.5, alt:"flat barbell bench"},
+      {k:"pullup", n:"Pull-up, wide grip (added kg)", sets:3, reps:[6,8], rir:"1–2", start:12.5, inc:2.5, added:true, alt:"lat pulldown"},
+      {k:"csrow", n:"Row machine, plate loaded (kg per side)", sets:4, reps:[8,10], rir:"1–2", start:35, inc:2.5, alt:"Nautilus vertical row (stack), 60 kg"},
+      {k:"ohp", n:"Seated shoulder press machine (kg per side)", sets:3, reps:[8,10], rir:"1–2", start:30, inc:2.5, alt:"seated dumbbell press, 15 per hand"},
+      {k:"dblat", n:"Seated dumbbell lateral raise (kg per hand)", sets:3, reps:[12,15], rir:"0–1", start:8, inc:2, alt:"cable lateral raise"},
+      {k:"ezcurl", n:"EZ bar curl (kg per side, plates)", sets:2, reps:[10,12], rir:"0–1", start:12.5, inc:2.5, ss:true, alt:"dumbbell curl"},
       {k:"pushdown", n:"Rope triceps pushdown (stack)", sets:2, reps:[12,15], rir:"0–1", start:25, inc:5, ss:true, alt:"bar pushdown"}
     ]},
     lowerA: {name:"Lower A", sub:"quads and hinge learning", ex:[
@@ -348,13 +348,16 @@ const PROGRAM = {
 const DAY_ORDER = ["upper","lowerA","push","pull","legsB"];
 const DEFAULT_TARGETS = {kcal:3300, protein:170, carbs:475, fat:80, sleep:7.5, sessions:5};
 const MUSCLES = {
-  bench:["chest","triceps"], incdb:["chest","triceps"], dips:["chest","triceps"], pecdeck:["chest"], cablefly:["chest"],
-  csrow:["back"], dbrow:["back"], tbarrow:["back"], cablerow:["back"], pullup:["back","biceps"], sapd:["back"],
-  revpec:["rear delts"], ohp:["shoulders","triceps"], dbohp:["shoulders","triceps"], dblat:["side delts"],
-  ezcurl:["biceps"], inccurl:["biceps"], hammer:["biceps"], pushdown:["triceps"], ohtri:["triceps"],
-  squat:["quads","glutes"], legpress:["quads","glutes"], lunge:["quads","glutes"], bss:["quads","glutes"], legext:["quads"],
-  rdl:["hamstrings","glutes"], trapbar:["hamstrings","glutes","back"], legcurl:["hamstrings"], nordic:["hamstrings"],
-  hanglr:["abs"], abwheel:["abs"], copenhagen:["abs"], landing:[]
+  /* 1.0 where the exercise is chosen for that muscle, 0.5 where it only assists. */
+  bench:{chest:1,triceps:.5}, incdb:{chest:1,triceps:.5}, dips:{chest:1,triceps:.5}, pecdeck:{chest:1}, cablefly:{chest:1},
+  csrow:{back:1,biceps:.5}, dbrow:{back:1,biceps:.5}, tbarrow:{back:1,biceps:.5}, cablerow:{back:1,biceps:.5},
+  pullup:{back:1,biceps:.5}, sapd:{back:1}, revpec:{"rear delts":1},
+  ohp:{shoulders:1,triceps:.5}, dbohp:{shoulders:1,triceps:.5}, dblat:{"side delts":1},
+  ezcurl:{biceps:1}, inccurl:{biceps:1}, hammer:{biceps:1}, pushdown:{triceps:1}, ohtri:{triceps:1},
+  squat:{quads:1,glutes:.5}, legpress:{quads:1,glutes:.5}, lunge:{quads:1,glutes:1}, bss:{quads:1,glutes:1}, legext:{quads:1},
+  rdl:{hamstrings:1,glutes:1}, trapbar:{hamstrings:.5,glutes:1,quads:.5,back:.5},
+  legcurl:{hamstrings:1}, nordic:{hamstrings:1},
+  hanglr:{abs:1}, abwheel:{abs:1}, copenhagen:{abs:1}, landing:{}
 };
 const SET_TARGET = {chest:[10,20], back:[10,20], shoulders:[6,12], "side delts":[8,16], "rear delts":[6,12],
   biceps:[8,16], triceps:[8,16], quads:[10,20], hamstrings:[8,16], glutes:[8,16], abs:[6,12]};
@@ -521,7 +524,7 @@ function weekVolume(date){
   liftSessions().filter(s=>s.date>=mon && s.date<=addDays(mon,6)).forEach(s=>{
     (s.exercises||[]).forEach(e=>{
       const done = (e.sets||[]).filter(t=>t.reps>0).length;
-      (MUSCLES[e.k]||[]).forEach(m=>{ out[m]=(out[m]||0)+done; });
+      Object.entries(MUSCLES[e.k]||{}).forEach(([m,w])=>{ out[m]=(out[m]||0)+done*w; });
     });
   });
   return out;
@@ -536,7 +539,7 @@ function volumeCard(date){
   }).sort((a,b)=>a.sort-b.sort);
   const html = rows.map(r=>`<div class="row"><span class="m">${r.m}</span>
     <div class="track"><i style="background:${r.col};width:0" data-w="${r.pct}%"></i><u style="left:${Math.round(r.lo/r.hi*100)}%"></u></div>
-    <span class="n">${r.n} <small style="color:var(--ink-3)">/${r.lo}</small></span></div>`).join("");
+    <span class="n">${Math.round(r.n*10)/10} <small style="color:var(--ink-3)">/${r.lo}</small></span></div>`).join("");
   const low = rows.filter(r=>r.n<r.lo).length;
   return `<div class="card"><div class="card-h"><h2>Hard sets this week</h2><span class="hint">${low?low+" under the weekly minimum":"every muscle at its minimum"}</span></div><div class="vol">${html}</div></div>`;
 }
@@ -563,11 +566,12 @@ function renderDash(){
   const sl = liftSessions().filter(s=>last7(s.date)&&s.sleep);
   const slAvg = sl.length ? r1(sl.reduce((a,s)=>a+s.sleep,0)/sl.length) : null;
   const vol = weekVolume(t);
-  const volTotal = Object.values(vol).reduce((a,n)=>a+n,0);
+  const volTotal = Math.round(Object.values(vol).reduce((a,n)=>a+n,0));
   const volLow = Object.keys(SET_TARGET).filter(m=>(vol[m]||0)<SET_TARGET[m][0]).length;
   const delta = (lastAvg!=null&&prevAvg!=null) ? r1(lastAvg-prevAvg) : null;
   const dcls = delta==null?"flat":delta>0?"up":delta<0?"down":"flat";
-  const liftOpts = LIFTS.map(k=>{ const ex=Object.values(PROGRAM.days).flatMap(d=>d.ex).find(e=>e.k===k); return `<option value="${k}">${esc(ex.n)}</option>`; }).join("");
+  const allEx = Object.values(PROGRAM.days).flatMap(d=>d.ex);
+  const liftOpts = LIFTS.map(k=>allEx.find(e=>e.k===k)).filter(Boolean).map(ex=>`<option value="${ex.k}">${esc(ex.n)}</option>`).join("");
   view.innerHTML = `<div class="stack">
     <div class="page-h"><div class="when">${fmtDay(t)}</div><h1>Training</h1></div>
     ${nextSessionCard()}

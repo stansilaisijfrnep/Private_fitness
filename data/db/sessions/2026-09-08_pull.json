@@ -1,154 +1,154 @@
 {
- "bodyweight": 78.75,
- "date": "2026-09-08",
- "dayKey": "pull",
- "duration": 80,
- "exercises": [
-  {
-   "k": "pullup",
-   "n": "Pull-up, wide grip (added kg)",
-   "note": "+10 kg is the new working load, up from +5×4 on 5 Sep. Set 3 ran straight into a bodyweight drop set.",
-   "sets": [
+  "bodyweight": 78.75,
+  "date": "2026-09-08",
+  "dayKey": "pull",
+  "duration": 80,
+  "exercises": [
     {
-     "load": 10,
-     "reps": 6,
-     "rir": 0
+      "k": "pullup",
+      "n": "Pull-up, wide grip (added kg)",
+      "note": "+10 kg is the new working load, up from +5×4 on 5 Sep. Set 3 ran straight into a bodyweight drop set.",
+      "sets": [
+        {
+          "load": 10,
+          "reps": 6,
+          "rir": 0
+        },
+        {
+          "load": 10,
+          "reps": 4.5,
+          "rir": 0
+        },
+        {
+          "load": 10,
+          "reps": 4,
+          "rir": 0
+        },
+        {
+          "load": 0,
+          "reps": 3,
+          "rir": 0
+        }
+      ]
     },
     {
-     "load": 10,
-     "reps": 4.5,
-     "rir": 0
+      "k": "tbarrow",
+      "n": "T-bar row",
+      "note": "20 kg was the warm-up. 35 kg was moved with body English, so set 3 went to 30 kg strict for 12. Strict working load is 30 kg.",
+      "sets": [
+        {
+          "load": 40,
+          "reps": 8,
+          "rir": null
+        },
+        {
+          "load": 35,
+          "reps": 8.5,
+          "rir": null
+        },
+        {
+          "load": 30,
+          "reps": 12,
+          "rir": null
+        }
+      ]
     },
     {
-     "load": 10,
-     "reps": 4,
-     "rir": 0
+      "k": "cablerow",
+      "n": "Seated cable row, close grip (stack)",
+      "note": "First time. 50×12 was too light, 55 is the working load.",
+      "sets": [
+        {
+          "load": 50,
+          "reps": 12,
+          "rir": null
+        },
+        {
+          "load": 55,
+          "reps": 10,
+          "rir": 1
+        },
+        {
+          "load": 55,
+          "reps": 8,
+          "rir": 0
+        }
+      ]
     },
     {
-     "load": 0,
-     "reps": 3,
-     "rir": 0
+      "k": "ezcurl",
+      "n": "EZ bar curl (total load)",
+      "note": "10 kg per side plus the bar. Supersetted with hammer curls.",
+      "sets": [
+        {
+          "load": 30,
+          "reps": 10,
+          "rir": null
+        },
+        {
+          "load": 30,
+          "reps": 10,
+          "rir": null
+        },
+        {
+          "load": 30,
+          "reps": 8,
+          "rir": 0
+        }
+      ]
+    },
+    {
+      "k": "hammer",
+      "n": "Hammer curl (kg per hand)",
+      "note": "17.5 kg per hand on the first set, far above the 10 kg the plan had.",
+      "sets": [
+        {
+          "load": 17.5,
+          "reps": 8,
+          "rir": null
+        },
+        {
+          "load": 15,
+          "reps": 12,
+          "rir": null
+        },
+        {
+          "load": 15,
+          "reps": 12,
+          "rir": 0
+        }
+      ]
+    },
+    {
+      "k": "revpec",
+      "n": "Reverse pec deck (stack)",
+      "note": "First time. 25 kg for 15 was the best set; 25 kg is the working load.",
+      "sets": [
+        {
+          "load": 20,
+          "reps": 12,
+          "rir": null
+        },
+        {
+          "load": 25,
+          "reps": 15,
+          "rir": null
+        },
+        {
+          "load": 20,
+          "reps": 15,
+          "rir": 0
+        }
+      ]
     }
-   ]
-  },
-  {
-   "k": "tbarrow",
-   "n": "T-bar row",
-   "note": "20 kg was the warm-up. 35 kg was moved with body English, so set 3 went to 30 kg strict for 12. Strict working load is 30 kg.",
-   "sets": [
-    {
-     "load": 40,
-     "reps": 8,
-     "rir": null
-    },
-    {
-     "load": 35,
-     "reps": 8.5,
-     "rir": null
-    },
-    {
-     "load": 30,
-     "reps": 12,
-     "rir": null
-    }
-   ]
-  },
-  {
-   "k": "cablerow",
-   "n": "Seated cable row, close grip (stack)",
-   "note": "First time. 50×12 was too light, 55 is the working load.",
-   "sets": [
-    {
-     "load": 50,
-     "reps": 12,
-     "rir": null
-    },
-    {
-     "load": 55,
-     "reps": 10,
-     "rir": 1
-    },
-    {
-     "load": 55,
-     "reps": 8,
-     "rir": 0
-    }
-   ]
-  },
-  {
-   "k": "ezcurl",
-   "n": "EZ bar curl (total load)",
-   "note": "10 kg per side plus the bar. Supersetted with hammer curls.",
-   "sets": [
-    {
-     "load": 30,
-     "reps": 10,
-     "rir": null
-    },
-    {
-     "load": 30,
-     "reps": 10,
-     "rir": null
-    },
-    {
-     "load": 30,
-     "reps": 8,
-     "rir": 0
-    }
-   ]
-  },
-  {
-   "k": "hammer",
-   "n": "Hammer curl (kg per hand)",
-   "note": "17.5 kg per hand on the first set, far above the 10 kg the plan had.",
-   "sets": [
-    {
-     "load": 17.5,
-     "reps": 8,
-     "rir": null
-    },
-    {
-     "load": 15,
-     "reps": 12,
-     "rir": null
-    },
-    {
-     "load": 15,
-     "reps": 12,
-     "rir": 0
-    }
-   ]
-  },
-  {
-   "k": "revpec",
-   "n": "Reverse pec deck (stack)",
-   "note": "First time. 25 kg for 15 was the best set; 25 kg is the working load.",
-   "sets": [
-    {
-     "load": 20,
-     "reps": 12,
-     "rir": null
-    },
-    {
-     "load": 25,
-     "reps": 15,
-     "rir": null
-    },
-    {
-     "load": 20,
-     "reps": 15,
-     "rir": 0
-    }
-   ]
-  }
- ],
- "name": "Pull",
- "notes": "Session 1 of Pull, logged live from chat. T-bar row instead of the single-arm dumbbell row, EZ bar curl instead of the incline curl. Straight-arm pulldown dropped (back already had 10 sets).",
- "savedAt": "2026-09-08T21:20:00.000Z",
- "sleep": 9,
- "source": "coach",
- "startedAt": "2026-09-08T19:30:00.000Z",
- "type": "lift",
- "week": 1,
- "gym": "fitnesspark"
+  ],
+  "gym": "fitnesspark",
+  "name": "Pull",
+  "notes": "Session 1 of Pull, logged live from chat. T-bar row instead of the single-arm dumbbell row, EZ bar curl instead of the incline curl. Straight-arm pulldown dropped (back already had 10 sets).",
+  "savedAt": "2026-09-08T21:20:00.000Z",
+  "sleep": 9,
+  "source": "coach",
+  "startedAt": "2026-09-08T19:30:00.000Z",
+  "type": "lift",
+  "week": 1
 }
