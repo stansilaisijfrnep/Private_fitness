@@ -384,6 +384,12 @@
       "seat_height": 5,
       "unit": "kg per side, plate loaded",
       "noted": "2026-09-11"
+    },
+    "box_jump_height": {
+      "height_in": 24,
+      "height_cm": 61,
+      "noted": "2026-09-12",
+      "note": "His choice for box jumps at Fitness Park. Landing drills (drop and stick) stay on the 30 cm box: a drop from 61 cm is a far bigger eccentric load and the ACL knee does not need it yet. Box height is not jump height - if he has to tuck into a deep squat to land, the box is too tall."
     }
   }
 }
