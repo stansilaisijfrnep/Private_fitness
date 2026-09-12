@@ -6,6 +6,7 @@
 | 2026-09-05 | Block 1 written at intake | 5 days available, 60 to 75 min, upper body priority, legs from zero, ACL history, size goal |
 | 2026-09-05 | Upper day: barbell bench replaced by Hammer Strength iso-lateral chest press (kg per side), chest-supported row is the Nautilus Impact vertical row (stack), pull-ups are bodyweight wide grip | Athlete's choice on session 1. Machine press is fine for the size goal and needs no spotter. Barbell bench returns as a tested lift in block 2. |
 | 2026-09-06 | Lower A after session 1: seated leg press (Nautilus, stack) replaces hack squat (none in the gym), hanging leg raise replaces cable crunch, calves removed from both leg days at the athlete's request, squat with heels on 1.25 kg plates | First leg session. Depth needed heel elevation. Athlete is happy with his calves and declined the work. |
+| 2026-09-12 | Both leg days rebuilt for the jump and knee goal: landing drills and box jumps first, pogo hops optional on Legs B, barbell hip thrust added to Lower A, and all core work moved into the rest periods of the heavy lifts instead of sitting last | He asked for more abs, knee strength and vertical jump without losing muscle. The data said the plan did not need more exercises: abs were 0 of 6 to 12 in week 1 although the program already held 7 sets, because core work sits last on both leg days and both got cut (patterns.md 5i). Glutes were 4 of 8 to 16, so the hip thrust closes a real gap that also drives the jump. Jump work is capped at about 25 ground contacts, twice a week, done fresh, because of the ACL history. |
 | 2026-09-11 | Upper day rebuilt from session 2: chest press start 20 -> 40 per side, pull-up start +10 -> +12.5, vertical row (stack) replaced by the plate-loaded row machine at 35 per side, seated dumbbell press replaced by the seated shoulder press machine at 30 per side, standing lateral raise replaced by the SEATED lateral raise at 8 kg, EZ curl now logged as plate load per side (12.5) | Session 2 of Upper. He pressed 45 x 4 clean on a machine logged at 25, so the working load was 40 % low. Best pull-up set ever (+10 x 8) even as the second exercise. He asked for the shoulder press machine and it lets him load the movement properly at 194 cm. He swung the lateral raise at 15, 15 and even at 8 kg and said so himself, so the setup changes rather than the cue. The EZ bar is 5 to 8 kg, not the 10 assumed, so plate load per side is now the unit. |
 | 2026-09-11 | Weekly set counting now weights assisting muscles at half a set | Counting every press as a full triceps set put triceps at 17 before this session and 24 after, and the briefing demanded a cut that the data did not support. With assisting muscles at 0.5 the real number is 13.5, inside the 8 to 16 range. |
 | 2026-09-09 | Upper day: pull-ups moved to exercise 2, before the vertical row; start load +10 kg | patterns.md 5b: exercise order is worth about 5 kg on his pull-ups (fourth on 5 Sep: +5 x 4 then bodyweight; first on 8 Sep: +10 x 6). Pressing stays first because pressing is the weak point; the row is the machine lift and survives being third. |
@@ -68,15 +69,21 @@ the upper sessions and the sport.
 
 21 work sets. Lateral raises are SEATED from 11 Sep: standing, he swings at every load.
 
-## Day 2: Lower A (quads plus hinge learning)
+## Day 2: Lower A (quads, hinge, jump)
 | # | Exercise | Sets x reps | RIR | Start | Alternative |
 |---|---|---|---|---|---|
-| 1 | Barbell back squat, technique work, heels on 1.25 kg plates | 3 x 5 | 3 | 40 kg (5 Sep: 40x5, 40x5) | goblet squat 3 x 8 |
-| 2 | Seated leg press, Nautilus Impact, stack | 3 x 8-12 | 1-2 | 90 kg (6 Sep) | 45 degree leg press |
+| 0a | Landing drills, drop from a 30 cm box, stick it | 2 x 5 | | bodyweight | skip on knee discomfort |
+| 0b | Box jump, land soft, full rest between sets | 3 x 3 | | box he can clear easily | squat jump |
+| 1 | Barbell back squat, heels on 1.25 kg plates | 3 x 5 | 3 | 42.5 kg (+2.5/session) | goblet squat 3 x 8 |
+| 1b | Hanging leg raise, in the squat rest periods | 3 x 10-15 | 0-1 | bodyweight | cable crunch |
+| 2 | Seated leg press, Nautilus, stack | 3 x 8-12 | 1-2 | 90 kg (6 Sep) | 45 degree leg press |
+| 2b | Copenhagen plank, in the leg press rest periods | 2 x 20-30 s per side | | knee on bench | side plank |
 | 3 | Romanian deadlift, barbell | 3 x 8-10 | 2 | 50 kg (6 Sep) | dumbbell RDL |
-| 4 | Bulgarian split squat | 2 x 8-10 per leg | 1-2 | bodyweight (6 Sep), next 8 kg dumbbells | reverse lunge |
-| 5 | Seated leg curl, stack | 3 x 10-15 | 0-1 | 50 kg (6 Sep) | lying leg curl |
-| 6 | Hanging leg raise | 3 x 10-15 | 0-1 | bodyweight (6 Sep: 12, 12) | cable crunch |
+| 4 | Barbell hip thrust | 3 x 8-12 | 1-2 | 60 kg | glute bridge with a dumbbell |
+| 5 | Bulgarian split squat, kg per hand | 2 x 8-10 per leg | 1-2 | 8 kg | reverse lunge |
+| 6 | Seated leg curl, stack | 3 x 10-15 | 0-1 | 55 kg (6 Sep) | lying leg curl |
+
+17 lifting sets plus 5 core sets that cost no extra time, plus about 8 minutes of jump work.
 
 Squat notes: high bar or low bar, whichever feels natural. Heels slightly elevated is fine on a
 194 cm frame. Depth: hip crease at or below the knee. Add 2.5 kg every session while depth
@@ -112,17 +119,50 @@ builder yet, the hack squat is. The squat is being learned.
 ## Day 5: Legs B (posterior chain, single leg, knee health)
 | # | Exercise | Sets x reps | RIR | Start | Alternative |
 |---|---|---|---|---|---|
-| 0 | Landing drills in warm-up: drop from a 30 cm box, stick the landing, soft knees | 3 x 5 | | | skip if any knee discomfort |
-| 1 | Trap bar deadlift | 3 x 5-6 | 3 | 60 kg | dumbbell RDL |
-| 2 | Seated leg press, Nautilus Impact, stack | 3 x 10-15 | 1-2 | 90 kg | 45 degree leg press |
+| 0a | Landing drills, drop from a 30 cm box, stick it | 2 x 5 | | bodyweight | skip on knee discomfort |
+| 0b | Box jump, land soft, full rest between sets | 3 x 3 | | box he can clear easily | squat jump |
+| 0c | Pogo hops, stiff ankle, minimal ground contact | 2 x 10 | | bodyweight | skip |
+| 1 | Trap bar deadlift | 3 x 5-6 | 3 | 60 kg | conventional deadlift, light |
+| 1b | Ab wheel, in the trap bar rest periods | 3 x 8-10 | | from the knees | hanging knee raise |
+| 2 | Seated leg press, Nautilus, stack | 3 x 10-15 | 1-2 | 90 kg | 45 degree leg press |
+| 2b | Copenhagen plank, in the leg press rest periods | 2 x 20-30 s per side | | knee on bench | side plank |
 | 3 | Walking lunge | 2 x 10 per leg | 1-2 | bodyweight or 2 x 10 kg | reverse lunge |
 | 4 | Nordic hamstring curl, eccentric only | 2 x 4-6 | | bodyweight, control the drop | lying leg curl 3 x 10 |
-| 5 | Leg extension | 2 x 12-15 | 0-1 | test | sissy squat |
-| 7a | Copenhagen plank | 2 x 20-30 s per side | | knee on bench | side plank |
-| 7b | Ab wheel or plank | 2 x 8-10 | | | hanging knee raise |
+| 5 | Leg extension | 2 x 12-15 | 0-1 | 45 kg (9 Sep, campus) | sissy squat |
 
 Nordics and Copenhagen planks are there because of the ACL history and the sports: strong
 evidence that they cut hamstring and groin injuries roughly in half. They stay for life.
+
+## Vertical jump, knee strength and abs: why the leg days look like this (11 Sep)
+
+**The jump work goes first and stays small.** Three qualities build a vertical: maximum leg
+strength, how fast that strength is produced, and how stiff the ankle is on contact. At his level
+the first one dominates. He squats 40 kg at 79 kg bodyweight and has never trained legs, so almost
+every kilo added to the squat, leg press and hinge shows up in the jump. That is the plan he
+already has, and it is the main lever. Jump drills add the second quality. They are trained fresh,
+never tired, at about 25 ground contacts per session and twice a week. More contacts do not build
+more power, they build sore knees, and with an ACL reconstruction that trade is never worth it.
+
+**Box jumps for the concentric, landing drills for the eccentric.** He already does the landings
+well. Box jumps add the other half: produce force fast into the ground. Three reps per set with
+full rest, because the third rep of a set of ten is a slow rep and a slow rep trains nothing here.
+Step down from the box, never jump down.
+
+**Pogo hops are the ankle.** Roughly a fifth of jump height comes from the ankle and the Achilles
+acting like a spring. He has refused calf training and that stands. Pogo hops are not calf training
+for looks, they are the drill for that spring, and they are listed as optional. His call.
+
+**The hip thrust is new.** Glutes were at 4 hard sets in week 1 against a target of 8 to 16, and
+the glute is the biggest hip extensor in the jump. The hip thrust loads it directly in the position
+where the squat gives it the least.
+
+**Abs moved, they were not added.** Week 1 had 0 ab sets against a target of 6 to 12, and the
+program already contained 7. The reason is in `profile/patterns.md`: whatever is last on a leg day
+falls off when the clock runs out, twice now. So the core work is no longer last, it is done inside
+the rest periods of the squat, the trap bar and the leg press. Two to three minutes of rest between
+heavy leg sets is dead time. Filling it with hanging leg raises, the ab wheel and Copenhagen planks
+costs zero extra minutes and makes the ab work impossible to skip. The trunk is also what transfers
+force from the legs into the jump, so this is not filler.
 
 ## Weekly volume, hard sets (from week 3)
 | Muscle | Sets per week | Note |

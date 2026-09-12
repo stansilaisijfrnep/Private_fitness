@@ -279,3 +279,15 @@ because of it. With assisting muscles weighted at half a set the real figure was
 range. The cut was not justified. Fixed in `tools/brief.py` and the dashboard on 11 Sep.
 **Rule for the coach:** before cutting work from a session, check what the number is actually
 counting.
+
+## Vertical jump and abs, 12 Sep: what the data said versus what he asked for
+He asked for more abs, knee strength and vertical jump work. The data said he did not need more
+exercises. Abs were 0 hard sets in week 1 against a target of 6 to 12, and the program already
+contained 7 sets of core work. They were never done because core work sat LAST on both leg days,
+and both leg days ran out of time (patterns 5i). Glutes were 4 of 8 to 16.
+**What changed:** core work moved into the rest periods of the squat, trap bar and leg press,
+where it costs no extra minutes and cannot be cut. Hip thrust added for the glute gap. Box jumps
+added in front of the heavy work, capped at about 25 ground contacts twice a week because of the
+ACL reconstruction. Pogo hops offered as optional for ankle stiffness, since he refuses calf work.
+**Rule for the coach:** when he asks for more of something, check first whether the plan already
+contains it and the session structure is eating it. Moving work beats adding work.

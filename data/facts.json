@@ -15,7 +15,7 @@
       "ACL reconstruction 5-6 years ago, LEFT knee, hamstring-tendon graft (semitendinosus/gracilis). Rehabbed, no current pain. Left hamstring sometimes feels odd at full flexion - load it anyway, build up progressively, track left vs right."
     ],
     "goal": "maximum muscle, size > strength > leanness, 12 months",
-    "secondary_goal": "knee strength and some vertical jump for basketball - secondary, never at the cost of muscle or injury prevention (stated 9 Sep)",
+    "secondary_goal": "Knee strength and vertical jump for basketball, he wants to dunk. Explicitly NOT the main focus: muscle and injury prevention come first. From 12 Sep both leg days open with landing drills and box jumps, about 25 ground contacts, twice a week, done fresh. Pogo hops for ankle stiffness are offered as optional because he refuses calf training and that refusal stands.",
     "timezone": "Europe/Paris (UTC+2 in summer, UTC+1 in winter) - always check `TZ=Europe/Paris date` before time-of-day advice"
   },
   "targets": {
@@ -74,7 +74,7 @@
     "steak"
   ],
   "refuses": [
-    "calf training"
+    "calf training (pogo hops for jump performance are offered separately, his call)"
   ],
   "eating": {
     "bottleneck": "stomach volume on carbs, not protein - he can eat 350 g of meat but not 2 bags of rice",

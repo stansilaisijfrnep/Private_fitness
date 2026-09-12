@@ -32,10 +32,12 @@ MUSCLES = {
     "pushdown": {"triceps": 1}, "ohtri": {"triceps": 1},
     "squat": {"quads": 1, "glutes": 0.5}, "legpress": {"quads": 1, "glutes": 0.5},
     "lunge": {"quads": 1, "glutes": 1}, "bss": {"quads": 1, "glutes": 1}, "legext": {"quads": 1},
-    "rdl": {"hamstrings": 1, "glutes": 1},
+    "rdl": {"hamstrings": 1, "glutes": 1}, "hipthrust": {"glutes": 1, "hamstrings": 0.5},
     "trapbar": {"hamstrings": 0.5, "glutes": 1, "quads": 0.5, "back": 0.5},
     "legcurl": {"hamstrings": 1}, "nordic": {"hamstrings": 1},
-    "hanglr": {"abs": 1}, "abwheel": {"abs": 1}, "copenhagen": {"abs": 1}, "landing": {},
+    "hanglr": {"abs": 1}, "abwheel": {"abs": 1}, "copenhagen": {"abs": 1},
+    # Jump work is power, not volume. It is not counted as hypertrophy sets.
+    "landing": {}, "boxjump": {}, "pogo": {},
 }
 TARGET_SETS = {"chest": (10, 20), "back": (10, 20), "shoulders": (6, 12), "side delts": (8, 16),
                "biceps": (8, 16), "triceps": (8, 16), "quads": (10, 20), "hamstrings": (8, 16),
@@ -119,8 +121,10 @@ def prescribe(ex, lp, ov=None):
     but did not use last time (he under-loads an exercise for a whole session now and then).
     """
     if not lp:
-        st = ov["load"] if ov else ex.get("start", "test")
-        return f"start {st}", "—"
+        if ex.get("bw"):
+            return "bodyweight", "—"
+        st = ov["load"] if ov else ex.get("start")
+        return (f"start {st:g} kg" if st is not None else "no load set - fix the program"), "—"
     date, _n, done, _note = lp
     lo, hi = ex["reps"]
     # Working load = the heaviest load actually handled, not the last set. He ramps down when
