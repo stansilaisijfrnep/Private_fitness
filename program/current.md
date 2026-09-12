@@ -111,7 +111,7 @@ and back position hold. Expect 60 to 70 kg by week 6 with clean reps.
 | 3 | Chest press, Hammer Strength iso-lateral, kg per side | 3 x 8-12 | 1-2 | 22.5 kg/side (7 Sep) | flat barbell bench |
 | 4 | Pec deck, stack | 3 x 12-15 | 0-1 | 15 kg (7 Sep) | cable fly |
 | 5 | Seated shoulder press machine, kg per side | 3 x 8-10 | 1-2 | 25 kg/side (7 Sep) | barbell overhead press 30 kg |
-| 6 | Dumbbell lateral raise | 4 x 12-20 | 0-1 | 7.5 kg | cable lateral raise |
+| 6 | Seated dumbbell lateral raise, kg per hand | 4 x 12-20 | 0-1 | 8 kg, SEATED (11 Sep: he swings when standing) | cable lateral raise |
 | 7 | Triceps pushdown, straight bar, stack | 3 x 10-15 | 0-1 | 25 kg (7 Sep) | overhead cable extension |
 
 22 work sets.

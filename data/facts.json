@@ -394,7 +394,11 @@
     "pavé tournedos (beef tenderloin, 9 Sep - left half the pack)"
   ],
   "coach_overrides": {
-    "_note": "Loads he has proven but did not use last session. brief.py prescribes these instead of the logged working load. Remove an entry once the log catches up."
+    "_note": "Loads he has proven but did not use last session, or logged loads that were not clean. brief.py prescribes these instead of the logged working load. Remove an entry once the log catches up.",
+    "dblat": {
+      "load": 8,
+      "why": "the 15 kg sets on 11 Sep were swung, he said so himself; 8 kg SEATED is the honest load"
+    }
   },
   "coaching_mode": {
     "default": "training",

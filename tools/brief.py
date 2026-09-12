@@ -135,7 +135,9 @@ def prescribe(ex, lp, ov=None):
     near = [t for t in scored if t["reps"] >= lo - 2]
     base = max(t["load"] for t in (near or scored)) if scored else None
     all_top = len(done) >= ex["sets"] and all(t["reps"] >= hi for t in done)
-    if ov and base is not None and ov["load"] > base:
+    if ov:
+        # A coach override always wins over the logged load: it exists either because he
+        # under-loaded an exercise for a whole session, or because the logged sets were not clean.
         return f"{ov['load']:g} kg — {ov['why']}", f"{fmt_sets(done, ex.get('added', False))}  ({date[5:]})"
     if ex.get("bw") or base is None or (ex.get("added") and not base):
         nxt = "bodyweight, beat the reps"
