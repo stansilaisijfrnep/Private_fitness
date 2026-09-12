@@ -260,9 +260,9 @@
       "date": "2026-09-06"
     },
     "rdl_kg": {
-      "load": 50,
-      "best": "50 x 8, then 40 for technique",
-      "date": "2026-09-06"
+      "load": 55,
+      "best": "50 x 12",
+      "date": "2026-09-12"
     },
     "seated_leg_curl_kg": {
       "load": 50,
@@ -285,6 +285,36 @@
       "best": "35 x 7 clean",
       "date": "2026-09-11",
       "note": "Plate-loaded row at Fitness Park. NOT the Nautilus vertical row (stack, 60 kg on 5 Sep) - different machine, different unit."
+    },
+    "squat_kg": {
+      "load": 47.5,
+      "best": "45 x 5 with depth",
+      "date": "2026-09-12",
+      "note": "+2.5 every session while depth holds."
+    },
+    "leg_press_nautilus_kg": {
+      "load": 105,
+      "best": "95 x 15",
+      "date": "2026-09-12",
+      "note": "Fitness Park Nautilus stack. Estimated max about 142."
+    },
+    "hip_thrust_kg": {
+      "load": 90,
+      "best": "80 x 10",
+      "date": "2026-09-12",
+      "note": "First session 12 Sep. He stops on round numbers here, drive the last set to failure."
+    },
+    "leg_extension_fitnesspark_kg": {
+      "load": 55,
+      "best": "55 x 10",
+      "date": "2026-09-12",
+      "note": "NOT the campus Technogym (45 x 10 there). Different machine, different stack."
+    },
+    "bss_per_hand_kg": {
+      "load": 0,
+      "best": "bodyweight x 10 per side",
+      "date": "2026-09-12",
+      "note": "Bodyweight until the LEFT side controls a load. 8 kg per hand made the left give way."
     }
   },
   "strength_profile": {
@@ -312,7 +342,8 @@
     "assisted_reps": "With a training partner he takes forced reps at the end of most exercises (three times on 11 Sep). Rule given: assisted reps on the LAST set of an exercise only, and only clean reps are logged.",
     "lateral_raise_swing": "Standing lateral raises get swung at every load, 15 kg and 8 kg alike. Seated from 11 Sep. He reports the swing honestly when asked directly.",
     "influences": "Follows Ben Patrick, Knees Over Toes Guy. On 12 Sep he asked for exactly one thing from that programme, tibialis raises, and explicitly said not to change everything else. Honour that: take single ideas he names, do not import a whole methodology.",
-    "legs_b_location": "Legs B opens with the trap bar deadlift and the campus gym has no barbells. Schedule Legs B at Fitness Park. On 9 Sep it ran at the campus gym and the hinge could not be loaded at all."
+    "legs_b_location": "Legs B opens with the trap bar deadlift and the campus gym has no barbells. Schedule Legs B at Fitness Park. On 9 Sep it ran at the campus gym and the hinge could not be loaded at all.",
+    "posterior_chain_request": "12 Sep, his own words at the end of Lower A: focus the next leg session more on the back of the legs. Acted on the same day by moving the leg curl ahead of the leg press, the hip thrust and the split squat on both leg days."
   },
   "shopping": {
     "channel": "Uber Eats, Carrefour XL",

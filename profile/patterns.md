@@ -312,3 +312,11 @@ Squats and leg presses hide this completely: the strong side takes over and the 
 - Ask for left and right separately on every single-leg set and every leg curl, every session.
 - This is not a reason to train the left side lightly, it is the reason to train it at all. His own
   words on 9 Sep: the graft side should get heavy work, he just has to build back into it.
+
+### The last exercise on a leg day dies, for the third time (12 Sep)
+6 Sep: hanging leg raise cut to 2 sets. 9 Sep: adductor and abs never done. 12 Sep: he mistook the
+leg extension for the leg curl and finished with no hamstring curl at all. Each time it was the
+last thing on the list. He then asked, unprompted, for more posterior chain work next leg day.
+**Rule for the coach:** put the work that matters most for his knee EARLY. From 12 Sep the seated
+leg curl sits ahead of the leg press, the hip thrust and the split squat on both leg days, and the
+core work is already inside the rest periods. Never defend an order that has failed three times.

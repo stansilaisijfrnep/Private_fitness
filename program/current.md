@@ -6,6 +6,7 @@
 | 2026-09-05 | Block 1 written at intake | 5 days available, 60 to 75 min, upper body priority, legs from zero, ACL history, size goal |
 | 2026-09-05 | Upper day: barbell bench replaced by Hammer Strength iso-lateral chest press (kg per side), chest-supported row is the Nautilus Impact vertical row (stack), pull-ups are bodyweight wide grip | Athlete's choice on session 1. Machine press is fine for the size goal and needs no spotter. Barbell bench returns as a tested lift in block 2. |
 | 2026-09-06 | Lower A after session 1: seated leg press (Nautilus, stack) replaces hack squat (none in the gym), hanging leg raise replaces cable crunch, calves removed from both leg days at the athlete's request, squat with heels on 1.25 kg plates | First leg session. Depth needed heel elevation. Athlete is happy with his calves and declined the work. |
+| 2026-09-12 | Both leg days re-ordered for the posterior chain: seated leg curl added to Legs B and moved ahead of the leg press, the hip thrust and the split squat on Lower A | His request at the end of Lower A, and the data agrees. Three leg sessions in a row have lost whatever stood last, and on 12 Sep that was the leg curl, the one muscle group that matters most for the ACL knee. Hamstrings were 4 of 8 to 16 hard sets in week 1. |
 | 2026-09-12 | Single-leg rule added to every session: left leg first, right matches the left, load rises only when the left controls it. Split squat back to bodyweight. Front-view filming added. Left-right jump and sit-to-stand test added to the weekly check-in | First loaded split squat exposed it: the right side handled 8 kg per hand, the left gave way. He then reported he also lands to the right off box jumps and stands to the right on deadlifts. Systematic offloading of the ACL-operated leg, which bilateral lifts hide completely. No pain, so this is trained, not treated. |
 | 2026-09-12 | Copenhagen plank moved off both leg days and onto Upper and Pull, into the rest periods there | His call during Lower A: the leg press is heavy for him and he did not want an adductor hold between those sets. He is right. The hanging leg raise and the ab wheel are light enough to sit in a leg-day rest period, the Copenhagen plank is a real adductor exercise and the adductors work hard in the leg press and the squat. Groin and knee health work does not have to live on a leg day: on Upper and Pull nothing competes with it, and the twice-a-week frequency is kept. |
 | 2026-09-12 | Tibialis raises added to both leg days, 2 x 15-25 against the wall, placed after the jump work | His request after watching Ben Patrick (Knees Over Toes Guy). The tibialis anterior is the main ankle dorsiflexor and controls the foot on landing, nothing else in the program trains it, and it costs two minutes with no fatigue and no risk. The evidence for knee pain and jump height is thin and he has been told so. Only this one thing was taken from that programme; nothing else changed. |
@@ -76,26 +77,29 @@ the upper sessions and the sport.
 
 21 work sets. Lateral raises are SEATED from 11 Sep: standing, he swings at every load.
 
-## Day 2: Lower A (quads, hinge, jump)
+## Day 2: Lower A (hinge, quads, jump)
 | # | Exercise | Sets x reps | RIR | Start | Alternative |
 |---|---|---|---|---|---|
-| 0a | Landing drills, drop from a 30 cm box, stick it | 2 x 5 | | bodyweight | skip on knee discomfort |
-| 0b | Box jump, land soft, full rest between sets | 3 x 3 | | box he can clear easily | squat jump |
-| 0c | Tibialis raise against the wall | 2 x 15-25 | 0-1 | bodyweight, heels one foot-length from the wall | toes under a loaded barbell, seated |
-| 1 | Barbell back squat, heels on 1.25 kg plates | 3 x 5 | 3 | 42.5 kg (+2.5/session) | goblet squat 3 x 8 |
+| 0a | Landing drills, 30 cm box, SINGLE LEG, stick 2 seconds | 2 x 5 | | bodyweight | two-leg landing if the knee complains |
+| 0b | Box jump, land soft, full rest between sets | 3 x 3 | | 76 cm box | squat jump |
+| 0c | Tibialis raise against the wall | 2 x 15-25 | 0-1 | bodyweight | toes under a loaded barbell |
+| 1 | Barbell back squat, heels on 1.25 kg plates | 3 x 5 | 3 | 47.5 kg (+2.5/session) | goblet squat 3 x 8 |
 | 1b | Hanging leg raise, in the squat rest periods | 3 x 10-15 | 0-1 | bodyweight | cable crunch |
-| 2 | Seated leg press, Nautilus, stack | 3 x 8-12 | 1-2 | 90 kg (6 Sep) | 45 degree leg press |
-| 3 | Romanian deadlift, barbell | 3 x 8-10 | 2 | 50 kg (6 Sep) | dumbbell RDL |
-| 4 | Barbell hip thrust | 3 x 8-12 | 1-2 | 60 kg | glute bridge with a dumbbell |
-| 5 | Bulgarian split squat, kg per hand | 2 x 8-10 per leg | 1-2 | 8 kg | reverse lunge |
-| 6 | Seated leg curl, stack | 3 x 10-15 | 0-1 | 55 kg (6 Sep) | lying leg curl |
+| 2 | Romanian deadlift, barbell | 3 x 8-10 | 2 | 55 kg (12 Sep: 50 x 12) | dumbbell RDL |
+| 3 | Seated leg curl, stack | 3 x 10-15 | 0-1 | 55 kg | lying leg curl |
+| 4 | Barbell hip thrust | 3 x 8-12 | 1-2 | 90 kg (12 Sep: 80 x 10) | glute bridge with a dumbbell |
+| 5 | Seated leg press, Nautilus, stack | 3 x 8-12 | 1-2 | 105 kg (12 Sep: 95 x 15) | 45 degree leg press |
+| 6 | Bulgarian split squat, LEFT leg first | 2 x 8-10 per leg | 1-2 | bodyweight until the left side controls a load | reverse lunge |
 
-17 lifting sets plus 3 core sets that cost no extra time, plus about 8 minutes of jump work.
+17 lifting sets plus 3 core sets in the rest periods, plus about 8 minutes of jump work.
+
+Order note (12 Sep): the hamstring work sits BEFORE the leg press and the split squat now. Three
+times running, whatever stood last on a leg day was not done, and on 12 Sep that cost the seated
+leg curl entirely. The athlete asked the same day for more posterior chain. Both point one way.
 
 Squat notes: high bar or low bar, whichever feels natural. Heels slightly elevated is fine on a
 194 cm frame. Depth: hip crease at or below the knee. Add 2.5 kg every session while depth
-and back position hold. Expect 60 to 70 kg by week 6 with clean reps. This is not the leg
-builder yet, the hack squat is. The squat is being learned.
+and back position hold. Expect 60 to 70 kg by week 6 with clean reps.
 
 ## Day 3: Push (chest priority)
 | # | Exercise | Sets x reps | RIR | Start | Alternative |
@@ -135,7 +139,8 @@ builder yet, the hack squat is. The squat is being learned.
 | 2 | Seated leg press, Nautilus, stack | 3 x 10-15 | 1-2 | 90 kg | 45 degree leg press |
 | 3 | Walking lunge | 2 x 10 per leg | 1-2 | bodyweight or 2 x 10 kg | reverse lunge |
 | 4 | Nordic hamstring curl, eccentric only | 2 x 4-6 | | bodyweight, control the drop | lying leg curl 3 x 10 |
-| 5 | Leg extension | 2 x 12-15 | 0-1 | 45 kg (9 Sep, campus) | sissy squat |
+| 5 | Seated leg curl, stack | 3 x 10-15 | 0-1 | 55 kg | lying leg curl |
+| 6 | Leg extension, stack | 2 x 12-15 | 0-1 | 55 kg (12 Sep, Fitness Park) | sissy squat |
 
 Nordics and Copenhagen planks are there because of the ACL history and the sports: strong
 evidence that they cut hamstring and groin injuries roughly in half. They stay for life.
