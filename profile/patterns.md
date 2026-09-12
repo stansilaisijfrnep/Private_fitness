@@ -300,3 +300,15 @@ leg press sets because the leg press is heavy for him.
 Copenhagen plank is a real adductor exercise and the adductors work in the leg press and the squat.
 It moved to Upper and Pull, where nothing competes with it. When he objects to a pairing, check
 whether the two exercises share a muscle before defending it.
+
+## The left side is weaker, and single-leg work is the only thing that shows it (12 Sep)
+Bulgarian split squat, first session with load: the right side handled 8 kg per hand, the left gave
+way and could not control it. He dropped to bodyweight on his own and reported it, and bodyweight
+felt controlled. The left leg is the ACL graft side, the hamstring was harvested from it.
+Squats and leg presses hide this completely: the strong side takes over and the bar still moves.
+**Rules for the coach, from now on:**
+- Every single-leg exercise starts with the LEFT leg. The right leg matches the left's reps, never more.
+- The load only rises when the LEFT side can control it. The split squat is bodyweight until then.
+- Ask for left and right separately on every single-leg set and every leg curl, every session.
+- This is not a reason to train the left side lightly, it is the reason to train it at all. His own
+  words on 9 Sep: the graft side should get heavy work, he just has to build back into it.

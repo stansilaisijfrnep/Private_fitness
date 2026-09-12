@@ -16,7 +16,8 @@
     ],
     "goal": "maximum muscle, size > strength > leanness, 12 months",
     "secondary_goal": "Knee strength and vertical jump for basketball, he wants to dunk. Explicitly NOT the main focus: muscle and injury prevention come first. From 12 Sep both leg days open with landing drills and box jumps, about 25 ground contacts, twice a week, done fresh. Pogo hops for ankle stiffness are offered as optional because he refuses calf training and that refusal stands.",
-    "timezone": "Europe/Paris (UTC+2 in summer, UTC+1 in winter) - always check `TZ=Europe/Paris date` before time-of-day advice"
+    "timezone": "Europe/Paris (UTC+2 in summer, UTC+1 in winter) - always check `TZ=Europe/Paris date` before time-of-day advice",
+    "left_right_asymmetry": "Found 12 Sep on the Bulgarian split squat: the right side handled 8 kg per hand, the left could not control it and gave way. The left is the ACL graft side. Bilateral lifts (squat, leg press) hide this because the strong side compensates. RULE: every single-leg exercise starts with the LEFT side, the right side matches the left's reps, and the load only rises when the left can control it. Ask for left and right separately on every single-leg and leg-curl set, every session."
   },
   "targets": {
     "kcal": 3300,
@@ -361,11 +362,7 @@
     "pavé tournedos (beef tenderloin, 9 Sep - left half the pack)"
   ],
   "coach_overrides": {
-    "_note": "Loads he has proven but did not use last session. brief.py prescribes these instead of the logged working load. Remove an entry once the log catches up.",
-    "bss": {
-      "load": 8,
-      "why": "bodyweight x 8 twice on 6 Sep, he was told to take 8 kg dumbbells next"
-    }
+    "_note": "Loads he has proven but did not use last session. brief.py prescribes these instead of the logged working load. Remove an entry once the log catches up."
   },
   "coaching_mode": {
     "default": "training",
