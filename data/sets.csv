@@ -106,6 +106,35 @@ date,day,week,exercise_key,exercise,set_no,load_kg,reps,rir,e1rm_kg,exercise_not
 2026-09-11,upper,1,dblat,Dumbbell lateral raise (kg per hand),3,8,15,0,12.0,"Took 15 kg although 10 was prescribed, swung both sets and reported it himself, then swung 8 kg as well. Movement pattern problem, not a load problem. Seated lateral raise from next session, start 8 kg."
 2026-09-11,upper,1,ezcurl,"EZ bar curl (kg per side, plates)",1,10,12,1,14.0,"Unit changed today: plate load per side, not total. The EZ bar is 5 to 8 kg, not the 10 assumed before. Hit the top of the range, 12.5 per side next time."
 2026-09-11,upper,1,ezcurl,"EZ bar curl (kg per side, plates)",2,10,14,0,14.7,"Unit changed today: plate load per side, not total. The EZ bar is 5 to 8 kg, not the 10 assumed before. Hit the top of the range, 12.5 per side next time."
-2026-09-11,upper,1,pushdown,Rope triceps pushdown (stack),1,25,13,1,35.8,"Rope, not the straight bar."
-2026-09-11,upper,1,pushdown,Rope triceps pushdown (stack),2,25,12,0,35.0,"Rope, not the straight bar."
-2026-09-11,upper,1,pushdown,Rope triceps pushdown (stack),3,20,16,0,30.7,"Rope, not the straight bar."
+2026-09-11,upper,1,pushdown,Rope triceps pushdown (stack),1,25,13,1,35.8,"Rope, not the straight bar. He asked for this work after the coach cut it on a miscount. Last set to failure, the reps went ugly at the end."
+2026-09-11,upper,1,pushdown,Rope triceps pushdown (stack),2,25,12,0,35.0,"Rope, not the straight bar. He asked for this work after the coach cut it on a miscount. Last set to failure, the reps went ugly at the end."
+2026-09-11,upper,1,pushdown,Rope triceps pushdown (stack),3,20,16,0,30.7,"Rope, not the straight bar. He asked for this work after the coach cut it on a miscount. Last set to failure, the reps went ugly at the end."
+2026-09-12,lowerA,1,landing,"Landing drills, 30 cm box (warm-up)",1,,5,,,Done SINGLE LEG on his own initiative. The most ACL-relevant drill there is.
+2026-09-12,lowerA,1,landing,"Landing drills, 30 cm box (warm-up)",2,,5,,,Done SINGLE LEG on his own initiative. The most ACL-relevant drill there is.
+2026-09-12,lowerA,1,boxjump,"Box jump, 76 cm (30 in)",1,,3,,,"12 reps first, then 2 more sets of 3 after he asked for 3 x 12 and was told why not. 18 jumps, 28 ground contacts for the session."
+2026-09-12,lowerA,1,boxjump,"Box jump, 76 cm (30 in)",2,,3,,,"12 reps first, then 2 more sets of 3 after he asked for 3 x 12 and was told why not. 18 jumps, 28 ground contacts for the session."
+2026-09-12,lowerA,1,boxjump,"Box jump, 76 cm (30 in)",3,,3,,,"12 reps first, then 2 more sets of 3 after he asked for 3 x 12 and was told why not. 18 jumps, 28 ground contacts for the session."
+2026-09-12,lowerA,1,boxjump,"Box jump, 76 cm (30 in)",4,,3,,,"12 reps first, then 2 more sets of 3 after he asked for 3 x 12 and was told why not. 18 jumps, 28 ground contacts for the session."
+2026-09-12,lowerA,1,boxjump,"Box jump, 76 cm (30 in)",5,,3,,,"12 reps first, then 2 more sets of 3 after he asked for 3 x 12 and was told why not. 18 jumps, 28 ground contacts for the session."
+2026-09-12,lowerA,1,boxjump,"Box jump, 76 cm (30 in)",6,,3,,,"12 reps first, then 2 more sets of 3 after he asked for 3 x 12 and was told why not. 18 jumps, 28 ground contacts for the session."
+2026-09-12,lowerA,1,tibraise,Tibialis raise against the wall,1,,15,,,"First session with tib raises. Reps not counted, ask for a number next time."
+2026-09-12,lowerA,1,tibraise,Tibialis raise against the wall,2,,15,,,"First session with tib raises. Reps not counted, ask for a number next time."
+2026-09-12,lowerA,1,squat,"Barbell back squat, heels on plates",1,45,5,3,52.5,Took 45 instead of the prescribed 42.5. Depth confirmed held. Next session 47.5.
+2026-09-12,lowerA,1,squat,"Barbell back squat, heels on plates",2,45,5,3,52.5,Took 45 instead of the prescribed 42.5. Depth confirmed held. Next session 47.5.
+2026-09-12,lowerA,1,squat,"Barbell back squat, heels on plates",3,45,5,3,52.5,Took 45 instead of the prescribed 42.5. Depth confirmed held. Next session 47.5.
+2026-09-12,lowerA,1,hanglr,Hanging leg raise (in the squat rest periods),1,,13,1,,First ab sets of the whole week. The rest-period placement works.
+2026-09-12,lowerA,1,hanglr,Hanging leg raise (in the squat rest periods),2,,15,0,,First ab sets of the whole week. The rest-period placement works.
+2026-09-12,lowerA,1,hanglr,Hanging leg raise (in the squat rest periods),3,,15,0,,First ab sets of the whole week. The rest-period placement works.
+2026-09-12,lowerA,1,legpress,"Seated leg press, Nautilus (stack)",1,95,10,2,126.7,"All three sets at 95, corrected by him afterwards. Estimated max about 142. Next session 105."
+2026-09-12,lowerA,1,legpress,"Seated leg press, Nautilus (stack)",2,95,10,1,126.7,"All three sets at 95, corrected by him afterwards. Estimated max about 142. Next session 105."
+2026-09-12,lowerA,1,legpress,"Seated leg press, Nautilus (stack)",3,95,15,0,142.5,"All three sets at 95, corrected by him afterwards. Estimated max about 142. Next session 105."
+2026-09-12,lowerA,1,rdl,Romanian deadlift,1,50,10,2,66.7,"On 6 Sep 50 gave 8 and he dropped to 40 for technique. Today 10, 10, 12. Next session 55."
+2026-09-12,lowerA,1,rdl,Romanian deadlift,2,50,10,1,66.7,"On 6 Sep 50 gave 8 and he dropped to 40 for technique. Today 10, 10, 12. Next session 55."
+2026-09-12,lowerA,1,rdl,Romanian deadlift,3,50,12,0,70.0,"On 6 Sep 50 gave 8 and he dropped to 40 for technique. Today 10, 10, 12. Next session 55."
+2026-09-12,lowerA,1,hipthrust,Barbell hip thrust,1,60,10,3,80.0,"First ever. 60 was easy, straight to 80. Stopped on 10 three times, the round-number pattern. Next session 90."
+2026-09-12,lowerA,1,hipthrust,Barbell hip thrust,2,80,10,1,106.7,"First ever. 60 was easy, straight to 80. Stopped on 10 three times, the round-number pattern. Next session 90."
+2026-09-12,lowerA,1,hipthrust,Barbell hip thrust,3,80,10,1,106.7,"First ever. 60 was easy, straight to 80. Stopped on 10 three times, the round-number pattern. Next session 90."
+2026-09-12,lowerA,1,bss,Bulgarian split squat (bodyweight),1,0,10,1,,"ASYMMETRY: right side handled 8 kg per hand, left gave way. He dropped to bodyweight himself and it was controlled. Left is the ACL graft side. Bodyweight until the left matches."
+2026-09-12,lowerA,1,bss,Bulgarian split squat (bodyweight),2,0,10,1,,"ASYMMETRY: right side handled 8 kg per hand, left gave way. He dropped to bodyweight himself and it was controlled. Left is the ACL graft side. Bodyweight until the left matches."
+2026-09-12,lowerA,1,legext,"Leg extension, Fitness Park (stack)",1,45,12,2,63.0,"He mistook this for the leg curl and finished the session with no hamstring curl at all. Different machine from the campus one, stack numbers do not transfer. Working load 55."
+2026-09-12,lowerA,1,legext,"Leg extension, Fitness Park (stack)",2,55,10,0,73.3,"He mistook this for the leg curl and finished the session with no hamstring curl at all. Different machine from the campus one, stack numbers do not transfer. Working load 55."

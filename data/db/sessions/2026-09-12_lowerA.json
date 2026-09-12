@@ -1,0 +1,233 @@
+{
+  "bodyweight": 79.15,
+  "date": "2026-09-12",
+  "dayKey": "lowerA",
+  "duration": null,
+  "energy": null,
+  "exercises": [
+    {
+      "k": "landing",
+      "n": "Landing drills, 30 cm box (warm-up)",
+      "note": "Done SINGLE LEG on his own initiative. The most ACL-relevant drill there is.",
+      "sets": [
+        {
+          "load": null,
+          "reps": 5,
+          "rir": null
+        },
+        {
+          "load": null,
+          "reps": 5,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "boxjump",
+      "n": "Box jump, 76 cm (30 in)",
+      "note": "12 reps first, then 2 more sets of 3 after he asked for 3 x 12 and was told why not. 18 jumps, 28 ground contacts for the session.",
+      "sets": [
+        {
+          "load": null,
+          "reps": 3,
+          "rir": null
+        },
+        {
+          "load": null,
+          "reps": 3,
+          "rir": null
+        },
+        {
+          "load": null,
+          "reps": 3,
+          "rir": null
+        },
+        {
+          "load": null,
+          "reps": 3,
+          "rir": null
+        },
+        {
+          "load": null,
+          "reps": 3,
+          "rir": null
+        },
+        {
+          "load": null,
+          "reps": 3,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "tibraise",
+      "n": "Tibialis raise against the wall",
+      "note": "First session with tib raises. Reps not counted, ask for a number next time.",
+      "sets": [
+        {
+          "load": null,
+          "reps": 15,
+          "rir": null
+        },
+        {
+          "load": null,
+          "reps": 15,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "squat",
+      "n": "Barbell back squat, heels on plates",
+      "note": "Took 45 instead of the prescribed 42.5. Depth confirmed held. Next session 47.5.",
+      "sets": [
+        {
+          "load": 45,
+          "reps": 5,
+          "rir": 3
+        },
+        {
+          "load": 45,
+          "reps": 5,
+          "rir": 3
+        },
+        {
+          "load": 45,
+          "reps": 5,
+          "rir": 3
+        }
+      ]
+    },
+    {
+      "k": "hanglr",
+      "n": "Hanging leg raise (in the squat rest periods)",
+      "note": "First ab sets of the whole week. The rest-period placement works.",
+      "sets": [
+        {
+          "load": null,
+          "reps": 13,
+          "rir": 1
+        },
+        {
+          "load": null,
+          "reps": 15,
+          "rir": 0
+        },
+        {
+          "load": null,
+          "reps": 15,
+          "rir": 0
+        }
+      ]
+    },
+    {
+      "k": "legpress",
+      "n": "Seated leg press, Nautilus (stack)",
+      "note": "All three sets at 95, corrected by him afterwards. Estimated max about 142. Next session 105.",
+      "sets": [
+        {
+          "load": 95,
+          "reps": 10,
+          "rir": 2
+        },
+        {
+          "load": 95,
+          "reps": 10,
+          "rir": 1
+        },
+        {
+          "load": 95,
+          "reps": 15,
+          "rir": 0
+        }
+      ]
+    },
+    {
+      "k": "rdl",
+      "n": "Romanian deadlift",
+      "note": "On 6 Sep 50 gave 8 and he dropped to 40 for technique. Today 10, 10, 12. Next session 55.",
+      "sets": [
+        {
+          "load": 50,
+          "reps": 10,
+          "rir": 2
+        },
+        {
+          "load": 50,
+          "reps": 10,
+          "rir": 1
+        },
+        {
+          "load": 50,
+          "reps": 12,
+          "rir": 0
+        }
+      ]
+    },
+    {
+      "k": "hipthrust",
+      "n": "Barbell hip thrust",
+      "note": "First ever. 60 was easy, straight to 80. Stopped on 10 three times, the round-number pattern. Next session 90.",
+      "sets": [
+        {
+          "load": 60,
+          "reps": 10,
+          "rir": 3
+        },
+        {
+          "load": 80,
+          "reps": 10,
+          "rir": 1
+        },
+        {
+          "load": 80,
+          "reps": 10,
+          "rir": 1
+        }
+      ]
+    },
+    {
+      "k": "bss",
+      "n": "Bulgarian split squat (bodyweight)",
+      "note": "ASYMMETRY: right side handled 8 kg per hand, left gave way. He dropped to bodyweight himself and it was controlled. Left is the ACL graft side. Bodyweight until the left matches.",
+      "sets": [
+        {
+          "load": 0,
+          "reps": 10,
+          "rir": 1
+        },
+        {
+          "load": 0,
+          "reps": 10,
+          "rir": 1
+        }
+      ]
+    },
+    {
+      "k": "legext",
+      "n": "Leg extension, Fitness Park (stack)",
+      "note": "He mistook this for the leg curl and finished the session with no hamstring curl at all. Different machine from the campus one, stack numbers do not transfer. Working load 55.",
+      "sets": [
+        {
+          "load": 45,
+          "reps": 12,
+          "rir": 2
+        },
+        {
+          "load": 55,
+          "reps": 10,
+          "rir": 0
+        }
+      ]
+    }
+  ],
+  "gym": "fitnesspark",
+  "name": "Lower A",
+  "notes": "First run of the rebuilt leg day: jump work and tibialis raises in front, core inside the rest periods, hip thrust added. Left-right asymmetry found on the split squat: right side handled 8 kg per hand, the left gave way, so he dropped to bodyweight himself. He also reports landing to the right off box jumps and standing to the right on deadlifts. Abs went from 0 to 3 hard sets for the week. Hamstring work fell off the end again: he mistook the leg extension for the leg curl and did no leg curl, then asked for more posterior chain focus next leg day.",
+  "savedAt": "2026-09-12T17:30:00.000Z",
+  "sleep": null,
+  "source": "coach",
+  "startedAt": "2026-09-12T13:00:00.000Z",
+  "type": "lift",
+  "week": 1
+}
