@@ -6,6 +6,7 @@
 | 2026-09-05 | Block 1 written at intake | 5 days available, 60 to 75 min, upper body priority, legs from zero, ACL history, size goal |
 | 2026-09-05 | Upper day: barbell bench replaced by Hammer Strength iso-lateral chest press (kg per side), chest-supported row is the Nautilus Impact vertical row (stack), pull-ups are bodyweight wide grip | Athlete's choice on session 1. Machine press is fine for the size goal and needs no spotter. Barbell bench returns as a tested lift in block 2. |
 | 2026-09-06 | Lower A after session 1: seated leg press (Nautilus, stack) replaces hack squat (none in the gym), hanging leg raise replaces cable crunch, calves removed from both leg days at the athlete's request, squat with heels on 1.25 kg plates | First leg session. Depth needed heel elevation. Athlete is happy with his calves and declined the work. |
+| 2026-09-12 | Hip abduction added to both leg days, 3 x 12-20, in the opening block | He named hamstrings and hips as his two ACL priorities. The hip abductors and external rotators are what stop a knee collapsing inward, which is exactly what his left knee did under load on the split squat the same day. Nothing in the programme trained them directly. Placed in the opening block, where three leg sessions of evidence say nothing gets cut. |
 | 2026-09-12 | Both leg days re-ordered for the posterior chain: seated leg curl added to Legs B and moved ahead of the leg press, the hip thrust and the split squat on Lower A | His request at the end of Lower A, and the data agrees. Three leg sessions in a row have lost whatever stood last, and on 12 Sep that was the leg curl, the one muscle group that matters most for the ACL knee. Hamstrings were 4 of 8 to 16 hard sets in week 1. |
 | 2026-09-12 | Single-leg rule added to every session: left leg first, right matches the left, load rises only when the left controls it. Split squat back to bodyweight. Front-view filming added. Left-right jump and sit-to-stand test added to the weekly check-in | First loaded split squat exposed it: the right side handled 8 kg per hand, the left gave way. He then reported he also lands to the right off box jumps and stands to the right on deadlifts. Systematic offloading of the ACL-operated leg, which bilateral lifts hide completely. No pain, so this is trained, not treated. |
 | 2026-09-12 | Copenhagen plank moved off both leg days and onto Upper and Pull, into the rest periods there | His call during Lower A: the leg press is heavy for him and he did not want an adductor hold between those sets. He is right. The hanging leg raise and the ab wheel are light enough to sit in a leg-day rest period, the Copenhagen plank is a real adductor exercise and the adductors work hard in the leg press and the squat. Groin and knee health work does not have to live on a leg day: on Upper and Pull nothing competes with it, and the twice-a-week frequency is kept. |
@@ -83,6 +84,7 @@ the upper sessions and the sport.
 | 0a | Landing drills, 30 cm box, SINGLE LEG, stick 2 seconds | 2 x 5 | | bodyweight | two-leg landing if the knee complains |
 | 0b | Box jump, land soft, full rest between sets | 3 x 3 | | 76 cm box | squat jump |
 | 0c | Tibialis raise against the wall | 2 x 15-25 | 0-1 | bodyweight | toes under a loaded barbell |
+| 0d | Hip abduction machine, torso leaning slightly forward | 3 x 12-20 | 0-1 | 25 kg | banded lateral walks 3 x 15 per side |
 | 1 | Barbell back squat, heels on 1.25 kg plates | 3 x 5 | 3 | 47.5 kg (+2.5/session) | goblet squat 3 x 8 |
 | 1b | Hanging leg raise, in the squat rest periods | 3 x 10-15 | 0-1 | bodyweight | cable crunch |
 | 2 | Romanian deadlift, barbell | 3 x 8-10 | 2 | 55 kg (12 Sep: 50 x 12) | dumbbell RDL |
@@ -134,6 +136,7 @@ and back position hold. Expect 60 to 70 kg by week 6 with clean reps.
 | 0b | Box jump, land soft, full rest between sets | 3 x 3 | | box he can clear easily | squat jump |
 | 0c | Pogo hops, stiff ankle, minimal ground contact | 2 x 10 | | bodyweight | skip |
 | 0d | Tibialis raise against the wall | 2 x 15-25 | 0-1 | bodyweight, heels one foot-length from the wall | toes under a loaded barbell, seated |
+| 0e | Hip abduction machine, torso leaning slightly forward | 3 x 12-20 | 0-1 | 25 kg | banded lateral walks 3 x 15 per side |
 | 1 | Trap bar deadlift | 3 x 5-6 | 3 | 60 kg | conventional deadlift, light |
 | 1b | Ab wheel, in the trap bar rest periods | 3 x 8-10 | | from the knees | hanging knee raise |
 | 2 | Seated leg press, Nautilus, stack | 3 x 10-15 | 1-2 | 90 kg | 45 degree leg press |
@@ -205,6 +208,32 @@ then by loading the toes (dumbbell hooked over the feet, seated, or a tib bar if
 
 **Tracking.** Tibialis raises are logged like any other exercise but they do not count toward the
 weekly hypertrophy set targets, the same as the jump drills. They are joint-health work.
+
+## The knee: hamstrings and hips, his two stated priorities (12 Sep)
+
+He named them himself: the back of the thigh and the hip. Both are right, and they do different jobs.
+
+**The hamstring has two functions and the plan has to train both.** It extends the hip (Romanian
+deadlift, hip thrust) and it flexes the knee (seated leg curl, Nordic curl). Only the knee-flexion
+half is specific to his graft: the tendon for his cruciate ligament was taken from the LEFT
+hamstring, and knee-flexion strength is the part that stays weakest longest after that operation.
+On 12 Sep he trained the hip-extension half hard and did no knee flexion at all. That is why the
+leg curl moved ahead of the leg press, the hip thrust and the split squat on both leg days.
+Nordics stay on Legs B: eccentric hamstring work has the strongest evidence of anything here,
+roughly halving hamstring injuries.
+
+**The hip is what controls the knee from above.** When his left knee wandered in and out on the
+split squat on 12 Sep, that was not a knee problem. The muscles that stop a knee falling inward
+under load are the hip abductors and external rotators, the gluteus medius above all. Weakness
+there is a known contributor to a knee collapsing inward, which is the position ACLs tear in.
+Hip abduction work added to both leg days from 12 Sep, 3 x 12-20, placed in the opening block where
+it cannot be cut. The Copenhagen plank covers the opposite side, the adductors and the groin, and
+lives on Upper and Pull.
+
+**What the opening block now is.** Single-leg landings, box jumps, tibialis raises and hip
+abduction, done fresh, twice a week. That is the shape of the neuromuscular warm-up programmes that
+actually reduce knee injuries in sport: landing mechanics, ankle, hip control and eccentric
+hamstring work in one block. It is about ten minutes and it is not optional.
 
 ## Weekly volume, hard sets (from week 3)
 | Muscle | Sets per week | Note |

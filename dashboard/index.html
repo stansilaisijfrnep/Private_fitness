@@ -304,6 +304,7 @@ const PROGRAM = {
       {k:"landing", n:"Landing drills, 30 cm box, single leg (warm-up)", sets:2, reps:[5,5], rir:"–", bw:true, alt:"two-leg landing if the knee complains"},
       {k:"boxjump", n:"Box jump, land soft, full rest between sets", sets:3, reps:[3,3], rir:"–", bw:true, alt:"squat jump, bodyweight"},
       {k:"tibraise", n:"Tibialis raise against the wall (heels down, toes up)", sets:2, reps:[15,25], rir:"0–1", bw:true, alt:"toes under a loaded barbell, seated"},
+      {k:"hipabd", n:"Hip abduction machine, lean forward slightly (stack)", sets:3, reps:[12,20], rir:"0–1", start:25, inc:5, alt:"banded lateral walks, 3 × 15 per side"},
       {k:"squat", n:"Barbell back squat, heels on plates", sets:3, reps:[5,5], rir:"3", start:47.5, inc:2.5, prog:"session", alt:"goblet squat 3×8"},
       {k:"hanglr", n:"Hanging leg raise (in the squat rest periods)", sets:3, reps:[10,15], rir:"0–1", bw:true, ss:true, alt:"cable crunch"},
       {k:"rdl", n:"Romanian deadlift", sets:3, reps:[8,10], rir:"2", start:55, inc:5, alt:"dumbbell RDL"},
@@ -336,6 +337,7 @@ const PROGRAM = {
       {k:"boxjump", n:"Box jump, land soft, full rest between sets", sets:3, reps:[3,3], rir:"–", bw:true, alt:"squat jump, bodyweight"},
       {k:"pogo", n:"Pogo hops, stiff ankles, minimal ground time", sets:2, reps:[10,10], rir:"–", bw:true, alt:"skip"},
       {k:"tibraise", n:"Tibialis raise against the wall (heels down, toes up)", sets:2, reps:[15,25], rir:"0–1", bw:true, alt:"toes under a loaded barbell, seated"},
+      {k:"hipabd", n:"Hip abduction machine, lean forward slightly (stack)", sets:3, reps:[12,20], rir:"0–1", start:25, inc:5, alt:"banded lateral walks, 3 × 15 per side"},
       {k:"trapbar", n:"Trap bar deadlift", sets:3, reps:[5,6], rir:"3", start:60, inc:5, prog:"session", alt:"conventional deadlift, light"},
       {k:"abwheel", n:"Ab wheel (in the trap bar rest periods)", sets:3, reps:[8,10], rir:"–", bw:true, ss:true, alt:"hanging knee raise"},
       {k:"legpress", n:"Seated leg press, Nautilus (stack)", sets:3, reps:[10,15], rir:"1–2", start:90, inc:10, alt:"45° leg press"},
@@ -368,7 +370,7 @@ const MUSCLES = {
   legcurl:{hamstrings:1}, nordic:{hamstrings:1},
   hanglr:{abs:1}, abwheel:{abs:1}, copenhagen:{abs:1},
   /* jump work: power, not volume. Not counted as hypertrophy sets. */
-  landing:{}, boxjump:{}, pogo:{},
+  landing:{}, boxjump:{}, pogo:{}, hipabd:{},
   /* joint health, not hypertrophy volume: the tibialis has no weekly set target */
   tibraise:{}
 };
