@@ -71,7 +71,8 @@
     "bread",
     "bananas",
     "potatoes",
-    "steak"
+    "steak",
+    "trap bar deadlift (found it 12 Sep, said he likes it)"
   ],
   "refuses": [
     "calf training (pogo hops for jump performance are offered separately, his call)"
@@ -163,7 +164,7 @@
   },
   "open_questions": [
     "whey still not bought (asked 4x)",
-    "trap bar, dip belt, heaviest dumbbell: not yet confirmed in the gym"
+    "dip belt and heaviest dumbbell at Fitness Park: still not confirmed"
   ],
   "working_loads": {
     "note": "heaviest load handled on the last session of each exercise, the number to prescribe next time",
@@ -309,7 +310,8 @@
     "rir_reporting": "only when asked in the same message as the next set",
     "assisted_reps": "With a training partner he takes forced reps at the end of most exercises (three times on 11 Sep). Rule given: assisted reps on the LAST set of an exercise only, and only clean reps are logged.",
     "lateral_raise_swing": "Standing lateral raises get swung at every load, 15 kg and 8 kg alike. Seated from 11 Sep. He reports the swing honestly when asked directly.",
-    "influences": "Follows Ben Patrick, Knees Over Toes Guy. On 12 Sep he asked for exactly one thing from that programme, tibialis raises, and explicitly said not to change everything else. Honour that: take single ideas he names, do not import a whole methodology."
+    "influences": "Follows Ben Patrick, Knees Over Toes Guy. On 12 Sep he asked for exactly one thing from that programme, tibialis raises, and explicitly said not to change everything else. Honour that: take single ideas he names, do not import a whole methodology.",
+    "legs_b_location": "Legs B opens with the trap bar deadlift and the campus gym has no barbells. Schedule Legs B at Fitness Park. On 9 Sep it ran at the campus gym and the hinge could not be loaded at all."
   },
   "shopping": {
     "channel": "Uber Eats, Carrefour XL",

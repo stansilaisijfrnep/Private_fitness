@@ -58,6 +58,7 @@ log it with duration. Do it after lifting or on off days, never before Lower A o
 |---|---|---|
 | 45 degree leg press | yes | Main quad builder in block 1. |
 | Hack squat | unclear | One machine in the plate-loaded row could be it. Check on next visit. |
+| Trap bar | YES, confirmed 12 Sep | He found it himself and said he likes it. It is the opener of Legs B. |
 | Iso-lateral chest press, seated | yes | Alternative to bench and dips. |
 | Iso-lateral incline chest press | likely | Check. |
 | Iso-lateral shoulder press | yes | Alternative to DB shoulder press. |
