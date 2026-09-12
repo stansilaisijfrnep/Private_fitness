@@ -291,3 +291,12 @@ added in front of the heavy work, capped at about 25 ground contacts twice a wee
 ACL reconstruction. Pogo hops offered as optional for ankle stiffness, since he refuses calf work.
 **Rule for the coach:** when he asks for more of something, check first whether the plan already
 contains it and the session structure is eating it. Moving work beats adding work.
+
+### He pushes back on supersets that compete with a heavy lift, and he is right
+12 Sep, during Lower A: he accepted the hanging leg raise in the squat rest periods without a word
+and did 13, 15, 15, the first ab sets of the whole week. He refused the Copenhagen plank between
+leg press sets because the leg press is heavy for him.
+**Rule for the coach:** only put genuinely light work into the rest period of a heavy lift. The
+Copenhagen plank is a real adductor exercise and the adductors work in the leg press and the squat.
+It moved to Upper and Pull, where nothing competes with it. When he objects to a pairing, check
+whether the two exercises share a muscle before defending it.
