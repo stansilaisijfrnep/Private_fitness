@@ -38,6 +38,8 @@ MUSCLES = {
     "hanglr": {"abs": 1}, "abwheel": {"abs": 1}, "copenhagen": {"abs": 1},
     # Jump work is power, not volume. It is not counted as hypertrophy sets.
     "landing": {}, "boxjump": {}, "pogo": {},
+    # Joint health, not hypertrophy volume: the tibialis has no weekly set target.
+    "tibraise": {},
 }
 TARGET_SETS = {"chest": (10, 20), "back": (10, 20), "shoulders": (6, 12), "side delts": (8, 16),
                "biceps": (8, 16), "triceps": (8, 16), "quads": (10, 20), "hamstrings": (8, 16),

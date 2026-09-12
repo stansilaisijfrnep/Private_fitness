@@ -6,6 +6,7 @@
 | 2026-09-05 | Block 1 written at intake | 5 days available, 60 to 75 min, upper body priority, legs from zero, ACL history, size goal |
 | 2026-09-05 | Upper day: barbell bench replaced by Hammer Strength iso-lateral chest press (kg per side), chest-supported row is the Nautilus Impact vertical row (stack), pull-ups are bodyweight wide grip | Athlete's choice on session 1. Machine press is fine for the size goal and needs no spotter. Barbell bench returns as a tested lift in block 2. |
 | 2026-09-06 | Lower A after session 1: seated leg press (Nautilus, stack) replaces hack squat (none in the gym), hanging leg raise replaces cable crunch, calves removed from both leg days at the athlete's request, squat with heels on 1.25 kg plates | First leg session. Depth needed heel elevation. Athlete is happy with his calves and declined the work. |
+| 2026-09-12 | Tibialis raises added to both leg days, 2 x 15-25 against the wall, placed after the jump work | His request after watching Ben Patrick (Knees Over Toes Guy). The tibialis anterior is the main ankle dorsiflexor and controls the foot on landing, nothing else in the program trains it, and it costs two minutes with no fatigue and no risk. The evidence for knee pain and jump height is thin and he has been told so. Only this one thing was taken from that programme; nothing else changed. |
 | 2026-09-12 | Both leg days rebuilt for the jump and knee goal: landing drills and box jumps first, pogo hops optional on Legs B, barbell hip thrust added to Lower A, and all core work moved into the rest periods of the heavy lifts instead of sitting last | He asked for more abs, knee strength and vertical jump without losing muscle. The data said the plan did not need more exercises: abs were 0 of 6 to 12 in week 1 although the program already held 7 sets, because core work sits last on both leg days and both got cut (patterns.md 5i). Glutes were 4 of 8 to 16, so the hip thrust closes a real gap that also drives the jump. Jump work is capped at about 25 ground contacts, twice a week, done fresh, because of the ACL history. |
 | 2026-09-11 | Upper day rebuilt from session 2: chest press start 20 -> 40 per side, pull-up start +10 -> +12.5, vertical row (stack) replaced by the plate-loaded row machine at 35 per side, seated dumbbell press replaced by the seated shoulder press machine at 30 per side, standing lateral raise replaced by the SEATED lateral raise at 8 kg, EZ curl now logged as plate load per side (12.5) | Session 2 of Upper. He pressed 45 x 4 clean on a machine logged at 25, so the working load was 40 % low. Best pull-up set ever (+10 x 8) even as the second exercise. He asked for the shoulder press machine and it lets him load the movement properly at 194 cm. He swung the lateral raise at 15, 15 and even at 8 kg and said so himself, so the setup changes rather than the cue. The EZ bar is 5 to 8 kg, not the 10 assumed, so plate load per side is now the unit. |
 | 2026-09-11 | Weekly set counting now weights assisting muscles at half a set | Counting every press as a full triceps set put triceps at 17 before this session and 24 after, and the briefing demanded a cut that the data did not support. With assisting muscles at 0.5 the real number is 13.5, inside the 8 to 16 range. |
@@ -74,6 +75,7 @@ the upper sessions and the sport.
 |---|---|---|---|---|---|
 | 0a | Landing drills, drop from a 30 cm box, stick it | 2 x 5 | | bodyweight | skip on knee discomfort |
 | 0b | Box jump, land soft, full rest between sets | 3 x 3 | | box he can clear easily | squat jump |
+| 0c | Tibialis raise against the wall | 2 x 15-25 | 0-1 | bodyweight, heels one foot-length from the wall | toes under a loaded barbell, seated |
 | 1 | Barbell back squat, heels on 1.25 kg plates | 3 x 5 | 3 | 42.5 kg (+2.5/session) | goblet squat 3 x 8 |
 | 1b | Hanging leg raise, in the squat rest periods | 3 x 10-15 | 0-1 | bodyweight | cable crunch |
 | 2 | Seated leg press, Nautilus, stack | 3 x 8-12 | 1-2 | 90 kg (6 Sep) | 45 degree leg press |
@@ -122,6 +124,7 @@ builder yet, the hack squat is. The squat is being learned.
 | 0a | Landing drills, drop from a 30 cm box, stick it | 2 x 5 | | bodyweight | skip on knee discomfort |
 | 0b | Box jump, land soft, full rest between sets | 3 x 3 | | box he can clear easily | squat jump |
 | 0c | Pogo hops, stiff ankle, minimal ground contact | 2 x 10 | | bodyweight | skip |
+| 0d | Tibialis raise against the wall | 2 x 15-25 | 0-1 | bodyweight, heels one foot-length from the wall | toes under a loaded barbell, seated |
 | 1 | Trap bar deadlift | 3 x 5-6 | 3 | 60 kg | conventional deadlift, light |
 | 1b | Ab wheel, in the trap bar rest periods | 3 x 8-10 | | from the knees | hanging knee raise |
 | 2 | Seated leg press, Nautilus, stack | 3 x 10-15 | 1-2 | 90 kg | 45 degree leg press |
@@ -163,6 +166,36 @@ the rest periods of the squat, the trap bar and the leg press. Two to three minu
 heavy leg sets is dead time. Filling it with hanging leg raises, the ab wheel and Copenhagen planks
 costs zero extra minutes and makes the ab work impossible to skip. The trunk is also what transfers
 force from the legs into the jump, so this is not filler.
+
+## Tibialis raises (added 12 Sep, at his request, after reading Ben Patrick / Knees Over Toes Guy)
+
+**What it is.** The tibialis anterior is the muscle on the front of the shin and the main ankle
+dorsiflexor. It lifts the toes, and more importantly it works eccentrically every time the foot
+lands: it controls how fast the forefoot slaps down and helps decelerate the shin over the foot.
+Ben Patrick built his reputation on training it directly, with a tib bar. His published standard
+is 25 % of bodyweight for 5 x 5, which would be about 20 kg for this athlete.
+
+**What the evidence actually supports.** The mechanics are sound: dorsiflexor strength matters for
+deceleration and for tolerating landing loads, and it is trainable. Direct evidence that tib raises
+reduce knee pain or add centimetres to a vertical jump is thin and mostly anecdotal. One common
+claim is wrong: classic medial shin splints (medial tibial stress syndrome) involve the tibialis
+POSTERIOR and the soleus, not the tibialis anterior. Anterior shin pain is the variant the tibialis
+anterior is actually implicated in.
+
+**Why it is in the plan anyway.** It costs two minutes, produces no meaningful systemic fatigue,
+carries essentially no injury risk, and it trains the one muscle on the front of the shin that
+nothing else in this program trains. For an athlete with an ACL reconstruction who wants to jump
+and land more, that is a good trade even on thin evidence. It is not a magic exercise and it will
+not be sold to him as one.
+
+**Placement and progression.** After the jump work, before the heavy lifts, on both leg days, so it
+cannot be cut from the end the way the core work was. Start: back against the wall, heels about one
+foot-length out, lift the toes as high as they go, hold one second, lower slowly, 2 x 15-25.
+Progress by walking the heels further from the wall, then by standing on a plate for more range,
+then by loading the toes (dumbbell hooked over the feet, seated, or a tib bar if the gym gets one).
+
+**Tracking.** Tibialis raises are logged like any other exercise but they do not count toward the
+weekly hypertrophy set targets, the same as the jump drills. They are joint-health work.
 
 ## Weekly volume, hard sets (from week 3)
 | Muscle | Sets per week | Note |
