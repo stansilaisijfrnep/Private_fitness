@@ -113,9 +113,12 @@ on the time of day - what to eat now, whether to train now, how the evening runs
 ### A bodyweight or waist reading — a reading switches the nutrition coach on
 1. Append a row to `logs/bodyweight.csv` and set the dashboard document `bodyweight/YYYY-MM-DD`.
 2. Report the 7-day rolling average, not the single reading. Adjust calories only on the
-   weekly trend, in steps of 100 to 200 kcal.
+   weekly trend, in steps of 100 to 200 kcal. No waist data exists and none will: see the check-in rule.
 
 ### A weekly check-in
+0. He REFUSES the waist measurement (13 Sep, asked three times). Never ask for it again.
+   Without it, the calorie call runs on rate of gain alone, with a tighter threshold: more than
+   0.5 % of bodyweight per week across two clean weeks at target intake means minus 200 kcal.
 1. Create `logs/checkins/YYYY-MM-DD.md` from the template.
 2. Summarise: weight trend, sessions done vs planned, average protein, sleep, lifts progressed.
 3. Decide: keep, add calories, cut calories, deload, or change an exercise. Write the decision

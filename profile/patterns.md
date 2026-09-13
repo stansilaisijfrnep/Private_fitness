@@ -320,3 +320,9 @@ last thing on the list. He then asked, unprompted, for more posterior chain work
 **Rule for the coach:** put the work that matters most for his knee EARLY. From 12 Sep the seated
 leg curl sits ahead of the leg press, the hip thrust and the split squat on both leg days, and the
 core work is already inside the rest periods. Never defend an order that has failed three times.
+
+### He will not measure his waist
+Asked on 12 and 13 Sep, three times in total, he answered flatly: "Bauchumfang wird nicht gemessen".
+**Rule for the coach:** never ask again, and do not work it into a suggestion sideways. Say the
+consequence once and then run the method that works without it: rate of gain alone, threshold
+0.5 % of bodyweight per week across two clean weeks at target intake, minus 200 kcal if exceeded.
