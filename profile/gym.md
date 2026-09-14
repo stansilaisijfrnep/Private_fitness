@@ -1,5 +1,8 @@
 # Gym equipment
 
+LOCATION (confirmed 14 Sep): Fitness Park is itself in SOPHIA ANTIPOLIS. So is the SKEMA campus gym.
+"Sophia Antipolis" therefore does NOT identify which gym he is in - always ask for the gym by name.
+
 Commercial gym, Fitness Park style (French chain): Technogym Pure Strength plate-loaded,
 Hammer Strength plate-loaded, Eleiko lifting area, "Musculation guidée" selectorized zone,
 cardio zone, studios (Bike, Athletic), Sismo and Hydromassage. Inventory built from the
