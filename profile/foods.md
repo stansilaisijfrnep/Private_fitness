@@ -18,6 +18,7 @@ Use these instead of generic estimates when the food appears again.
 | Peanut butter Andros Be Nuts, crunchy / croquant (525 g jar) | 622 | 23 | 20 | 48 | label; 8.2 g fibre, 13 g sugars. Used in the evening bowl on 8 Sep | 2026-09-08 |
 | Orange juice, Carrefour 1 L (per 100 ml) | 42 | 0 | 9 | 0 | label | 2026-09-08 |
 | Quaker Cruesli Mélange de noix (450 g box, per 100 g) | 462 | 8.5 | 57 | 19 | label; 10 g fibre, 12 g sugars, box portion 45 g = 208 kcal | 2026-09-14 |
+| Harrys sandwich bread (550 g, 14 slices of 39.3 g), per 100 g | 283 | 7.4 | 47 | 6.0 | label; 5.5 g fibre, 1.1 g salt. PER SLICE: 111 kcal, 2.9 P, 18 C, 2.4 F | 2026-09-14 |
 | Honey (per 100 g) | 304 | 0 | 82 | 0 | standard | 2026-09-08 |
 | Quaker oats, whole grain rolled (per 100 g dry) | 372 | 11 | 60 | 8 | typical Quaker label | 2026-09-09 |
 | Danone skyr 0 % (480 g tub, per 100 g) | 57 | 10 | 4 | 0.2 | typical Danone label | 2026-09-09 |
@@ -74,3 +75,5 @@ Vittel 6 × 500 ml. Not bought: whey, chicken breast, the chocolate and vanilla 
 Still missing for the plan: whey (asked four times), chicken breast. Oats are in the house since 9 Sep. Protein stock is thin: 210 g chicken
 plus 253 g beef is about 100 g of protein in total, roughly half a day. Needs ~1.2 kg of meat or
 fish per week at 170 g protein a day.
+
+Note 14 Sep: the Harrys loaf is 39.3 g per slice at 111 kcal. Earlier bread entries in the logs used a 33 g / 92 kcal slice and are therefore about 20 kcal per slice low. Use the label from now on.
