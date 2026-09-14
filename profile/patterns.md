@@ -326,3 +326,12 @@ Asked on 12 and 13 Sep, three times in total, he answered flatly: "Bauchumfang w
 **Rule for the coach:** never ask again, and do not work it into a suggestion sideways. Say the
 consequence once and then run the method that works without it: rate of gain alone, threshold
 0.5 % of bodyweight per week across two clean weeks at target intake, minus 200 kcal if exceeded.
+
+### Proof that single readings are noise (13 to 14 Sep)
+13 Sep: 79.85 kg, the highest reading of the block, straight after the biggest carb day (404 g) and
+a salty McDonald's meal. Hochgerechnet it looked like 2.1 % of bodyweight per week, four times the
+target, and the obvious move was to cut calories. The check-in held them instead, on the grounds
+that he had been eating at or below maintenance all week and the gain had to be water and glycogen.
+14 Sep: 79.00 kg. Down 0.85 kg overnight. The trend since 6 Sep is now +0.94 % per week, not 2.1 %.
+**Rule for the coach:** never adjust calories on a single reading, and never on a reading taken the
+morning after a carbohydrate or salt spike. Hold, take another week, decide on the rolling average.
