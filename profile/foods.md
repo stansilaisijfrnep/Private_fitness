@@ -17,6 +17,7 @@ Use these instead of generic estimates when the food appears again.
 | Peanut butter Andros Be Nuts, creamy (525 g jar) | 624 | 22 | 22 | 48 | label; 7.8 g fibre, 15 g sugars | 2026-09-08 |
 | Peanut butter Andros Be Nuts, crunchy / croquant (525 g jar) | 622 | 23 | 20 | 48 | label; 8.2 g fibre, 13 g sugars. Used in the evening bowl on 8 Sep | 2026-09-08 |
 | Orange juice, Carrefour 1 L (per 100 ml) | 42 | 0 | 9 | 0 | label | 2026-09-08 |
+| Quaker Cruesli Mélange de noix (450 g box, per 100 g) | 462 | 8.5 | 57 | 19 | label; 10 g fibre, 12 g sugars, box portion 45 g = 208 kcal | 2026-09-14 |
 | Honey (per 100 g) | 304 | 0 | 82 | 0 | standard | 2026-09-08 |
 | Quaker oats, whole grain rolled (per 100 g dry) | 372 | 11 | 60 | 8 | typical Quaker label | 2026-09-09 |
 | Danone skyr 0 % (480 g tub, per 100 g) | 57 | 10 | 4 | 0.2 | typical Danone label | 2026-09-09 |
