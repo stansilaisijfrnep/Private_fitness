@@ -103,7 +103,8 @@
     "peanut_butter_rule": "2 tablespoons per bowl, max 3 per day - he doubles it when not told (4 tbsp on 8 Sep = 31 g fat)",
     "skyr_per_day_g": 1000,
     "max_toast_slices": 3,
-    "stomach_ceiling_note": "14 Sep, his words: max 3 slices of toast. Same ceiling as the rice (1 bag, never 2). The ceiling is on solid carbohydrate, never on protein. When the carb target will not fit, the lever is LIQUID: orange juice at 105 kcal and 23 g carbs per glass with zero fat, milk, and rice at dinner. Never answer a missed carb target by prescribing more bread."
+    "stomach_ceiling_note": "14 Sep, his words: max 3 slices of toast. Same ceiling as the rice (1 bag, never 2). The ceiling is on solid carbohydrate, never on protein. When the carb target will not fit, the lever is LIQUID: orange juice at 105 kcal and 23 g carbs per glass with zero fat, milk, and rice at dinner. Never answer a missed carb target by prescribing more bread.",
+    "gastric_capacity_is_the_binding_constraint": "14 Sep, his words: 'I just can't eat those portions'. Third time in a week: 2 bags of rice (7 Sep), 5 slices of toast (14 Sep), 2 mozzarella (14 Sep, managed 3/4). The plan must stop asking for bigger meals. STRATEGY FROM 14 SEP: five eating occasions a day, two of them LIQUID. Liquid calories bypass the ceiling because they do not trigger fullness the way solid volume does. The gainer shake is the core tool: 500 ml whole milk, 60 g oats, 1 banana, 2 tbsp honey = 783 kcal, 25 P, 125 C, 22 F, drunk in three minutes. With whey it is 1000 kcal and 50 g protein. WHEY IS NOW THE MOST IMPORTANT PURCHASE ON THE LIST, asked for since 8 Sep."
   },
   "kitchen_labels_per_100g": {
     "eggs_carrefour_plein_air": {
@@ -367,7 +368,8 @@
       "Wasa Protein+",
       "sardines tomato",
       "Vittel"
-    ]
+    ],
+    "priority": "Whey protein 1 kg. It is no longer optional: it is what makes the gainer shake work, and the shake is how he gets past his stomach ceiling."
   },
   "university": {
     "schools": {

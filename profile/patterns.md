@@ -344,3 +344,20 @@ Toasts!!". Same shape as the rice ceiling on 7 Sep, where two bags were "just im
 liquid. When carbs do not fit, add orange juice (105 kcal, 23 g carbs, zero fat per glass), milk, or
 rice at dinner. Prescribing more bread to a man who has told you three slices is his maximum is how
 a plan gets ignored.
+
+## The real bottleneck is gastric capacity, not discipline (14 Sep)
+"I just can't eat those portions!!!" Three refusals in one week, all of them volume, none of them
+willingness: 2 bags of rice on 7 Sep, 5 slices of toast on 14 Sep, and 2 mozzarella the same day
+where he managed three quarters. Meanwhile he has never once refused protein, and he has twice
+finished 350 g of meat in one sitting.
+Every failed day in the log follows the same shape: a long gap with nothing eaten, then a meal too
+large to finish. 9 Sep, 13:15 to 21:45, nothing. 11 Sep, breakfast and then nothing logged.
+**The strategy changes from here.** Stop prescribing bigger meals. Five eating occasions a day,
+two of them liquid. Liquid calories do not trigger fullness the way solid volume does, which is the
+whole point for a man whose limit is volume.
+**The core tool, the gainer shake:** 500 ml whole milk, 60 g oats, 1 banana, 2 tbsp honey.
+783 kcal, 25 g protein, 125 g carbs, in three minutes. With a scoop of whey it becomes about
+1000 kcal and 50 g protein.
+**Rule for the coach:** when a target does not fit, the answer is never "eat more of it". It is
+another occasion, or the same calories in liquid form. And the coach owns this failure: he was told
+about the rice ceiling on 7 Sep and still prescribed five slices of bread on 14 Sep.
