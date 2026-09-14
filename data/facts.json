@@ -46,7 +46,8 @@
     "dumbbell_load": "kg per hand",
     "machine_load": "stack kg",
     "ez_bar_kg": 7,
-    "ez_bar_note": "Athlete's own correction 11 Sep: a typical EZ bar is 5 to 8 kg, not 10. EZ curls are logged as PLATE load per side from 11 Sep; add about 7 kg for the total. Totals logged before 11 Sep (25 and 30 kg) assumed a 10 kg bar and are 2 to 3 kg high. Confirm the stamped weight on the bar at Fitness Park."
+    "ez_bar_note": "Athlete's own correction 11 Sep: a typical EZ bar is 5 to 8 kg, not 10. EZ curls are logged as PLATE load per side from 11 Sep; add about 7 kg for the total. Totals logged before 11 Sep (25 and 30 kg) assumed a 10 kg bar and are 2 to 3 kg high. Confirm the stamped weight on the bar at Fitness Park.",
+    "shoulder_press_machine": "Fitness Park seated shoulder press: he reads the TOTAL stack, not per side (confirmed 14 Sep). The 25 and 30 'per side' entries of 7 and 11 Sep came from a different machine or a different reading - do not compare them with total-stack numbers. Ask which machine when the number looks wrong."
   },
   "progression": {
     "working_load": "heaviest load handled last time, counting any set within 2 reps of the range - never the last set, he ramps down when tired",
