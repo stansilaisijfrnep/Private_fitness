@@ -335,3 +335,12 @@ that he had been eating at or below maintenance all week and the gain had to be 
 14 Sep: 79.00 kg. Down 0.85 kg overnight. The trend since 6 Sep is now +0.94 % per week, not 2.1 %.
 **Rule for the coach:** never adjust calories on a single reading, and never on a reading taken the
 morning after a carbohydrate or salt spike. Hold, take another week, decide on the rolling average.
+
+### The bread ceiling is 3 slices (14 Sep)
+Offered 5 slices of toast to make the carbohydrate target work, he answered: "ich schaff max 3
+Toasts!!". Same shape as the rice ceiling on 7 Sep, where two bags were "just impossible" but he ate
+350 g of beef the same evening.
+**Rule for the coach:** his limit is on solid carbohydrate volume, never on protein and never on
+liquid. When carbs do not fit, add orange juice (105 kcal, 23 g carbs, zero fat per glass), milk, or
+rice at dinner. Prescribing more bread to a man who has told you three slices is his maximum is how
+a plan gets ignored.
