@@ -19,6 +19,7 @@ Use these instead of generic estimates when the food appears again.
 | Orange juice, Carrefour 1 L (per 100 ml) | 42 | 0 | 9 | 0 | label | 2026-09-08 |
 | Quaker Cruesli Mélange de noix (450 g box, per 100 g) | 462 | 8.5 | 57 | 19 | label; 10 g fibre, 12 g sugars, box portion 45 g = 208 kcal | 2026-09-14 |
 | Harrys sandwich bread (550 g, 14 slices of 39.3 g), per 100 g | 283 | 7.4 | 47 | 6.0 | label; 5.5 g fibre, 1.1 g salt. PER SLICE: 111 kcal, 2.9 P, 18 C, 2.4 F | 2026-09-14 |
+| Mozzarella, Carrefour 3 x 125 g (per 100 g drained) | 245 | 18 | 1 | 19 | NOT from the label: the photo of 14 Sep had the nutrition column blank. Standard cow mozzarella in brine. Replace when a readable label turns up | 2026-09-14 |
 | Honey (per 100 g) | 304 | 0 | 82 | 0 | standard | 2026-09-08 |
 | Quaker oats, whole grain rolled (per 100 g dry) | 372 | 11 | 60 | 8 | typical Quaker label | 2026-09-09 |
 | Danone skyr 0 % (480 g tub, per 100 g) | 57 | 10 | 4 | 0.2 | typical Danone label | 2026-09-09 |
