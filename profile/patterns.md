@@ -361,3 +361,10 @@ whole point for a man whose limit is volume.
 **Rule for the coach:** when a target does not fit, the answer is never "eat more of it". It is
 another occasion, or the same calories in liquid form. And the coach owns this failure: he was told
 about the rice ceiling on 7 Sep and still prescribed five slices of bread on 14 Sep.
+
+### The exercise he likes was already in the plan under a name he did not know (15 Sep)
+He asked to swap something out for the cable "Skifahrer". That movement is the straight-arm pulldown
+that has sat in his Pull day since 5 Sep, and it is precisely the exercise he dropped on 8 Sep when
+his back "felt done". Renamed to the word he uses and raised to 3 sets.
+**Rule for the coach:** name exercises the way he names them. An exercise he recognises and enjoys
+gets done; the same movement under a textbook name gets dropped.
