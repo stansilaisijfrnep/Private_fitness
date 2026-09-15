@@ -138,3 +138,27 @@ date,day,week,exercise_key,exercise,set_no,load_kg,reps,rir,e1rm_kg,exercise_not
 2026-09-12,lowerA,1,bss,Bulgarian split squat (bodyweight),2,0,10,1,,"ASYMMETRY: right side handled 8 kg per hand, left gave way. He dropped to bodyweight himself and it was controlled. Left is the ACL graft side. Bodyweight until the left matches."
 2026-09-12,lowerA,1,legext,"Leg extension, Fitness Park (stack)",1,45,12,2,63.0,"He mistook this for the leg curl and finished the session with no hamstring curl at all. Different machine from the campus one, stack numbers do not transfer. Working load 55."
 2026-09-12,lowerA,1,legext,"Leg extension, Fitness Park (stack)",2,55,10,0,73.3,"He mistook this for the leg curl and finished the session with no hamstring curl at all. Different machine from the campus one, stack numbers do not transfer. Working load 55."
+2026-09-14,push,2,bench,"Chest press, Hammer Strength iso-lateral (kg per side)",1,40,9,1,52.0,Moved to first exercise. 40 gave 9 fresh against 5 as the fourth set on 11 Sep. Sets 3 and 4 finished with a drop to 30 for 2 more reps each.
+2026-09-14,push,2,bench,"Chest press, Hammer Strength iso-lateral (kg per side)",2,40,7,0,49.3,Moved to first exercise. 40 gave 9 fresh against 5 as the fourth set on 11 Sep. Sets 3 and 4 finished with a drop to 30 for 2 more reps each.
+2026-09-14,push,2,bench,"Chest press, Hammer Strength iso-lateral (kg per side)",3,40,6,0,48.0,Moved to first exercise. 40 gave 9 fresh against 5 as the fourth set on 11 Sep. Sets 3 and 4 finished with a drop to 30 for 2 more reps each.
+2026-09-14,push,2,bench,"Chest press, Hammer Strength iso-lateral (kg per side)",4,35,6,0,42.0,Moved to first exercise. 40 gave 9 fresh against 5 as the fourth set on 11 Sep. Sets 3 and 4 finished with a drop to 30 for 2 more reps each.
+2026-09-14,push,2,revpec,Reverse pec deck (stack),1,15,15,1,22.5,New on Push. Rear delts get a second weekly exposure for the first time.
+2026-09-14,push,2,revpec,Reverse pec deck (stack),2,15,15,1,22.5,New on Push. Rear delts get a second weekly exposure for the first time.
+2026-09-14,push,2,revpec,Reverse pec deck (stack),3,15,12,0,21.0,New on Push. Rear delts get a second weekly exposure for the first time.
+2026-09-14,push,2,incdb,"Incline dumbbell press, 30° (kg per hand)",1,20,10,1,26.7,Held 20 for all three sets after four chest press sets. On 7 Sep it ramped 18-20-22 and collapsed to 20 x 5.5.
+2026-09-14,push,2,incdb,"Incline dumbbell press, 30° (kg per hand)",2,20,8,0,25.3,Held 20 for all three sets after four chest press sets. On 7 Sep it ramped 18-20-22 and collapsed to 20 x 5.5.
+2026-09-14,push,2,incdb,"Incline dumbbell press, 30° (kg per hand)",3,20,9,0,26.0,Held 20 for all three sets after four chest press sets. On 7 Sep it ramped 18-20-22 and collapsed to 20 x 5.5.
+2026-09-14,push,2,dips,Weighted dips,1,0,6,0,,"Same 6 and 6 as 7 Sep, but after 7 pressing sets instead of 2."
+2026-09-14,push,2,dips,Weighted dips,2,0,6,0,,"Same 6 and 6 as 7 Sep, but after 7 pressing sets instead of 2."
+2026-09-14,push,2,pecdeck,Pec deck (stack),1,20,12,1,28.0,Went UP to 25 mid-exercise. On 7 Sep it fell from 20 to 15. New top load 25.
+2026-09-14,push,2,pecdeck,Pec deck (stack),2,25,8,0,31.7,Went UP to 25 mid-exercise. On 7 Sep it fell from 20 to 15. New top load 25.
+2026-09-14,push,2,pecdeck,Pec deck (stack),3,20,12,0,28.0,Went UP to 25 mid-exercise. On 7 Sep it fell from 20 to 15. New top load 25.
+2026-09-14,push,2,ohp,Seated shoulder press machine (TOTAL stack),1,40,9,1,52.0,"UNIT: total stack, confirmed by him, not per side. 50 total is about 25 per side, below the 30 per side of 11 Sep. The only lift that regressed."
+2026-09-14,push,2,ohp,Seated shoulder press machine (TOTAL stack),2,50,7,0,61.7,"UNIT: total stack, confirmed by him, not per side. 50 total is about 25 per side, below the 30 per side of 11 Sep. The only lift that regressed."
+2026-09-14,push,2,ohp,Seated shoulder press machine (TOTAL stack),3,50,9,0,65.0,"UNIT: total stack, confirmed by him, not per side. 50 total is about 25 per side, below the 30 per side of 11 Sep. The only lift that regressed."
+2026-09-14,push,2,dblat,Dumbbell lateral raise (kg per hand),1,8,15,1,12.0,Done standing rather than seated as prescribed. 8 kg is the honest load.
+2026-09-14,push,2,dblat,Dumbbell lateral raise (kg per hand),2,8,15,0,12.0,Done standing rather than seated as prescribed. 8 kg is the honest load.
+2026-09-14,push,2,dblat,Dumbbell lateral raise (kg per hand),3,8,15,0,12.0,Done standing rather than seated as prescribed. 8 kg is the honest load.
+2026-09-14,push,2,pushdown,"Triceps pushdown, straight bar (stack)",1,25,12,1,35.0,Same shape as 7 Sep.
+2026-09-14,push,2,pushdown,"Triceps pushdown, straight bar (stack)",2,20,10,0,26.7,Same shape as 7 Sep.
+2026-09-14,push,2,pushdown,"Triceps pushdown, straight bar (stack)",3,20,12,0,28.0,Same shape as 7 Sep.
