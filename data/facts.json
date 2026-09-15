@@ -323,6 +323,12 @@
       "best": "bodyweight x 10 per side",
       "date": "2026-09-12",
       "note": "Bodyweight until the LEFT side controls a load. 8 kg per hand made the left give way."
+    },
+    "cable_skifahrer_kg": {
+      "load": 17.5,
+      "best": "17.5 x 15",
+      "date": "2026-09-15",
+      "note": "Straight-arm pulldown past the hips. First logged 15 Sep. Top of the 12-15 range at 17.5, so 20 next time."
     }
   },
   "strength_profile": {
