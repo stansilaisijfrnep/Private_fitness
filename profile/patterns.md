@@ -373,3 +373,7 @@ gets done; the same movement under a textbook name gets dropped.
   30 kg to failure, took 25 kg for 15). Not laziness — he self-regulates down when a set felt hard.
   Prescribe it as "same load, fewer reps, stop when the rep slows" rather than "to failure", and he
   stays on the working weight.
+
+- **He warms into hamstring work; the first set understates him** (16 Sep, campus leg curl: 45 felt
+  impossible cold, then 35x15, 40x12, 40x15 — the last set was the best). Never set the working load
+  from his first set on a leg curl. Open one step light, decide the load from set 2.
