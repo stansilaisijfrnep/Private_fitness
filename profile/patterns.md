@@ -385,3 +385,7 @@ gets done; the same movement under a textbook name gets dropped.
   program.
 - **He moves accessory work into the opening block on his own** (16 Sep: step-ups folded into the
   landing drills). Keep encouraging it - anything that sits at the end of a leg day dies.
+
+- **Hanging leg raises: he does them straight-legged by default** (16 Sep, "Ich mach immer
+  gestreckt"). Never offer him the bent-knee version as the starting point — at 194 cm that is a
+  very long lever and he handles it. Progress with tempo or added load, not with rep count alone.

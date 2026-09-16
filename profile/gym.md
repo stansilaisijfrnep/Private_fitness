@@ -107,7 +107,10 @@ Seen so far (5 photos):
   Nautilus at Fitness Park - expect the same rep count at a lower stack number)
 - Technogym **Leg Extension / Leg Curl** dual-function machine (one seat, both movements)
 - Technogym **Low Row** (seated, chest pad, small saddle)
-- Technogym **Abdominal Crunch** machine
+- Technogym **Abdominal Crunch** machine — **CORRECTED 16 Sep: he says there is no ab machine in
+  this room.** Either it was photographed elsewhere or it has gone. Never prescribe it at campus.
+- **Wall bars (Sprossenwand)** — confirmed 16 Sep. This is the campus ab station: hanging leg
+  raises. He does them STRAIGHT-LEGGED as standard, never bent-knee.
 - Technogym **Vertical Traction** (lat pulldown with overhead handles)
 - Technogym **Shoulder Press** (seated, stack)
 - One plate-loaded machine next to the leg press (handles above a seat, looks like a plate-loaded
@@ -123,7 +126,7 @@ Second batch of photos (same day):
 - **Reebok step platforms**, adjustable height, stacked — landing drills and step-ups
 - Cardio: Technogym treadmill, ProForm elliptical, two rowing ergometers
 - A black-and-red rack in the cardio corner, possibly small dumbbells — unconfirmed
-- Not seen: barbells, plates, trap bar, squat rack, bench, dip station.
+- Not seen: barbells, plates, trap bar, squat rack, bench, dip station, ab machine.
 
 What this gym can host: full Pull day (vertical traction, low row, cable row, pull-ups on the
 pulley bar, cable curls), a machine Push day (chest press, shoulder press, cable fly on the
