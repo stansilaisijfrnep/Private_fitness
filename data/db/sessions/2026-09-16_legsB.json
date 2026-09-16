@@ -10,57 +10,170 @@
   "week": 2,
   "source": "coach",
   "startedAt": "2026-09-16T11:00:00.000Z",
-  "savedAt": "2026-09-16T12:20:00.000Z",
+  "savedAt": "2026-09-16T21:00:00.000Z",
   "sleep": null,
   "exercises": [
     {
       "k": "landing",
       "n": "Landing drills, single leg, step",
       "note": "Opening block run in full for the first time ever. He also folded the step-ups in here instead of leaving them for the end.",
-      "sets": [{"load": null, "reps": 5, "rir": null}, {"load": null, "reps": 5, "rir": null}]
+      "sets": [
+        {
+          "load": null,
+          "reps": 5,
+          "rir": null
+        },
+        {
+          "load": null,
+          "reps": 5,
+          "rir": null
+        }
+      ]
     },
     {
       "k": "boxjump",
       "n": "Box jump onto the Reebok step",
       "note": "Low box, campus has no 76 cm platform.",
-      "sets": [{"load": null, "reps": 3, "rir": null}, {"load": null, "reps": 3, "rir": null}, {"load": null, "reps": 3, "rir": null}]
+      "sets": [
+        {
+          "load": null,
+          "reps": 3,
+          "rir": null
+        },
+        {
+          "load": null,
+          "reps": 3,
+          "rir": null
+        },
+        {
+          "load": null,
+          "reps": 3,
+          "rir": null
+        }
+      ]
     },
     {
       "k": "stepup",
       "n": "Step-ups, left leg first (bodyweight)",
       "note": "Moved into the opening block on his own initiative. That is why they actually happened.",
-      "sets": [{"load": 0, "reps": 10, "rir": null}, {"load": 0, "reps": 10, "rir": null}]
+      "sets": [
+        {
+          "load": 0,
+          "reps": 10,
+          "rir": null
+        },
+        {
+          "load": 0,
+          "reps": 10,
+          "rir": null
+        }
+      ]
     },
     {
       "k": "tibraise",
       "n": "Tibialis raise against the wall",
       "note": "",
-      "sets": [{"load": null, "reps": 20, "rir": null}, {"load": null, "reps": 20, "rir": null}]
+      "sets": [
+        {
+          "load": null,
+          "reps": 20,
+          "rir": null
+        },
+        {
+          "load": null,
+          "reps": 20,
+          "rir": null
+        }
+      ]
     },
     {
       "k": "hipabd",
       "n": "Hip abduction machine, campus (stack)",
       "note": "First ever loaded abduction. 20 left 5 reps in reserve, 30 was hard. Last set he dropped to 25 rather than grind 30. Working load 30.",
-      "sets": [{"load": 20, "reps": 15, "rir": 5}, {"load": 30, "reps": 10, "rir": 1}, {"load": 25, "reps": 15, "rir": 1}]
+      "sets": [
+        {
+          "load": 20,
+          "reps": 15,
+          "rir": 5
+        },
+        {
+          "load": 30,
+          "reps": 10,
+          "rir": 1
+        },
+        {
+          "load": 25,
+          "reps": 15,
+          "rir": 1
+        }
+      ]
     },
     {
       "k": "legcurl",
       "n": "Seated leg curl, Technogym campus (stack)",
       "note": "45 felt impossible cold, then 35 x 15, 40 x 12, 40 x 15. He warms into hamstring work; the first set understates him. Campus stack is NOT the Fitness Park stack (50 there). Next time open 40, work 45.",
-      "sets": [{"load": 35, "reps": 15, "rir": 2}, {"load": 40, "reps": 12, "rir": 2}, {"load": 40, "reps": 15, "rir": 1}]
+      "sets": [
+        {
+          "load": 35,
+          "reps": 15,
+          "rir": 2
+        },
+        {
+          "load": 40,
+          "reps": 12,
+          "rir": 2
+        },
+        {
+          "load": 40,
+          "reps": 15,
+          "rir": 1
+        }
+      ]
     },
     {
       "k": "legpress",
       "n": "Leg press, campus (stack)",
       "note": "Stack moves in 10 kg steps. Reps went UP as load went up: 80 x 12, 90 x 12, 100 x 15. Nowhere near his limit. Next time open 100, work 120.",
-      "sets": [{"load": 80, "reps": 12, "rir": 3}, {"load": 90, "reps": 12, "rir": 2}, {"load": 100, "reps": 15, "rir": 1}]
+      "sets": [
+        {
+          "load": 80,
+          "reps": 12,
+          "rir": 3
+        },
+        {
+          "load": 90,
+          "reps": 12,
+          "rir": 2
+        },
+        {
+          "load": 100,
+          "reps": 15,
+          "rir": 1
+        }
+      ]
     },
     {
       "k": "hanglr",
       "n": "Hanging leg raise, straight legs, wall bars",
       "note": "No ab machine at campus; the wall bars are the ab station. He does these straight-legged as standard. 10, 7, 8.",
-      "sets": [{"load": null, "reps": 10, "rir": null}, {"load": null, "reps": 7, "rir": 1}, {"load": null, "reps": 8, "rir": 0}]
+      "sets": [
+        {
+          "load": null,
+          "reps": 10,
+          "rir": null
+        },
+        {
+          "load": null,
+          "reps": 7,
+          "rir": 1
+        },
+        {
+          "load": null,
+          "reps": 8,
+          "rir": 0
+        }
+      ]
     }
   ],
-  "notes": "Campus variant of Legs B, written the same morning. Best-executed session of the block: the full opening block ran for the first time (landings, box jumps, tib raises) and he moved the step-ups into it himself, so nothing died at the end. Hamstrings finally got real work - 3 sets of seated leg curl with the best set last - which was his stated ACL priority. The theme of the day: on leg curl, leg press AND leg raises the LAST set was the best one, and on the leg press reps rose as the load rose. Every leg prescription has been too light. New campus working loads: abduction 30, leg curl 45, leg press 120."
+  "notes": "Campus variant of Legs B, written the same morning. Best-executed session of the block: the full opening block ran for the first time (landings, box jumps, tib raises) and he moved the step-ups into it himself, so nothing died at the end. Hamstrings finally got real work - 3 sets of seated leg curl with the best set last - which was his stated ACL priority. The theme of the day: on leg curl, leg press AND leg raises the LAST set was the best one, and on the leg press reps rose as the load rose. Every leg prescription has been too light. The ab work came at the end of the day in the evening campus slot, not in the midday block. New campus working loads: abduction 30, leg curl 45, leg press 120."
 }
