@@ -1,0 +1,135 @@
+{
+  "bodyweight": 78.85,
+  "date": "2026-09-15",
+  "dayKey": "pull",
+  "duration": null,
+  "energy": 2,
+  "exercises": [
+    {
+      "k": "pullup",
+      "n": "Pull-up, wide grip (added kg)",
+      "note": "Down from +10x8, 6 on 11 Sep. Dropped to +5 for the last two sets to stay in the rep range.",
+      "sets": [
+        {
+          "load": 10,
+          "reps": 6,
+          "rir": 0
+        },
+        {
+          "load": 10,
+          "reps": 4,
+          "rir": 0
+        },
+        {
+          "load": 5,
+          "reps": 6,
+          "rir": 0
+        },
+        {
+          "load": 5,
+          "reps": 4,
+          "rir": 0
+        }
+      ]
+    },
+    {
+      "k": "tbarrow",
+      "n": "T-bar row",
+      "note": "40 held across all three sets. On 8 Sep only the first set reached 40 and the rest fell to 35 and 30.",
+      "sets": [
+        {
+          "load": 40,
+          "reps": 8,
+          "rir": 1
+        },
+        {
+          "load": 40,
+          "reps": 8,
+          "rir": 1
+        },
+        {
+          "load": 40,
+          "reps": 6,
+          "rir": 0
+        }
+      ]
+    },
+    {
+      "k": "cablerow",
+      "n": "Seated cable row, close grip (stack)",
+      "note": "Three sets of 12 at 55 against 50x12, 55x10, 55x8 on 8 Sep. Last two reps of each set with a little body English, reported himself. Next session 60.",
+      "sets": [
+        {
+          "load": 55,
+          "reps": 12,
+          "rir": 0
+        },
+        {
+          "load": 55,
+          "reps": 12,
+          "rir": 0
+        },
+        {
+          "load": 55,
+          "reps": 12,
+          "rir": 0
+        }
+      ]
+    },
+    {
+      "k": "sapd",
+      "n": "Cable Skifahrer, straight-arm pulldown past the hips (stack)",
+      "note": "First logged session. He asked for this exercise by name; it had been sitting unused in the Pull day as the straight-arm pulldown. Working load 17.5.",
+      "sets": [
+        {
+          "load": 17.5,
+          "reps": 15,
+          "rir": 1
+        },
+        {
+          "load": 17.5,
+          "reps": 15,
+          "rir": 0
+        },
+        {
+          "load": 15,
+          "reps": 15,
+          "rir": 0
+        }
+      ]
+    },
+    {
+      "k": "ezcurl",
+      "n": "EZ bar curl (kg per side, plates)",
+      "note": "Superset with the hammer curl. Only the first round was reported.",
+      "sets": [
+        {
+          "load": 10,
+          "reps": 12,
+          "rir": 1
+        }
+      ]
+    },
+    {
+      "k": "hammer",
+      "n": "Hammer curl (kg per hand)",
+      "note": "Up from 17.5 on 8 Sep. Only the first round was reported.",
+      "sets": [
+        {
+          "load": 18,
+          "reps": 8,
+          "rir": 0
+        }
+      ]
+    }
+  ],
+  "gym": "fitnesspark",
+  "name": "Pull",
+  "notes": "Trained at 22:00, the second late session in a row and under 24 hours after 25 Push sets. Pull-ups dropped clearly, every row held or improved. The last superset rounds and the reverse pec deck were never reported.",
+  "savedAt": "2026-09-15T21:30:00.000Z",
+  "sleep": null,
+  "source": "coach",
+  "startedAt": "2026-09-15T20:00:00.000Z",
+  "type": "lift",
+  "week": 2
+}
