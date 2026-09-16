@@ -329,6 +329,18 @@
       "best": "17.5 x 15",
       "date": "2026-09-15",
       "note": "Straight-arm pulldown past the hips. First logged 15 Sep. Top of the 12-15 range at 17.5, so 20 next time."
+    },
+    "campus_leg_curl_kg": {
+      "load": 45,
+      "best": "40 x 15",
+      "date": "2026-09-09",
+      "note": "Technogym Ext/Curl combo, campus gym only."
+    },
+    "campus_leg_press_kg": {
+      "load": 85,
+      "best": "80 x 15",
+      "date": "2026-09-09",
+      "note": "Technogym Leg Press, campus gym only. Not the Nautilus."
     }
   },
   "strength_profile": {

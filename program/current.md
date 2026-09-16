@@ -6,6 +6,7 @@
 | 2026-09-05 | Block 1 written at intake | 5 days available, 60 to 75 min, upper body priority, legs from zero, ACL history, size goal |
 | 2026-09-05 | Upper day: barbell bench replaced by Hammer Strength iso-lateral chest press (kg per side), chest-supported row is the Nautilus Impact vertical row (stack), pull-ups are bodyweight wide grip | Athlete's choice on session 1. Machine press is fine for the size goal and needs no spotter. Barbell bench returns as a tested lift in block 2. |
 | 2026-09-06 | Lower A after session 1: seated leg press (Nautilus, stack) replaces hack squat (none in the gym), hanging leg raise replaces cable crunch, calves removed from both leg days at the athlete's request, squat with heels on 1.25 kg plates | First leg session. Depth needed heel elevation. Athlete is happy with his calves and declined the work. |
+| 2026-09-16 | Campus variant of Legs B written down | He trains Legs B at the SKEMA gym today. There is no trap bar and no barbell there, so the hinge becomes the Multi Hip machine and the ab wheel becomes the crunch machine. Loads carry over from the 9 Sep campus session, not from Fitness Park. |
 | 2026-09-15 | Straight-arm pulldown renamed to the cable "Skifahrer" and raised from 2 to 3 sets | He asked to swap an exercise in for the cable "Skifahrer" because he enjoys it. It is the same movement that has been sitting unused in the Pull day since 5 Sep under a name he did not recognise, and it is the exercise he dropped on 8 Sep. An exercise he will actually do beats one he skips, so it gets a third set. |
 | 2026-09-13 | Week 1 check-in: calories HELD at 3300, no change. Rear delt work added to Upper, 3 x 12-20 reverse pec deck in the rest periods | Bodyweight is up 1.70 kg in seven days, four times the target rate, but complete days averaged 2892 kcal against a 3300 target and 344 g carbs against 475 g. That is at or below maintenance, so the gain is glycogen and water from the carbohydrate increase, not fat. Reassess 20 Sep with two clean weeks and a waist measurement. Rear delts were 3 of 6 to 12 hard sets, the largest remaining gap, and they were trained on one day only. |
 | 2026-09-12 | Hip abduction added to both leg days, 3 x 12-20, in the opening block | He named hamstrings and hips as his two ACL priorities. The hip abductors and external rotators are what stop a knee collapsing inward, which is exactly what his left knee did under load on the split squat the same day. Nothing in the programme trained them directly. Placed in the opening block, where three leg sessions of evidence say nothing gets cut. |
@@ -131,6 +132,28 @@ and back position hold. Expect 60 to 70 kg by week 6 with clean reps.
 | 6b | Hammer curl, kg per hand | 2 x 10-15 | 0-1 | 17.5 kg (8 Sep) | cable curl |
 
 20 work sets.
+
+
+## Legs B at the SKEMA campus gym (variant, written 16 Sep)
+
+No barbells, no trap bar, no squat rack there. Loads are Technogym stacks and do NOT compare with
+Fitness Park. Log them under the same exercise keys with `gym: campus`.
+
+| # | Exercise | Sets x reps | Start | Note |
+|---|---|---|---|---|
+| 0a | Landing drills, single leg, Reebok step | 2 x 5 | bodyweight | stick 2 seconds, left and right separately |
+| 0b | Box jump onto the Reebok step | 3 x 3 | highest step he lands on in a quarter squat | step down, never jump down |
+| 0c | Tibialis raise against the wall | 2 x 15-25 | bodyweight | |
+| 0d | Technogym Abductor machine | 3 x 12-20 | find it, ~25 | torso slightly forward |
+| 1 | Technogym Multi Hip, hip extension | 3 x 10-12 per leg | find it | the hinge substitute: no bar, so hip extension comes from the machine |
+| 2 | Seated leg curl (Ext/Curl combo) | 3 x 10-15 | 45 kg (9 Sep: 40 x 15) | LEFT vs RIGHT reported separately |
+| 3 | Technogym Leg Press | 3 x 10-15 | 85 kg (9 Sep: 80 x 15) | |
+| 4 | Step-ups on the Reebok step | 2 x 10 per leg | bodyweight, LEFT first | right matches the left's reps |
+| 5 | Leg extension (Ext/Curl combo) | 2 x 12-15 | 50 kg (9 Sep: 45 x 10) | |
+| 6 | Technogym Abdominal Crunch | 3 x 10-15 | 36 kg (6 Sep) | replaces the ab wheel, which is not there |
+
+**If the clock is short, this is the order to keep:** opening block, leg curl, leg press, step-ups.
+Everything after that is the first to be cut, and on 9 Sep exactly that happened.
 
 ## Day 5: Legs B (posterior chain, single leg, knee health)
 | # | Exercise | Sets x reps | RIR | Start | Alternative |
