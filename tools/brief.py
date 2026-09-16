@@ -32,6 +32,7 @@ MUSCLES = {
     "pushdown": {"triceps": 1}, "ohtri": {"triceps": 1},
     "squat": {"quads": 1, "glutes": 0.5}, "legpress": {"quads": 1, "glutes": 0.5},
     "lunge": {"quads": 1, "glutes": 1}, "bss": {"quads": 1, "glutes": 1}, "legext": {"quads": 1},
+    "stepup": {"quads": 0.5, "glutes": 1},
     "rdl": {"hamstrings": 1, "glutes": 1}, "hipthrust": {"glutes": 1, "hamstrings": 0.5},
     "trapbar": {"hamstrings": 0.5, "glutes": 1, "quads": 0.5, "back": 0.5},
     "legcurl": {"hamstrings": 1}, "nordic": {"hamstrings": 1},
