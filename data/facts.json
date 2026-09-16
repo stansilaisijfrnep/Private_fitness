@@ -347,6 +347,12 @@
       "best": "30 x 10",
       "date": "2026-09-16",
       "note": "SKEMA campus stack. 20 kg left RIR 5, 30 kg x 10 was hard. Fitness Park abduction is a different machine - do not carry this number over."
+    },
+    "seated_leg_curl_campus_kg": {
+      "load": 40,
+      "best": "35 x 15",
+      "date": "2026-09-16",
+      "note": "Technogym campus stack. 45 was too heavy, 35 gave 15 clean. Fitness Park seated leg curl runs 50 - the stacks are NOT comparable, never carry the number across."
     }
   },
   "strength_profile": {
