@@ -368,3 +368,8 @@ that has sat in his Pull day since 5 Sep, and it is precisely the exercise he dr
 his back "felt done". Renamed to the word he uses and raised to 3 sets.
 **Rule for the coach:** name exercises the way he names them. An exercise he recognises and enjoys
 gets done; the same movement under a textbook name gets dropped.
+
+- **On the last set he drops the load instead of going to failure** (16 Sep, hip abduction: told
+  30 kg to failure, took 25 kg for 15). Not laziness — he self-regulates down when a set felt hard.
+  Prescribe it as "same load, fewer reps, stop when the rep slows" rather than "to failure", and he
+  stays on the working weight.
