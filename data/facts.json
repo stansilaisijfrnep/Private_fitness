@@ -353,6 +353,12 @@
       "best": "40 x 15",
       "date": "2026-09-16",
       "note": "Technogym campus stack. 45 felt impossible on the cold first set, then 35 x 15, 40 x 12, 40 x 15. Open at 40, go 45 from set 2. Fitness Park seated leg curl runs 50 - the stacks are NOT comparable, never carry the number across."
+    },
+    "leg_press_campus_kg": {
+      "load": 120,
+      "best": "100 x 15",
+      "date": "2026-09-16",
+      "note": "Campus stack, 10 kg steps only. 80x12, 90x12, 100x15 - reps went UP as the load went up, so 100 is nowhere near his limit. Open at 100, work at 120. Feet high on the platform."
     }
   },
   "strength_profile": {

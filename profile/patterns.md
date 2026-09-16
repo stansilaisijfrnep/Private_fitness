@@ -377,3 +377,11 @@ gets done; the same movement under a textbook name gets dropped.
 - **He warms into hamstring work; the first set understates him** (16 Sep, campus leg curl: 45 felt
   impossible cold, then 35x15, 40x12, 40x15 — the last set was the best). Never set the working load
   from his first set on a leg curl. Open one step light, decide the load from set 2.
+
+- **On leg machines his reps go UP as the load goes up** (16 Sep campus leg press: 80x12, 90x12,
+  100x15). His legs are far stronger than the logs suggest because every prescription has opened too
+  light and he never got to a real top set. On any leg machine, jump two steps between sets until a
+  set actually falls below 10 reps. The quad/glute loads are the most under-prescribed thing in the
+  program.
+- **He moves accessory work into the opening block on his own** (16 Sep: step-ups folded into the
+  landing drills). Keep encouraging it - anything that sits at the end of a leg day dies.
