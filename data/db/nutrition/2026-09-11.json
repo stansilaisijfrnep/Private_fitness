@@ -1,0 +1,65 @@
+{
+  "carbs": 110,
+  "date": "2026-09-11",
+  "fat": 48,
+  "kcal": 952,
+  "meals": [
+    {
+      "carbs": 23,
+      "fat": 0,
+      "kcal": 105,
+      "name": "Orange juice, 1 glass",
+      "protein": 0,
+      "slot": "breakfast",
+      "time": "09:00"
+    },
+    {
+      "carbs": 13,
+      "fat": 23,
+      "kcal": 250,
+      "name": "Avocado, 1 whole",
+      "protein": 3,
+      "slot": "breakfast",
+      "time": "09:00"
+    },
+    {
+      "carbs": 28,
+      "fat": 2,
+      "kcal": 158,
+      "name": "Harrys American sandwich toast, 1.5 slices",
+      "protein": 5,
+      "slot": "breakfast",
+      "time": "09:00"
+    },
+    {
+      "carbs": 11,
+      "fat": 0,
+      "kcal": 45,
+      "name": "Banana, half",
+      "protein": 1,
+      "slot": "breakfast",
+      "time": "09:00"
+    },
+    {
+      "carbs": 10,
+      "fat": 23,
+      "kcal": 299,
+      "name": "Peanut butter Andros crunchy, 3 tbsp",
+      "protein": 11,
+      "slot": "breakfast",
+      "time": "09:00"
+    },
+    {
+      "carbs": 25,
+      "fat": 0,
+      "kcal": 95,
+      "name": "Apple, 1 whole",
+      "protein": 1,
+      "slot": "breakfast",
+      "time": "09:00"
+    }
+  ],
+  "note": "Upper training day. Breakfast heavy on fat, light on protein.",
+  "protein": 20,
+  "source": "coach"
+}

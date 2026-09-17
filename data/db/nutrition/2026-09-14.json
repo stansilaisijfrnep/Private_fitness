@@ -1,0 +1,56 @@
+{
+  "carbs": 79,
+  "date": "2026-09-14",
+  "fat": 15,
+  "kcal": 575,
+  "meals": [
+    {
+      "carbs": 9,
+      "fat": 0,
+      "kcal": 132,
+      "name": "Skyr, 220 g",
+      "protein": 22,
+      "slot": "breakfast",
+      "time": "08:30"
+    },
+    {
+      "carbs": 52,
+      "fat": 0,
+      "kcal": 192,
+      "name": "Honey, 3 tbsp",
+      "protein": 0,
+      "slot": "breakfast",
+      "time": "08:30"
+    },
+    {
+      "carbs": 6,
+      "fat": 15,
+      "kcal": 199,
+      "name": "Peanut butter, 2 tbsp",
+      "protein": 7,
+      "slot": "breakfast",
+      "time": "08:30"
+    },
+    {
+      "carbs": 12,
+      "fat": 0,
+      "kcal": 47,
+      "name": "Apple, half",
+      "protein": 0,
+      "slot": "breakfast",
+      "time": "08:30"
+    },
+    {
+      "carbs": 0,
+      "fat": 0,
+      "kcal": 5,
+      "name": "Large coffee, black",
+      "protein": 0,
+      "slot": "breakfast",
+      "time": "08:30"
+    }
+  ],
+  "note": "Push day, training after university at about 18:30.",
+  "protein": 29,
+  "source": "coach"
+}

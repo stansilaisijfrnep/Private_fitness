@@ -1,0 +1,20 @@
+{
+  "carbs": 82,
+  "date": "2026-09-12",
+  "fat": 24,
+  "kcal": 791,
+  "meals": [
+    {
+      "carbs": 82,
+      "fat": 24,
+      "kcal": 791,
+      "name": "Skyr bowl: 500 g skyr, 3 tbsp peanut butter, 3 tbsp honey",
+      "protein": 61,
+      "slot": "breakfast",
+      "time": "11:00"
+    }
+  ],
+  "note": "Lower A day.",
+  "protein": 61,
+  "source": "coach"
+}

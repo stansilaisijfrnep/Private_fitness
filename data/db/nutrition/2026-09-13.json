@@ -1,0 +1,38 @@
+{
+  "carbs": 40,
+  "date": "2026-09-13",
+  "fat": 22,
+  "kcal": 452,
+  "meals": [
+    {
+      "carbs": 1,
+      "fat": 20,
+      "kcal": 255,
+      "name": "3 eggs",
+      "protein": 20,
+      "slot": "breakfast",
+      "time": "11:00"
+    },
+    {
+      "carbs": 16,
+      "fat": 2,
+      "kcal": 92,
+      "name": "Toast bread, 1 slice",
+      "protein": 2,
+      "slot": "breakfast",
+      "time": "11:00"
+    },
+    {
+      "carbs": 23,
+      "fat": 0,
+      "kcal": 105,
+      "name": "Orange juice, 1 glass",
+      "protein": 0,
+      "slot": "breakfast",
+      "time": "11:00"
+    }
+  ],
+  "note": "Rest day and check-in day.",
+  "protein": 22,
+  "source": "coach"
+}

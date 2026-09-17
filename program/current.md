@@ -6,6 +6,7 @@
 | 2026-09-05 | Block 1 written at intake | 5 days available, 60 to 75 min, upper body priority, legs from zero, ACL history, size goal |
 | 2026-09-05 | Upper day: barbell bench replaced by Hammer Strength iso-lateral chest press (kg per side), chest-supported row is the Nautilus Impact vertical row (stack), pull-ups are bodyweight wide grip | Athlete's choice on session 1. Machine press is fine for the size goal and needs no spotter. Barbell bench returns as a tested lift in block 2. |
 | 2026-09-06 | Lower A after session 1: seated leg press (Nautilus, stack) replaces hack squat (none in the gym), hanging leg raise replaces cable crunch, calves removed from both leg days at the athlete's request, squat with heels on 1.25 kg plates | First leg session. Depth needed heel elevation. Athlete is happy with his calves and declined the work. |
+| 2026-09-17 | Day 1 Upper: shoulder press unit corrected to TOTAL stack, and the stale start loads refreshed (chest press 40/side, pull-up +10, row 40/side, shoulder press 50 total, reverse pec deck 15) | The programme still carried loads from 11 Sep and read the shoulder press as kg per side. He confirmed on 14 Sep that those numbers are the total stack ("Das war gesamt"). A wrong unit here means prescribing double the weight. Pull-up start comes down from +12.5 to +10: he did +10 x 8 on 11 Sep but only +10 x 6 on 15 Sep, so there is nothing to progress from yet. |
 | 2026-09-16 | Campus variant of Legs B written down | He trains Legs B at the SKEMA gym today. There is no trap bar and no barbell there, so the hinge becomes the Multi Hip machine and the ab wheel becomes the crunch machine. Loads carry over from the 9 Sep campus session, not from Fitness Park. |
 | 2026-09-15 | Straight-arm pulldown renamed to the cable "Skifahrer" and raised from 2 to 3 sets | He asked to swap an exercise in for the cable "Skifahrer" because he enjoys it. It is the same movement that has been sitting unused in the Pull day since 5 Sep under a name he did not recognise, and it is the exercise he dropped on 8 Sep. An exercise he will actually do beats one he skips, so it gets a third set. |
 | 2026-09-13 | Week 1 check-in: calories HELD at 3300, no change. Rear delt work added to Upper, 3 x 12-20 reverse pec deck in the rest periods | Bodyweight is up 1.70 kg in seven days, four times the target rate, but complete days averaged 2892 kcal against a 3300 target and 344 g carbs against 475 g. That is at or below maintenance, so the gain is glycogen and water from the carbohydrate increase, not fat. Reassess 20 Sep with two clean weeks and a waist measurement. Rear delts were 3 of 6 to 12 hard sets, the largest remaining gap, and they were trained on one day only. |
@@ -71,14 +72,14 @@ the upper sessions and the sport.
 ## Day 1: Upper (strength bias)
 | # | Exercise | Sets x reps | RIR | Start | Alternative |
 |---|---|---|---|---|---|
-| 1 | Chest press, Hammer Strength iso-lateral, kg per side | 4 x 6-8 | 2 | 40 kg/side (11 Sep) | flat barbell bench |
-| 2 | Pull-up, wide grip, added kg | 3 x 6-8 | 1-2 | +12.5 kg (11 Sep: +10 x 8) | lat pulldown |
-| 3 | Row machine, plate loaded, kg per side | 4 x 8-10 | 1-2 | 35 kg/side (11 Sep) | Nautilus vertical row, stack, 60 kg |
-| 4 | Seated shoulder press machine, kg per side | 3 x 8-10 | 1-2 | 30 kg/side (11 Sep) | seated dumbbell press, 15 kg/hand |
+| 1 | Chest press, Hammer Strength iso-lateral, kg per side | 4 x 6-8 | 2 | 40 kg/side (14 Sep: 40 x 9) | flat barbell bench |
+| 2 | Pull-up, wide grip, added kg | 3 x 6-8 | 1-2 | +10 kg (15 Sep: +10 x 6, down from +10 x 8 on 11 Sep) | lat pulldown |
+| 3 | Row machine, plate loaded, kg per side | 4 x 8-10 | 1-2 | 40 kg/side (11 Sep: 40 x 8) | Nautilus vertical row, stack, 60 kg |
+| 4 | Seated shoulder press machine, TOTAL stack (not per side) | 3 x 8-10 | 1-2 | 50 kg total (14 Sep: 50 x 9) | seated dumbbell press, 15 kg/hand |
 | 5 | Seated dumbbell lateral raise, kg per hand | 3 x 12-15 | 0-1 | 8 kg (11 Sep) | cable lateral raise |
 | 6a | EZ bar curl, kg per side (plates) | 2 x 10-12 | 0-1 | 12.5 kg/side (11 Sep) | dumbbell curl |
 | 6b | Rope triceps pushdown, stack | 2 x 12-15 | 0-1 | 25 kg (5 Sep) | bar pushdown |
-| 7 | Reverse pec deck, stack, in the chest press rest periods | 3 x 12-20 | 0-1 | 25 kg (8 Sep) | face pull |
+| 7 | Reverse pec deck, stack, in the chest press rest periods | 3 x 12-20 | 0-1 | 15 kg on the Fitness Park machine (14 Sep), 25 kg on the one he used 8 Sep | face pull |
 
 21 work sets. Lateral raises are SEATED from 11 Sep: standing, he swings at every load.
 
