@@ -364,13 +364,22 @@
       "load": 60,
       "best": "60 x 8",
       "date": "2026-09-23",
-      "note": "Technogym campus chest press, stack. First upper session ever at campus: 40 x 8 (very easy), 55 x 8 (RIR 3), 60 x 8. NOT the Hammer Strength at Fitness Park (40 per side) - different machine, never carry the number across."
+      "note": "PROVISIONAL - a floor, not a working load. Set on 23 Sep, the first session back from seven days ill, at RIR 3 by instruction, on a machine he had never used. He said himself these numbers should not count as his loads. Technogym campus chest press, stack: 40 x 8 (very easy), 55 x 8 (RIR 3), 60 x 8. NOT the Hammer Strength at Fitness Park.",
+      "provisional": true
     },
     "low_row_campus_kg": {
       "load": 50,
       "best": "50 x 10 at RIR 3",
       "date": "2026-09-23",
-      "note": "Technogym Low Row, campus stack. 40 x 10 then 50 x 10 with 3 left, on a deliberately submaximal return session - so 50 is a floor, not a ceiling. Not the Fitness Park plate-loaded row (40 per side)."
+      "note": "PROVISIONAL - a floor, not a working load. Same session and same caveat as the campus chest press. Technogym Low Row, campus stack: 40 x 10, then 50 x 10 twice with 3 left. Not the Fitness Park plate-loaded row.",
+      "provisional": true
+    },
+    "pullup_bodyweight_campus": {
+      "load": 0,
+      "best": "bw x 7, 6, 5",
+      "date": "2026-09-23",
+      "provisional": true,
+      "note": "PROVISIONAL. Campus bar over the Dual Adjustable Pulley. 18 bodyweight reps at RIR 3 on the first day back from illness. Added load returns when bodyweight 8 is back."
     }
   },
   "strength_profile": {

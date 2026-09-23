@@ -408,3 +408,13 @@ What this changes for the coach:
   waits for a clean week. Check-in moves to Sun 27 Sep.
 - Ask for a weight reading on the first day back. Not to judge it — to know the new baseline before
   the next clean week starts.
+
+- **A load set while he is ill, injured or returning is a FLOOR, not a working load** (his own
+  instruction, 23 Sep: "merk dir einfach generell das sollte nicht kein Gewicht sein ich bin echt noch
+  bissl angeschlagen"). Any number logged on a submaximal day is marked `provisional` in
+  `data/facts.json` and the next session opens there and climbs from set 2 — it is never the top of
+  the progression. This applies to every return session, not just this one.
+- **He tells you when he is not right, and he is accurate about it.** 23 Sep: told mid-session that
+  he was still under the weather, and stopped the session himself after 9 sets. Never argue with that
+  signal and never ask him to finish the plan — end the session and say so plainly. The same honesty
+  shows up when he reports swung reps and reps his friend helped with.
