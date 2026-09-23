@@ -1,1 +1,6 @@
-{"date": "2026-09-17", "weight": 79.4, "note": "morning. Down 0.40 from yesterday. 7-day average 79.34 kg.", "source": "coach"}
+{
+  "date": "2026-09-17",
+  "note": "morning. Down 0.40 from yesterday. 7-day average 79.34 kg.",
+  "source": "coach",
+  "weight": 79.4
+}

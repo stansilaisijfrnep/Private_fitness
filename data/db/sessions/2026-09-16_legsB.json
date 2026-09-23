@@ -4,14 +4,6 @@
   "dayKey": "legsB",
   "duration": 75,
   "energy": null,
-  "gym": "campus",
-  "name": "Legs B (campus variant)",
-  "type": "lift",
-  "week": 2,
-  "source": "coach",
-  "startedAt": "2026-09-16T11:00:00.000Z",
-  "savedAt": "2026-09-16T21:00:00.000Z",
-  "sleep": null,
   "exercises": [
     {
       "k": "landing",
@@ -175,5 +167,13 @@
       ]
     }
   ],
-  "notes": "Campus variant of Legs B, written the same morning. Best-executed session of the block: the full opening block ran for the first time (landings, box jumps, tib raises) and he moved the step-ups into it himself, so nothing died at the end. Hamstrings finally got real work - 3 sets of seated leg curl with the best set last - which was his stated ACL priority. The theme of the day: on leg curl, leg press AND leg raises the LAST set was the best one, and on the leg press reps rose as the load rose. Every leg prescription has been too light. The ab work came at the end of the day in the evening campus slot, not in the midday block. New campus working loads: abduction 30, leg curl 45, leg press 120."
+  "gym": "campus",
+  "name": "Legs B (campus variant)",
+  "notes": "Campus variant of Legs B, written the same morning. Best-executed session of the block: the full opening block ran for the first time (landings, box jumps, tib raises) and he moved the step-ups into it himself, so nothing died at the end. Hamstrings finally got real work - 3 sets of seated leg curl with the best set last - which was his stated ACL priority. The theme of the day: on leg curl, leg press AND leg raises the LAST set was the best one, and on the leg press reps rose as the load rose. Every leg prescription has been too light. New campus working loads: abduction 30, leg curl 45, leg press 120.",
+  "savedAt": "2026-09-16T12:20:00.000Z",
+  "sleep": null,
+  "source": "coach",
+  "startedAt": "2026-09-16T11:00:00.000Z",
+  "type": "lift",
+  "week": 2
 }

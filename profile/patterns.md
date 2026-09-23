@@ -389,3 +389,22 @@ gets done; the same movement under a textbook name gets dropped.
 - **Hanging leg raises: he does them straight-legged by default** (16 Sep, "Ich mach immer
   gestreckt"). Never offer him the bent-knee version as the starting point — at 194 cm that is a
   very long lever and he handles it. Progress with tempo or added load, not with rep count alone.
+
+## Illness, 17 to 22 September 2026
+Seven days without a session: the Upper day planned for Thu 17 Sep never happened, and nothing was
+logged again until 23 Sep. He reported it himself on 23 Sep ("I was sick, didn't train, I am healthy
+again"). No detail on what it was and he was not asked to produce one — he volunteers what matters.
+
+What this changes for the coach:
+- **Week 3 is a restart, not a continuation.** Strength after seven days off is essentially intact
+  (the literature puts measurable loss at two to three weeks), but a week of illness means low food,
+  low fluid and systemic stress. The first session back is deliberately submaximal: about 85 % of the
+  logged loads, 3 RIR on everything, roughly half the usual set count, nothing to failure. Full loads
+  return at session two if session one felt normal.
+- **Do not open with a test.** The temptation after a break is to find out what he still has. That
+  costs a week if it goes wrong and proves nothing if it goes right.
+- **The 20 Sep check-in did not happen and must not be run on that week's data.** A week of illness
+  makes the rate of weight gain meaningless: any drop is food and fluid, not fat. The calorie decision
+  waits for a clean week. Check-in moves to Sun 27 Sep.
+- Ask for a weight reading on the first day back. Not to judge it — to know the new baseline before
+  the next clean week starts.
