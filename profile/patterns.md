@@ -418,3 +418,8 @@ What this changes for the coach:
   he was still under the weather, and stopped the session himself after 9 sets. Never argue with that
   signal and never ask him to finish the plan — end the session and say so plainly. The same honesty
   shows up when he reports swung reps and reps his friend helped with.
+
+- **The campus equipment list from the 9 Sep photos is not reliable.** Two machines on it do not
+  exist in the room: the ab machine (16 Sep) and the shoulder press (23 Sep). Before prescribing a
+  campus machine he has not already used, name an alternative in the same message so he is never
+  standing there with nothing to do.

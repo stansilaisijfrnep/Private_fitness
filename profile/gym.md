@@ -112,7 +112,10 @@ Seen so far (5 photos):
 - **Wall bars (Sprossenwand)** — confirmed 16 Sep. This is the campus ab station: hanging leg
   raises. He does them STRAIGHT-LEGGED as standard, never bent-knee.
 - Technogym **Vertical Traction** (lat pulldown with overhead handles)
-- Technogym **Shoulder Press** (seated, stack)
+- Technogym **Shoulder Press** (seated, stack) — **CORRECTED 23 Sep: he says there is no shoulder
+  press machine in this room.** Second inventory item from the 9 Sep photos that is not actually
+  there (the ab machine was the first). Treat the rest of that photo list as unconfirmed until he
+  stands in front of it. Overhead pressing at campus = Kinesis or the Dual Adjustable Pulley.
 - One plate-loaded machine next to the leg press (handles above a seat, looks like a plate-loaded
   row) - to confirm
 - A rowing ergometer / adjustable bench in the leg-extension photo
