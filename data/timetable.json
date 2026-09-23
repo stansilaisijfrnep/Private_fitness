@@ -441,6 +441,11 @@
       "from": "2027-07-14",
       "title": "Fête Nationale",
       "span": "ganztägig"
+    },
+    {
+      "from": "2026-09-23",
+      "title": "Frontiers Of Artificial Intelligence (online, 15:00-17:00) moved to Sat 26 Sep",
+      "span": "15:00-17:00 free"
     }
   ],
   "one_off_sessions": [
@@ -450,6 +455,14 @@
       "end": "18:00",
       "course": "COMPUTER VISION AND SPEECH RECOGNITION",
       "mode": "online"
+    },
+    {
+      "date": "2026-09-26",
+      "start": null,
+      "end": null,
+      "course": "FRONTIERS OF ARTIFICIAL INTELLIGENCE",
+      "mode": "online",
+      "note": "Moved off Wed 23 Sep (was 15:00-17:00). He reported it on 23 Sep; the Saturday time was not given - ask before planning a Saturday session around it."
     }
   ],
   "notes": [
