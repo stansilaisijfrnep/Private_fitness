@@ -6,6 +6,7 @@
 | 2026-09-05 | Block 1 written at intake | 5 days available, 60 to 75 min, upper body priority, legs from zero, ACL history, size goal |
 | 2026-09-05 | Upper day: barbell bench replaced by Hammer Strength iso-lateral chest press (kg per side), chest-supported row is the Nautilus Impact vertical row (stack), pull-ups are bodyweight wide grip | Athlete's choice on session 1. Machine press is fine for the size goal and needs no spotter. Barbell bench returns as a tested lift in block 2. |
 | 2026-09-06 | Lower A after session 1: seated leg press (Nautilus, stack) replaces hack squat (none in the gym), hanging leg raise replaces cable crunch, calves removed from both leg days at the athlete's request, squat with heels on 1.25 kg plates | First leg session. Depth needed heel elevation. Athlete is happy with his calves and declined the work. |
+| 2026-09-24 | Day 3 Push: same shoulder press unit fix as Day 1, TOTAL stack, start 50 | The 17 Sep fix only reached Day 1. Day 3 still read "25 kg/side (7 Sep)", which would have prescribed double the real load on a push day. |
 | 2026-09-17 | Day 1 Upper: shoulder press unit corrected to TOTAL stack, and the stale start loads refreshed (chest press 40/side, pull-up +10, row 40/side, shoulder press 50 total, reverse pec deck 15) | The programme still carried loads from 11 Sep and read the shoulder press as kg per side. He confirmed on 14 Sep that those numbers are the total stack ("Das war gesamt"). A wrong unit here means prescribing double the weight. Pull-up start comes down from +12.5 to +10: he did +10 x 8 on 11 Sep but only +10 x 6 on 15 Sep, so there is nothing to progress from yet. |
 | 2026-09-16 | Campus variant of Legs B written down | He trains Legs B at the SKEMA gym today. There is no trap bar and no barbell there, so the hinge becomes the Multi Hip machine and the ab wheel becomes the crunch machine. Loads carry over from the 9 Sep campus session, not from Fitness Park. |
 | 2026-09-15 | Straight-arm pulldown renamed to the cable "Skifahrer" and raised from 2 to 3 sets | He asked to swap an exercise in for the cable "Skifahrer" because he enjoys it. It is the same movement that has been sitting unused in the Pull day since 5 Sep under a name he did not recognise, and it is the exercise he dropped on 8 Sep. An exercise he will actually do beats one he skips, so it gets a third set. |
@@ -115,7 +116,7 @@ and back position hold. Expect 60 to 70 kg by week 6 with clean reps.
 | 2 | Weighted dips | 2 x 6-10 | 1-2 | bodyweight (7 Sep) | assisted dip machine |
 | 3 | Chest press, Hammer Strength iso-lateral, kg per side | 3 x 8-12 | 1-2 | 22.5 kg/side (7 Sep) | flat barbell bench |
 | 4 | Pec deck, stack | 3 x 12-15 | 0-1 | 15 kg (7 Sep) | cable fly |
-| 5 | Seated shoulder press machine, kg per side | 3 x 8-10 | 1-2 | 25 kg/side (7 Sep) | barbell overhead press 30 kg |
+| 5 | Seated shoulder press machine, TOTAL stack (not per side) | 3 x 8-10 | 1-2 | 50 kg total (14 Sep: 50 x 9) | barbell overhead press 30 kg |
 | 6 | Seated dumbbell lateral raise, kg per hand | 4 x 12-20 | 0-1 | 8 kg, SEATED (11 Sep: he swings when standing) | cable lateral raise |
 | 7 | Triceps pushdown, straight bar, stack | 3 x 10-15 | 0-1 | 25 kg (7 Sep) | overhead cable extension |
 
