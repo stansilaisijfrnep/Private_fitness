@@ -423,3 +423,12 @@ What this changes for the coach:
   exist in the room: the ab machine (16 Sep) and the shoulder press (23 Sep). Before prescribing a
   campus machine he has not already used, name an alternative in the same message so he is never
   standing there with nothing to do.
+
+- **On return days he goes UP when told to hold** (23 Sep chest press 55 → 60; 24 Sep shoulder press
+  50 → 60, then 50 → 55). Both times it worked. The opposite of the last-set pattern below: when he
+  feels good he climbs, when a set felt hard he halves. State a cap as a cap ("not more than 55
+  today"), not as a number to hit.
+- **The halving on the last set is now a confirmed habit** (16 Sep abduction 30 → 25; 24 Sep pec deck
+  20 → 10). Every last-set prescription says "same load, stop earlier" in so many words.
+- **Hammer Strength ab crunch is his ab exercise of choice at Fitness Park** (24 Sep, picked it over
+  the hanging leg raise, 3 × 12). Ask which plates are on it before the first set.

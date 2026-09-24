@@ -36,7 +36,7 @@ MUSCLES = {
     "rdl": {"hamstrings": 1, "glutes": 1}, "hipthrust": {"glutes": 1, "hamstrings": 0.5},
     "trapbar": {"hamstrings": 0.5, "glutes": 1, "quads": 0.5, "back": 0.5},
     "legcurl": {"hamstrings": 1}, "nordic": {"hamstrings": 1},
-    "hanglr": {"abs": 1}, "abwheel": {"abs": 1}, "copenhagen": {"abs": 1},
+    "hanglr": {"abs": 1}, "abwheel": {"abs": 1}, "copenhagen": {"abs": 1}, "abcrunch": {"abs": 1},
     # Jump work is power, not volume. It is not counted as hypertrophy sets.
     "landing": {}, "boxjump": {}, "pogo": {},
     # Joint health, not hypertrophy volume: the tibialis has no weekly set target.
