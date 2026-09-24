@@ -378,9 +378,9 @@
     },
     "shoulder_press_machine_total_kg": {
       "load": 60,
-      "best": "60 x 7.5 (50 x 10 the set before)",
+      "best": "60 x 7.5 (session: 50 x 10, 60 x 7.5, 55 x 7)",
       "date": "2026-09-24",
-      "note": "TOTAL stack, not per side (confirmed 14 Sep). Stack appears to jump 50 -> 60 with no 55. 60 x 7 + a half rep on 24 Sep was a failure set. Next time 60, target 8 clean."
+      "note": "TOTAL stack, not per side (confirmed 14 Sep). The stack has 55 (used 24 Sep). 60 x 7 + a half rep on 24 Sep was a failure set, then 55 x 7. Next time open at 55 for 8-10, then 60 for 8."
     }
   },
   "strength_profile": {
