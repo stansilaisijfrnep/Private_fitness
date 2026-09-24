@@ -221,8 +221,9 @@
     },
     "incline_db_press_per_hand_kg": {
       "load": 22,
-      "best": "22 x 7",
-      "date": "2026-09-07"
+      "best": "20 x 10 x 3",
+      "date": "2026-09-24",
+      "note": "20 x 10, 10, 10 on 24 Sep (the 22s were taken). Every set at the top of 8-10, so 22 next time."
     },
     "dips_added_kg": {
       "load": 0,
