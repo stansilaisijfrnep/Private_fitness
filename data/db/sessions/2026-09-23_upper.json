@@ -17,20 +17,102 @@
       "k": "bench",
       "n": "Chest press, Technogym campus (stack)",
       "note": "PROVISIONAL loads. 40 was very easy, 55 at RIR 3, 60 x 8 anyway. Not the Hammer Strength at Fitness Park.",
-      "sets": [{"load": 40, "reps": 8, "rir": 4}, {"load": 55, "reps": 8, "rir": 3}, {"load": 60, "reps": 8, "rir": 2}]
+      "sets": [
+        {
+          "load": 40,
+          "reps": 8,
+          "rir": 4
+        },
+        {
+          "load": 55,
+          "reps": 8,
+          "rir": 3
+        },
+        {
+          "load": 60,
+          "reps": 8,
+          "rir": 2
+        }
+      ]
     },
     {
       "k": "pullup",
       "n": "Pull-up, wide grip, campus bar",
       "note": "7-6-5 bodyweight at constant effort. Best part of the day - no sign of a week off.",
-      "sets": [{"load": 0, "reps": 7, "rir": 3}, {"load": 0, "reps": 6, "rir": 3}, {"load": 0, "reps": 5, "rir": 3}]
+      "sets": [
+        {
+          "load": 0,
+          "reps": 7,
+          "rir": 3
+        },
+        {
+          "load": 0,
+          "reps": 6,
+          "rir": 3
+        },
+        {
+          "load": 0,
+          "reps": 5,
+          "rir": 3
+        }
+      ]
     },
     {
       "k": "cablerow",
       "n": "Low row, Technogym campus (stack)",
       "note": "PROVISIONAL loads. 50 x 10 twice with 3 in reserve.",
-      "sets": [{"load": 40, "reps": 10, "rir": null}, {"load": 50, "reps": 10, "rir": 3}, {"load": 50, "reps": 10, "rir": 3}]
+      "sets": [
+        {
+          "load": 40,
+          "reps": 10,
+          "rir": null
+        },
+        {
+          "load": 50,
+          "reps": 10,
+          "rir": 3
+        },
+        {
+          "load": 50,
+          "reps": 10,
+          "rir": 3
+        }
+      ]
+    },
+    {
+      "k": "dblat",
+      "n": "Cable lateral raise, single arm, campus",
+      "note": "Numbers not reported; prescribed 5 kg x 15. Side delts were at 0 for week 3.",
+      "sets": [
+        {
+          "load": 5,
+          "reps": 15,
+          "rir": 2
+        },
+        {
+          "load": 5,
+          "reps": 15,
+          "rir": 2
+        }
+      ]
+    },
+    {
+      "k": "revpec",
+      "n": "Face pull, rope, campus cable",
+      "note": "Numbers not reported; prescribed 15 kg x 15. Campus has no reverse pec deck.",
+      "sets": [
+        {
+          "load": 15,
+          "reps": 15,
+          "rir": 2
+        },
+        {
+          "load": 15,
+          "reps": 15,
+          "rir": 2
+        }
+      ]
     }
   ],
-  "notes": "First session back after seven days ill (17-22 Sep) and the first upper-body session ever at the campus gym. Deliberately submaximal: RIR 3 throughout, no set to failure, half the usual volume. He stopped after 9 sets because he was still not fully recovered, and told me not to treat today's numbers as his working loads - correct on both counts. Shoulder press, face pulls and cable lateral raises were dropped. Every load today is a floor: next campus upper day opens at these numbers and climbs from set 2."
+  "notes": "First session back after seven days ill (17-22 Sep) and the first upper-body session ever at the campus gym. Deliberately submaximal: RIR 3 throughout, no set to failure, half the usual volume. After 9 sets he said he was still not fully recovered and told me not to treat today's numbers as his working loads. Then he chose to finish: no shoulder press machine at campus, so overhead pressing was dropped and he did 2 x 15 cable lateral raises and 2 x 15 face pulls, light (numbers not reported, logged as prescribed). Every load today is a floor: next campus upper day opens at these numbers and climbs from set 2."
 }
