@@ -1,0 +1,172 @@
+{
+  "date": "2026-09-28",
+  "dayKey": "lowerA",
+  "name": "Legs (his own selection)",
+  "gym": "fitnesspark",
+  "type": "lift",
+  "week": 4,
+  "source": "coach",
+  "bodyweight": null,
+  "sleep": null,
+  "energy": null,
+  "duration": null,
+  "startedAt": "2026-09-28T10:00:00.000Z",
+  "savedAt": "2026-09-29T19:30:00.000Z",
+  "exercises": [
+    {
+      "k": "legpress",
+      "n": "Seated leg press (stack)",
+      "note": "100 x 12 x 3. Leg-press loads keep being too light - go 110.",
+      "sets": [
+        {
+          "load": 100,
+          "reps": 12,
+          "rir": null
+        },
+        {
+          "load": 100,
+          "reps": 12,
+          "rir": null
+        },
+        {
+          "load": 100,
+          "reps": 12,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "standcurl",
+      "n": "Standing single-leg curl (kg, per side)",
+      "note": "12-10-8 at 20. Left vs right not reported.",
+      "sets": [
+        {
+          "load": 20,
+          "reps": 12,
+          "rir": null
+        },
+        {
+          "load": 20,
+          "reps": 10,
+          "rir": null
+        },
+        {
+          "load": 20,
+          "reps": 8,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "legext",
+      "n": "Leg extension (stack)",
+      "note": "60 x 12 twice, up from 55 x 10 on 12 Sep.",
+      "sets": [
+        {
+          "load": 60,
+          "reps": 12,
+          "rir": null
+        },
+        {
+          "load": 60,
+          "reps": 12,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "rdl",
+      "n": "Romanian deadlift (TOTAL kg, 20 kg bar + plates)",
+      "note": "Reported per side: 15, 25, 30, 30 -> 50, 70, 80, 80 total. Last set 6 ugly reps. Best before: 50 x 12 on 12 Sep. Working load 80 total, clean reps only.",
+      "sets": [
+        {
+          "load": 50,
+          "reps": 8,
+          "rir": null
+        },
+        {
+          "load": 70,
+          "reps": 8,
+          "rir": null
+        },
+        {
+          "load": 80,
+          "reps": 8,
+          "rir": null
+        },
+        {
+          "load": 80,
+          "reps": 6,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "bss",
+      "n": "Bulgarian split squat (kg per hand)",
+      "note": "9 x 10, then 16 x 8 and 16 x 10. On 12 Sep the left leg gave way at 8. Did the left control 16? Not reported - ask.",
+      "sets": [
+        {
+          "load": 9,
+          "reps": 10,
+          "rir": null
+        },
+        {
+          "load": 16,
+          "reps": 8,
+          "rir": null
+        },
+        {
+          "load": 16,
+          "reps": 10,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "abcrunch",
+      "n": "Hammer Strength ab crunch (plates)",
+      "note": "20 kg: 8, 12, 8.",
+      "sets": [
+        {
+          "load": 20,
+          "reps": 8,
+          "rir": null
+        },
+        {
+          "load": 20,
+          "reps": 12,
+          "rir": null
+        },
+        {
+          "load": 20,
+          "reps": 8,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "hanglr",
+      "n": "Hanging leg raise with a 5 kg bag",
+      "note": "First loaded leg raises.",
+      "sets": [
+        {
+          "load": 5,
+          "reps": 12,
+          "rir": null
+        },
+        {
+          "load": 5,
+          "reps": 12,
+          "rir": null
+        },
+        {
+          "load": 5,
+          "reps": 12,
+          "rir": null
+        }
+      ]
+    }
+  ],
+  "notes": "Reported on 29 Sep. His own leg selection: no squat, no hip thrust, and the whole opening block (landings, box jumps, tib raises, hip abduction) was skipped - the knee/jump work. Big jumps on RDL (80 x 8 total vs 50 x 12) and split squat (16 per hand vs bodyweight). Gym assumed Fitness Park."
+}

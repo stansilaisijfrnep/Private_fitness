@@ -1,0 +1,172 @@
+{
+  "date": "2026-09-25",
+  "dayKey": "pull",
+  "name": "Pull",
+  "gym": "fitnesspark",
+  "type": "lift",
+  "week": 3,
+  "source": "coach",
+  "bodyweight": null,
+  "sleep": null,
+  "energy": null,
+  "duration": null,
+  "startedAt": "2026-09-25T10:00:00.000Z",
+  "savedAt": "2026-09-29T19:30:00.000Z",
+  "exercises": [
+    {
+      "k": "pullup",
+      "n": "Pull-up, wide grip (added kg), reverse pyramid",
+      "note": "+20 x 4 is new territory (best before +10 x 8). Bodyweight x 8 as the last set.",
+      "sets": [
+        {
+          "load": 20,
+          "reps": 4,
+          "rir": null
+        },
+        {
+          "load": 15,
+          "reps": 5,
+          "rir": null
+        },
+        {
+          "load": 10,
+          "reps": 6,
+          "rir": null
+        },
+        {
+          "load": 0,
+          "reps": 8,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "cablerow",
+      "n": "Row machine / seated row (stack)",
+      "note": "60 x 10 twice WITH A LOT OF SWING (his words) - not counted as a working load. 50 x 12 cleaner. Working load 55 strict.",
+      "sets": [
+        {
+          "load": 60,
+          "reps": 10,
+          "rir": null
+        },
+        {
+          "load": 60,
+          "reps": 10,
+          "rir": null
+        },
+        {
+          "load": 50,
+          "reps": 12,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "sapd",
+      "n": "Cable \"Skifahrer\", straight-arm pulldown",
+      "note": "17.5 x 15, 17.5 x 12 with 3 left but swung, 17.5 x 12.",
+      "sets": [
+        {
+          "load": 17.5,
+          "reps": 15,
+          "rir": null
+        },
+        {
+          "load": 17.5,
+          "reps": 12,
+          "rir": 3
+        },
+        {
+          "load": 17.5,
+          "reps": 12,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "shrug",
+      "n": "Dumbbell shrug (kg per hand)",
+      "note": "His addition, not in the programme. Traps are not a tracked muscle.",
+      "sets": [
+        {
+          "load": 18,
+          "reps": 12,
+          "rir": null
+        },
+        {
+          "load": 18,
+          "reps": 12,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "inccurl",
+      "n": "Seated incline dumbbell curl (kg per hand)",
+      "note": "",
+      "sets": [
+        {
+          "load": 14,
+          "reps": 12,
+          "rir": null
+        },
+        {
+          "load": 14,
+          "reps": 10,
+          "rir": null
+        },
+        {
+          "load": 14,
+          "reps": 10,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "cablecurl",
+      "n": "Rope cable curl, superset",
+      "note": "",
+      "sets": [
+        {
+          "load": 20,
+          "reps": 12,
+          "rir": null
+        },
+        {
+          "load": 20,
+          "reps": 10,
+          "rir": null
+        },
+        {
+          "load": 20,
+          "reps": 10,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "gobletcurl",
+      "n": "Two-hand dumbbell curl, dumbbell held by the head, after each curl set",
+      "note": "His addition. 9 biceps sets in one session.",
+      "sets": [
+        {
+          "load": 14,
+          "reps": 12,
+          "rir": null
+        },
+        {
+          "load": 14,
+          "reps": 12,
+          "rir": null
+        },
+        {
+          "load": 14,
+          "reps": 12,
+          "rir": null
+        }
+      ]
+    }
+  ],
+  "notes": "Reported afterwards on 29 Sep. Pull-ups reached +20 kg for the first time. Rows were swung at 60; the clean number is 50-55. Biceps got 9 sets. Gym assumed Fitness Park (not stated)."
+}

@@ -432,3 +432,9 @@ What this changes for the coach:
   20 → 10). Every last-set prescription says "same load, stop earlier" in so many words.
 - **Hammer Strength ab crunch is his ab exercise of choice at Fitness Park** (24 Sep, picked it over
   the hanging leg raise, 3 × 12). Ask which plates are on it before the first set.
+
+- **He builds his own sessions when left alone and reports them afterwards** (25 Sep Pull, 28 Sep
+  legs, sent in one message on 29 Sep). The loads are good; what he drops is always the same: the
+  knee/jump opening block (landings, box jumps, tib raises, hip abduction). Every leg-day reply must
+  name that block first.
+- **RDL is reported in kg per side** ("15kg pro Seite"). Log total = 20 kg bar + 2 × side.

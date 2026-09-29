@@ -178,9 +178,9 @@
   "working_loads": {
     "note": "heaviest load handled on the last session of each exercise, the number to prescribe next time",
     "pullup_added_kg": {
-      "load": 12.5,
-      "best": "+10 x 8",
-      "date": "2026-09-11",
+      "load": 15,
+      "best": "+20 x 4, +15 x 5 (25 Sep)",
+      "date": "2026-09-25",
       "note": "+10 x 8 as the SECOND exercise. Best pull-up set so far."
     },
     "tbar_row_kg": {
@@ -258,14 +258,15 @@
       "rule": "+2.5 every session"
     },
     "seated_leg_press_nautilus_kg": {
-      "load": 90,
-      "best": "90 x 8",
-      "date": "2026-09-06"
+      "load": 110,
+      "best": "100 x 12 x 3",
+      "date": "2026-09-28"
     },
     "rdl_kg": {
-      "load": 55,
-      "best": "50 x 12",
-      "date": "2026-09-12"
+      "load": 80,
+      "best": "80 x 8 total (28 Sep)",
+      "date": "2026-09-28",
+      "note": "He reports RDL in kg per side; total = 20 kg bar + 2 x side."
     },
     "seated_leg_curl_kg": {
       "load": 50,
