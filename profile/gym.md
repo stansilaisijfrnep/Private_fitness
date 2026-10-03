@@ -70,6 +70,8 @@ log it with duration. Do it after lifting or on off days, never before Lower A o
 | Plate-loaded seated row (Technogym, yellow) | yes | |
 | Standing or seated calf raise, plate-loaded | unclear | Check. |
 | Plate-loaded abductor / adductor or glute machine | unclear | |
+| Technogym ABDUCTOR, seated, stack | YES, photo 3 Oct | The Fitness Park hip abduction machine. Not the campus number. |
+| Plyo box / step for box jumps | NOT FOUND 3 Oct | He found no box. Use squat jumps and single-leg hop-and-stick instead. |
 | Hammer Strength Abdominal / Oblique Crunch, plate-loaded | YES, photo 24 Sep | Seated crunch, feet hooked, arms on the pads. Sticker: max training weight 125 lb (57 kg). Plates, so log kg of plates added. His ab machine of choice at Fitness Park. |
 
 ## Cable and selectorized ("Musculation guidée")
