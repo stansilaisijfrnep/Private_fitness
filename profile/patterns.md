@@ -438,3 +438,9 @@ What this changes for the coach:
   knee/jump opening block (landings, box jumps, tib raises, hip abduction). Every leg-day reply must
   name that block first.
 - **RDL is reported in kg per side** ("15kg pro Seite"). Log total = 20 kg bar + 2 × side.
+
+- **3 Oct: first knee pain since logging began**, last set of the Hammer Ground Base squat (20 kg
+  per side, rep 6 of a set that had given 9). Side, location and type still to be confirmed. Rule
+  from here: any knee pain on a leg day → the rest of that day is pain-free exercises only, and the
+  next leg day opens with a pain check before any loaded knee flexion. More than 2 weeks of pain →
+  physio. This is the ACL knee if it is the left one.
