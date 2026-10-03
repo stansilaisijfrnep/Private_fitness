@@ -1,0 +1,211 @@
+{
+  "date": "2026-10-03",
+  "dayKey": "legsB",
+  "name": "Legs B + abs + biceps",
+  "gym": "fitnesspark",
+  "type": "lift",
+  "week": 5,
+  "source": "coach",
+  "bodyweight": null,
+  "sleep": null,
+  "energy": null,
+  "duration": null,
+  "startedAt": "2026-10-03T16:00:00.000Z",
+  "savedAt": "2026-10-03T19:00:00.000Z",
+  "exercises": [
+    {
+      "k": "landing",
+      "n": "Drop landing, two legs, box up to knee height",
+      "note": "8, 5, 5.",
+      "sets": [
+        {
+          "load": null,
+          "reps": 8,
+          "rir": null
+        },
+        {
+          "load": null,
+          "reps": 5,
+          "rir": null
+        },
+        {
+          "load": null,
+          "reps": 5,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "tibraise",
+      "n": "Tibialis raise against the wall",
+      "note": "Reps not reported.",
+      "sets": [
+        {
+          "load": null,
+          "reps": 15,
+          "rir": null
+        },
+        {
+          "load": null,
+          "reps": 15,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "hipabd",
+      "n": "Hip abduction, Technogym, Fitness Park (stack)",
+      "note": "20 reps every set while climbing. Open at 50 next time.",
+      "sets": [
+        {
+          "load": 30,
+          "reps": 20,
+          "rir": null
+        },
+        {
+          "load": 40,
+          "reps": 20,
+          "rir": null
+        },
+        {
+          "load": 50,
+          "reps": 20,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "gbsquat",
+      "n": "Hammer Strength Ground Base squat (kg per side, + 20 kg arm)",
+      "note": "KNEE PAIN on set 3 (9 -> 6 reps). Side and type not given.",
+      "sets": [
+        {
+          "load": 20,
+          "reps": 9,
+          "rir": null
+        },
+        {
+          "load": 20,
+          "reps": 9,
+          "rir": null
+        },
+        {
+          "load": 20,
+          "reps": 6,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "lycurl",
+      "n": "Lying leg curl, Fitness Park (stack)",
+      "note": "Pain-free as far as reported. Next: 35 for 10-12.",
+      "sets": [
+        {
+          "load": 35,
+          "reps": 8,
+          "rir": null
+        },
+        {
+          "load": 30,
+          "reps": 10,
+          "rir": null
+        },
+        {
+          "load": 30,
+          "reps": 11,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "abcrunch",
+      "n": "Hammer Strength ab crunch (plates)",
+      "note": "Top of the range. 20 next time.",
+      "sets": [
+        {
+          "load": 17.5,
+          "reps": 15,
+          "rir": null
+        },
+        {
+          "load": 17.5,
+          "reps": 15,
+          "rir": null
+        },
+        {
+          "load": 17.5,
+          "reps": 15,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "hanglr",
+      "n": "Leg raise, straight legs, captain's chair",
+      "note": "No bag. Add 5 kg next time.",
+      "sets": [
+        {
+          "load": 0,
+          "reps": 15,
+          "rir": null
+        },
+        {
+          "load": 0,
+          "reps": 15,
+          "rir": null
+        },
+        {
+          "load": 0,
+          "reps": 15,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "ezcurl",
+      "n": "EZ bar curl (kg per side, plates)",
+      "note": "8 clean (+2 swung), 8, then 10 x 12.",
+      "sets": [
+        {
+          "load": 12.5,
+          "reps": 8,
+          "rir": null
+        },
+        {
+          "load": 12.5,
+          "reps": 8,
+          "rir": null
+        },
+        {
+          "load": 10,
+          "reps": 12,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "inccurl",
+      "n": "Seated incline dumbbell curl (kg per hand)",
+      "note": "Last set swung.",
+      "sets": [
+        {
+          "load": 14,
+          "reps": 10,
+          "rir": null
+        },
+        {
+          "load": 14,
+          "reps": 10,
+          "rir": null
+        },
+        {
+          "load": 14,
+          "reps": 12,
+          "rir": null
+        }
+      ]
+    }
+  ],
+  "notes": "Legs B rebuilt in the gym: Ground Base squat instead of the trap bar, knee pain on its last set (he did not want to discuss it), leg press dropped, lying leg curl instead of seated, no Nordics. Full ab block and a 6-set biceps block at his request."
+}
