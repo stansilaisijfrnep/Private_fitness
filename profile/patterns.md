@@ -444,3 +444,5 @@ What this changes for the coach:
   from here: any knee pain on a leg day → the rest of that day is pain-free exercises only, and the
   next leg day opens with a pain check before any loaded knee flexion. More than 2 weeks of pain →
   physio. This is the ACL knee if it is the left one.
+- **He wants the EZ bar in his biceps work** (3 Oct). It is already in Upper and Pull; on any day
+  with a biceps block, the EZ curl goes first.
