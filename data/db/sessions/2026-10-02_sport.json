@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-02",
+  "dayKey": "home",
+  "name": "Home workout",
+  "gym": "home",
+  "type": "sport",
+  "kind": "Home bodyweight circuit",
+  "minutes": null,
+  "note": "Push-ups max, then 4 rounds: chair dips, band lateral raise, bottle front raise, partner towel row. No numbers reported.",
+  "savedAt": "2026-10-03T10:00:00.000Z",
+  "source": "coach"
+}

@@ -1,0 +1,128 @@
+{
+  "date": "2026-09-29",
+  "dayKey": "upper",
+  "name": "Upper",
+  "gym": "fitnesspark",
+  "type": "lift",
+  "week": 4,
+  "source": "coach",
+  "bodyweight": null,
+  "sleep": null,
+  "energy": null,
+  "duration": null,
+  "startedAt": "2026-09-29T19:30:00.000Z",
+  "savedAt": "2026-10-03T10:00:00.000Z",
+  "exercises": [
+    {
+      "k": "incmach",
+      "n": "Incline chest press, Hammer Strength (kg per side)",
+      "note": "40 x 4 own + 3 assisted (only 4 count). Work at 35 next time.",
+      "sets": [
+        {
+          "load": 20,
+          "reps": 12,
+          "rir": null
+        },
+        {
+          "load": 40,
+          "reps": 6,
+          "rir": null
+        },
+        {
+          "load": 40,
+          "reps": 4,
+          "rir": 0
+        },
+        {
+          "load": 30,
+          "reps": 9,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "pullup",
+      "n": "Pull-up, wide grip (added kg)",
+      "note": "Set 3 not reported.",
+      "sets": [
+        {
+          "load": 15,
+          "reps": 6,
+          "rir": 0
+        },
+        {
+          "load": 15,
+          "reps": 4,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "cablerow",
+      "n": "Cable row (stack)",
+      "note": "60 x 10 on the last set, no swing reported.",
+      "sets": [
+        {
+          "load": 60,
+          "reps": 8,
+          "rir": null
+        },
+        {
+          "load": 60,
+          "reps": 8,
+          "rir": null
+        },
+        {
+          "load": 60,
+          "reps": 10,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "ohp",
+      "n": "Seated shoulder press machine (TOTAL stack)",
+      "note": "60 x 10 - best ever.",
+      "sets": [
+        {
+          "load": 60,
+          "reps": 10,
+          "rir": null
+        },
+        {
+          "load": 60,
+          "reps": 8,
+          "rir": null
+        },
+        {
+          "load": 60,
+          "reps": 6,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "dblat",
+      "n": "Lateral raise (kg per hand)",
+      "note": "10 x 8 too heavy, back to 8.",
+      "sets": [
+        {
+          "load": 10,
+          "reps": 8,
+          "rir": null
+        },
+        {
+          "load": 8,
+          "reps": 12,
+          "rir": null
+        },
+        {
+          "load": 8,
+          "reps": 12,
+          "rir": null
+        }
+      ]
+    }
+  ],
+  "notes": "Reported in full on 3 Oct. New highs on shoulder press (60 x 10) and cable row (60 x 10). Swapped the flat Hammer press for the incline version."
+}
