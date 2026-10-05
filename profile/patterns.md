@@ -446,3 +446,7 @@ What this changes for the coach:
   physio. This is the ACL knee if it is the left one.
 - **He wants the EZ bar in his biceps work** (3 Oct). It is already in Upper and Pull; on any day
   with a biceps block, the EZ curl goes first.
+
+- **The home circuit "as much as I can" × 4 rounds made him so sore he skipped Sunday** (Fri 2 Oct
+  home, Sat legs, Sun rest, reported Mon 5 Oct). Max-rep bodyweight circuits are far more damaging
+  than they look. Any home workout: stop every set 2 reps short, 3 rounds, not 4.
