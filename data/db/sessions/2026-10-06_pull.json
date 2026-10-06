@@ -1,0 +1,194 @@
+{
+  "date": "2026-10-06",
+  "dayKey": "pull",
+  "name": "Pull + abs",
+  "gym": "fitnesspark",
+  "type": "lift",
+  "week": 5,
+  "source": "coach",
+  "bodyweight": null,
+  "sleep": null,
+  "energy": null,
+  "duration": null,
+  "startedAt": "2026-10-06T17:15:00.000Z",
+  "savedAt": "2026-10-06T19:30:00.000Z",
+  "exercises": [
+    {
+      "k": "pullup",
+      "n": "Pull-up, wide grip (added kg)",
+      "note": "Best at +15. Next: +15 x 8 on set 1.",
+      "sets": [
+        {
+          "load": 15,
+          "reps": 7,
+          "rir": null
+        },
+        {
+          "load": 15,
+          "reps": 5,
+          "rir": null
+        },
+        {
+          "load": 10,
+          "reps": 7,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "cablerow",
+      "n": "Cable row (stack)",
+      "note": "Sets 1-2 clean, last reps of set 3 swung.",
+      "sets": [
+        {
+          "load": 60,
+          "reps": 10,
+          "rir": null
+        },
+        {
+          "load": 60,
+          "reps": 10,
+          "rir": null
+        },
+        {
+          "load": 60,
+          "reps": 10,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "sapd",
+      "n": "Cable \"Skifahrer\", straight-arm pulldown",
+      "note": "No swing.",
+      "sets": [
+        {
+          "load": 17.5,
+          "reps": 13,
+          "rir": null
+        },
+        {
+          "load": 17.5,
+          "reps": 15,
+          "rir": null
+        },
+        {
+          "load": 17.5,
+          "reps": 13,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "revpec",
+      "n": "Reverse pec deck (stack)",
+      "note": "Dropped to 10 after set 1.",
+      "sets": [
+        {
+          "load": 15,
+          "reps": 12,
+          "rir": null
+        },
+        {
+          "load": 10,
+          "reps": 15,
+          "rir": null
+        },
+        {
+          "load": 10,
+          "reps": 15,
+          "rir": null
+        },
+        {
+          "load": 10,
+          "reps": 15,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "ezcurl",
+      "n": "EZ bar curl (kg per side, plates)",
+      "note": "12.5 x 8 swung; 10/side clean.",
+      "sets": [
+        {
+          "load": 12.5,
+          "reps": 8,
+          "rir": null
+        },
+        {
+          "load": 10,
+          "reps": 10,
+          "rir": null
+        },
+        {
+          "load": 10,
+          "reps": 10,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "hammer",
+      "n": "Hammer curl (kg per hand)",
+      "note": "",
+      "sets": [
+        {
+          "load": 16,
+          "reps": 10,
+          "rir": null
+        },
+        {
+          "load": 16,
+          "reps": 10,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "hanglr",
+      "n": "Leg raise, straight legs, captain's chair",
+      "note": "No bag. Bag mandatory next time.",
+      "sets": [
+        {
+          "load": 0,
+          "reps": 15,
+          "rir": null
+        },
+        {
+          "load": 0,
+          "reps": 15,
+          "rir": null
+        },
+        {
+          "load": 0,
+          "reps": 15,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "totalab",
+      "n": "Technogym Total Abdominal (stack)",
+      "note": "52 -> 60 -> 67.5.",
+      "sets": [
+        {
+          "load": 52,
+          "reps": 15,
+          "rir": null
+        },
+        {
+          "load": 60,
+          "reps": 15,
+          "rir": null
+        },
+        {
+          "load": 67.5,
+          "reps": 12,
+          "rir": null
+        }
+      ]
+    }
+  ],
+  "notes": "Pull + abs on the free Tuesday evening. Best pull-ups at +15; clean cable rows at 60; he chose clean EZ reps at 10/side over swung reps at 12.5. Total Abdominal far stronger than the old 36 kg number."
+}

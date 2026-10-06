@@ -179,8 +179,8 @@
     "note": "heaviest load handled on the last session of each exercise, the number to prescribe next time",
     "pullup_added_kg": {
       "load": 15,
-      "best": "+20 x 4, +15 x 5 (25 Sep)",
-      "date": "2026-09-25",
+      "best": "+15 x 7 (6 Oct)",
+      "date": "2026-10-06",
       "note": "+10 x 8 as the SECOND exercise. Best pull-up set so far."
     },
     "tbar_row_kg": {
@@ -280,9 +280,9 @@
     },
     "ez_curl_plates_per_side_kg": {
       "load": 10,
-      "best": "10 per side x 12",
-      "date": "2026-09-11",
-      "note": "Plates per side. Hit the top of the 10-12 range, so 12.5 per side next session."
+      "best": "10 x 10 clean (12.5 swung)",
+      "date": "2026-10-06",
+      "note": "Clean working load 10/side. 10 x 12 then 12.5."
     },
     "row_machine_plate_loaded_per_side_kg": {
       "load": 35,
@@ -382,6 +382,12 @@
       "best": "60 x 7.5 (session: 50 x 10, 60 x 7.5, 55 x 7)",
       "date": "2026-09-24",
       "note": "TOTAL stack, not per side (confirmed 14 Sep). The stack has 55 (used 24 Sep). 60 x 7 + a half rep on 24 Sep was a failure set, then 55 x 7. Next time open at 55 for 8-10, then 60 for 8."
+    },
+    "total_abdominal_fitnesspark_kg": {
+      "load": 67.5,
+      "best": "67.5 x 12",
+      "date": "2026-10-06",
+      "note": "Technogym Total Abdominal, stack. Not the Hammer plate crunch."
     }
   },
   "strength_profile": {
