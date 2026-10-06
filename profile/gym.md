@@ -73,6 +73,7 @@ log it with duration. Do it after lifting or on off days, never before Lower A o
 | Technogym ABDUCTOR, seated, stack | YES, photo 3 Oct | The Fitness Park hip abduction machine. Not the campus number. |
 | Hammer Strength Ground Base Squat/Lunge, plate-loaded | YES, photo 3 Oct | Hip-loaded lever squat, arm starts at 20 kg (45 lb) before plates. Spine-friendly squat for quads and glutes; also a lunge option. He chose it over the trap bar on 3 Oct. |
 | Plyo box / step for box jumps | FOUND later on 3 Oct (first he said there was none) | He found no box. Use squat jumps and single-leg hop-and-stick instead. |
+| Technogym TOTAL ABDOMINAL (no. 41), selectorized stack | YES, photo 6 Oct | Seated crunch, rollers on the chest, feet under the lower rollers. Probably the "crunch machine 36 x 12" of 6 Sep. Not the Hammer plate-loaded crunch. |
 | Hammer Strength Abdominal / Oblique Crunch, plate-loaded | YES, photo 24 Sep | Seated crunch, feet hooked, arms on the pads. Sticker: max training weight 125 lb (57 kg). Plates, so log kg of plates added. His ab machine of choice at Fitness Park. |
 
 ## Cable and selectorized ("Musculation guidée")
