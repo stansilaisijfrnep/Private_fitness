@@ -1,0 +1,172 @@
+{
+  "date": "2026-10-05",
+  "dayKey": "push",
+  "name": "Push",
+  "gym": "fitnesspark",
+  "type": "lift",
+  "week": 5,
+  "source": "coach",
+  "bodyweight": null,
+  "sleep": null,
+  "energy": null,
+  "duration": null,
+  "startedAt": "2026-10-05T16:45:00.000Z",
+  "savedAt": "2026-10-06T08:00:00.000Z",
+  "exercises": [
+    {
+      "k": "dips",
+      "n": "Dips (bodyweight)",
+      "note": "First exercise. 9-7-7, up from 8-6-5.",
+      "sets": [
+        {
+          "load": 0,
+          "reps": 9,
+          "rir": null
+        },
+        {
+          "load": 0,
+          "reps": 7,
+          "rir": null
+        },
+        {
+          "load": 0,
+          "reps": 7,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "incdb",
+      "n": "Incline dumbbell press, 30° (kg per hand)",
+      "note": "After dips. 24 next time.",
+      "sets": [
+        {
+          "load": 22,
+          "reps": 10,
+          "rir": null
+        },
+        {
+          "load": 22,
+          "reps": 10,
+          "rir": null
+        },
+        {
+          "load": 22,
+          "reps": 10,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "bench",
+      "n": "Chest press, Hammer Strength iso-lateral (kg per side)",
+      "note": "Reported as 80 total.",
+      "sets": [
+        {
+          "load": 40,
+          "reps": 8,
+          "rir": null
+        },
+        {
+          "load": 40,
+          "reps": 6,
+          "rir": null
+        },
+        {
+          "load": 40,
+          "reps": 6,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "dbfly",
+      "n": "Dumbbell fly, flat (kg per hand)",
+      "note": "Pec deck broken.",
+      "sets": [
+        {
+          "load": 10,
+          "reps": 10,
+          "rir": null
+        },
+        {
+          "load": 10,
+          "reps": 10,
+          "rir": null
+        },
+        {
+          "load": 10,
+          "reps": 10,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "ohp",
+      "n": "Seated shoulder press machine (TOTAL stack)",
+      "note": "Pre-fatigued. Sets 2-3 reported as 25 per side.",
+      "sets": [
+        {
+          "load": 60,
+          "reps": 6,
+          "rir": null
+        },
+        {
+          "load": 50,
+          "reps": 9,
+          "rir": null
+        },
+        {
+          "load": 50,
+          "reps": 10,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "cablelat",
+      "n": "Cable lateral raise, one arm, low pulley (new cable machine)",
+      "note": "Not comparable with dumbbells.",
+      "sets": [
+        {
+          "load": 3.75,
+          "reps": 10,
+          "rir": null
+        },
+        {
+          "load": 3.75,
+          "reps": 12,
+          "rir": null
+        },
+        {
+          "load": 3.75,
+          "reps": 12,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "pushdown",
+      "n": "Rope triceps pushdown (stack)",
+      "note": "",
+      "sets": [
+        {
+          "load": 25,
+          "reps": 15,
+          "rir": null
+        },
+        {
+          "load": 20,
+          "reps": 15,
+          "rir": null
+        },
+        {
+          "load": 20,
+          "reps": 15,
+          "rir": null
+        }
+      ]
+    }
+  ],
+  "notes": "Push after class. Dips first by his choice and the best dips yet; incline 22 x 10 x 3 even after dips. Pec deck out of order."
+}
