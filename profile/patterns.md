@@ -450,3 +450,5 @@ What this changes for the coach:
 - **The home circuit "as much as I can" × 4 rounds made him so sore he skipped Sunday** (Fri 2 Oct
   home, Sat legs, Sun rest, reported Mon 5 Oct). Max-rep bodyweight circuits are far more damaging
   than they look. Any home workout: stop every set 2 reps short, 3 rounds, not 4.
+- **Refuses the Pallof press** (6 Oct: "I don't like this exercise at all"). Anti-rotation work goes
+  through the suitcase carry instead. Do not prescribe the Pallof press again.
