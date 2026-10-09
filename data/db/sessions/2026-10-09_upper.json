@@ -1,0 +1,238 @@
+{
+  "date": "2026-10-09",
+  "dayKey": "upper",
+  "name": "Upper",
+  "gym": "fitnesspark",
+  "type": "lift",
+  "week": 5,
+  "source": "coach",
+  "bodyweight": null,
+  "sleep": null,
+  "energy": null,
+  "duration": null,
+  "startedAt": "2026-10-09T16:15:00.000Z",
+  "savedAt": "2026-10-09T19:00:00.000Z",
+  "exercises": [
+    {
+      "k": "pullup",
+      "n": "Pull-up, wide grip (added kg)",
+      "note": "+4 bw drop after set 3.",
+      "sets": [
+        {
+          "load": 15,
+          "reps": 7,
+          "rir": null
+        },
+        {
+          "load": 15,
+          "reps": 6,
+          "rir": null
+        },
+        {
+          "load": 15,
+          "reps": 4,
+          "rir": null
+        },
+        {
+          "load": 0,
+          "reps": 4,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "ohp",
+      "n": "Seated shoulder press machine (TOTAL stack)",
+      "note": "Best ever.",
+      "sets": [
+        {
+          "load": 60,
+          "reps": 12,
+          "rir": null
+        },
+        {
+          "load": 70,
+          "reps": 7.5,
+          "rir": null
+        },
+        {
+          "load": 60,
+          "reps": 10,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "incmach",
+      "n": "Incline chest press, Hammer Strength (kg per side)",
+      "note": "",
+      "sets": [
+        {
+          "load": 35,
+          "reps": 6,
+          "rir": null
+        },
+        {
+          "load": 35,
+          "reps": 5,
+          "rir": null
+        },
+        {
+          "load": 30,
+          "reps": 7.5,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "csrow",
+      "n": "Low row, Technogym plate-loaded (kg per side)",
+      "note": "40 x 7 unclean, one arm at a time.",
+      "sets": [
+        {
+          "load": 40,
+          "reps": 7,
+          "rir": null
+        },
+        {
+          "load": 30,
+          "reps": 10,
+          "rir": null
+        },
+        {
+          "load": 30,
+          "reps": 10,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "dblat",
+      "n": "Seated dumbbell lateral raise (kg per hand)",
+      "note": "8 unclean, 6 clean.",
+      "sets": [
+        {
+          "load": 8,
+          "reps": 12,
+          "rir": null
+        },
+        {
+          "load": 6,
+          "reps": 15,
+          "rir": null
+        },
+        {
+          "load": 6,
+          "reps": 15,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "revpec",
+      "n": "Reverse pec deck (single arm x2, then both)",
+      "note": "",
+      "sets": [
+        {
+          "load": 15,
+          "reps": 9,
+          "rir": null
+        },
+        {
+          "load": 15,
+          "reps": 8,
+          "rir": null
+        },
+        {
+          "load": 15,
+          "reps": 10,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "pushdown",
+      "n": "Rope pushdown, different cable station",
+      "note": "Heavier cable, not comparable.",
+      "sets": [
+        {
+          "load": 20,
+          "reps": 15,
+          "rir": null
+        },
+        {
+          "load": 15,
+          "reps": 10,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "ezcurl",
+      "n": "EZ bar curl (kg per side)",
+      "note": "",
+      "sets": [
+        {
+          "load": 10,
+          "reps": 12,
+          "rir": null
+        },
+        {
+          "load": 10,
+          "reps": 12,
+          "rir": null
+        },
+        {
+          "load": 10,
+          "reps": 10,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "hammer",
+      "n": "Hammer curl (kg per hand)",
+      "note": "16 poor form, then 14.",
+      "sets": [
+        {
+          "load": 16,
+          "reps": 10,
+          "rir": null
+        },
+        {
+          "load": 14,
+          "reps": 10,
+          "rir": null
+        },
+        {
+          "load": 14,
+          "reps": 10,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "totalab",
+      "n": "Technogym Total Abdominal (stack)",
+      "note": "",
+      "sets": [
+        {
+          "load": 65,
+          "reps": 15,
+          "rir": null
+        },
+        {
+          "load": 75,
+          "reps": 15,
+          "rir": null
+        },
+        {
+          "load": 80,
+          "reps": 15,
+          "rir": null
+        }
+      ]
+    }
+  ],
+  "notes": "Upper on Friday evening after refusing legs. Best shoulder press session. Chooses clean reps over load by himself now."
+}
