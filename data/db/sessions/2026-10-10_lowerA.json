@@ -1,0 +1,200 @@
+{
+  "date": "2026-10-10",
+  "dayKey": "lowerA",
+  "name": "Lower A (legs + abs)",
+  "gym": "fitnesspark",
+  "type": "lift",
+  "week": 6,
+  "source": "coach",
+  "bodyweight": null,
+  "sleep": null,
+  "energy": null,
+  "duration": null,
+  "startedAt": "2026-10-10T15:00:00.000Z",
+  "savedAt": "2026-10-10T20:55:00.000Z",
+  "notes": "First leg day after refusing legs on 9 Oct. Knee check clean, no pain all session. Smith RDL instead of barbell, single-leg glute bridge instead of hip thrust, light slow leg press (numbers not reported), Hammer plate ab crunch instead of the Total Abdominal.",
+  "exercises": [
+    {
+      "k": "landing",
+      "n": "Drop landing (assumed)",
+      "note": "Reported 3 x 8.",
+      "sets": [
+        {
+          "load": 0,
+          "reps": 8,
+          "rir": null
+        },
+        {
+          "load": 0,
+          "reps": 8,
+          "rir": null
+        },
+        {
+          "load": 0,
+          "reps": 8,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "tibraise",
+      "n": "Tibialis raise (assumed)",
+      "note": "Reported 3 x 15.",
+      "sets": [
+        {
+          "load": 0,
+          "reps": 15,
+          "rir": null
+        },
+        {
+          "load": 0,
+          "reps": 15,
+          "rir": null
+        },
+        {
+          "load": 0,
+          "reps": 15,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "hipabd",
+      "n": "Hip abduction, Technogym (stack)",
+      "note": "",
+      "sets": [
+        {
+          "load": 50,
+          "reps": 14,
+          "rir": null
+        },
+        {
+          "load": 50,
+          "reps": 14,
+          "rir": null
+        },
+        {
+          "load": 50,
+          "reps": 14,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "rdl",
+      "n": "Smith machine RDL (kg per side)",
+      "note": "Warm-up 20 x 12 not counted. Smith bar weight unknown, not comparable with the barbell RDL.",
+      "sets": [
+        {
+          "load": 30,
+          "reps": 10,
+          "rir": null
+        },
+        {
+          "load": 35,
+          "reps": 8,
+          "rir": null
+        },
+        {
+          "load": 35,
+          "reps": 8,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "lycurl",
+      "n": "Lying leg curl (stack)",
+      "note": "Set 1 drop set 35x5 then 30x3.",
+      "sets": [
+        {
+          "load": 35,
+          "reps": 5,
+          "rir": 0
+        },
+        {
+          "load": 30,
+          "reps": 8,
+          "rir": null
+        },
+        {
+          "load": 30,
+          "reps": 10,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "hipthrust",
+      "n": "Glute bridge, foot on bench (single leg, last set both legs)",
+      "note": "Bodyweight. 13/leg, 12/leg, then 10 with both legs.",
+      "sets": [
+        {
+          "load": 0,
+          "reps": 13,
+          "rir": null
+        },
+        {
+          "load": 0,
+          "reps": 12,
+          "rir": null
+        },
+        {
+          "load": 0,
+          "reps": 10,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "legpress",
+      "n": "Leg press, light, slow, high reps",
+      "note": "His choice to protect the knee. Load and reps not reported, not counted as hard sets.",
+      "sets": []
+    },
+    {
+      "k": "abcrunch",
+      "n": "Hammer Strength Abdominal/Oblique Crunch (plates)",
+      "note": "20 kg is his max here for now.",
+      "sets": [
+        {
+          "load": 20,
+          "reps": 15,
+          "rir": null
+        },
+        {
+          "load": 20,
+          "reps": 15,
+          "rir": 0
+        },
+        {
+          "load": 20,
+          "reps": 15,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "hanglr",
+      "n": "Captain's chair leg raise, straight legs, no weight",
+      "note": "Not possible with the 5 kg bag after the crunch.",
+      "sets": [
+        {
+          "load": 0,
+          "reps": 15,
+          "rir": null
+        },
+        {
+          "load": 0,
+          "reps": 15,
+          "rir": null
+        },
+        {
+          "load": 0,
+          "reps": 15,
+          "rir": null
+        }
+      ]
+    }
+  ]
+}

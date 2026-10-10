@@ -452,3 +452,4 @@ What this changes for the coach:
   than they look. Any home workout: stop every set 2 reps short, 3 rounds, not 4.
 - **Refuses the Pallof press** (6 Oct: "I don't like this exercise at all"). Anti-rotation work goes
   through the suitcase carry instead. Do not prescribe the Pallof press again.
+- 10 Oct: leg day done, knee clean. He picks knee-safe options himself (light slow leg press, glute bridge instead of hip thrust) and does not report numbers for "easy" sets - ask for the load once, do not insist. The Hammer plate crunch is far harder for him than the Technogym Total Abdominal: 20 kg is his stated max there, do not push load on it. Leg raises with the bag fail after a crunch machine - put the bag first or go bodyweight.
