@@ -1,17 +1,9 @@
 {
+  "bodyweight": null,
   "date": "2026-10-09",
   "dayKey": "upper",
-  "name": "Upper",
-  "gym": "fitnesspark",
-  "type": "lift",
-  "week": 5,
-  "source": "coach",
-  "bodyweight": null,
-  "sleep": null,
-  "energy": null,
   "duration": null,
-  "startedAt": "2026-10-09T16:15:00.000Z",
-  "savedAt": "2026-10-09T19:00:00.000Z",
+  "energy": null,
   "exercises": [
     {
       "k": "pullup",
@@ -251,5 +243,13 @@
       ]
     }
   ],
-  "notes": "Upper on Friday evening after refusing legs. Best shoulder press session. Chooses clean reps over load by himself now."
+  "gym": "fitnesspark",
+  "name": "Upper",
+  "notes": "Upper on Friday evening after refusing legs. Best shoulder press session. Chooses clean reps over load by himself now.",
+  "savedAt": "2026-10-09T19:00:00.000Z",
+  "sleep": null,
+  "source": "coach",
+  "startedAt": "2026-10-09T16:15:00.000Z",
+  "type": "lift",
+  "week": 5
 }
