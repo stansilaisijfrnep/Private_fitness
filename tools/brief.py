@@ -350,6 +350,12 @@ def main():
             print(f"    food:  {T['meal_logistics'].get(name,'')}")
         print("\nUNIVERSITY (data/timetable.json)")
         day_line(today); day_line(today + dt.timedelta(days=1))
+        due = [x for x in T.get("deadlines", []) if 0 <= (dt.date.fromisoformat(x["due"]) - today).days <= 14]
+        for x in due:
+            left = (dt.date.fromisoformat(x["due"]) - today).days
+            print(f"  DEADLINE in {left} d: {x['title']} — {x['course'].title()[:40]}, "
+                  f"{dt.date.fromisoformat(x['due']):%a %d %b} {x.get('due_time','')}"
+                  + ("  (today!)" if left == 0 else ""))
 
     # ---- facts that must never be forgotten ----
     ff = ROOT / "data" / "facts.json"

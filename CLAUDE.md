@@ -115,6 +115,13 @@ on the time of day - what to eat now, whether to train now, how the evening runs
 2. Report the 7-day rolling average, not the single reading. Adjust calories only on the
    weekly trend, in steps of 100 to 200 kcal. No waist data exists and none will: see the check-in rule.
 
+### A university notification (Moodle assignment, moved class, exam date)
+1. Store it in `data/timetable.json`: assignments under `deadlines` (course, title, opened, due,
+   due_time, note), a moved or extra class under `one_off_sessions`, an event under `exceptions`.
+   The briefing prints today's and tomorrow's classes and every deadline within 14 days.
+2. Say in one or two lines what it does to training that week (which slots survive, where the
+   screen days fall) and nothing more. Commit.
+
 ### A weekly check-in
 0. He REFUSES the waist measurement (13 Sep, asked three times). Never ask for it again.
    Without it, the calorie call runs on rate of gain alone, with a tighter threshold: more than

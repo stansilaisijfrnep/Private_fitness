@@ -108,6 +108,9 @@ Consequences, all in `data/timetable.json` and printed by the briefing every day
 - Monday afternoon is class; train in the morning, lunch by 12:15, yfood in the bag.
 - Tuesday and Friday are the easy days: train midday, all meals at home.
 **Weekly template from week 2: Mon AM, Tue midday, Wed AM, Thu 17:00, Fri or Sat, Sun rest.**
+- Assignments come as Moodle notifications he forwards. They go under `deadlines` in
+  `data/timetable.json` and the briefing shows them 14 days out. First one: CV & Speech
+  Recognition project baseline, due Sun 25 Oct 23:59, at the end of Fall Break (19-23 Oct).
 This kills the week-1 problem of training at 19:30 and chasing 800 kcal at 21:30.
 
 ### 5i. Campus sessions get cut by the clock, from the end of the list
