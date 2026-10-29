@@ -46,3 +46,9 @@ dayKey is one of `upper, lowerA, push, pull, legsB`. Exercise keys (`k`) are in 
 4. Calorie or protein change: update `settings/targets` and `profile/PROFILE.md`.
 5. Program change: edit PROGRAM in `index.html` and `program/current.md`, republish with the URL.
 6. Do not add messages, banners or coach notes to the page. The athlete wants numbers and inputs only.
+
+## Set Log (shared input page)
+https://claude.ai/artifact/4BuXS1xFJ7psogSJDJ7yuq — source `dashboard/set_log.html`, capability `db`.
+Anyone with access saves a session (date, name, workout, bodyweight, per-set load/reps/RIR/comment,
+notes per exercise) to collection `workouts`, doc id `<date>_<name-slug>`. Read it with ArtifactData
+`list` on `workouts` at the start of a session and log new entries into `logs/training/`.

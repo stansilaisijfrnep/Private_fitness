@@ -1,0 +1,201 @@
+<title>Set Log</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<style>
+/* Layout: one column; session header, exercise cards with a set grid, saved sessions below. */
+:root{
+  --bg:#f2f2f7; --card:#ffffff; --fg:#1c1c1e; --muted:#6c6c70; --line:#d8d8de;
+  --accent:#007aff; --accent-ink:#ffffff; --field:#f6f6f9; --ok:#248a3d; --err:#d70015;
+  --font:-apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#000000; --card:#1c1c1e; --fg:#f2f2f7; --muted:#98989f; --line:#38383a;
+  --accent:#0a84ff; --accent-ink:#ffffff; --field:#2c2c2e; --ok:#30d158; --err:#ff453a; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#000000; --card:#1c1c1e; --fg:#f2f2f7; --muted:#98989f; --line:#38383a;
+  --accent:#0a84ff; --accent-ink:#ffffff; --field:#2c2c2e; --ok:#30d158; --err:#ff453a; color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--font);font-size:15px}
+.wrap{max-width:760px;margin:0 auto;padding-block:20px 48px;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));
+  display:flex;flex-direction:column;gap:16px}
+h1{font-size:28px;margin:0;letter-spacing:-.02em;text-wrap:balance}
+h2{font-size:13px;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin:8px 4px 0}
+.card{background:var(--card);border-radius:14px;padding:14px;display:flex;flex-direction:column;gap:10px;min-width:0}
+.meta{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}
+label{display:flex;flex-direction:column;gap:4px;font-size:12px;color:var(--muted)}
+input,textarea{font:inherit;color:var(--fg);background:var(--field);border:1px solid transparent;border-radius:9px;padding:8px 10px;min-width:0;width:100%;box-sizing:border-box}
+input:focus,textarea:focus{outline:none;border-color:var(--accent)}
+textarea{resize:vertical;min-height:38px}
+.exhead{display:flex;gap:8px;align-items:center}
+.exhead input.exname{font-weight:600;font-size:16px;background:transparent;padding:4px 0}
+.target{font-size:13px;color:var(--muted)}
+.target input{background:transparent;padding:2px 0;font-size:13px;color:var(--muted)}
+.grid{display:grid;grid-template-columns:28px 1fr 1fr 1fr 2.4fr;gap:6px;align-items:center}
+.grid .h{font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted)}
+.grid .n{font-variant-numeric:tabular-nums;color:var(--muted);text-align:center}
+.grid input{font-variant-numeric:tabular-nums}
+@media (max-width:520px){
+  .grid{grid-template-columns:24px 1fr 1fr 1fr}
+  .grid .c{grid-column:2 / -1}
+  .grid .h.c{display:none}
+}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+button{font:inherit;border:0;border-radius:10px;padding:9px 14px;cursor:pointer;background:var(--field);color:var(--accent)}
+button.primary{background:var(--accent);color:var(--accent-ink);font-weight:600}
+button.icon{padding:4px 10px;color:var(--muted);background:transparent}
+button:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+button:disabled{opacity:.5;cursor:default}
+.bar{position:sticky;bottom:0;background:var(--bg);padding-block:10px calc(10px + env(safe-area-inset-bottom,0px));display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.status{font-size:13px;color:var(--muted)}
+.status.ok{color:var(--ok)} .status.err{color:var(--err)}
+.hist{display:flex;flex-direction:column}
+.hist button{display:flex;justify-content:space-between;gap:10px;background:transparent;color:var(--fg);border-radius:0;border-bottom:1px solid var(--line);padding:12px 4px;text-align:left}
+.hist button:last-child{border-bottom:0}
+.hist .sub{color:var(--muted);font-size:13px;font-variant-numeric:tabular-nums}
+.empty{color:var(--muted);font-size:14px;padding:6px 4px}
+</style>
+
+<div class="wrap">
+  <h1>Set Log</h1>
+
+  <div class="card">
+    <div class="meta">
+      <label for="f-date">Date<input id="f-date" type="date"></label>
+      <label for="f-person">Name<input id="f-person" type="text" placeholder="Your name" autocomplete="name"></label>
+      <label for="f-workout">Workout<input id="f-workout" type="text" placeholder="Push"></label>
+      <label for="f-bw">Bodyweight (kg)<input id="f-bw" type="number" inputmode="decimal" step="0.1"></label>
+    </div>
+  </div>
+
+  <div id="exercises" style="display:flex;flex-direction:column;gap:12px"></div>
+
+  <div class="row">
+    <button id="add-ex" type="button">+ Add exercise</button>
+    <button id="new-push" type="button">Load Push plan</button>
+    <button id="clear" type="button">Blank form</button>
+  </div>
+
+  <div class="card">
+    <label for="f-notes">Session notes<textarea id="f-notes" rows="2" placeholder="Sleep, energy, pain, anything else"></textarea></label>
+  </div>
+
+  <div class="bar">
+    <button id="save" class="primary" type="button">Save session</button>
+    <span id="status" class="status">Connecting…</span>
+  </div>
+
+  <h2>Saved sessions</h2>
+  <div class="card"><div id="hist" class="hist"><div class="empty">Saved sessions appear here. Fill in a date, your name and at least one set, then tap Save session.</div></div></div>
+</div>
+
+<script>
+const PUSH = [
+  ["Dips","bodyweight · 3 × 8–10"],
+  ["Incline DB press, 30°","24 kg per hand · 3 × 8–10"],
+  ["Hammer flat chest press","40 kg per side · 3 × 6–10"],
+  ["Pec deck (or DB fly 10 kg)","20 kg · 3 × 12–15"],
+  ["Seated shoulder press machine","60 kg total · 3 × 8–12"],
+  ["Seated DB lateral raise","6 kg · 3 × 15–20"],
+  ["Rope pushdown","25 kg · 3 × 12–15"],
+  ["Hammer ab crunch","20 kg · 3 × 15, 3 s lowering"],
+];
+const $ = id => document.getElementById(id);
+const exBox = $("exercises");
+let db = null, saving = false;
+
+function today(){
+  const d = new Date(); const p = n => String(n).padStart(2,"0");
+  return `${d.getFullYear()}-${p(d.getMonth()+1)}-${p(d.getDate())}`;
+}
+function slug(s){ return (s||"").toLowerCase().normalize("NFKD").replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"").slice(0,40) || "anon"; }
+function setStatus(t, cls){ const s=$("status"); s.textContent=t; s.className="status"+(cls?" "+cls:""); }
+
+function setRow(grid, set, i){
+  const n = document.createElement("div"); n.className="n"; n.textContent=i+1;
+  const mk = (cls, ph, val, type) => { const el=document.createElement("input"); el.type=type||"number"; el.inputMode="decimal"; el.placeholder=ph; el.dataset.k=cls; if(val!==undefined&&val!==null) el.value=val; if(type==="text"){el.className="c";el.inputMode="text";} return el; };
+  grid.append(n, mk("load","kg",set.load), mk("reps","reps",set.reps), mk("rir","RIR",set.rir), mk("comment","Comment",set.comment,"text"));
+}
+function exCard(ex){
+  const c = document.createElement("div"); c.className="card ex";
+  const head = document.createElement("div"); head.className="exhead";
+  const name = document.createElement("input"); name.className="exname"; name.value=ex.name||""; name.placeholder="Exercise name"; name.setAttribute("aria-label","Exercise name");
+  const del = document.createElement("button"); del.type="button"; del.className="icon"; del.textContent="Remove"; del.onclick=()=>c.remove();
+  head.append(name, del);
+  const tgt = document.createElement("div"); tgt.className="target";
+  const ti = document.createElement("input"); ti.className="tgt"; ti.value=ex.target||""; ti.placeholder="Target (optional)"; ti.setAttribute("aria-label","Target"); tgt.append(ti);
+  const grid = document.createElement("div"); grid.className="grid";
+  ["","Load","Reps","RIR","Comment"].forEach((h,j)=>{ const d=document.createElement("div"); d.className="h"+(j===4?" c":""); d.textContent=h; grid.append(d); });
+  const sets = ex.sets && ex.sets.length ? ex.sets : [{},{},{}];
+  sets.forEach((s,i)=>setRow(grid,s,i));
+  const more = document.createElement("div"); more.className="row";
+  const add = document.createElement("button"); add.type="button"; add.textContent="+ Set";
+  add.onclick=()=>setRow(grid,{},grid.querySelectorAll(".n").length);
+  more.append(add);
+  const note = document.createElement("textarea"); note.className="exnote"; note.rows=1; note.placeholder="Exercise notes (technique, machine, pain)"; note.value=ex.note||""; note.setAttribute("aria-label","Exercise notes");
+  c.append(head,tgt,grid,more,note);
+  return c;
+}
+function loadForm(doc){
+  $("f-date").value = doc.date || today();
+  $("f-person").value = doc.person || $("f-person").value || "";
+  $("f-workout").value = doc.workout || "";
+  $("f-bw").value = doc.bodyweight ?? "";
+  $("f-notes").value = doc.notes || "";
+  exBox.replaceChildren(...(doc.exercises||[]).map(exCard));
+}
+function pushPlan(){ loadForm({date:$("f-date").value||today(), person:$("f-person").value, workout:"Push", exercises:PUSH.map(([name,target])=>({name,target}))}); }
+const num = v => v===""?null:Number(v);
+function readForm(){
+  const exercises = [...exBox.querySelectorAll(".ex")].map(c=>{
+    const ins = [...c.querySelectorAll(".grid input")];
+    const sets=[]; for(let i=0;i<ins.length;i+=4){
+      const s={load:num(ins[i].value),reps:num(ins[i+1].value),rir:num(ins[i+2].value),comment:ins[i+3].value.trim()};
+      if(s.load!==null||s.reps!==null||s.rir!==null||s.comment) sets.push(s);
+    }
+    return {name:c.querySelector(".exname").value.trim(), target:c.querySelector(".tgt").value.trim(), sets, note:c.querySelector(".exnote").value.trim()};
+  }).filter(e=>e.name);
+  return {date:$("f-date").value, person:$("f-person").value.trim(), workout:$("f-workout").value.trim(),
+    bodyweight:num($("f-bw").value), notes:$("f-notes").value.trim(), exercises, updatedAt:new Date().toISOString()};
+}
+
+async function save(){
+  if(!db){ setStatus("Saving needs a signed-in view of this page.","err"); return; }
+  const d = readForm();
+  if(!d.date||!d.person){ setStatus("Add a date and your name first.","err"); return; }
+  if(!d.exercises.some(e=>e.sets.length)){ setStatus("Enter at least one set before saving.","err"); return; }
+  if(saving) return; saving=true; $("save").disabled=true; setStatus("Saving…");
+  try{
+    await db.collection("workouts").doc(`${d.date}_${slug(d.person)}`).set(d);
+    setStatus(`Saved ${new Date().toLocaleTimeString([], {hour:"2-digit",minute:"2-digit"})}`,"ok");
+  }catch(e){
+    setStatus(e && e.code==="invalid_argument" ? "You can view this page but not save to it. Ask the owner for Contributor access." : e && e.code==="quota_exceeded" ? "Storage is full. Delete old sessions first." : "Could not save. Try again.","err");
+  }finally{ saving=false; $("save").disabled=false; }
+}
+
+function renderHist(snap){
+  const h=$("hist");
+  if(snap.empty){ h.replaceChildren(Object.assign(document.createElement("div"),{className:"empty",textContent:"No sessions saved yet. Fill in a date, your name and at least one set, then tap Save session."})); return; }
+  h.replaceChildren(...snap.docs.map(s=>{
+    const d=s.data(); const b=document.createElement("button"); b.type="button";
+    const sets=(d.exercises||[]).reduce((a,e)=>a+(e.sets||[]).length,0);
+    const l=document.createElement("span"); l.textContent=`${d.date} · ${d.workout||"Session"}`;
+    const r=document.createElement("span"); r.className="sub"; r.textContent=`${d.person||"?"} · ${(d.exercises||[]).length} ex · ${sets} sets`;
+    b.append(l,r); b.onclick=()=>{ loadForm(d); window.scrollTo({top:0,behavior:"smooth"}); setStatus("Loaded. Edit and save to update."); };
+    return b;
+  }));
+}
+
+$("save").onclick=save;
+$("add-ex").onclick=()=>exBox.append(exCard({}));
+$("new-push").onclick=pushPlan;
+$("clear").onclick=()=>loadForm({date:today(),person:$("f-person").value,exercises:[{},{},{}]});
+try{ const p=localStorage.getItem("setlog.person"); if(p) $("f-person").value=p; }catch(e){}
+$("f-person").addEventListener("change",e=>{ try{localStorage.setItem("setlog.person",e.target.value);}catch(_){} });
+pushPlan();
+
+(async()=>{
+  db = window.claude ? await window.claude.use("db") : null;
+  if(!db){ setStatus("Read-only here: open the page signed in to save."); return; }
+  setStatus("Ready");
+  db.collection("workouts").orderBy("updatedAt","desc").limit(60).onSnapshot(renderHist,()=>setStatus("Live updates stopped. Reload the page.","err"));
+})();
+</script>
