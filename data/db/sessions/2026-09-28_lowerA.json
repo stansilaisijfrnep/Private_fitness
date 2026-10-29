@@ -1,17 +1,9 @@
 {
+  "bodyweight": null,
   "date": "2026-09-28",
   "dayKey": "lowerA",
-  "name": "Legs (his own selection)",
-  "gym": "fitnesspark",
-  "type": "lift",
-  "week": 4,
-  "source": "coach",
-  "bodyweight": null,
-  "sleep": null,
-  "energy": null,
   "duration": null,
-  "startedAt": "2026-09-28T10:00:00.000Z",
-  "savedAt": "2026-09-29T19:30:00.000Z",
+  "energy": null,
   "exercises": [
     {
       "k": "legpress",
@@ -168,5 +160,13 @@
       ]
     }
   ],
-  "notes": "Reported on 29 Sep. His own leg selection: no squat, no hip thrust, and the whole opening block (landings, box jumps, tib raises, hip abduction) was skipped - the knee/jump work. Big jumps on RDL (80 x 8 total vs 50 x 12) and split squat (16 per hand vs bodyweight). Gym assumed Fitness Park."
+  "gym": "fitnesspark",
+  "name": "Legs (his own selection)",
+  "notes": "Reported on 29 Sep. His own leg selection: no squat, no hip thrust, and the whole opening block (landings, box jumps, tib raises, hip abduction) was skipped - the knee/jump work. Big jumps on RDL (80 x 8 total vs 50 x 12) and split squat (16 per hand vs bodyweight). Gym assumed Fitness Park.",
+  "savedAt": "2026-09-29T19:30:00.000Z",
+  "sleep": null,
+  "source": "coach",
+  "startedAt": "2026-09-28T10:00:00.000Z",
+  "type": "lift",
+  "week": 4
 }

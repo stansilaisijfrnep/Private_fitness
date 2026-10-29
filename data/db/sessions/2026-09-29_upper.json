@@ -1,17 +1,9 @@
 {
+  "bodyweight": null,
   "date": "2026-09-29",
   "dayKey": "upper",
-  "name": "Upper",
-  "gym": "fitnesspark",
-  "type": "lift",
-  "week": 4,
-  "source": "coach",
-  "bodyweight": null,
-  "sleep": null,
-  "energy": null,
   "duration": null,
-  "startedAt": "2026-09-29T19:30:00.000Z",
-  "savedAt": "2026-10-03T10:00:00.000Z",
+  "energy": null,
   "exercises": [
     {
       "k": "incmach",
@@ -124,5 +116,13 @@
       ]
     }
   ],
-  "notes": "Reported in full on 3 Oct. New highs on shoulder press (60 x 10) and cable row (60 x 10). Swapped the flat Hammer press for the incline version."
+  "gym": "fitnesspark",
+  "name": "Upper",
+  "notes": "Reported in full on 3 Oct. New highs on shoulder press (60 x 10) and cable row (60 x 10). Swapped the flat Hammer press for the incline version.",
+  "savedAt": "2026-10-03T10:00:00.000Z",
+  "sleep": null,
+  "source": "coach",
+  "startedAt": "2026-09-29T19:30:00.000Z",
+  "type": "lift",
+  "week": 4
 }

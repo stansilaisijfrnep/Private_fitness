@@ -1,17 +1,9 @@
 {
+  "bodyweight": null,
   "date": "2026-10-03",
   "dayKey": "legsB",
-  "name": "Legs B + abs + biceps",
-  "gym": "fitnesspark",
-  "type": "lift",
-  "week": 5,
-  "source": "coach",
-  "bodyweight": null,
-  "sleep": null,
-  "energy": null,
   "duration": null,
-  "startedAt": "2026-10-03T16:00:00.000Z",
-  "savedAt": "2026-10-03T19:00:00.000Z",
+  "energy": null,
   "exercises": [
     {
       "k": "landing",
@@ -207,5 +199,13 @@
       ]
     }
   ],
-  "notes": "Legs B rebuilt in the gym: Ground Base squat instead of the trap bar, knee pain on its last set (he did not want to discuss it), leg press dropped, lying leg curl instead of seated, no Nordics. Full ab block and a 6-set biceps block at his request."
+  "gym": "fitnesspark",
+  "name": "Legs B + abs + biceps",
+  "notes": "Legs B rebuilt in the gym: Ground Base squat instead of the trap bar, knee pain on its last set (he did not want to discuss it), leg press dropped, lying leg curl instead of seated, no Nordics. Full ab block and a 6-set biceps block at his request.",
+  "savedAt": "2026-10-03T19:00:00.000Z",
+  "sleep": null,
+  "source": "coach",
+  "startedAt": "2026-10-03T16:00:00.000Z",
+  "type": "lift",
+  "week": 5
 }
