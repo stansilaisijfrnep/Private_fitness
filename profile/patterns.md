@@ -453,3 +453,5 @@ What this changes for the coach:
 - **Refuses the Pallof press** (6 Oct: "I don't like this exercise at all"). Anti-rotation work goes
   through the suitcase carry instead. Do not prescribe the Pallof press again.
 - 10 Oct: leg day done, knee clean. He picks knee-safe options himself (light slow leg press, glute bridge instead of hip thrust) and does not report numbers for "easy" sets - ask for the load once, do not insist. The Hammer plate crunch is far harder for him than the Technogym Total Abdominal: 20 kg is his stated max there, do not push load on it. Leg raises with the bag fail after a crunch machine - put the bag first or go bodyweight.
+- 29 Oct: when he sends the same message twice in a row ("22kg 9 mal" x2) he means two sets with the same result, not a duplicate. Third time in one session. Read it as two sets and say so once.
+- 29 Oct: the shoulder press collapses after the chest block (60 x 6 on 5 Oct and 29 Oct, 60 x 12 fresh on 9 Oct). On Push it goes before the Hammer press.

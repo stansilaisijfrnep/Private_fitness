@@ -1,0 +1,189 @@
+{
+  "date": "2026-10-29",
+  "dayKey": "push",
+  "name": "Push",
+  "gym": "fitnesspark",
+  "type": "lift",
+  "week": 8,
+  "source": "coach",
+  "bodyweight": null,
+  "sleep": null,
+  "energy": null,
+  "duration": null,
+  "startedAt": "2026-10-29T16:00:00.000Z",
+  "savedAt": "2026-10-29T18:30:00.000Z",
+  "notes": "First session logged after ~2.5 weeks on a Tonal. Dips best ever, chest flat, shoulder press lost half its reps after the chest block again, lateral raise up to 7 kg. Ab crunch sets 2-3 not reported.",
+  "exercises": [
+    {
+      "k": "dips",
+      "n": "Dips (bodyweight)",
+      "note": "Best ever, 26 reps.",
+      "sets": [
+        {
+          "load": 0,
+          "reps": 10,
+          "rir": null
+        },
+        {
+          "load": 0,
+          "reps": 9,
+          "rir": null
+        },
+        {
+          "load": 0,
+          "reps": 7,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "incdb",
+      "n": "Incline dumbbell press, 30\u00b0 (kg per hand)",
+      "note": "Prescribed 24, took 22.",
+      "sets": [
+        {
+          "load": 22,
+          "reps": 9,
+          "rir": null
+        },
+        {
+          "load": 22,
+          "reps": 9,
+          "rir": null
+        },
+        {
+          "load": 22,
+          "reps": 9,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "bench",
+      "n": "Hammer chest press, flat (kg per side)",
+      "note": "Set 3: 40x4 then drop to 20x8.",
+      "sets": [
+        {
+          "load": 40,
+          "reps": 8,
+          "rir": null
+        },
+        {
+          "load": 40,
+          "reps": 7.75,
+          "rir": 0
+        },
+        {
+          "load": 40,
+          "reps": 4,
+          "rir": 0
+        },
+        {
+          "load": 20,
+          "reps": 8,
+          "rir": 0
+        }
+      ]
+    },
+    {
+      "k": "pecdeck",
+      "n": "Pec deck (stack)",
+      "note": "20 too fast, 15 slow tempo.",
+      "sets": [
+        {
+          "load": 20,
+          "reps": 10,
+          "rir": null
+        },
+        {
+          "load": 15,
+          "reps": 12,
+          "rir": null
+        },
+        {
+          "load": 15,
+          "reps": 12,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "ohp",
+      "n": "Seated shoulder press machine (TOTAL stack)",
+      "note": "After 12 chest sets. Move before the Hammer press.",
+      "sets": [
+        {
+          "load": 60,
+          "reps": 6,
+          "rir": null
+        },
+        {
+          "load": 55,
+          "reps": 6,
+          "rir": null
+        },
+        {
+          "load": 50,
+          "reps": 7.75,
+          "rir": 0
+        }
+      ]
+    },
+    {
+      "k": "dblat",
+      "n": "Seated dumbbell lateral raise (kg per hand)",
+      "note": "7 kg is the new working load.",
+      "sets": [
+        {
+          "load": 6,
+          "reps": 15,
+          "rir": null
+        },
+        {
+          "load": 7,
+          "reps": 12,
+          "rir": null
+        },
+        {
+          "load": 7,
+          "reps": 12,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "pushdown",
+      "n": "Rope triceps pushdown (stack)",
+      "note": "25 not clean; 20 is the honest load.",
+      "sets": [
+        {
+          "load": 25,
+          "reps": 9,
+          "rir": null
+        },
+        {
+          "load": 25,
+          "reps": 9,
+          "rir": null
+        },
+        {
+          "load": 20,
+          "reps": 13,
+          "rir": 0
+        }
+      ]
+    },
+    {
+      "k": "abcrunch",
+      "n": "Hammer Strength ab crunch (plates)",
+      "note": "Sets 2-3 not reported.",
+      "sets": [
+        {
+          "load": 20,
+          "reps": 15,
+          "rir": null
+        }
+      ]
+    }
+  ]
+}
