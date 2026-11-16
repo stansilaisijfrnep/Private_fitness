@@ -1,0 +1,189 @@
+{
+  "date": "2026-11-11",
+  "dayKey": "upper",
+  "name": "Upper",
+  "gym": "fitnesspark",
+  "type": "lift",
+  "week": 10,
+  "source": "coach",
+  "bodyweight": null,
+  "sleep": null,
+  "energy": null,
+  "duration": null,
+  "startedAt": "2026-11-11T18:15:00.000Z",
+  "savedAt": "2026-11-11T20:00:00.000Z",
+  "notes": "Legs refused, Upper instead. Tired by exercise 3 but did more than the shortened plan. Shoulder press best ever placed second.",
+  "exercises": [
+    {
+      "k": "latpd",
+      "n": "Lat pulldown, cable (stack)",
+      "note": "His swap for pull-ups. Last reps not clean.",
+      "sets": [
+        {
+          "load": 65,
+          "reps": 8,
+          "rir": null
+        },
+        {
+          "load": 65,
+          "reps": 8,
+          "rir": 0
+        },
+        {
+          "load": 60,
+          "reps": 8,
+          "rir": 0
+        }
+      ]
+    },
+    {
+      "k": "ohp",
+      "n": "Seated shoulder press machine (TOTAL stack)",
+      "note": "Best ever. Fresh, second exercise.",
+      "sets": [
+        {
+          "load": 65,
+          "reps": 10,
+          "rir": null
+        },
+        {
+          "load": 65,
+          "reps": 10,
+          "rir": null
+        },
+        {
+          "load": 65,
+          "reps": 8,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "bench",
+      "n": "Hammer chest press, flat (kg per side)",
+      "note": "Tired.",
+      "sets": [
+        {
+          "load": 20,
+          "reps": 10,
+          "rir": null
+        },
+        {
+          "load": 30,
+          "reps": 6,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "csrow",
+      "n": "Plate-loaded low row (kg per side)",
+      "note": "Load assumed 30. Single arm, both, single arm.",
+      "sets": [
+        {
+          "load": 30,
+          "reps": 10,
+          "rir": null
+        },
+        {
+          "load": 30,
+          "reps": 10,
+          "rir": null
+        },
+        {
+          "load": 30,
+          "reps": 8,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "dblat",
+      "n": "Lateral raise STANDING (kg per hand)",
+      "note": "Standing, not comparable with seated.",
+      "sets": [
+        {
+          "load": 7,
+          "reps": 12,
+          "rir": null
+        },
+        {
+          "load": 8,
+          "reps": 12,
+          "rir": null
+        },
+        {
+          "load": 8,
+          "reps": 12,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "ezcurl",
+      "n": "EZ bar curl (kg per side)",
+      "note": "Load assumed 10.",
+      "sets": [
+        {
+          "load": 10,
+          "reps": 10,
+          "rir": null
+        },
+        {
+          "load": 10,
+          "reps": 12,
+          "rir": null
+        },
+        {
+          "load": 10,
+          "reps": 12,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "pushdown",
+      "n": "Triceps pushdown, straight bar (stack)",
+      "note": "",
+      "sets": [
+        {
+          "load": 15,
+          "reps": 12,
+          "rir": null
+        },
+        {
+          "load": 20,
+          "reps": 12,
+          "rir": null
+        },
+        {
+          "load": 20,
+          "reps": 12,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "hanglr",
+      "n": "Leg raise",
+      "note": "",
+      "sets": [
+        {
+          "load": 0,
+          "reps": 15,
+          "rir": null
+        },
+        {
+          "load": 0,
+          "reps": 15,
+          "rir": null
+        },
+        {
+          "load": 0,
+          "reps": 15,
+          "rir": null
+        }
+      ]
+    }
+  ]
+}

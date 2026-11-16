@@ -25,7 +25,7 @@ MUSCLES = {
     "dips": {"chest": 1, "triceps": 0.5}, "pecdeck": {"chest": 1}, "cablefly": {"chest": 1},
     "csrow": {"back": 1, "biceps": 0.5}, "dbrow": {"back": 1, "biceps": 0.5},
     "tbarrow": {"back": 1, "biceps": 0.5}, "cablerow": {"back": 1, "biceps": 0.5},
-    "pullup": {"back": 1, "biceps": 0.5}, "sapd": {"back": 1}, "revpec": {"rear delts": 1},
+    "pullup": {"back": 1, "biceps": 0.5}, "latpd": {"back": 1, "biceps": 0.5}, "sapd": {"back": 1}, "revpec": {"rear delts": 1},
     "ohp": {"shoulders": 1, "triceps": 0.5}, "dbohp": {"shoulders": 1, "triceps": 0.5},
     "dblat": {"side delts": 1},
     "ezcurl": {"biceps": 1}, "inccurl": {"biceps": 1}, "hammer": {"biceps": 1},
