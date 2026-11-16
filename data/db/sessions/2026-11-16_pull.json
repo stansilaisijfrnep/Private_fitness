@@ -1,0 +1,99 @@
+{
+  "date": "2026-11-16",
+  "dayKey": "pull",
+  "name": "Pull",
+  "gym": "fitnesspark",
+  "type": "lift",
+  "week": 11,
+  "source": "coach",
+  "bodyweight": null,
+  "sleep": null,
+  "energy": null,
+  "duration": null,
+  "startedAt": "2026-11-16T15:55:00.000Z",
+  "savedAt": "2026-11-16T17:17:00.000Z",
+  "notes": "Legs skipped, Pull chosen over Push. New pull-up PR (+15 x 8, 6, 5) and EZ curl 10/side x 12 x 3 clean.",
+  "exercises": [
+    {
+      "k": "pullup",
+      "n": "Pull-up, wide grip (added kg)",
+      "note": "New PR at +15 kg (8, 6, 5) then +10 x 6.",
+      "sets": [
+        { "load": 15, "reps": 8, "rir": null },
+        { "load": 15, "reps": 6, "rir": null },
+        { "load": 15, "reps": 5, "rir": null },
+        { "load": 10, "reps": 6, "rir": null }
+      ]
+    },
+    {
+      "k": "csrow",
+      "n": "Plate-loaded seated row / low row (kg per side)",
+      "note": "Substituted for missing T-bar row. Per side.",
+      "sets": [
+        { "load": 35, "reps": 10, "rir": null },
+        { "load": 35, "reps": 10, "rir": null },
+        { "load": 35, "reps": 10, "rir": null }
+      ]
+    },
+    {
+      "k": "cablerow",
+      "n": "Seated cable row, close grip (stack)",
+      "note": "60 x 10 not clean; dropped to 50 and 45.",
+      "sets": [
+        { "load": 60, "reps": 10, "rir": null },
+        { "load": 50, "reps": 10, "rir": null },
+        { "load": 45, "reps": 10, "rir": null }
+      ]
+    },
+    {
+      "k": "sapd",
+      "n": "Cable \"Skifahrer\", straight-arm pulldown past the hips (stack)",
+      "note": "Clean form, climbed to 30 kg.",
+      "sets": [
+        { "load": 25, "reps": 12, "rir": null },
+        { "load": 30, "reps": 12, "rir": null },
+        { "load": 30, "reps": 12, "rir": null }
+      ]
+    },
+    {
+      "k": "revpec",
+      "n": "Reverse pec deck (stack)",
+      "note": "12.5 x 10 unclean; dropped to 10 for clean reps.",
+      "sets": [
+        { "load": 12.5, "reps": 10, "rir": null },
+        { "load": 10, "reps": 14, "rir": null },
+        { "load": 10, "reps": 14, "rir": null }
+      ]
+    },
+    {
+      "k": "ezcurl",
+      "n": "EZ bar curl (kg per side, plates)",
+      "note": "Clean, top of range on all 3 sets.",
+      "sets": [
+        { "load": 10, "reps": 12, "rir": null },
+        { "load": 10, "reps": 12, "rir": null },
+        { "load": 10, "reps": 12, "rir": null }
+      ]
+    },
+    {
+      "k": "hammer",
+      "n": "Hammer curl (kg per hand)",
+      "note": "",
+      "sets": [
+        { "load": 14, "reps": 12, "rir": null },
+        { "load": 14, "reps": 12, "rir": null },
+        { "load": 14, "reps": 12, "rir": null }
+      ]
+    },
+    {
+      "k": "hanglr",
+      "n": "Hanging leg raise, straight legs",
+      "note": "Added at the end.",
+      "sets": [
+        { "load": 0, "reps": 15, "rir": null },
+        { "load": 0, "reps": 15, "rir": null },
+        { "load": 0, "reps": 15, "rir": null }
+      ]
+    }
+  ]
+}
