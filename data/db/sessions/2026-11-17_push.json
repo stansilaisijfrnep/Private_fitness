@@ -1,0 +1,106 @@
+{
+  "date": "2026-11-17",
+  "dayKey": "push",
+  "name": "Push",
+  "gym": "fitnesspark",
+  "type": "lift",
+  "week": 11,
+  "source": "coach",
+  "bodyweight": null,
+  "sleep": null,
+  "energy": null,
+  "duration": null,
+  "startedAt": "2026-11-17T16:00:00.000Z",
+  "savedAt": "2026-11-17T18:00:00.000Z",
+  "notes": "Day after Pull. Logged up to the pec deck; Hammer flat press skipped. Laterals and triceps not reported.",
+  "exercises": [
+    {
+      "k": "dips",
+      "n": "Dips (bodyweight)",
+      "note": "",
+      "sets": [
+        {
+          "load": 0,
+          "reps": 10,
+          "rir": null
+        },
+        {
+          "load": 0,
+          "reps": 7,
+          "rir": null
+        },
+        {
+          "load": 0,
+          "reps": 8,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "ohp",
+      "n": "Seated shoulder press machine (TOTAL stack)",
+      "note": "After dips.",
+      "sets": [
+        {
+          "load": 65,
+          "reps": 8,
+          "rir": null
+        },
+        {
+          "load": 65,
+          "reps": 7,
+          "rir": null
+        },
+        {
+          "load": 60,
+          "reps": 6,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "incdb",
+      "n": "Incline dumbbell press, 30\u00b0 (kg per hand)",
+      "note": "Load assumed 22.",
+      "sets": [
+        {
+          "load": 22,
+          "reps": 7,
+          "rir": null
+        },
+        {
+          "load": 22,
+          "reps": 9,
+          "rir": null
+        },
+        {
+          "load": 22,
+          "reps": 8,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "pecdeck",
+      "n": "Pec deck (stack)",
+      "note": "",
+      "sets": [
+        {
+          "load": 10,
+          "reps": 15,
+          "rir": null
+        },
+        {
+          "load": 15,
+          "reps": 15,
+          "rir": null
+        },
+        {
+          "load": 20,
+          "reps": 15,
+          "rir": null
+        }
+      ]
+    }
+  ]
+}

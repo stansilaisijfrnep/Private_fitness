@@ -456,3 +456,4 @@ What this changes for the coach:
 - 29 Oct: when he sends the same message twice in a row ("22kg 9 mal" x2) he means two sets with the same result, not a duplicate. Third time in one session. Read it as two sets and say so once.
 - 29 Oct: the shoulder press collapses after the chest block (60 x 6 on 5 Oct and 29 Oct, 60 x 12 fresh on 9 Oct). On Push it goes before the Hammer press.
 - 11 Nov: refused legs again ("not legs") after a month without a leg day. Third refusal (24 Sep, 9 Oct, 11 Nov). He trains legs when he picks the day himself (10 Oct). Offer the leg day once, then switch to Upper without arguing.
+- 19 Nov: chose legs himself after refusing them on 11 and 16 Nov. Same as 10 Oct: when he picks the leg day, he trains it. Do not push legs on a day he has not chosen; ask "legs this week, which day?"
