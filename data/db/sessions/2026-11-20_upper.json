@@ -1,0 +1,211 @@
+{
+  "date": "2026-11-20",
+  "dayKey": "upper",
+  "name": "Upper",
+  "gym": "other",
+  "type": "lift",
+  "week": 11,
+  "source": "coach",
+  "bodyweight": null,
+  "sleep": null,
+  "energy": null,
+  "duration": null,
+  "startedAt": "2026-11-20T11:00:00.000Z",
+  "savedAt": "2026-11-20T13:00:00.000Z",
+  "notes": "Gym not named (no Hammer flat press). Stored as 'other'. Best 70 kg shoulder press set.",
+  "exercises": [
+    {
+      "k": "pullup",
+      "n": "Pull-up, wide grip (added kg)",
+      "note": "",
+      "sets": [
+        {
+          "load": 15,
+          "reps": 5,
+          "rir": null
+        },
+        {
+          "load": 10,
+          "reps": 8,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "ohp",
+      "n": "Seated shoulder press machine (TOTAL stack)",
+      "note": "Best 70 kg set.",
+      "sets": [
+        {
+          "load": 65,
+          "reps": 10,
+          "rir": 2
+        },
+        {
+          "load": 65,
+          "reps": 10,
+          "rir": null
+        },
+        {
+          "load": 70,
+          "reps": 8,
+          "rir": 1
+        }
+      ]
+    },
+    {
+      "k": "incmach",
+      "n": "Chest press, Technogym Selection (stack)",
+      "note": "55 was a warm-up.",
+      "sets": [
+        {
+          "load": 55,
+          "reps": 12,
+          "rir": null
+        },
+        {
+          "load": 80,
+          "reps": 9,
+          "rir": null
+        },
+        {
+          "load": 80,
+          "reps": 12,
+          "rir": 0
+        }
+      ]
+    },
+    {
+      "k": "csrow",
+      "n": "Plate-loaded low row (kg per side)",
+      "note": "40 unclean.",
+      "sets": [
+        {
+          "load": 40,
+          "reps": 8,
+          "rir": null
+        },
+        {
+          "load": 30,
+          "reps": 11,
+          "rir": null
+        },
+        {
+          "load": 30,
+          "reps": 10,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "dblat",
+      "n": "Seated dumbbell lateral raise (kg per hand)",
+      "note": "",
+      "sets": [
+        {
+          "load": 7,
+          "reps": 13,
+          "rir": null
+        },
+        {
+          "load": 7,
+          "reps": 15,
+          "rir": null
+        },
+        {
+          "load": 7,
+          "reps": 15,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "revpec",
+      "n": "Reverse pec deck (stack)",
+      "note": "",
+      "sets": [
+        {
+          "load": 10,
+          "reps": 15,
+          "rir": null
+        },
+        {
+          "load": 10,
+          "reps": 15,
+          "rir": null
+        },
+        {
+          "load": 15,
+          "reps": 12,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "ezcurl",
+      "n": "EZ bar curl (kg per side)",
+      "note": "",
+      "sets": [
+        {
+          "load": 12.5,
+          "reps": 10,
+          "rir": null
+        },
+        {
+          "load": 10,
+          "reps": 12,
+          "rir": null
+        },
+        {
+          "load": 10,
+          "reps": 12,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "pushdown",
+      "n": "Rope triceps pushdown (stack)",
+      "note": "Set 3 assumed triceps.",
+      "sets": [
+        {
+          "load": 20,
+          "reps": 15,
+          "rir": null
+        },
+        {
+          "load": 20,
+          "reps": 15,
+          "rir": null
+        },
+        {
+          "load": 12.5,
+          "reps": 15,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "hanglr",
+      "n": "Leg raise",
+      "note": "",
+      "sets": [
+        {
+          "load": 0,
+          "reps": 15,
+          "rir": null
+        },
+        {
+          "load": 0,
+          "reps": 15,
+          "rir": null
+        },
+        {
+          "load": 0,
+          "reps": 15,
+          "rir": null
+        }
+      ]
+    }
+  ]
+}
