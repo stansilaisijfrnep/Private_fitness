@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-19",
+  "dayKey": "legsB",
+  "name": "Legs",
+  "gym": "fitnesspark",
+  "type": "lift",
+  "week": 11,
+  "source": "coach",
+  "bodyweight": null,
+  "sleep": null,
+  "energy": null,
+  "duration": null,
+  "startedAt": "2026-11-19T16:30:00.000Z",
+  "savedAt": "2026-11-19T18:00:00.000Z",
+  "notes": "His choice of legs. 15 min bike. Left hamstring (graft side) odd at 50 kg leg curl, he says not bad; continued lighter. Nothing reported after the leg curl.",
+  "exercises": [
+    {
+      "k": "legpress",
+      "n": "Seated leg press, Nautilus (stack)",
+      "note": "Knee fine.",
+      "sets": [
+        {
+          "load": 80,
+          "reps": 12,
+          "rir": null
+        },
+        {
+          "load": 90,
+          "reps": 12,
+          "rir": null
+        },
+        {
+          "load": 90,
+          "reps": 12,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "legcurl",
+      "n": "Seated leg curl (stack)",
+      "note": "Set 1 stopped at 50 (left graft side odd). Short of full flexion.",
+      "sets": [
+        {
+          "load": 30,
+          "reps": 10,
+          "rir": null
+        },
+        {
+          "load": 25,
+          "reps": 12,
+          "rir": null
+        }
+      ]
+    }
+  ]
+}
