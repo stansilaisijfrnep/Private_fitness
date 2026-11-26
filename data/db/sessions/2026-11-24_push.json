@@ -1,0 +1,130 @@
+{
+  "date": "2026-11-24",
+  "dayKey": "push",
+  "name": "Push",
+  "gym": "other",
+  "type": "lift",
+  "week": 12,
+  "source": "coach",
+  "bodyweight": null,
+  "sleep": null,
+  "energy": null,
+  "duration": null,
+  "startedAt": "2026-11-24T17:00:00.000Z",
+  "savedAt": "2026-11-24T19:00:00.000Z",
+  "notes": "Gym and shoulder press machine not confirmed (loads reported per side). Nothing reported after the first cable lateral set.",
+  "exercises": [
+    {
+      "k": "dips",
+      "n": "Dips (bodyweight)",
+      "note": "",
+      "sets": [
+        {
+          "load": 0,
+          "reps": 10,
+          "rir": null
+        },
+        {
+          "load": 0,
+          "reps": 7,
+          "rir": null
+        },
+        {
+          "load": 0,
+          "reps": 6,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "ohp",
+      "n": "Shoulder press, kg PER SIDE (machine unconfirmed)",
+      "note": "Reported per side.",
+      "sets": [
+        {
+          "load": 30,
+          "reps": 11,
+          "rir": null
+        },
+        {
+          "load": 35,
+          "reps": 5,
+          "rir": null
+        },
+        {
+          "load": 30,
+          "reps": 8,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "incdb",
+      "n": "Incline dumbbell press, 30\u00b0 (kg per hand)",
+      "note": "Clean.",
+      "sets": [
+        {
+          "load": 18,
+          "reps": 12,
+          "rir": null
+        },
+        {
+          "load": 18,
+          "reps": 12,
+          "rir": null
+        },
+        {
+          "load": 18,
+          "reps": 12,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "incmach",
+      "n": "Chest press machine (unconfirmed)",
+      "note": "",
+      "sets": [
+        {
+          "load": 80,
+          "reps": 5,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "pecdeck",
+      "n": "Pec deck (stack)",
+      "note": "",
+      "sets": [
+        {
+          "load": 20,
+          "reps": 9,
+          "rir": null
+        },
+        {
+          "load": 20,
+          "reps": 8,
+          "rir": null
+        },
+        {
+          "load": 15,
+          "reps": 12,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "cablelat",
+      "n": "Cable lateral raise, one arm (stack)",
+      "note": "",
+      "sets": [
+        {
+          "load": 10,
+          "reps": 8,
+          "rir": null
+        }
+      ]
+    }
+  ]
+}
