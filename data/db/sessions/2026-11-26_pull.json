@@ -1,0 +1,172 @@
+{
+  "date": "2026-11-26",
+  "dayKey": "pull",
+  "name": "Pull",
+  "gym": "fitnesspark",
+  "type": "lift",
+  "week": 12,
+  "source": "coach",
+  "bodyweight": null,
+  "sleep": null,
+  "energy": null,
+  "duration": null,
+  "startedAt": "2026-11-26T16:30:00.000Z",
+  "savedAt": "2026-11-26T18:00:00.000Z",
+  "notes": "Pull-up PR tied. Plate row 40 new working load. Face pull replaces reverse pec deck. Gym assumed Fitness Park (not stated).",
+  "exercises": [
+    {
+      "k": "pullup",
+      "n": "Pull-up, wide grip (added kg)",
+      "note": "9th just short on set 1.",
+      "sets": [
+        {
+          "load": 15,
+          "reps": 8.75,
+          "rir": 0
+        },
+        {
+          "load": 15,
+          "reps": 5,
+          "rir": null
+        },
+        {
+          "load": 10,
+          "reps": 7,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "csrow",
+      "n": "Plate-loaded seated row (kg per side)",
+      "note": "Clean.",
+      "sets": [
+        {
+          "load": 40,
+          "reps": 12,
+          "rir": null
+        },
+        {
+          "load": 40,
+          "reps": 10,
+          "rir": null
+        },
+        {
+          "load": 35,
+          "reps": 10,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "cablerow",
+      "n": "Seated cable row, close grip (stack)",
+      "note": "Set 2 swung at the end.",
+      "sets": [
+        {
+          "load": 55,
+          "reps": 12,
+          "rir": null
+        },
+        {
+          "load": 55,
+          "reps": 9,
+          "rir": null
+        },
+        {
+          "load": 45,
+          "reps": 12,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "sapd",
+      "n": "Cable Skifahrer (heavy cable station)",
+      "note": "Different station.",
+      "sets": [
+        {
+          "load": 17.5,
+          "reps": 12,
+          "rir": null
+        },
+        {
+          "load": 17.5,
+          "reps": 12,
+          "rir": null
+        },
+        {
+          "load": 17.5,
+          "reps": 12,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "revpec",
+      "n": "Face pull, rope, seated (light cable station)",
+      "note": "Replaces the reverse pec deck.",
+      "sets": [
+        {
+          "load": 50,
+          "reps": 12,
+          "rir": null
+        },
+        {
+          "load": 50,
+          "reps": 11,
+          "rir": null
+        },
+        {
+          "load": 50,
+          "reps": 12,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "ezcurl",
+      "n": "EZ bar curl (kg per side)",
+      "note": "12.5 swung.",
+      "sets": [
+        {
+          "load": 12.5,
+          "reps": 10,
+          "rir": null
+        },
+        {
+          "load": 10,
+          "reps": 12,
+          "rir": null
+        },
+        {
+          "load": 10,
+          "reps": 12,
+          "rir": null
+        }
+      ]
+    },
+    {
+      "k": "hammer",
+      "n": "Hammer curl (kg per hand)",
+      "note": "",
+      "sets": [
+        {
+          "load": 14,
+          "reps": 12,
+          "rir": null
+        },
+        {
+          "load": 14,
+          "reps": 12,
+          "rir": null
+        },
+        {
+          "load": 14,
+          "reps": 12,
+          "rir": null
+        }
+      ]
+    }
+  ]
+}
